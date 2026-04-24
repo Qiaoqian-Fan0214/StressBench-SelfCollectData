@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Self-Collection 标注页</title>
+  <link rel="stylesheet" href="annotation.css" />
+</head>
+<body>
+  <div class="shell compact-shell">
+    <header class="page-header compact-header">
+      <div class="toolbar compact-topbar">
+        <div>
+          <a class="button" href="annotation_index.html">返回标注入口</a>
+        </div>
+      </div>
+      <h1 id="datasetTitle">加载中</h1>
+      <p id="datasetDesc" class="sub"></p>
+    </header>
+
+    <main>
+      <div class="two-col compact-main" style="margin-top: 12px;">
+        <section class="panel compact-panel media-panel">
+          <div class="viewer-grid compact-viewer-grid">
+            <div class="media-card">
+              <div id="primaryMediaTitle" class="media-title">RGB</div>
+              <div class="media-wrap compact-media-wrap">
+                <img id="primaryImage" alt="Primary media" />
+                <canvas id="maskCanvas" class="mask-overlay"></canvas>
+                <div id="primaryBboxLayer" class="bbox-layer" aria-hidden="true"></div>
+                <div id="primaryBbox" class="bbox-box"></div>
+              </div>
+            </div>
+            <div class="media-card">
+              <div id="secondaryMediaTitle" class="media-title">RGB</div>
+              <div class="media-wrap compact-media-wrap">
+                <img id="secondaryImage" alt="Secondary media" />
+                <div id="secondaryBboxLayer" class="bbox-layer" aria-hidden="true"></div>
+                <div id="secondaryBbox" class="bbox-box"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel compact-panel info-panel">
+          <h2>样本信息</h2>
+          <div class="info-list compact-info-list">
+            <div><strong>sample_id：</strong> <span id="sampleIdText" class="path">-</span></div>
+            <div><strong>source file：</strong> <span id="officialIdText" class="path muted">-</span></div>
+            <div><strong>当前阶段：</strong> <span id="categoryLabelZhText" class="muted">-</span></div>
+            <div><strong>task：</strong> <span id="taskText">-</span></div>
+            <div><strong>原始问题：</strong> <span id="questionText" class="muted">第二阶段待定</span></div>
+            <div class="info-stack">
+              <strong>原始选项：</strong>
+              <div id="optionsText" class="info-multiline muted">第二阶段待定</div>
+            </div>
+            <div><strong>GT answer：</strong> <span id="gtAnswerText">-</span></div>
+            <div><strong>GT 类型：</strong> <span id="gtTypeText">-</span></div>
+            <div><strong>写入的问题：</strong> <span id="instructionText">-</span></div>
+            <div><strong>RGB path：</strong> <span id="rgbPathText" class="path">-</span></div>
+            <div><strong>GT mask path：</strong> <span id="maskPathText" class="path">当前阶段无</span></div>
+            <div><strong>updated_at：</strong> <span id="updatedAtText">-</span></div>
+          </div>
+        </section>
+      </div>
+
+      <section class="panel compact-panel compact-stress-panel" style="margin-top: 12px;">
+        <h2>Stress 标注</h2>
+        <p class="sub compact-subnote">
+          直接勾选二级 stress，对应的一级 stress 会自动点亮。一级 stress 只作为状态提示，不需要单独勾选。
+        </p>
+        <div id="stressGrid" class="stress-grid compact-stress-grid" aria-label="Stress 选项"></div>
+      </section>
+
+      <section class="panel compact-panel action-panel" style="margin-top: 12px;">
+        <div class="toolbar action-toolbar">
+          <div class="toolbar-group">
+            <button id="saveNextButton" type="button" class="primary">保存并下一张</button>
+            <button id="discardButton" type="button" class="warn">舍弃并下一张</button>
+          </div>
+          <div class="action-summary">
+            <span id="statusPill" class="pill unprocessed">当前样本：未处理</span>
+            <span id="positionPill" class="pill position">当前位置：0 / 0</span>
+            <div class="action-progress unified-progress compact-progress">
+              <div class="progress-metrics">
+                <div class="progress-metric">
+                  <span class="progress-metric-label">已处理</span>
+                  <strong id="processedSummaryValue" class="progress-metric-value">0</strong>
+                </div>
+                <div class="progress-metric annotated">
+                  <span class="progress-metric-label">已标注</span>
+                  <strong id="annotatedSummaryValue" class="progress-metric-value">0</strong>
+                </div>
+                <div class="progress-metric warn">
+                  <span class="progress-metric-label">已舍弃</span>
+                  <strong id="discardedSummaryValue" class="progress-metric-value">0</strong>
+                </div>
+              </div>
+              <div class="stacked-progress">
+                <div id="annotatedSummaryBar" class="stacked-progress-segment annotated"></div>
+                <div id="discardedSummaryBar" class="stacked-progress-segment discarded"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="toolbar action-subtoolbar compact-toolbar">
+          <div class="toolbar-group">
+            <div id="scopeField" class="field hidden">
+              <label for="scopeSelect">分工范围</label>
+              <select id="scopeSelect"></select>
+            </div>
+            <div class="field">
+              <label for="subcategorySelect">子类</label>
+              <select id="subcategorySelect"></select>
+            </div>
+          </div>
+          <div class="toolbar-group">
+            <button id="prevButton" type="button">上一张</button>
+            <button id="nextButton" type="button">下一张</button>
+          </div>
+        </div>
+        <div id="statusLine" class="status-line action-status-line"></div>
+      </section>
+    </main>
+  </div>
+
+  <script type="module" src="annotation_dataset.js"></script>
+</body>
+</html>

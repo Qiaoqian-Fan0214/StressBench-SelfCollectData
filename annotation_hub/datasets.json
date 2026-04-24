@@ -1,0 +1,29 @@
+{
+  "datasets": [
+    {
+      "id": "self_collection",
+      "title": "Self-Collection",
+      "loader": "self_collection_dir",
+      "source_dir": ".",
+      "record_root": "annotation_hub/self_collection/records",
+      "subcategories": [
+        "Home_Office",
+        "Kitchen",
+        "Living_Room",
+        "Storage_Room",
+        "bathroom_table",
+        "cabinet_occlusion",
+        "dark_messy_desk",
+        "dark_messy_kitchen",
+        "dark_messy_living_room",
+        "desk",
+        "messy_desk",
+        "messy_living_room_with_mirror"
+      ],
+      "card_description": "自标数据第一阶段 stress 标注入口。当前阶段仅写入 stress，task / instruction / gt / 选项接口已预留，第二阶段再扩展。",
+      "provenance_dataset": "Self-Collection",
+      "provenance_split": "self_collected",
+      "annotation_stage": "stress_only"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+# macOS / editor noise
+.DS_Store
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local annotation runtime state
+.annotation_state/
+
+# Self-collected image datasets. Keep annotation tool code and annotation_hub config tracked.
+/Home_Office/
+/Kitchen/
+/Living_Room/
+/Storage_Room/
+/bathroom_table/
+/cabinet_occlusion/
+/dark_messy_desk/
+/dark_messy_kitchen/
+/dark_messy_living_room/
+/desk/
+/messy_desk/
+/messy_living_room_with_mirror/
