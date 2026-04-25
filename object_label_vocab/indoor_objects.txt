@@ -1,0 +1,389 @@
+person
+man
+woman
+child
+baby
+hand
+face
+chair
+office chair
+dining chair
+armchair
+rocking chair
+folding chair
+stool
+bar stool
+bench
+sofa
+couch
+loveseat
+ottoman
+bean bag
+table
+dining table
+coffee table
+side table
+end table
+nightstand
+desk
+standing desk
+workbench
+counter
+countertop
+kitchen island
+bed
+bunk bed
+crib
+mattress
+headboard
+cabinet
+kitchen cabinet
+medicine cabinet
+file cabinet
+drawer
+chest of drawers
+dresser
+wardrobe
+closet
+shelf
+bookshelf
+bookcase
+wall shelf
+storage rack
+shoe rack
+coat rack
+tv stand
+console table
+vanity
+sink
+kitchen sink
+bathroom sink
+faucet
+toilet
+toilet paper holder
+bathtub
+shower
+shower curtain
+shower head
+towel rack
+soap dish
+mirror
+door
+door handle
+doorknob
+window
+window frame
+curtain
+blind
+shutter
+screen door
+stairs
+railing
+floor
+wall
+ceiling
+baseboard
+carpet
+rug
+floor mat
+doormat
+pillow
+cushion
+blanket
+comforter
+duvet
+quilt
+bed sheet
+sheet
+towel
+bath towel
+hand towel
+robe
+clothes
+shirt
+t-shirt
+jacket
+coat
+sweater
+pants
+jeans
+dress
+skirt
+sock
+shoe
+sneaker
+slipper
+hat
+cap
+glove
+scarf
+hanger
+laundry basket
+laundry hamper
+ironing board
+iron
+bag
+handbag
+purse
+backpack
+suitcase
+luggage
+wallet
+key
+keychain
+box
+cardboard box
+storage box
+plastic bin
+container
+basket
+crate
+bin
+organizer
+tray
+jar
+canister
+trash can
+recycling bin
+lamp
+desk lamp
+floor lamp
+table lamp
+ceiling light
+light
+light bulb
+chandelier
+wall light
+night light
+fan
+ceiling fan
+heater
+radiator
+air conditioner
+humidifier
+dehumidifier
+air purifier
+thermostat
+power outlet
+electrical outlet
+switch
+light switch
+extension cord
+power strip
+cable
+wire
+charger
+adapter
+battery
+keyboard
+computer keyboard
+mouse
+computer mouse
+mouse pad
+monitor
+screen
+laptop
+computer
+desktop computer
+tablet
+phone
+mobile phone
+smartphone
+remote control
+camera
+webcam
+speaker
+headphone
+earbud
+microphone
+television
+tv
+projector
+printer
+scanner
+router
+modem
+game controller
+console
+hard drive
+usb drive
+book
+notebook
+magazine
+newspaper
+paper
+document
+folder
+binder
+clipboard
+envelope
+sticky note
+calendar
+whiteboard
+blackboard
+pen
+pencil
+marker
+highlighter
+eraser
+ruler
+scissors
+tape
+tape dispenser
+stapler
+paper clip
+push pin
+calculator
+desk organizer
+cup
+mug
+glass
+wine glass
+bottle
+water bottle
+thermos
+bowl
+plate
+dish
+saucer
+fork
+knife
+spoon
+chopsticks
+straw
+napkin
+paper towel
+pan
+frying pan
+pot
+saucepan
+kettle
+teapot
+coffee maker
+coffee machine
+espresso machine
+coffee grinder
+microwave
+oven
+stove
+cooktop
+range hood
+refrigerator
+fridge
+freezer
+dishwasher
+toaster
+blender
+mixer
+rice cooker
+pressure cooker
+slow cooker
+air fryer
+cutting board
+colander
+strainer
+spatula
+ladle
+whisk
+tongs
+peeler
+grater
+can opener
+bottle opener
+measuring cup
+measuring spoon
+food
+snack
+bread
+fruit
+apple
+banana
+orange
+lemon
+vegetable
+plant
+houseplant
+potted plant
+flower
+vase
+picture
+painting
+poster
+photo
+picture frame
+clock
+wall clock
+alarm clock
+candle
+candle holder
+decorative bowl
+figurine
+statue
+ornament
+toy
+doll
+stuffed animal
+board game
+puzzle
+tool
+hammer
+screwdriver
+wrench
+pliers
+drill
+measuring tape
+level
+flashlight
+vacuum cleaner
+broom
+mop
+bucket
+dustpan
+brush
+sponge
+cloth
+rag
+cleaning spray
+detergent
+soap
+hand soap
+dish soap
+shampoo
+conditioner
+toothbrush
+toothpaste
+razor
+comb
+hairbrush
+hair dryer
+tissue box
+toilet paper
+paper towel roll
+medicine bottle
+pill bottle
+first aid kit
+scale
+exercise mat
+yoga mat
+dumbbell
+exercise bike
+treadmill
+musical instrument
+guitar
+piano
+keyboard instrument
+violin
+drum
+pet bowl
+pet bed
+cat tree
+aquarium
+bird cage
+fire extinguisher
+smoke detector
+security camera
+intercom
+mail
+package
+umbrella
+ladder

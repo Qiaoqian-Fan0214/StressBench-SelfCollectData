@@ -5,6 +5,11 @@
 __pycache__/
 *.py[cod]
 
+# Local model weights
+*.pt
+*.pth
+*.safetensors
+
 # Local annotation runtime state
 .annotation_state/
 

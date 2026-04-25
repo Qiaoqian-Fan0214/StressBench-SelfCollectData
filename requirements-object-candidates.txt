@@ -1,0 +1,7 @@
+dds-cloudapi-sdk==0.5.3
+flask
+numpy
+opencv-python
+pillow
+pycocotools
+supervision

@@ -1,0 +1,9 @@
+accelerate
+numpy
+opencv-python
+pillow
+pycocotools
+safetensors
+torch
+torchvision
+transformers>=4.57.0
