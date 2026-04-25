@@ -97,7 +97,11 @@ def encode_mask(mask: np.ndarray) -> dict[str, Any]:
     rle = mask_utils.encode(binary)
     counts = rle.get("counts")
     if isinstance(counts, bytes):
-        rle["counts"] = counts.decode("utf-8")
+        counts = counts.decode("utf-8")
+    if isinstance(counts, str):
+        rle["counts_chunks"] = [counts[index : index + 16] for index in range(0, len(counts), 16)]
+        rle["counts_format"] = "compressed_chunks"
+        rle.pop("counts", None)
     rle["format"] = "coco_rle"
     return rle
 

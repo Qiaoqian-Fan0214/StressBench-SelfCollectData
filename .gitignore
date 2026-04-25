@@ -15,7 +15,6 @@ __pycache__/
 
 # Generated object candidate outputs
 /annotation_hub/self_collection/object_candidates/
-/annotation_hub/self_collection/object_candidates_free/
 
 # Self-collected image datasets. Keep annotation tool code and annotation_hub config tracked.
 /Home_Office/
