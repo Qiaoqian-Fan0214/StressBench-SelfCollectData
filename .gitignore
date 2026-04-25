@@ -13,9 +13,6 @@ __pycache__/
 # Local annotation runtime state
 .annotation_state/
 
-# Generated object candidate outputs
-
-
 # Self-collected image datasets. Keep annotation tool code and annotation_hub config tracked.
 /Home_Office/
 /Kitchen/
