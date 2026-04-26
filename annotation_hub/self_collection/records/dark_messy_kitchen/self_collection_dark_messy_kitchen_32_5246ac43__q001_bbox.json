@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_32_5246ac43__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_32_5246ac43",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:57:58Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_32_5246ac43__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_32_5246ac43",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the pan in the image.",
+    "instruction": "Locate the pan in the image.",
+    "answer": "pan",
+    "rgb": "dark_messy_kitchen/32.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_32_5246ac43_obj_000",
+      "object_name": "pan",
+      "bbox_xyxy": [
+        64.86430358886719,
+        1721.4185791015625,
+        751.400390625,
+        1931.845458984375
+      ],
+      "bbox_xywh": [
+        64.86430358886719,
+        1721.4185791015625,
+        686.5360870361328,
+        210.4268798828125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the pan in the image?",
+    "output_instruction": "What is the bounding box of the pan in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend",
+          "specular_confusion"
+        ],
+        "G": [
+          "stacked_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_32_5246ac43_obj_000",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend",
+        "specular_confusion"
+      ],
+      "G": [
+        "stacked_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

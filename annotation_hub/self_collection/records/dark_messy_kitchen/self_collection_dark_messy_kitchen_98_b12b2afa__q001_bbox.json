@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_98_b12b2afa__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_98_b12b2afa",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:35:05Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_98_b12b2afa__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_98_b12b2afa",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the oven in the image.",
+    "instruction": "Locate the oven in the image.",
+    "answer": "oven",
+    "rgb": "dark_messy_kitchen/98.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_98_b12b2afa_obj_004",
+      "object_name": "oven",
+      "bbox_xyxy": [
+        1661.12255859375,
+        1447.5736083984375,
+        2119.96240234375,
+        2089.218994140625
+      ],
+      "bbox_xywh": [
+        1661.12255859375,
+        1447.5736083984375,
+        458.83984375,
+        641.6453857421875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the oven in the image?",
+    "output_instruction": "What is the bounding box of the oven in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_98_b12b2afa_obj_004",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

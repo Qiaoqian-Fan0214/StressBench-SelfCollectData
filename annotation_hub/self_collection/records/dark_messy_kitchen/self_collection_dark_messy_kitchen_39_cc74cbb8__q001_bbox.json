@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_39_cc74cbb8__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_39_cc74cbb8",
+  "status": "annotated",
+  "updated_at": "2026-04-26T15:25:32Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_39_cc74cbb8__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_39_cc74cbb8",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the oven in the image.",
+    "instruction": "Locate the oven in the image.",
+    "answer": "oven",
+    "rgb": "dark_messy_kitchen/39.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_39_cc74cbb8_obj_013",
+      "object_name": "oven",
+      "bbox_xyxy": [
+        2151.03369140625,
+        3604.784423828125,
+        3245.89013671875,
+        4681.921875
+      ],
+      "bbox_xywh": [
+        2151.03369140625,
+        3604.784423828125,
+        1094.8564453125,
+        1077.137451171875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the oven in the image?",
+    "output_instruction": "What is the bounding box of the oven in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_39_cc74cbb8_obj_013",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

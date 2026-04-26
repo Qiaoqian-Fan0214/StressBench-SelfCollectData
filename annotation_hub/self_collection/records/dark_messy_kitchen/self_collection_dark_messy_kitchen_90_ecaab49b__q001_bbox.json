@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_90_ecaab49b__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_90_ecaab49b",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:33:23Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_90_ecaab49b__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_90_ecaab49b",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the oven in the image.",
+    "instruction": "Locate the oven in the image.",
+    "answer": "oven",
+    "rgb": "dark_messy_kitchen/90.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_90_ecaab49b_obj_003",
+      "object_name": "oven",
+      "bbox_xyxy": [
+        2036.1282958984375,
+        2704.429443359375,
+        3204.17138671875,
+        4002.18603515625
+      ],
+      "bbox_xywh": [
+        2036.1282958984375,
+        2704.429443359375,
+        1168.0430908203125,
+        1297.756591796875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the oven in the image?",
+    "output_instruction": "What is the bounding box of the oven in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_90_ecaab49b_obj_003",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_34_5ff4dfa4__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_34_5ff4dfa4",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:59:07Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_34_5ff4dfa4__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_34_5ff4dfa4",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the oven in the image.",
+    "instruction": "Locate the oven in the image.",
+    "answer": "oven",
+    "rgb": "dark_messy_kitchen/34.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_34_5ff4dfa4_obj_003",
+      "object_name": "oven",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2336,
+            3504
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "mo^j4g0c;OY`1_3f",
+            "YN]LkJF7^1Sk1`4]",
+            "TNWJ97`0]ONh3jj1",
+            "W5gTNPKWk1^9N10O",
+            "100O100000O01000",
+            "000O10000O1O100O",
+            "1O100O10000O10O0",
+            "1O1O0O101N10001O",
+            "00001O001O0O101O",
+            "001N10001O00001O",
+            "00001O0O2O001O00",
+            "1O001O001O00001O",
+            "1O001N101O001N10",
+            "1O001N101O001O1O",
+            "001O001O1N101N10",
+            "1O0010O01O00001O",
+            "0O2O0O2O00001O01",
+            "0O00100O1O1O100O",
+            "1O1eGjRNl4Vm1dJ^",
+            "SNW5cl1^JlSN]5Ul",
+            "1VJ]TNUN\\OS6Wl1]",
+            "KYVN^4hi1]KQWNn3",
+            "Ri1iK\\WNo3gh1iKf",
+            "WNo3^h1iKnWNn3kn",
+            "1F:mKSmM]1fU2\\OY",
+            "Tme2"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2152.65771484375,
+        1783.6148681640625,
+        2304.451904296875,
+        2285.50732421875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the oven in the image?",
+    "output_instruction": "What is the segmentation mask of the oven in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "extreme_viewpoint"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_34_5ff4dfa4_obj_003",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "extreme_viewpoint"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

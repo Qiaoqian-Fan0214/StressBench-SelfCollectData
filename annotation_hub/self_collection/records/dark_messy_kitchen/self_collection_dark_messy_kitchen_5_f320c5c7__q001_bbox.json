@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_5_f320c5c7__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_5_f320c5c7",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:45:34Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_5_f320c5c7__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_5_f320c5c7",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the stool in the image.",
+    "instruction": "Locate the stool in the image.",
+    "answer": "stool",
+    "rgb": "dark_messy_kitchen/5.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_5_f320c5c7_obj_010",
+      "object_name": "stool",
+      "bbox_xyxy": [
+        2090.67529296875,
+        1901.211181640625,
+        2775.772705078125,
+        2425.661865234375
+      ],
+      "bbox_xywh": [
+        2090.67529296875,
+        1901.211181640625,
+        685.097412109375,
+        524.45068359375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the stool in the image?",
+    "output_instruction": "What is the bounding box of the stool in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ],
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_5_f320c5c7_obj_010",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ],
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

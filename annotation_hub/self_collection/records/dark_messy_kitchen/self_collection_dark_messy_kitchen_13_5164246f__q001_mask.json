@@ -1,0 +1,103 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_13_5164246f__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_13_5164246f",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:49:36Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_13_5164246f__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_13_5164246f",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the clock in the image.",
+    "instruction": "Locate the clock in the image.",
+    "answer": "clock",
+    "rgb": "dark_messy_kitchen/13.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_13_5164246f_obj_012",
+      "object_name": "clock",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3661,
+            5491
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "eQgW:?da3=G9I6K6",
+            "J5L4M3L3N3M3M3M3",
+            "M3M2N3M3M3M3M3M3",
+            "M2N3N1N3M2O1N2N2",
+            "O1N2O1N2O0O2O1N1",
+            "01O0O2O001N10001",
+            "N101O0O10001O0O1",
+            "01O000O10001O000",
+            "000000O1000001O0",
+            "000000000001O000",
+            "O1001O000000001O",
+            "1O001O001N2O001O",
+            "000O2O001N10001N",
+            "2O0O2O0O2N101N2N",
+            "101N2O1N2N2O1N2O",
+            "1N2N2O2M2O1N3M2O",
+            "1N3M2N3M3L3M4L4L",
+            "5K4L6I8I7I8I9F;E",
+            "QWP^8"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2890.1796875,
+        927.131591796875,
+        3114.197509765625,
+        1137.95263671875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the clock in the image?",
+    "output_instruction": "What is the segmentation mask of the clock in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "small_scale"
+        ],
+        "G": [
+          "stacked_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_13_5164246f_obj_012",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "stacked_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

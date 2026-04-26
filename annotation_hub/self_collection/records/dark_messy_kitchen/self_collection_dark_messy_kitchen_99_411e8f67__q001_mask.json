@@ -1,0 +1,154 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_99_411e8f67__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_99_411e8f67",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:35:43Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_99_411e8f67__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_99_411e8f67",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bowl in the image.",
+    "instruction": "Locate the bowl in the image.",
+    "answer": "bowl",
+    "rgb": "dark_messy_kitchen/99.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_99_411e8f67_obj_001",
+      "object_name": "bowl",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            6720,
+            4480
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Yk`k??Xa6=J4L3N2",
+            "N3M2N2N2O1N2O1N1",
+            "01N2N2O1N101N2N2",
+            "N2O1N3M2N2N4L4L5",
+            "L2M4L5K5K5L6I6K5",
+            "J9SbI\\Ln\\6a4I3N3",
+            "L3N3L4M2N3L4M3M4",
+            "K4M4L3L5L3M4L3L4",
+            "M3M3L5L4L4K4M5K4",
+            "K7J7I3L5L2M4M3M3",
+            "L4M4L4K4M3M4K4M4",
+            "K5L3M4L4K6K4L4L4",
+            "K6K7I8H7I2M3N2N2",
+            "N1N2O1O1O1N2O1O1",
+            "N2O1O1O001N2O001",
+            "O1O0O2O001O001O0",
+            "01O0O2O001O001O0",
+            "01O0O2O1O00001O0",
+            "O2O00001N101O000",
+            "O2O00001O0O101O0",
+            "0001N10001O00001",
+            "O0O1000001O00000",
+            "00000001O0000000",
+            "000001O0000000O1",
+            "000001O000000000",
+            "00000000000001O0",
+            "0000000000000000",
+            "00O10001O0000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "00O100000001O000",
+            "00000000000001O0",
+            "0000000000000001",
+            "O000000000000000",
+            "00000000000O1000",
+            "0000000000000000",
+            "00001O0000000000",
+            "0000000000000000",
+            "001O00000O100000",
+            "0000000000001O00",
+            "000000O100000O10",
+            "000000000000O100",
+            "00000O1000O10000",
+            "001O000000001O00",
+            "001O000000001O00",
+            "0000001O00000000",
+            "00001N1000000000",
+            "0O101O000O100000",
+            "0O2O00000O100000",
+            "1N1000000O100000",
+            "1N100000000O1000",
+            "000O2O00000O1000",
+            "000O10000O2O000O",
+            "10000O10001N100O",
+            "100O101N100O1000",
+            "0O2O0O10000O1000",
+            "1N100O10000O2O0O",
+            "100O101N1O100O2N",
+            "100O1O1O2N1O1O1O",
+            "2N1O1O1N3L3N2K6K",
+            "4K5J7J5L4K6J5K5J",
+            "7J5K5L5K4K5L5I6K",
+            "6J5M4L3L4M4J5K6K",
+            "4K6K4J7I6J7I7I6J",
+            "7I6J7J6J6K4K6K5I",
+            "6H9G9H8H7J7I7I7J",
+            "5J7J6K5K5L4K5L4M",
+            "3L5L3L5L4K6K:F;A",
+            "cb^[9"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2469.17431640625,
+        5272.3798828125,
+        3028.062255859375,
+        5734.15185546875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the bowl in the image?",
+    "output_instruction": "What is the segmentation mask of the bowl in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_99_411e8f67_obj_001",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

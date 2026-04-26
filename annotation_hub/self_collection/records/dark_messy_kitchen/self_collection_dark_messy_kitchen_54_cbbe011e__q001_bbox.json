@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_54_cbbe011e__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_54_cbbe011e",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:20:53Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_54_cbbe011e__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_54_cbbe011e",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the envelope in the image.",
+    "instruction": "Locate the envelope in the image.",
+    "answer": "envelope",
+    "rgb": "dark_messy_kitchen/54.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_54_cbbe011e_obj_012",
+      "object_name": "envelope",
+      "bbox_xyxy": [
+        1424.2779541015625,
+        3231.45556640625,
+        1785.761962890625,
+        3600.9892578125
+      ],
+      "bbox_xywh": [
+        1424.2779541015625,
+        3231.45556640625,
+        361.4840087890625,
+        369.53369140625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the envelope in the image?",
+    "output_instruction": "What is the bounding box of the envelope in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "stacked_layout"
+        ],
+        "L": [
+          "local_overexposure",
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_54_cbbe011e_obj_012",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "stacked_layout"
+      ],
+      "L": [
+        "local_overexposure",
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

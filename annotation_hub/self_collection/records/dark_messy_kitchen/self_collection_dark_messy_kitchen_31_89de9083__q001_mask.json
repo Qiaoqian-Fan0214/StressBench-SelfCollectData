@@ -1,0 +1,115 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_31_89de9083__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_31_89de9083",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:57:25Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_31_89de9083__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_31_89de9083",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the person in the image.",
+    "instruction": "Locate the person in the image.",
+    "answer": "person",
+    "rgb": "dark_messy_kitchen/31.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_31_89de9083_obj_000",
+      "object_name": "person",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4032,
+            3024
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Tm]V39Zm3g0_O<C=",
+            "@`0@R1QO>E;F8H6H",
+            "7H9H7K4K6K4M3N3M",
+            "2O2N1O2N2O1N4L2O",
+            "1N1O100O001O1O00",
+            "1O100O1O00101N2O",
+            "2M2N3N4Ka0@3L3N3",
+            "L4L5aZLoGj1a0;Ah",
+            "\\3P9SbLSHg0TOU]3",
+            "j;abLZD]]3m;ZbLW",
+            "Dd]3n;VbLTDi]3f<",
+            "ZaL_Cd^3o=O1N3N1",
+            "N2O1N2N3M2K5K5L4",
+            "ZOg0L3L4L4N2O1O1",
+            "O1O001O1O001O010",
+            "O0001N1N3kNccLb@",
+            "a\\3]<^cLiD_^3R;o",
+            "aLhCm^3W<_1N2M3X",
+            "HY`LU1i_3fNg`Ln0",
+            "Y_3POVaLlLbMn1[a",
+            "3T1TcLYNW]3f1YcL",
+            "_MS]3`2V701O100O",
+            "1000000O10001O00",
+            "001O0001O01O0000",
+            "1O001O001O001O1O",
+            "1hM`VLNai3OcVLO]",
+            "i30fVLN[i3OhVL0Z",
+            "i3MiVL1Xi3MjVL2W",
+            "i3LkVL3Wi3JkVL5W",
+            "i3GlVL8Wi3ClVL<X",
+            "i3^OjVLb0Yi3UOnV",
+            "Lj0Uk3O001O1N101",
+            "O001O001O001O1O0",
+            "01O1N2O1O1N2O1N4",
+            "L5JR\\ci7"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        827.6068725585938,
+        1735.45654296875,
+        997.7077026367188,
+        2296.36962890625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the person in the image?",
+    "output_instruction": "What is the segmentation mask of the person in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_31_89de9083_obj_000",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

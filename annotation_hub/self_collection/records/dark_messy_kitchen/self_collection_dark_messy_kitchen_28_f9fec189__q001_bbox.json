@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_28_f9fec189__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_28_f9fec189",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:56:39Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_28_f9fec189__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_28_f9fec189",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the floor in the image.",
+    "instruction": "Locate the floor in the image.",
+    "answer": "floor",
+    "rgb": "dark_messy_kitchen/28.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_28_f9fec189_obj_007",
+      "object_name": "floor",
+      "bbox_xyxy": [
+        7.233917713165283,
+        2162.951171875,
+        2243.26953125,
+        3993.391845703125
+      ],
+      "bbox_xywh": [
+        7.233917713165283,
+        2162.951171875,
+        2236.0356135368347,
+        1830.440673828125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the floor in the image?",
+    "output_instruction": "What is the bounding box of the floor in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_28_f9fec189_obj_007",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

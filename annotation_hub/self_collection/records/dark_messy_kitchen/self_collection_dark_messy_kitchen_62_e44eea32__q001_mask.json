@@ -1,0 +1,157 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_62_e44eea32__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_62_e44eea32",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:24:31Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_62_e44eea32__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_62_e44eea32",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the scissors in the image.",
+    "instruction": "Locate the scissors in the image.",
+    "answer": "scissors",
+    "rgb": "dark_messy_kitchen/62.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_62_e44eea32_obj_000",
+      "object_name": "scissors",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            5071,
+            3381
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "QldY4d0Ul4n1]Ob0",
+            "A=E<D<G7H7J7H7K3",
+            "L5L4K5L5L2N2N3M3",
+            "L4L5K6I9F>BhK\\YK",
+            "V1Xf4\\NmZK[1ed4_",
+            "NP\\K]1fc4^Nl\\K]1",
+            "lb4]Nf]K`1Rb4\\NZ",
+            "^Ka1aa4[Nj^Ka1Ta",
+            "4]NU_K^1h`4`N`_K",
+            "^1]`4aNg_K^1V`4a",
+            "No_K^1o_4`NV`K`1",
+            "g_4^N]`Kb1b_4[Nb",
+            "`Kd1]_4ZNg`Ke1X_",
+            "4YNk`Kh1S_4VNQaK",
+            "i1n^4UNUaKk1j^4R",
+            "NZaKn1e^4PN^aKP2",
+            "b^4mMaaKS2^^4kMd",
+            "aKV2[^4iMgaKX2W^",
+            "4fMkaK[2T^4dMnaK",
+            "]2Q^4aMPbK`2P^4_",
+            "MPbKc2o]4[MRbKf2",
+            "n]4YMRbKi2m]4UMT",
+            "bKl2l]4SMTbKn2l]",
+            "4PMTbKS3k]4lLUbK",
+            "T3m]4jLRbKX3n]4g",
+            "LRbKZ3n]4dLRbK^3",
+            "n]4`LSbKa3n]4ZLT",
+            "bKh3Xd42O1N2N101",
+            "N2N2O1O0O2O001O1",
+            "NbMRVK=ni4AZVK9f",
+            "i4FaVK5^i4IfVK5Z",
+            "i4KhVK4Wi4KlVK3T",
+            "i4LnVK4Qi4KQWK4o",
+            "h4LRWK4mh4KUWK4k",
+            "h4LUWK5jh4JXWK5h",
+            "h4KYWK4gh4LZWK4e",
+            "h4L\\WK3dh4M]WK3b",
+            "h4M^WK3ch4L^WK4a",
+            "h4L_WK4ah4L`WK4`",
+            "h4L_WK4ah4M^WK4b",
+            "h4K^WK5bh4L]WK5b",
+            "h4L]WK4dh4L\\WK4c",
+            "h4M\\WK3eh4MZWK4e",
+            "h4NYWK2gh4OXWK2m",
+            "d4[Nf]Kc1]M1id4e",
+            "Ne]K\\1`M0hd4kNc]",
+            "KV1dMOgd4QOa]KQ1",
+            "gMOfd4SOb]Kn0gMO",
+            "fd4VOa]Kl0hMNfd4",
+            "YOa]Kh0iMOdd4\\Ob",
+            "]Kf0hMNfd4_Oa]Kc",
+            "0hMNfd4Aa]Ka0hMO",
+            "gd4B`]K?hMNhd4H]",
+            "]K:iMNjd4MY]K5lM",
+            "Ojd4OY]K2lMNkd43",
+            "X]KOkMNnd45U]KNk",
+            "MNod46V]KLiMNQe4",
+            "9U]KHiMORe4<T]KE",
+            "hM0Se4>S]KChMOVe",
+            "4`0Q]KAgMOXe4d0o",
+            "\\K]OgM0Ze4f0m\\KZ",
+            "OgM0\\e4k0j\\KU1Vc",
+            "4oNf\\KP1[c4SOb\\K",
+            "m0^c4WO_\\Kg0bc4]",
+            "OZ\\Kc0fc4AV\\K>kc",
+            "4EP\\K=Qd4Ek[K<Vd",
+            "4Gd[K:^d4I\\[K9ed",
+            "4KT[K7md4OhZK5Ye",
+            "4_42O1O1O1O0O2O1",
+            "O1O2N2N2M3N3M;DW",
+            "2jM8H5J5K5K7I7H8",
+            "G?@<POn0A>D:WO^Y",
+            "bW;"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        886.34716796875,
+        2320.421875,
+        1059.67333984375,
+        2693.615478515625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the scissors in the image?",
+    "output_instruction": "What is the segmentation mask of the scissors in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ],
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_62_e44eea32_obj_000",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ],
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

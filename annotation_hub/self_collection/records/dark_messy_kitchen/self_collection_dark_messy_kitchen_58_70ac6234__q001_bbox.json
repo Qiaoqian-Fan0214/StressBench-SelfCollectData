@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_58_70ac6234__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_58_70ac6234",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:22:31Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_58_70ac6234__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_58_70ac6234",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the box in the image.",
+    "instruction": "Locate the box in the image.",
+    "answer": "box",
+    "rgb": "dark_messy_kitchen/58.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_58_70ac6234_obj_006",
+      "object_name": "box",
+      "bbox_xyxy": [
+        2059.955078125,
+        1668.823486328125,
+        2649.227294921875,
+        1904.6527099609375
+      ],
+      "bbox_xywh": [
+        2059.955078125,
+        1668.823486328125,
+        589.272216796875,
+        235.8292236328125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the box in the image?",
+    "output_instruction": "What is the bounding box of the box in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_58_70ac6234_obj_006",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

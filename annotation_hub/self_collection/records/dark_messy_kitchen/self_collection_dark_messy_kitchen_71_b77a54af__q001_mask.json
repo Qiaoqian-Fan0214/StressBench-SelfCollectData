@@ -1,0 +1,138 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_71_b77a54af__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_71_b77a54af",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:28:13Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_71_b77a54af__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_71_b77a54af",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the shoe in the image.",
+    "instruction": "Locate the shoe in the image.",
+    "answer": "shoe",
+    "rgb": "dark_messy_kitchen/71.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_71_b77a54af_obj_006",
+      "object_name": "shoe",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            6000,
+            4000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "_jmU76Xk54K5L4L3",
+            "N3L4L3N2M4M2M3N2",
+            "M4M2N3L4M3M3M3M3",
+            "M3M3M3M2N3M3M2M4",
+            "M2N2N2M3N2N2M3N2",
+            "N2N2N1O2N2N2N101",
+            "N1O1O2N101N1O1O2",
+            "N1O2O0O2N2N101N1",
+            "O2O1N1O2O1N2O1N1",
+            "01N2O0O101N100O1",
+            "O2N100O1O1O1O1O1",
+            "O2N1O1N2O1N2O1N2",
+            "O1N2O1N2O1N2N2N2",
+            "O1N2N2N2N2O1O1N2",
+            "O1O1O1O10O0100O1",
+            "0O10000O100O2O0O",
+            "100O1O101N1O100O",
+            "1cKP[JY2Qe5fMW[J",
+            "R2jd5lM_[Jl1cd5R",
+            "N_[Jm1bd5QN_[Jn1",
+            "bd5RN_[Jm1bd5RN_",
+            "[Jl1cd5RN^[Jn1bd",
+            "5RN_[Jm1bd5RN^[J",
+            "n1dd5PN[[JQ2fd5n",
+            "MY[JS2hd5lMW[JU2",
+            "kd5iMT[JX2nd5fMP",
+            "[J\\2Re5bMmZJ_2Ue",
+            "5_MiZJc2Ze5ZMeZJ",
+            "g2\\e5XMbZJj2`e5T",
+            "M_ZJm2be5RM]ZJo2",
+            "de5PM[ZJQ3fe5nLY",
+            "ZJS3he5lLWZJU3je",
+            "5jLVZJV3ke5iLTZJ",
+            "X3me5gLRZJZ3oe5e",
+            "LQZJZ3Pf5fLoYJ[3",
+            "Rf5cLoYJ?Gg1[f5i",
+            "MmYJ>Mg1Xf5hMlYJ",
+            "?0f1Wf5hMiYJa04e",
+            "1Uf5^MPZJl0Ne1hf",
+            "5ZN\\YJc1df5]N^YJ",
+            "b1af5^NaYJ`1`f5_",
+            "NbYJ`1^f5_NeYJ^1",
+            "[f5cNfYJ\\1Zf5cNh",
+            "YJ[1Yf5dNiYJ[1Wf",
+            "5eNjYJY1Wf5fNlYJ",
+            "X1Tf5gNnYJW1Rf5j",
+            "NoYJU1Qf5jNQZJT1",
+            "Pf5lNRZJR1ne5nNS",
+            "ZJP1ne5oNUZJo0le",
+            "5POUZJm0ne5QOUZJ",
+            "l0me5oNYZJm0je5n",
+            "N\\ZJn0fe5nN`ZJm0",
+            "de5oNaZJk0Xh5DU\\",
+            "fc>"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1252.0552978515625,
+        4285.6259765625,
+        1458.6207275390625,
+        4504.47705078125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the shoe in the image?",
+    "output_instruction": "What is the segmentation mask of the shoe in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "stacked_layout"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_71_b77a54af_obj_006",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "stacked_layout"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

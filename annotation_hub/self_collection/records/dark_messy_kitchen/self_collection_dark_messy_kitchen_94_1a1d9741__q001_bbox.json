@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_94_1a1d9741__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_94_1a1d9741",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:34:25Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_94_1a1d9741__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_94_1a1d9741",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the wine glass in the image.",
+    "instruction": "Locate the wine glass in the image.",
+    "answer": "wine glass",
+    "rgb": "dark_messy_kitchen/94.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_94_1a1d9741_obj_003",
+      "object_name": "wine glass",
+      "bbox_xyxy": [
+        913.9615478515625,
+        2374.882080078125,
+        1125.5404052734375,
+        3015.481689453125
+      ],
+      "bbox_xywh": [
+        913.9615478515625,
+        2374.882080078125,
+        211.578857421875,
+        640.599609375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the wine glass in the image?",
+    "output_instruction": "What is the bounding box of the wine glass in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_94_1a1d9741_obj_003",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

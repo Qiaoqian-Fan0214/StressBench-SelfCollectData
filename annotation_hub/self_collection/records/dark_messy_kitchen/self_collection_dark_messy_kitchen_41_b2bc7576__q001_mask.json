@@ -1,0 +1,164 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_41_b2bc7576__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_41_b2bc7576",
+  "status": "annotated",
+  "updated_at": "2026-04-26T15:47:03Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_41_b2bc7576__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_41_b2bc7576",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the jar in the image.",
+    "instruction": "Locate the jar in the image.",
+    "answer": "jar",
+    "rgb": "dark_messy_kitchen/41.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_41_b2bc7576_obj_001",
+      "object_name": "jar",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            5278,
+            3519
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "[fj`9;VT5l0VO`0C",
+            "<F:F8G:E:]Od0POo",
+            "0F;F:G8I7H9F;E>U",
+            "McIaVKi6Si4eI`VK",
+            "d6Si4lI\\VK`6Pi4Y",
+            "J`VKS6Vi4P3I6lNi",
+            "D[XK];[g4Y1C<@a0",
+            "F9H7G:ROn0gMY2C<",
+            "gN]^OP_Kka0e`4\\1",
+            "J7J5J7L3N2M4M2N2",
+            "M4L3L5L3L5L3L4K6",
+            "L3M4L3N3M2N3L3N3",
+            "N1O2M2O2M2O2M2N3",
+            "L3M4L3M4M2N3N1O2",
+            "N1N3N1O2N101N1O1",
+            "O2N1O1O2N1O1O2M2",
+            "O1O2M2O1O2N1O1O1",
+            "O2N100O100O2N100",
+            "O1O1O2O0O1O1N3N1",
+            "N2N2M3N3L3N2O1O1",
+            "O1O101N1O1O1O100",
+            "O1O1O2N1O1N2O1O1",
+            "N2N2O1O1O1N2O1O1",
+            "O2N1O1O1N2O1O1N2",
+            "O1N2O1O1N2O1jMlT",
+            "OajKUk0ZU4SUObjK",
+            "nj0ZU4YUObjKhj0Z",
+            "U4_UObjKbj0WU4gU",
+            "OfjKZj0mT4UVOPkK",
+            "li0dT4bVOYkK_i0_",
+            "T4lVO]kKUi0_T4QW",
+            "O^kKPi0^T4VWO^kK",
+            "lh0^T4[WO]kKgh0`",
+            "T4_WO\\kKbh0aT4dW",
+            "OZkK^h0eT4n3O1O1",
+            "00O100O10000O101",
+            "O0000000O1000001",
+            "O000O10000000000",
+            "0001O00000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "000O10000000001N",
+            "1000000O1000000O",
+            "10001O0O1000000O",
+            "101O00000O100000",
+            "001N100000001N10",
+            "00001O0O10001O00",
+            "0O101O000RTOmjKQ",
+            "h0SU4mWOQkKPh0QU",
+            "4nWOQkKQh0oT4nWO",
+            "TkKPh0lT4nWOYkKo",
+            "g0hT4oWO]kKmg0cT",
+            "4RXOakKjg0aT4TXO",
+            "bkKjg0_T4TXOekKi",
+            "g0[T4UXOikKig0XT",
+            "4TXOmkKig0TT4TXO",
+            "PlKig0RT4UXOQlKi",
+            "g0PT4TXOTlKjg0mS",
+            "4SXOVlKlg0kS4QXO",
+            "YlKmg0iS4oWO[lKn",
+            "g0gS4nWO_lKog0bS",
+            "4mWOclKQh0_S4jWO",
+            "flKTh0\\S4fWOjlKX",
+            "h0YS4iVOdmKUi0iR",
+            "4VVObmKhi0kV4O1N",
+            "2O2N0O2O1N3N1N2N",
+            "2O1N2O1N2O1O1N2O",
+            "1N101O1N2O1N2O1N",
+            "2O1N2N2N3N1N3M2N",
+            "3M3M3M3M2N3M3M3L",
+            "4M3L4M3L4M3L4L4K",
+            "4L5J5G:G8I8J6J5L",
+            "5K4M4L3M4K5K6J5K",
+            "5J7I7G9F:XOg0@b0",
+            "D<]Od0ZOe0XOh0ZO",
+            "e0B>_O`0@`0A?D;D",
+            "=^Ob0]Od0@?B?_Oc",
+            "0aNb1SOl0[Od0YNh",
+            "1YOg0_Oj0TO_1mMP",
+            "eVV6"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1881.177734375,
+        1925.393798828125,
+        2303.99853515625,
+        2991.180908203125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the jar in the image?",
+    "output_instruction": "What is the segmentation mask of the jar in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_41_b2bc7576_obj_001",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

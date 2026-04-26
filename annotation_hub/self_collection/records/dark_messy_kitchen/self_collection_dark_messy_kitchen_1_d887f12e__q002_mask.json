@@ -1,0 +1,121 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_1_d887f12e__q002_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_1_d887f12e",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:43:27Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_1_d887f12e__q002_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_1_d887f12e",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "dark_messy_kitchen/1.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_1_d887f12e_obj_010",
+      "object_name": "cup",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3773,
+            5660
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "[iYU6m1_c3l0oNi0",
+            "B=[NfL\\`Lb3V_3j1",
+            "F:_Oa0[Od0D=E:J7",
+            "K4M3O1O2N100O100",
+            "O10001N1000000O1",
+            "000000O1000000O1",
+            "0000O10000O2O000",
+            "O10000000000O100",
+            "0001O00000000000",
+            "000000O2O0000000",
+            "0000000000000000",
+            "0001O0O100000000",
+            "0000000000000001",
+            "O00000O100000000",
+            "00000000O1000000",
+            "01O0000000000000",
+            "000000001O000000",
+            "00000001O0001O00",
+            "0000000000001O00",
+            "00000001O0001O00",
+            "0000000000000000",
+            "000001O000000000",
+            "0000000000000000",
+            "0000001O00000000",
+            "010O0000001O0000",
+            "001O000000001O00",
+            "000000001O000000",
+            "0010O000001O0000",
+            "001O0000001O0000",
+            "001O0000001N1000",
+            "00001N10000O101N",
+            "100O1O1O1O2M2L4M",
+            "4J5J6aNebLmIk]3b",
+            "5mbLoIZ]3h5c1H7G",
+            ":WOh0B?H8G8H9H8K",
+            "5K5K5K5QOo0I8H9H",
+            "_Uk1ZO[kTN2N3N1N",
+            "11N1O100O2NYT\\1o",
+            "0ejcN;G6J6K10J6L",
+            "4M3M4M3K6H;\\O]cP",
+            "R="
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1704.84228515625,
+        1958.44580078125,
+        2032.3343505859375,
+        2267.434814453125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the cup in the image?",
+    "output_instruction": "What is the segmentation mask of the cup in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend",
+          "specular_confusion"
+        ],
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_1_d887f12e_obj_010",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend",
+        "specular_confusion"
+      ],
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_65_c91ac6ff__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_65_c91ac6ff",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:25:13Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_65_c91ac6ff__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_65_c91ac6ff",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the faucet in the image.",
+    "instruction": "Locate the faucet in the image.",
+    "answer": "faucet",
+    "rgb": "dark_messy_kitchen/65.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_65_c91ac6ff_obj_000",
+      "object_name": "faucet",
+      "bbox_xyxy": [
+        2318.033447265625,
+        3287.4970703125,
+        3453.5634765625,
+        4207.21240234375
+      ],
+      "bbox_xywh": [
+        2318.033447265625,
+        3287.4970703125,
+        1135.530029296875,
+        919.71533203125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the faucet in the image?",
+    "output_instruction": "What is the bounding box of the faucet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_65_c91ac6ff_obj_000",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

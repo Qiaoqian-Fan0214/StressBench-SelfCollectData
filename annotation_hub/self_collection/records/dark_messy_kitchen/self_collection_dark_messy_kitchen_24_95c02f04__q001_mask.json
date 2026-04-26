@@ -1,0 +1,128 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_24_95c02f04__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_24_95c02f04",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:55:25Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_24_95c02f04__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_24_95c02f04",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the whisk in the image.",
+    "instruction": "Locate the whisk in the image.",
+    "answer": "whisk",
+    "rgb": "dark_messy_kitchen/24.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_24_95c02f04_obj_007",
+      "object_name": "whisk",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4032,
+            2520
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Ymcd15im34M2N3N1",
+            "O1O2N2N2N101N1O1",
+            "00O100O1O2N100O2",
+            "N1O101N1O1O1O100",
+            "O1O100O1O100O10O",
+            "01O10O01O1O1O1O0",
+            "01O100O1O1O010O1",
+            "O1O1O1N2O1N2O1O2",
+            "N1N2O1O2M2O1O1O1",
+            "O2N1O1O100O100O1",
+            "O100O100O100O2N1",
+            "O1O1N3N1N2N2O1N2",
+            "O1N2O1N2O1N2O1O1",
+            "N2O1O1N2O2N1O2M3",
+            "N2N2M4M2M4M2O001",
+            "00O12M2O2N2N2O00",
+            "0000O10O001O1O00",
+            "1O1O2N100O010000",
+            "O1O1O2N1N2O0O2O0",
+            "01O000001O01O001",
+            "000000O11O1O2N2N",
+            "002OO0000000O2N2",
+            "O1N1O2N2N10001O0",
+            "0O3M2O0O1O100O10",
+            "O1O1O2M3N10O2M3N",
+            "2N0001O1O2O1O101",
+            "O1O000O1N1O1O2N1",
+            "O2N1O2O1N101N2O0",
+            "O2N1O2N2N1O1O101",
+            "0O1O1O001O1O01O2",
+            "O0O1000000O0O10O",
+            "0101N2O00O2O00O0",
+            "1001O1N100000001",
+            "O1O2N2N3M1N2O1O1",
+            "O2O2N1O0O100O1O0",
+            "1O100O100O011N10",
+            "00O3O01N2M10O100",
+            "0O1000O10O0O101O",
+            "0101O2O000O2M2O0",
+            "0O1000O1O000001N",
+            "1101O01O10O0O2N1",
+            "O1O2N1O100O001O1",
+            "1N4K6K5J5L7H8I5J",
+            "4L4L2N4M2M2O0O00",
+            "1N1O3L3M3N2M4K5K",
+            "5L4K5L3L5K5L4K4M",
+            "2M3M4M3M2M4M2M4M",
+            "3L5K4L5TOiZQc6"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        399.7187194824219,
+        2622.3154296875,
+        822.40771484375,
+        3574.423828125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the whisk in the image?",
+    "output_instruction": "What is the segmentation mask of the whisk in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_24_95c02f04_obj_007",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

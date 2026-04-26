@@ -1,0 +1,113 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_35_48b3d39a__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_35_48b3d39a",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:59:24Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_35_48b3d39a__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_35_48b3d39a",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the clock in the image.",
+    "instruction": "Locate the clock in the image.",
+    "answer": "clock",
+    "rgb": "dark_messy_kitchen/35.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_35_48b3d39a_obj_000",
+      "object_name": "clock",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4032,
+            3024
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "SPZ7;]m3=H9G6J6J",
+            "6J5K7J6J7I6J5K5K",
+            "5K3M3M3M2N3M2N3M",
+            "2N2N3L3N2O1N3N1N",
+            "2N3M2M4N101N1[O^",
+            "KlWLb4Sh3`KlWLa4",
+            "Rh3aKmWL_4Rh3bKn",
+            "WL_4Ph3cKoWL]4Qh",
+            "3cKoWL^4Ph3bKoWL",
+            "_4Qh3aKoWL_4Rh3`",
+            "KmWLa4Th3]KmWLc4",
+            "Th3[KlWLf4gh30O1",
+            "O100O1O100O100O1",
+            "00O100O100O1O2N1",
+            "N2O1M3O1O1O1O100",
+            "O100O101O0O101O0",
+            "0000O101O000O101",
+            "O0000001O0000010",
+            "O00000010O00010O",
+            "001O1O1O2N6J7I3M",
+            "2M2O2N1O1O1O1N2O",
+            "1O1O001N2O000000",
+            "1N10000000000O2O",
+            "00000O2O001N1O2N",
+            "101N1O2N1O2N101N",
+            "2N1O2N1O2N2N2M3M",
+            "3N2L5L4M3L4M3M3M",
+            "3L4L4L3J7J6I7I8G",
+            "kRPg:"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        55.196922302246094,
+        1615.27685546875,
+        238.90838623046875,
+        1819.515625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the clock in the image?",
+    "output_instruction": "What is the segmentation mask of the clock in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "small_scale"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_35_48b3d39a_obj_000",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

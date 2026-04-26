@@ -1,0 +1,143 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_77_3da5780e__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_77_3da5780e",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:30:57Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_77_3da5780e__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_77_3da5780e",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the teapot in the image.",
+    "instruction": "Locate the teapot in the image.",
+    "answer": "teapot",
+    "rgb": "dark_messy_kitchen/77.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_77_3da5780e_obj_000",
+      "object_name": "teapot",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3648,
+            5472
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "XVdo::^a3>D:H7K4",
+            "K4M3L5L2M4kM[Nkc",
+            "Lh1R\\3cNbcL`1\\\\3",
+            "fN]cL^1a\\3eN[cL]",
+            "1e\\3eNWcL^1g\\3dN",
+            "VcL^1j\\3dNScL]1l",
+            "\\3eNQcL^1n\\3dNob",
+            "L]1P]3eNmbL]1S]3",
+            "eNjbL\\1U]3fNibL\\",
+            "1V]3fNebL]1Z]3e1",
+            "00O1O1O1O2N1N2O1",
+            "M3L5J5K5L4L4M3N2",
+            "ldLXJnY3k5PfLVJo",
+            "Y3k5QfLUJoY3k5Qf",
+            "LUJoY3k5PfLVJoY3",
+            "k5QfLUJoY3k5QfLU",
+            "JoY3k5QfLUJoY3k5",
+            "QfLVJnY3j5QfLWJo",
+            "Y3i5QfLWJnY3k5Qf",
+            "LUJoY3k5QfLUJoY3",
+            "k5PfLVJPZ3j5PfLV",
+            "JPZ3j5PfLVJPZ3j5",
+            "PfLWJoY3i5QfLWJo",
+            "Y3i5QfLWJoY3j5Pf",
+            "LVJoY3k5RfLSJoY3",
+            "m5QfLSJoY3m5RfLR",
+            "JnY3n5SfLPJnY3P6",
+            "SfLoIlY3S6P10000",
+            "0O2O00000O2O000O",
+            "101O00000O100000",
+            "00000000O1000000",
+            "0001N10000000000",
+            "00000001O0000001",
+            "O01O0deLiIoX3W6Q",
+            "gLjIoX3U6PgLlIPY",
+            "3T6PgLlIPY3U6ofL",
+            "kIQY3U6nfLlISY3S",
+            "6mfLmISY3S6mfLmI",
+            "SY3S6lfLnITY3S6k",
+            "fLnIUY3Q6kfLoIUY",
+            "3Q6jfLPJVY3P6kfL",
+            "oIVY3P6jfLPJVY3P",
+            "6jfLPJVY3P6kfLoI",
+            "VY3P6jfLoIWY3Q6j",
+            "fLnIVY3Q6kfLoIVY",
+            "3P6kfLoIUY3Q6]10",
+            "1O0O101O00000O2O",
+            "000000001N101O00",
+            "1O1O1O001O1O2O0O",
+            "1RLfcLT2[\\3kMhcL",
+            "R2Y\\3mMhcLR2Y\\3l",
+            "MicLS2X\\3lMicLS2",
+            "X\\3lMicLS2W\\3mMk",
+            "cLQ2V\\3nMkcLQ2U\\",
+            "3nMocLo1R\\3PNQdL",
+            "m1P\\3RNTdLi1n[3U",
+            "NUdLi1k[3WNWdLg1",
+            "j[3XNWdLg1j[3WNY",
+            "dLf1i[3YNXdLf1i[",
+            "3YNYdLd1i[3ZNYdL",
+            "e1h[3ZNZdLc1g[3\\",
+            "N[dLc1f[3\\N[dLb1",
+            "g[3\\N\\dLa1f[3^N[",
+            "dLa1f[3^N[dL`1g[",
+            "3^N\\dL_1e[3aN]dL",
+            "\\1e[3bN]dL\\1e[3c",
+            "N^dLZ1c[3eNadLV1",
+            "`[3iNddLS1^[3lNf",
+            "dLm0_[3POhdLh0[[",
+            "3VOodL:Z[3Cc3N3L",
+            "S_Y\\7"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        3151.09912109375,
+        1692.71337890625,
+        3354.463134765625,
+        1909.178466796875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the teapot in the image?",
+    "output_instruction": "What is the segmentation mask of the teapot in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "complex_texture"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_77_3da5780e_obj_000",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

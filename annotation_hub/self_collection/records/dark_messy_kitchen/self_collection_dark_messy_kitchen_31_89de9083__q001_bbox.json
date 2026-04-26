@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_31_89de9083__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_31_89de9083",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:57:25Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_31_89de9083__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_31_89de9083",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the person in the image.",
+    "instruction": "Locate the person in the image.",
+    "answer": "person",
+    "rgb": "dark_messy_kitchen/31.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_31_89de9083_obj_000",
+      "object_name": "person",
+      "bbox_xyxy": [
+        827.6068725585938,
+        1735.45654296875,
+        997.7077026367188,
+        2296.36962890625
+      ],
+      "bbox_xywh": [
+        827.6068725585938,
+        1735.45654296875,
+        170.100830078125,
+        560.9130859375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the person in the image?",
+    "output_instruction": "What is the bounding box of the person in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_31_89de9083_obj_000",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

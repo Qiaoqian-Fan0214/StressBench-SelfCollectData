@@ -1,0 +1,131 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_61_6b8fd278__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_61_6b8fd278",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:23:31Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_61_6b8fd278__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_61_6b8fd278",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cutting board in the image.",
+    "instruction": "Locate the cutting board in the image.",
+    "answer": "cutting board",
+    "rgb": "dark_messy_kitchen/61.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_61_6b8fd278_obj_005",
+      "object_name": "cutting board",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4007,
+            6010
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "l[WY9=Sl3R1bTLjN",
+            "bi3m2_Kc4E<Fc0^\\",
+            "L^HZ`3T8l^L`Hh`3",
+            "T:K4L3M2N3N1N1O2",
+            "O1N101N101N101O0",
+            "00O101O000000000",
+            "01O0O1000001O000",
+            "000001O000O10000",
+            "0001N10000O10000",
+            "00O10000O1000000",
+            "O10000O1000000O1",
+            "0000O10000O100O1",
+            "O001N2L4I7K5L4M3",
+            "M3N2M3N2N2N2N1N3",
+            "N2M3N2N2N2TNZATe",
+            "Li>cZ3iAReLY>fZ3",
+            "VBndLo=oZ3V2M3N2",
+            "N2O1N101N2O1N2O1",
+            "O1O1O1O100O1O1O1",
+            "00O1O100O100O100",
+            "O100O10000O10000",
+            "0000O10O10000000",
+            "1O00000O1000001O",
+            "00000O10001O0000",
+            "00001N10001O0000",
+            "1O001O1O001N101O",
+            "1O001O1O001O1O1O",
+            "1N2O1O2N1k@ZeLg;",
+            "hZ3mCjeLk;XZ3mCT",
+            "fLm;nY3iC]fLT<fY",
+            "3jB[gLT=^\\3N1O2N",
+            "001O1O1O001O001O",
+            "00001O001O00001O",
+            "00001O00001O01O0",
+            "001O000010O00000",
+            "001O0000001O0000",
+            "0O101O0O101O000O",
+            "2O00001O000O101O",
+            "000000001O0O1000",
+            "00000000001N1000",
+            "000000000O2O0000",
+            "00001O0O2O1O002N",
+            "1N2O2N2N2M4M3M6I",
+            "8H7J`0_OP1VH^]LP",
+            "3^d3jJ[\\Lg4_f3C>",
+            "@n0kKTWLR2aj3QO]",
+            "`d`<"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2419.0283203125,
+        2249.8212890625,
+        2738.58984375,
+        2854.658203125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the cutting board in the image?",
+    "output_instruction": "What is the segmentation mask of the cutting board in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_61_6b8fd278_obj_005",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

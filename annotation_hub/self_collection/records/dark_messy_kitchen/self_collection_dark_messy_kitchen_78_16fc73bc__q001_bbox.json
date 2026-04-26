@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_78_16fc73bc__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_78_16fc73bc",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:31:17Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_78_16fc73bc__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_78_16fc73bc",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the refrigerator in the image.",
+    "instruction": "Locate the refrigerator in the image.",
+    "answer": "refrigerator",
+    "rgb": "dark_messy_kitchen/78.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_78_16fc73bc_obj_003",
+      "object_name": "refrigerator",
+      "bbox_xyxy": [
+        5.079433441162109,
+        1816.456787109375,
+        1492.4603271484375,
+        4262.392578125
+      ],
+      "bbox_xywh": [
+        5.079433441162109,
+        1816.456787109375,
+        1487.3808937072754,
+        2445.935791015625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the refrigerator in the image?",
+    "output_instruction": "What is the bounding box of the refrigerator in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_78_16fc73bc_obj_003",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

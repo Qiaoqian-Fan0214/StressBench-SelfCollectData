@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_14_fd6e04eb__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_14_fd6e04eb",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:50:10Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_14_fd6e04eb__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_14_fd6e04eb",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the knife in the image.",
+    "instruction": "Locate the knife in the image.",
+    "answer": "knife",
+    "rgb": "dark_messy_kitchen/14.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_14_fd6e04eb_obj_009",
+      "object_name": "knife",
+      "bbox_xyxy": [
+        1409.3076171875,
+        4231.5,
+        3643.441650390625,
+        4532.79833984375
+      ],
+      "bbox_xywh": [
+        1409.3076171875,
+        4231.5,
+        2234.134033203125,
+        301.29833984375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the knife in the image?",
+    "output_instruction": "What is the bounding box of the knife in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend",
+          "specular_confusion"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_14_fd6e04eb_obj_009",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend",
+        "specular_confusion"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

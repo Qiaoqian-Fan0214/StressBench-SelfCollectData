@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_17_e5d7db94__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_17_e5d7db94",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:52:25Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_17_e5d7db94__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_17_e5d7db94",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the spoon in the image.",
+    "instruction": "Locate the spoon in the image.",
+    "answer": "spoon",
+    "rgb": "dark_messy_kitchen/17.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_17_e5d7db94_obj_005",
+      "object_name": "spoon",
+      "bbox_xyxy": [
+        4528.41650390625,
+        1051.6793212890625,
+        5552.65380859375,
+        2342.18017578125
+      ],
+      "bbox_xywh": [
+        4528.41650390625,
+        1051.6793212890625,
+        1024.2373046875,
+        1290.5008544921875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the spoon in the image?",
+    "output_instruction": "What is the bounding box of the spoon in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_17_e5d7db94_obj_005",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

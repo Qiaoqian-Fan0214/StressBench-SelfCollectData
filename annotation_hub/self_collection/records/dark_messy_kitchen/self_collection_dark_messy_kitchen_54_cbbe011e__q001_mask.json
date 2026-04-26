@@ -1,0 +1,139 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_54_cbbe011e__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_54_cbbe011e",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:20:53Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_54_cbbe011e__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_54_cbbe011e",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the envelope in the image.",
+    "instruction": "Locate the envelope in the image.",
+    "answer": "envelope",
+    "rgb": "dark_messy_kitchen/54.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_54_cbbe011e_obj_012",
+      "object_name": "envelope",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3648,
+            2736
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "[m`o42ka35M2N3M2",
+            "N3M2N2M3N2M3N2N1",
+            "N3N2N2N1O2N2N2M3",
+            "N1N3N2M3N1O2N2N2",
+            "N2N1O2N2N2M3N2N2",
+            "N2N1O2N3M2N2N2N2",
+            "O1M3N1O2M3N2M3N2",
+            "N2N2N2N1O2N2N2N1",
+            "O2N2N2M2O2N2N2M2",
+            "N3N2M2N3N2N1N3N1",
+            "N3M3M3M2N3M3M3M2",
+            "N3M3L3O2M2N3L3M4",
+            "M2N3M2N3M2N3N1O1",
+            "N3N1O1N2N3N1N2M3",
+            "N3N1N2O1N2O2M2O1",
+            "N2N2O1N2O1N2N2N2",
+            "N2N2N2O1N2O2N1O1",
+            "O1O1N2O1O1N2N2O1",
+            "N2N2O2L3N2O1N2O1",
+            "O1N2O2M2O1N2N2O1",
+            "O1N3O0O100O100O1",
+            "01N1O100O1001O01",
+            "0O2N2N3M1O2N1O1O",
+            "2N1O100O1O1O1O01",
+            "1N1O3N1N2N2O1N2N",
+            "VNkFjjLT9UU3mFlj",
+            "LS9SU3mFnjLR9QU3",
+            "PGnjLP9RU3PGojLo",
+            "8QU3PGPkLP9PU3PG",
+            "QkLn8QU3QGojLo8Q",
+            "U3PGQkLo8PU3nFSk",
+            "LQ9nV301O0O2O1O0",
+            "01N100O1O1O1O1O0",
+            "01O1OmM]GkjLa8VU",
+            "3bGgjL^8ZU3bGfjL",
+            "]8[U3dGcjL\\8^U3d",
+            "GbjLZ8`U3fG`jLY8",
+            "`U3iG^jLW8dU3hG\\",
+            "jLW8eU3iG\\jLU8eU",
+            "3kG[jLS8gU3mGYjL",
+            "R8hU3nGXjLQ8iU3o",
+            "GWjLP8jU3oGWjLP8",
+            "jU3PHVjLn7lU3RHT",
+            "jLm7mU3SHSjLl7nU",
+            "3THRjLk7PV3THPjL",
+            "k7QV3UHPjLi7RV3U",
+            "HoiLj7TV3THliLk7",
+            "VX3N1O2M2O2N2N2M",
+            "2O2N2N2N2N1O2M3N",
+            "2N3M2M3N3M2M4M2N",
+            "2N2M4M2N2N3M3M4L",
+            "4L3M4K3N2N2M3N2M",
+            "3N2N3L3N3M3M2M3N",
+            "3L3N2M3M3M2O2M3N",
+            "2N2M3N3L3M3M4L3N",
+            "3L5K4L5L3K5L4L6J",
+            "1O1O1N2O2M2O2N1N",
+            "2L5L4M4[Of0GoS^\\",
+            "3"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1424.2779541015625,
+        3231.45556640625,
+        1785.761962890625,
+        3600.9892578125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the envelope in the image?",
+    "output_instruction": "What is the segmentation mask of the envelope in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "stacked_layout"
+        ],
+        "L": [
+          "local_overexposure",
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_54_cbbe011e_obj_012",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "stacked_layout"
+      ],
+      "L": [
+        "local_overexposure",
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

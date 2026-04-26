@@ -1,0 +1,171 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_11_4e810d27__q002_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_11_4e810d27",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:48:31Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_11_4e810d27__q002_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_11_4e810d27",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "dark_messy_kitchen/11.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_11_4e810d27_obj_003",
+      "object_name": "cup",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3132,
+            2349
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "i_lb2=YQ3<G7G8H8",
+            "J<Ek0UO9G6J8I8H9",
+            "G6I9H5J7I6J5L4L3",
+            "M4L5K5L4K9G?A6I7",
+            "J9G9G6J5K7I8I6I6",
+            "K?@:F:F9G9G9F9I5",
+            "J7I5L4K5L3L6K4K7",
+            "J5J7J7H?A7J6I<E4",
+            "K5K5K5L3L3M3M4M2",
+            "N1N3N1N3N2N1N3N1",
+            "N3N1N3N1NeDZ^Md6",
+            "ca2]I]^Md6ba2\\I^",
+            "^Me6`a2m4N3N0O2O",
+            "1N2O1N2O1O1N2O00",
+            "1N2O001N2O001N10",
+            "1O1N101O1O0O2O00",
+            "1O1N10bBg_MRMKV;",
+            "\\`2gGm_MPMHZ;Z`2",
+            "dGQ`MPMG[;X`2eGQ",
+            "`MPMG\\;V`2eGT`Mm",
+            "LH^;S`2eGU`MmLH^",
+            ";S`2fGS`MmLI_;R`",
+            "2fGT`MlLI^;S`2hG",
+            "Q`MkLL^;R`2hGP`M",
+            "kLN];R`2jGm_MjL0",
+            "^;Q`2lHn_MT7R`2l",
+            "Hn_MU7Q`2kHo_MU7",
+            "P`2lHP`MU7o_2\\50",
+            "1O001N10001O0000",
+            "1N101O000O2O0000",
+            "1O000O2O0000001N",
+            "10001O00000O101O",
+            "00QBc`M_9]_2`Fd`",
+            "M`9\\_2_Ff`M`9Y_2",
+            "aFg`M`9X_2`Fh`M`",
+            "9X_2`Fh`M`9X_2aF",
+            "g`M_9Y_2aFf`M`9Z",
+            "_2cFc`M]9\\_2c4O0",
+            "000001O000O101O0",
+            "000001O00001N100",
+            "000001O000000000",
+            "0000000000000000",
+            "000001O0000000Oj",
+            "AQaMa9o^2^FRaMb9",
+            "n^2^FRaMb9n^2^FR",
+            "aMb9n^2^FRaMVMOa",
+            ":o^2\\Hn`M`9R_2e4",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "1O000O100000001O",
+            "0000000O10000000",
+            "001O000O10000000",
+            "0O2O0000000O1000",
+            "001O0O1000001N10",
+            "00001N100]_O``Mj",
+            ">`_2VA``Mj>`_2VA",
+            "``Mi>b_2VA^`Mj>b",
+            "_2VA^`Mj>b_2VA_`",
+            "Mi>a_2WA_`Mi>a_2",
+            "WA_`Mh>b_2XA^`Mh",
+            ">c_2WA^`Mh>b_2XA",
+            "^`Mg>c_2YA^`Mf>b",
+            "_2ZA^`Mf>b_2ZA^`",
+            "Me>d_2ZA]`Md>d_2",
+            "\\A\\`Mb>f_2^A[`Mf",
+            "9k0]Hl^2nMX`M_9a",
+            "1PH\\^2`NT`M[9j1k",
+            "GV^2jNP`MW9T2eGP",
+            "^2TOm_MR9\\2`Gl]2",
+            "^Oi_Mn8d2lFV^25W",
+            "_Mk8l2TFc^2Q1a^M",
+            "i8Ye2WGgZMg8\\e2X",
+            "GdZMe8_e2_G]ZM_8",
+            "ee2cGYZM[8ie2fGV",
+            "ZMX8me2hGRZMV8Pf",
+            "2kGoYMS8Sf2i12N3",
+            "M2O1N3N1N2O2N1N3",
+            "N1N2O2N1N2O2N1O1",
+            "O2N101N1O1O2N1O2",
+            "N1O1O2N1O2N101N2",
+            "N1O2N1O2N2N1N3N1",
+            "O2N101N2N1O2N101",
+            "N2N1O2N101N2N2N2",
+            "N2O1N2N2N101N2O0",
+            "O2O2M2jIjVMd3Wi2",
+            "_23N1N2N2O1N2O1N",
+            "102M2N3N1N3N2M3M",
+            "2N3N2M3M2M4L4eJS",
+            "UM^3Vk2YLeUMi2hj",
+            "2lLmWMF]i2D\\onU3"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        863.3274536132812,
+        585.6392822265625,
+        1287.0303955078125,
+        1200.041259765625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the cup in the image?",
+    "output_instruction": "What is the segmentation mask of the cup in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "G": [
+          "occlusion",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_11_4e810d27_obj_003",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "G": [
+        "occlusion",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}
