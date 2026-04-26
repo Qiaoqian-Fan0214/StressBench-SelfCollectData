@@ -250,14 +250,10 @@ function renderStatusPill(record) {
 function clearOverlays() {
   const maskCanvas = document.getElementById("maskCanvas");
   const primaryBboxLayer = document.getElementById("primaryBboxLayer");
-  const secondaryBboxLayer = document.getElementById("secondaryBboxLayer");
   const primaryBbox = document.getElementById("primaryBbox");
-  const secondaryBbox = document.getElementById("secondaryBbox");
   maskCanvas.style.display = "none";
   primaryBboxLayer.replaceChildren();
-  secondaryBboxLayer.replaceChildren();
   primaryBbox.style.display = "none";
-  secondaryBbox.style.display = "none";
 }
 
 function clearView() {
@@ -271,20 +267,15 @@ function clearView() {
   document.getElementById("updatedAtText").textContent = "-";
   document.getElementById("taskList").innerHTML = "";
   document.getElementById("primaryMediaTitle").textContent = "RGB";
-  document.getElementById("secondaryMediaTitle").textContent = "RGB";
   document.getElementById("primaryImage").removeAttribute("src");
-  document.getElementById("secondaryImage").removeAttribute("src");
   clearOverlays();
 }
 
 function renderImages(item) {
   const primaryImage = document.getElementById("primaryImage");
-  const secondaryImage = document.getElementById("secondaryImage");
   document.getElementById("primaryMediaTitle").textContent = "RGB";
-  document.getElementById("secondaryMediaTitle").textContent = "RGB（对照）";
   clearOverlays();
   primaryImage.src = encodeURI(item.rgb);
-  secondaryImage.src = encodeURI(item.rgb);
 }
 
 function updateNavButtons() {

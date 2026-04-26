@@ -393,12 +393,7 @@ select {
 .viewer-grid {
   display: grid;
   gap: 16px;
-}
-
-@media (min-width: 900px) {
-  .viewer-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .compact-viewer-grid {
@@ -446,7 +441,7 @@ select {
 }
 
 .compact-media-wrap img {
-  max-height: 320px;
+  max-height: 560px;
 }
 
 .mask-overlay {
@@ -905,7 +900,7 @@ select {
 
 @media (max-width: 980px) {
   .compact-media-wrap img {
-    max-height: 240px;
+    max-height: 420px;
   }
 
   .action-summary {
