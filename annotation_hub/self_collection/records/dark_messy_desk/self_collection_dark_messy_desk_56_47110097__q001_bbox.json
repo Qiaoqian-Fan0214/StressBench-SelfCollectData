@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_56_47110097__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_56_47110097",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:59:24Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_56_47110097__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_56_47110097",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "dark_messy_desk/56.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_56_47110097_obj_000",
+      "object_name": "cup",
+      "bbox_xyxy": [
+        1515.5833740234375,
+        2823.749267578125,
+        4077.04345703125,
+        5583.0546875
+      ],
+      "bbox_xywh": [
+        1515.5833740234375,
+        2823.749267578125,
+        2561.4600830078125,
+        2759.305419921875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cup in the image?",
+    "output_instruction": "What is the bounding box of the cup in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_56_47110097_obj_000",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

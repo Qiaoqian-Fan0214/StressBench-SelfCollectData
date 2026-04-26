@@ -1,0 +1,113 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_39_9cca8b0f__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_39_9cca8b0f",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:34:14Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_39_9cca8b0f__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_39_9cca8b0f",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the eraser in the image.",
+    "instruction": "Locate the eraser in the image.",
+    "answer": "eraser",
+    "rgb": "dark_messy_desk/39.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_39_9cca8b0f_obj_011",
+      "object_name": "eraser",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3861,
+            5791
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "V`Wl4e0hg3a0B9H7",
+            "J5K5L3M3N2M3N2N2",
+            "N101N1O101N100O1",
+            "0001N100000000O1",
+            "00000001O0O10000",
+            "000000O10001O0O1",
+            "000000O100O2O000",
+            "O10000O10001O0O1",
+            "0000O1000000O101",
+            "O000O1000000O101",
+            "O00000O1000000O2",
+            "O00000O1000000O2",
+            "O000O10000O10000",
+            "O10000O2O000O100",
+            "O10000O10000O100",
+            "0000O100000000O1",
+            "0O100000O1000000",
+            "00O10O10000000O1",
+            "0O10000000O01000",
+            "0000O10O10000000",
+            "O10O100000000O10",
+            "00000O010000000O",
+            "10000000O0100000",
+            "0O10000O2O0O1000",
+            "0O100O2O0O10000O",
+            "2O000O2O0O10000O",
+            "2O000O100O10000O",
+            "10000O100O10000O",
+            "10000O101N100O10",
+            "0O2O0O101N100O10",
+            "1N100O10000O2O0O",
+            "10001N100O2O0O2N",
+            "1O2N2N1O2N2N2N2M",
+            "3M4L3L5K4L5K6J7I",
+            ">BbX]^?"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1323.0032958984375,
+        3586.273193359375,
+        1596.5550537109375,
+        3726.74365234375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the eraser in the image?",
+    "output_instruction": "What is the segmentation mask of the eraser in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_39_9cca8b0f_obj_011",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

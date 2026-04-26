@@ -157,9 +157,31 @@ def dataset_index(dataset: dict) -> dict[str, dict]:
     return dict(cached["index"])
 
 
-def record_path(dataset: dict, sample_id: str) -> Path:
-    item = dataset_index(dataset)[sample_id]
-    return ROOT / dataset["record_root"] / item["subcategory"] / f"{sample_id}.json"
+def sample_record_dir(dataset: dict, item: dict) -> Path:
+    return ROOT / dataset["record_root"] / item["subcategory"]
+
+
+def sample_record_paths(dataset: dict, item: dict) -> list[Path]:
+    record_dir = sample_record_dir(dataset, item)
+    if not record_dir.is_dir():
+        return []
+    paths = list(record_dir.glob(f"{item['sample_id']}*.json"))
+    return sorted(paths, key=lambda path: natural_sort_key(path.name))
+
+
+def source_sample_id_from_record(record: dict) -> str | None:
+    if not isinstance(record, dict):
+        return None
+    source_sample_id = record.get("source_sample_id")
+    if source_sample_id:
+        return str(source_sample_id)
+    annotation = record.get("annotation")
+    if isinstance(annotation, dict) and annotation.get("source_sample_id"):
+        return str(annotation["source_sample_id"])
+    sample_id = str(record.get("sample_id") or "")
+    if "__" in sample_id:
+        return sample_id.split("__", 1)[0]
+    return sample_id or None
 
 
 def cursor_path(dataset_id: str) -> Path:
@@ -184,10 +206,242 @@ def load_record_map(dataset: dict) -> dict[str, dict]:
             record = read_json(path)
         except Exception:
             continue
-        sample_id = record.get("sample_id")
-        if sample_id in index and record.get("status") in {"annotated", "discarded"}:
-            result[sample_id] = record
+        sample_id = source_sample_id_from_record(record)
+        if sample_id not in index or record.get("status") not in {"annotated", "discarded"}:
+            continue
+        bucket = result.setdefault(
+            sample_id,
+            {
+                "status": "unprocessed",
+                "updated_at": None,
+                "annotated_count": 0,
+                "discarded_count": 0,
+            },
+        )
+        updated_at = record.get("updated_at")
+        if updated_at and (not bucket["updated_at"] or str(updated_at) > str(bucket["updated_at"])):
+            bucket["updated_at"] = updated_at
+        if record["status"] == "annotated":
+            bucket["annotated_count"] += 1
+        elif record["status"] == "discarded":
+            bucket["discarded_count"] += 1
+    for sample_id, bucket in result.items():
+        bucket["status"] = "annotated" if bucket["annotated_count"] else "discarded"
     return result
+
+
+def remove_sample_records(dataset: dict, item: dict) -> None:
+    for path in sample_record_paths(dataset, item):
+        if path.is_file():
+            path.unlink()
+
+
+def validate_entries(payload: object) -> list[dict]:
+    if not isinstance(payload, list) or not payload:
+        raise ValueError("entries must be a non-empty array")
+    normalized: list[dict] = []
+    seen_entry_ids: set[str] = set()
+    for raw_entry in payload:
+        if not isinstance(raw_entry, dict):
+            raise ValueError("each entry must be an object")
+        entry_id = safe_slug(raw_entry.get("entry_id"))
+        if not entry_id:
+            raise ValueError("entry_id is required")
+        if entry_id in seen_entry_ids:
+            raise ValueError(f"Duplicate entry_id: {entry_id}")
+        seen_entry_ids.add(entry_id)
+
+        task = str(raw_entry.get("task") or "").strip()
+        template_id = str(raw_entry.get("template_id") or "").strip()
+        question = str(raw_entry.get("question") or "").strip()
+        instruction = str(raw_entry.get("instruction") or question).strip()
+        outputs = raw_entry.get("outputs")
+        editor_state = raw_entry.get("editor_state") if isinstance(raw_entry.get("editor_state"), dict) else {}
+        if not task:
+            raise ValueError(f"entry {entry_id}: task is required")
+        if not template_id:
+            raise ValueError(f"entry {entry_id}: template_id is required")
+        if not question:
+            raise ValueError(f"entry {entry_id}: question is required")
+        if not instruction:
+            raise ValueError(f"entry {entry_id}: instruction is required")
+        if not isinstance(outputs, list) or not outputs:
+            raise ValueError(f"entry {entry_id}: outputs must be a non-empty array")
+
+        normalized_outputs: list[dict] = []
+        for output in outputs:
+            if not isinstance(output, dict):
+                raise ValueError(f"entry {entry_id}: each output must be an object")
+            gt = output.get("gt")
+            if not isinstance(gt, dict) or not gt.get("type"):
+                raise ValueError(f"entry {entry_id}: each output must include gt.type")
+            raw_variant = output.get("variant")
+            normalized_outputs.append(
+                {
+                    "variant": safe_slug(raw_variant) if raw_variant else None,
+                    "question": str(output.get("question") or question).strip(),
+                    "instruction": str(output.get("instruction") or output.get("question") or instruction).strip(),
+                    "gt": gt,
+                    "answer": output.get("answer"),
+                }
+            )
+
+        normalized.append(
+            {
+                "entry_id": entry_id,
+                "task": task,
+                "template_id": template_id,
+                "question": question,
+                "instruction": instruction,
+                "stress": validate_stress(raw_entry.get("stress")),
+                "outputs": normalized_outputs,
+                "editor_state": editor_state,
+            }
+        )
+    return normalized
+
+
+def build_annotation_record(
+    dataset: dict,
+    item: dict,
+    entry: dict,
+    output: dict,
+    updated_at: str,
+) -> dict:
+    suffix = f"_{output['variant']}" if output.get("variant") else ""
+    sample_id = f"{item['sample_id']}__{entry['entry_id']}{suffix}"
+    return {
+        "sample_id": sample_id,
+        "source_sample_id": item["sample_id"],
+        "status": "annotated",
+        "updated_at": updated_at,
+        "annotation": {
+            "sample_id": sample_id,
+            "source_sample_id": item["sample_id"],
+            "entry_id": entry["entry_id"],
+            "task": entry["task"],
+            "template_id": entry["template_id"],
+            "question": entry["question"],
+            "instruction": entry["instruction"],
+            "answer": output.get("answer"),
+            "rgb": item["rgb"],
+            "gt": output["gt"],
+            "output_variant": output.get("variant"),
+            "output_question": output.get("question"),
+            "output_instruction": output.get("instruction"),
+            "editor_state": entry.get("editor_state") or {},
+            "stress": entry["stress"],
+            "provenance": {
+                "dataset": dataset.get("provenance_dataset", dataset["title"]),
+                "subcategory": item["subcategory"],
+                "split": dataset.get("provenance_split", "self_collected"),
+            },
+        },
+    }
+
+
+def build_discard_record(dataset: dict, item: dict, updated_at: str) -> dict:
+    sample_id = f"{item['sample_id']}__discard"
+    return {
+        "sample_id": sample_id,
+        "source_sample_id": item["sample_id"],
+        "status": "discarded",
+        "updated_at": updated_at,
+        "annotation": None,
+        "provenance": {
+            "dataset": dataset.get("provenance_dataset", dataset["title"]),
+            "subcategory": item["subcategory"],
+            "split": dataset.get("provenance_split", "self_collected"),
+        },
+    }
+
+
+def entry_sort_key(entry_id: str) -> tuple:
+    return natural_sort_key(entry_id)
+
+
+def aggregate_sample_records(dataset: dict, item: dict, records: list[dict]) -> dict | None:
+    if not records:
+        return None
+
+    annotated_records = [record for record in records if record.get("status") == "annotated" and isinstance(record.get("annotation"), dict)]
+    discarded_records = [record for record in records if record.get("status") == "discarded"]
+    updated_at = max((str(record.get("updated_at") or "") for record in records), default="") or None
+
+    if annotated_records:
+        grouped: dict[str, dict] = {}
+        for record in annotated_records:
+            annotation = record["annotation"]
+            has_editor_state = isinstance(annotation.get("editor_state"), dict) and bool(annotation.get("editor_state"))
+            has_question_payload = bool(annotation.get("task")) or bool(annotation.get("template_id")) or bool(annotation.get("gt"))
+            if not has_editor_state and not has_question_payload:
+                continue
+            entry_id = safe_slug(annotation.get("entry_id")) or "legacy"
+            bucket = grouped.setdefault(
+                entry_id,
+                {
+                    "entry_id": entry_id,
+                    "task": annotation.get("task"),
+                    "template_id": annotation.get("template_id"),
+                    "question": annotation.get("question"),
+                    "instruction": annotation.get("instruction"),
+                    "stress": annotation.get("stress") if isinstance(annotation.get("stress"), dict) else None,
+                    "editor_state": annotation.get("editor_state") if isinstance(annotation.get("editor_state"), dict) else {},
+                    "outputs": [],
+                },
+            )
+            bucket["outputs"].append(
+                {
+                    "variant": annotation.get("output_variant"),
+                    "question": annotation.get("output_question") or annotation.get("question"),
+                    "instruction": annotation.get("output_instruction") or annotation.get("instruction"),
+                    "gt": annotation.get("gt"),
+                    "answer": annotation.get("answer"),
+                    "sample_id": record.get("sample_id"),
+                }
+            )
+
+        entries = [grouped[key] for key in sorted(grouped.keys(), key=entry_sort_key)]
+        return {
+            "sample_id": item["sample_id"],
+            "source_sample_id": item["sample_id"],
+            "status": "annotated",
+            "updated_at": updated_at,
+            "annotation": {
+                "sample_id": item["sample_id"],
+                "source_sample_id": item["sample_id"],
+                "entries": entries,
+                "rgb": item["rgb"],
+                "provenance": {
+                    "dataset": dataset.get("provenance_dataset", dataset["title"]),
+                    "subcategory": item["subcategory"],
+                    "split": dataset.get("provenance_split", "self_collected"),
+                },
+            },
+        }
+
+    if discarded_records:
+        return {
+            "sample_id": item["sample_id"],
+            "source_sample_id": item["sample_id"],
+            "status": "discarded",
+            "updated_at": updated_at,
+            "annotation": None,
+        }
+
+    return None
+
+
+def load_sample_records(dataset: dict, item: dict) -> list[dict]:
+    records: list[dict] = []
+    for path in sample_record_paths(dataset, item):
+        try:
+            record = read_json(path)
+        except Exception:
+            continue
+        if source_sample_id_from_record(record) == item["sample_id"]:
+            records.append(record)
+    return records
 
 
 def validate_stress(payload: object) -> dict[str, list[str]]:
@@ -389,8 +643,7 @@ class AnnotationHandler(SimpleHTTPRequestHandler):
             item = dataset_index(dataset).get(sample_id)
             if not item:
                 raise KeyError(f"Unknown sample: {sample_id}")
-            path = record_path(dataset, sample_id)
-            record = read_json(path) if path.is_file() else None
+            record = aggregate_sample_records(dataset, item, load_sample_records(dataset, item))
             return {"dataset": dataset["id"], "sample_id": sample_id, "record": record}
         if resource == "cursor" and len(parts) == 4:
             return {"dataset": dataset["id"], "cursor": read_cursor(dataset["id"])}
@@ -411,24 +664,38 @@ class AnnotationHandler(SimpleHTTPRequestHandler):
             status = body.get("status")
             if status not in {"annotated", "discarded"}:
                 raise ValueError("status must be annotated or discarded")
-            stress = validate_stress(body.get("stress")) if status == "annotated" else None
-            record = build_record(dataset, item, status, stress)
-            path = record_path(dataset, sample_id)
-            atomic_write_json(path, record)
+            remove_sample_records(dataset, item)
+            updated_at = now_utc_iso()
+            written_records: list[dict] = []
+            if status == "annotated":
+                entries = validate_entries(body.get("entries"))
+                for entry in entries:
+                    for output in entry["outputs"]:
+                        record = build_annotation_record(dataset, item, entry, output, updated_at)
+                        path = sample_record_dir(dataset, item) / f"{record['sample_id']}.json"
+                        atomic_write_json(path, record)
+                        written_records.append(record)
+            else:
+                record = build_discard_record(dataset, item, updated_at)
+                path = sample_record_dir(dataset, item) / f"{record['sample_id']}.json"
+                atomic_write_json(path, record)
+                written_records.append(record)
             append_event(
                 dataset["id"],
                 {
-                    "ts": now_utc_iso(),
+                    "ts": updated_at,
                     "dataset": dataset["id"],
                     "sample_id": sample_id,
                     "action": "save" if status == "annotated" else "discard",
                     "status_after": status,
+                    "entry_count": len(body.get("entries") or []) if status == "annotated" else 0,
                 },
             )
+            aggregate_record = aggregate_sample_records(dataset, item, written_records)
             return {
                 "dataset": dataset["id"],
                 "sample_id": sample_id,
-                "record": record,
+                "record": aggregate_record,
                 "progress": dataset_progress(dataset),
             }
 

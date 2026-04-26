@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_64_fdbe5da2__q002_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_64_fdbe5da2",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:05:16Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_64_fdbe5da2__q002_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_64_fdbe5da2",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the phone in the image.",
+    "instruction": "Locate the phone in the image.",
+    "answer": "phone",
+    "rgb": "dark_messy_desk/64.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_64_fdbe5da2_obj_009",
+      "object_name": "phone",
+      "bbox_xyxy": [
+        1136.2069091796875,
+        2616.86279296875,
+        1407.8355712890625,
+        2720.762939453125
+      ],
+      "bbox_xywh": [
+        1136.2069091796875,
+        2616.86279296875,
+        271.628662109375,
+        103.900146484375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the phone in the image?",
+    "output_instruction": "What is the bounding box of the phone in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "V": [
+          "extreme_viewpoint"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_64_fdbe5da2_obj_009",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "V": [
+        "extreme_viewpoint"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_66_bcb16980__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_66_bcb16980",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:07:37Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_66_bcb16980__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_66_bcb16980",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the figurine in the image.",
+    "instruction": "Locate the figurine in the image.",
+    "answer": "figurine",
+    "rgb": "dark_messy_desk/66.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_66_bcb16980_obj_000",
+      "object_name": "figurine",
+      "bbox_xyxy": [
+        491.423583984375,
+        2759.949462890625,
+        673.8150024414062,
+        3099.469970703125
+      ],
+      "bbox_xywh": [
+        491.423583984375,
+        2759.949462890625,
+        182.39141845703125,
+        339.5205078125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the figurine in the image?",
+    "output_instruction": "What is the bounding box of the figurine in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_66_bcb16980_obj_000",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

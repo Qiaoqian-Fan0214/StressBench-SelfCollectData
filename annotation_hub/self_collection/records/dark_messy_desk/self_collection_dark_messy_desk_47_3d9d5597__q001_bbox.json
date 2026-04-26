@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_47_3d9d5597__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_47_3d9d5597",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:39:28Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_47_3d9d5597__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_47_3d9d5597",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the keyboard in the image.",
+    "instruction": "Locate the keyboard in the image.",
+    "answer": "keyboard",
+    "rgb": "dark_messy_desk/47.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_47_3d9d5597_obj_009",
+      "object_name": "keyboard",
+      "bbox_xyxy": [
+        2246.78857421875,
+        1656.1651611328125,
+        5983.6728515625,
+        3171.8134765625
+      ],
+      "bbox_xywh": [
+        2246.78857421875,
+        1656.1651611328125,
+        3736.88427734375,
+        1515.6483154296875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the keyboard in the image?",
+    "output_instruction": "What is the bounding box of the keyboard in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "extreme_viewpoint"
+        ],
+        "L": [
+          "local_overexposure",
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_47_3d9d5597_obj_009",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "extreme_viewpoint"
+      ],
+      "L": [
+        "local_overexposure",
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

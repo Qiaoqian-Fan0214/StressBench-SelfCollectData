@@ -1,0 +1,66 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_54_cd171778__q002",
+  "source_sample_id": "self_collection_dark_messy_desk_54_cd171778",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:58:48Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_54_cd171778__q002",
+    "source_sample_id": "self_collection_dark_messy_desk_54_cd171778",
+    "entry_id": "q002",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a book in the image?",
+    "instruction": "Is there any vacant space to place a book in the image?",
+    "answer": "yes",
+    "rgb": "dark_messy_desk/54.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a book in the image?",
+    "output_instruction": "Is there any vacant space to place a book in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_overexposure",
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_54_cd171778_obj_000",
+      "placementItem": "book",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_overexposure",
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

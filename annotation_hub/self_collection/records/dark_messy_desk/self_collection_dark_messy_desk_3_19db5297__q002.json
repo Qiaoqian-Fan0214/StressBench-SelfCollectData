@@ -1,0 +1,66 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_3_19db5297__q002",
+  "source_sample_id": "self_collection_dark_messy_desk_3_19db5297",
+  "status": "annotated",
+  "updated_at": "2026-04-25T17:34:15Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_3_19db5297__q002",
+    "source_sample_id": "self_collection_dark_messy_desk_3_19db5297",
+    "entry_id": "q002",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a book in the image?",
+    "instruction": "Is there any vacant space to place a book in the image?",
+    "answer": "yes",
+    "rgb": "dark_messy_desk/3.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a book in the image?",
+    "output_instruction": "Is there any vacant space to place a book in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "G": [
+          "stacked_layout",
+          "cluttered_layout"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_3_19db5297_obj_000",
+      "placementItem": "book",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "self_collection_dark_messy_desk_3_19db5297_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_dark_messy_desk_3_19db5297_obj_001",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "stacked_layout",
+        "cluttered_layout"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

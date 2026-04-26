@@ -1,0 +1,185 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_43_7b0aa8e3__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_43_7b0aa8e3",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:36:41Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_43_7b0aa8e3__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_43_7b0aa8e3",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the clock in the image.",
+    "instruction": "Locate the clock in the image.",
+    "answer": "clock",
+    "rgb": "dark_messy_desk/43.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_43_7b0aa8e3_obj_014",
+      "object_name": "clock",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3648,
+            5472
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "^hSY85ia36I5M3M2",
+            "N2N2i`LYOR]3i0kb",
+            "L^Oo\\3d0mbL@Q]3c",
+            "0jbLBR]3b0ibLCS]",
+            "3f0cbL@X]3g2K6K5",
+            "J5L4L4K4L5K5K4N2",
+            "N2M4M2N3M2O1N2N2",
+            "N2M3N2M3L4L4M3N2",
+            "M3M3N3L3N2N3M2M4",
+            "L3N3M2N2M4N1M4M3",
+            "M3M3L4M3L5K4L4K6",
+            "I6L3M3M3N2M4M2N1",
+            "01N1O2N2N1N3M3M2",
+            "N3M3M3M2M4L4L4L3",
+            "N3M3M2N3O0O100O2",
+            "N100O1N2O2M2N2M3",
+            "N2M3N2N2O2M2N2N2",
+            "N2N3N1O101N1O1N2",
+            "O2N1N2N3L3L4K6L3",
+            "M3O2M2O2M2O1N3N1",
+            "N3M2O2M2O2M2O2N1",
+            "N3M2N2N3M2M3N3M2",
+            "N2O2M2N3N1O2N1O2",
+            "M2M4M2N3M2N3N1N3",
+            "M3M2N3M2N3N1N2N3",
+            "N1N3O0O1O1O2N1O1",
+            "O2M2O1N3M2M3N3M2",
+            "N3M2O1O2M2O1N3O0",
+            "O1O2N1O1O2M2O1O2",
+            "M2O2M2N2N3L3M4M2",
+            "M4M2N3M2O2N1O2N1",
+            "N2O2L3N3L3O2L3N3",
+            "N1M4M2M4M2M3O1N3",
+            "N1N2000000O2O000",
+            "O100O1O1O2M2N2K5",
+            "K5L5M2N2M4J5L410",
+            "0O2O0O2N2O0O2O1N",
+            "1O2O0O100O100O00",
+            "O2O000O2O0N2O1N3",
+            "M2N2O1N2O2M2O1N2",
+            "O2O0O1O2O0O1O1O2",
+            "O0O1O1O2O0O1O1O2",
+            "N1O1O1N2O2N1O1N2",
+            "O1N3N001O1O1O001",
+            "O00001O00001O000",
+            "O2O001O00001O000",
+            "01O01O0000001N1O",
+            "100O1O1O101N1000",
+            "000000000O100O10",
+            "0O2N1O1O1O100O10",
+            "0O10000O01000O01",
+            "0O0100000O100O2N",
+            "1O1N2M4M2O1N2O1O",
+            "1O1O1O1O10000O10",
+            "0O100O10001O0000",
+            "001O00001O000000",
+            "1O00001O01O00000",
+            "001O000O2N1O1O1O",
+            "2N1O2O0O2N10001N",
+            "101O001N2O0O2O0O",
+            "2N101N101TM]SMY@",
+            "dl2e?_SMY@cl2e?`",
+            "SMY@`l2g?aSMW@al",
+            "2h?aSMU@`l2k?aSM",
+            "R@bl2m?_SMP@cl2P",
+            "`0_SMm_Obl2S`0_S",
+            "Ml_Obl2S`0_SMl_O",
+            "al2S`0aSMl_O_l2U",
+            "`0aSMi_Oal2W`0_S",
+            "Mg_Obl2Y`0^SMg_O",
+            "bl2Z`0^SMd_Odl2\\",
+            "`0\\SMb_Oel2_`0ZS",
+            "M`_Ogl2b`0WSM[_O",
+            "ll2i`0oRMU_OUm2P",
+            "a0cRMP_O_m2fb03M",
+            "2O1O2N1O101O0O10",
+            "010O001N101N100O",
+            "2N2L3N3M3N1O2O00",
+            "1O001N101O0010O0",
+            "1M2O2N101N1O2N10",
+            "1M3N1L5K4O2N1O2O",
+            "1O010O00100O0N3N",
+            "2N2O0O2M3N2N2N1N",
+            "3M3M3N2N2N101O1O",
+            "1O1O100N2N2N1O2O",
+            "1M3M3N2N2M3M3M3K",
+            "5N2N2N2O100O1O10",
+            "0N2N2O1N2M3M3M3N",
+            "2M3O1M3N2N2N2N2N",
+            "2O1O1O1O101N1N2N",
+            "2N3M2N2L5K4N3L3O",
+            "1M4M2O2L3N3M2N3N",
+            "1O2M2O2L3M4K4M4L",
+            "3M4L4M3L3N3M3L4M",
+            "3N2N2N2N2N2N2O1N",
+            "2N2M3M3M4L3M4K4L",
+            "5L3L5L3K6@?eN\\1D",
+            ";J7H7I8I6K6K5K5K",
+            "6J6J5J6I8H9F:H8G",
+            ":G9G:D>_Ob0]Og0V",
+            "Oh[c\\8"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2453.495849609375,
+        836.1112060546875,
+        3075.609619140625,
+        1722.14306640625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the clock in the image?",
+    "output_instruction": "What is the segmentation mask of the clock in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "extreme_viewpoint"
+        ],
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_43_7b0aa8e3_obj_014",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "extreme_viewpoint"
+      ],
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

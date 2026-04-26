@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_60_642dc10f__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_60_642dc10f",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:02:24Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_60_642dc10f__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_60_642dc10f",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the person in the image.",
+    "instruction": "Locate the person in the image.",
+    "answer": "person",
+    "rgb": "dark_messy_desk/60.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_60_642dc10f_obj_010",
+      "object_name": "person",
+      "bbox_xyxy": [
+        4.221748352050781,
+        293.8238525390625,
+        1953.7662353515625,
+        3987.924560546875
+      ],
+      "bbox_xywh": [
+        4.221748352050781,
+        293.8238525390625,
+        1949.5444869995117,
+        3694.1007080078125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the person in the image?",
+    "output_instruction": "What is the bounding box of the person in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_60_642dc10f_obj_010",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

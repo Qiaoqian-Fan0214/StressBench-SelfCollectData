@@ -1,0 +1,78 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_45_76ec61f5__q002",
+  "source_sample_id": "self_collection_dark_messy_desk_45_76ec61f5",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:37:52Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_45_76ec61f5__q002",
+    "source_sample_id": "self_collection_dark_messy_desk_45_76ec61f5",
+    "entry_id": "q002",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the person relative to the keyboard in the image?",
+    "instruction": "What is the spatial relation of the person relative to the keyboard in the image?",
+    "answer": "down",
+    "rgb": "dark_messy_desk/45.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 1
+      },
+      "subject_a": {
+        "object_id": "self_collection_dark_messy_desk_45_76ec61f5_obj_000",
+        "label": "person"
+      },
+      "subject_b": {
+        "object_id": "self_collection_dark_messy_desk_45_76ec61f5_obj_001",
+        "label": "keyboard"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the person relative to the keyboard in the image?",
+    "output_instruction": "What is the spatial relation of the person relative to the keyboard in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "G": [
+          "occlusion",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_45_76ec61f5_obj_000",
+      "placementItem": "mug",
+      "answerIndex": 1,
+      "spatialRelationAObjectId": "self_collection_dark_messy_desk_45_76ec61f5_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_dark_messy_desk_45_76ec61f5_obj_001",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "G": [
+        "occlusion",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

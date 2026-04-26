@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_27_db0cbaa4__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_27_db0cbaa4",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:26:46Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_27_db0cbaa4__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_27_db0cbaa4",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the pen in the image.",
+    "instruction": "Locate the pen in the image.",
+    "answer": "pen",
+    "rgb": "dark_messy_desk/27.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_27_db0cbaa4_obj_009",
+      "object_name": "pen",
+      "bbox_xyxy": [
+        883.6787109375,
+        3618.113037109375,
+        1229.1241455078125,
+        3964.260009765625
+      ],
+      "bbox_xywh": [
+        883.6787109375,
+        3618.113037109375,
+        345.4454345703125,
+        346.14697265625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the pen in the image?",
+    "output_instruction": "What is the bounding box of the pen in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "stacked_layout",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_27_db0cbaa4_obj_009",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "stacked_layout",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

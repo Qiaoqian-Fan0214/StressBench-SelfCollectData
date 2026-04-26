@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_44_0d4b1f20__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_44_0d4b1f20",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:37:22Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_44_0d4b1f20__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_44_0d4b1f20",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the notebook in the image.",
+    "instruction": "Locate the notebook in the image.",
+    "answer": "notebook",
+    "rgb": "dark_messy_desk/44.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_44_0d4b1f20_obj_012",
+      "object_name": "notebook",
+      "bbox_xyxy": [
+        970.6327514648438,
+        2750.379638671875,
+        4050.310546875,
+        4462.7216796875
+      ],
+      "bbox_xywh": [
+        970.6327514648438,
+        2750.379638671875,
+        3079.6777954101562,
+        1712.342041015625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the notebook in the image?",
+    "output_instruction": "What is the bounding box of the notebook in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "G": [
+          "occlusion",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_44_0d4b1f20_obj_012",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "G": [
+        "occlusion",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_43_7b0aa8e3__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_43_7b0aa8e3",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:36:41Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_43_7b0aa8e3__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_43_7b0aa8e3",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the clock in the image.",
+    "instruction": "Locate the clock in the image.",
+    "answer": "clock",
+    "rgb": "dark_messy_desk/43.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_43_7b0aa8e3_obj_014",
+      "object_name": "clock",
+      "bbox_xyxy": [
+        2453.495849609375,
+        836.1112060546875,
+        3075.609619140625,
+        1722.14306640625
+      ],
+      "bbox_xywh": [
+        2453.495849609375,
+        836.1112060546875,
+        622.11376953125,
+        886.0318603515625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the clock in the image?",
+    "output_instruction": "What is the bounding box of the clock in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "extreme_viewpoint"
+        ],
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_43_7b0aa8e3_obj_014",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "extreme_viewpoint"
+      ],
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

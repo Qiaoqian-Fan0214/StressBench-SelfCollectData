@@ -1,0 +1,139 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_18_4725c53d__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_18_4725c53d",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:17:27Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_18_4725c53d__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_18_4725c53d",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the pen in the image.",
+    "instruction": "Locate the pen in the image.",
+    "answer": "pen",
+    "rgb": "dark_messy_desk/18.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_18_4725c53d_obj_000",
+      "object_name": "pen",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4000,
+            6000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "b^3d2\\j300000000",
+            "000000000O10O100",
+            "00O010O010O010O1",
+            "0O0010O010O01O00",
+            "10O10O10O01000O0",
+            "10000O01000O10O1",
+            "0O10O10O10O10O10",
+            "00O010O01000O010",
+            "O100O010O100O10O",
+            "01O100O00100O010",
+            "O10O01O010O001O0",
+            "10O0010O010O010O",
+            "0100O01000O01000",
+            "O01000O01000O010",
+            "O10O10O10O010O01",
+            "O10O010O010O010O",
+            "0100O010O010O100",
+            "O010O10000O010O1",
+            "000O0100O01000O1",
+            "0O10O10O01000O01",
+            "00O010O1000O0100",
+            "00O010O100O010O1",
+            "0O10O01000O01O10",
+            "O01O0010O01O010O",
+            "0010O01O010O0010",
+            "O010O0100O010O01",
+            "000O010O010O0100",
+            "0O010O010O10O010",
+            "O010O010O010O10O",
+            "010O010O01000O01",
+            "0O01000O010O0100",
+            "0O0100O0100O0100",
+            "O0010O0100O010O0",
+            "010O01O0010O01O1",
+            "0O0100O10O010000",
+            "O010O100000O0100",
+            "000O0100000O010O",
+            "010O1O010O0010O0",
+            "1O001O00001O001N",
+            "101O01O010O10000",
+            "O10O0100O10000O2",
+            "O0O10000O10000O1",
+            "00O10000O100O100",
+            "O1O010O1O100O1O0",
+            "10O1O100O100O1O1",
+            "0O0100O100O100O1",
+            "00O10O0100O1O100",
+            "O100O100O100O100",
+            "00O10O010O0100O0",
+            "10O010O010O0010O",
+            "010O01O10O01O010",
+            "O100O010O100O1O1",
+            "00O100O1O100O1O2",
+            "N1O1O1N2O1O2M2O1",
+            "O2M5JjebWe0"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1.5531331300735474,
+        3381.06787109375,
+        444.0094299316406,
+        3622.96826171875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the pen in the image?",
+    "output_instruction": "What is the segmentation mask of the pen in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "V": [
+          "small_scale"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_18_4725c53d_obj_000",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_29_1a59b10e__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_29_1a59b10e",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:28:27Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_29_1a59b10e__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_29_1a59b10e",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cabinet in the image.",
+    "instruction": "Locate the cabinet in the image.",
+    "answer": "cabinet",
+    "rgb": "dark_messy_desk/29.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_29_1a59b10e_obj_003",
+      "object_name": "cabinet",
+      "bbox_xyxy": [
+        1858.344970703125,
+        795.0046997070312,
+        3449.8798828125,
+        3945.507568359375
+      ],
+      "bbox_xywh": [
+        1858.344970703125,
+        795.0046997070312,
+        1591.534912109375,
+        3150.5028686523438
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cabinet in the image?",
+    "output_instruction": "What is the bounding box of the cabinet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend",
+          "complex_texture"
+        ],
+        "G": [
+          "stacked_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_29_1a59b10e_obj_003",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend",
+        "complex_texture"
+      ],
+      "G": [
+        "stacked_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

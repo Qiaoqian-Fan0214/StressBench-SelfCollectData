@@ -1,0 +1,86 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_77_cd481a16__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_77_cd481a16",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:17:00Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_77_cd481a16__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_77_cd481a16",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the knife in the image.",
+    "instruction": "Locate the knife in the image.",
+    "answer": "knife",
+    "rgb": "dark_messy_desk/77.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_77_cd481a16_obj_008",
+      "object_name": "knife",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2700,
+            2160
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "mPjY1T1:TORb2S3X",
+            "N]1U`M\\Kl]2i7iMl",
+            "2TM?A8H8cNoDohMY",
+            ";iV2PEnhMW;kV2Z1",
+            "K5L4K5L5K2M3N1O0",
+            "01O1O001O0010O0O",
+            "101N2N1O2N3M2lBj",
+            "iMo;^V2dCiiMY<XW",
+            "2M1M4L4L4L5K5_Dj",
+            "gMe:\\\\2`Lj0WOh0W",
+            "O?BT1jNm0aK^`M^2",
+            "Yb2jMRjST4"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        501.6535949707031,
+        1163.1197509765625,
+        560.606201171875,
+        1629.2288818359375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the knife in the image?",
+    "output_instruction": "What is the segmentation mask of the knife in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_77_cd481a16_obj_008",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

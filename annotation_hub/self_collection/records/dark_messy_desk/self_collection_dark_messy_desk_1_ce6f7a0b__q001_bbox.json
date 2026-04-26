@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_1_ce6f7a0b__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_1_ce6f7a0b",
+  "status": "annotated",
+  "updated_at": "2026-04-25T17:28:50Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_1_ce6f7a0b__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_1_ce6f7a0b",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the calendar in the image.",
+    "instruction": "Locate the calendar in the image.",
+    "answer": "calendar",
+    "rgb": "dark_messy_desk/1.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_1_ce6f7a0b_obj_010",
+      "object_name": "calendar",
+      "bbox_xyxy": [
+        1527.288818359375,
+        843.1362915039062,
+        2473.896240234375,
+        1529.284912109375
+      ],
+      "bbox_xywh": [
+        1527.288818359375,
+        843.1362915039062,
+        946.607421875,
+        686.1486206054688
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the calendar in the image?",
+    "output_instruction": "What is the bounding box of the calendar in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "stacked_layout"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_1_ce6f7a0b_obj_010",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "stacked_layout"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

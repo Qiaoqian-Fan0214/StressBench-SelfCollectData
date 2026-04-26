@@ -1,0 +1,115 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_80_c4dbc4a0__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_80_c4dbc4a0",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:18:54Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_80_c4dbc4a0__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_80_c4dbc4a0",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the tape in the image.",
+    "instruction": "Locate the tape in the image.",
+    "answer": "tape",
+    "rgb": "dark_messy_desk/80.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_80_c4dbc4a0_obj_011",
+      "object_name": "tape",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4122,
+            6183
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "i_XYd05cP4<PTLDm",
+            "f3c0kXLBPg3b0lXL",
+            "ARg3c0jXL@Sg3c0i",
+            "XL@Vg3a0gXLBWg3b",
+            "0dXLBYg3a0cXLB\\g",
+            "3`0`XLD]g3`0_XLB",
+            "_g3b0\\XLBbg3a0YX",
+            "LBeg3d0TXL@jg3e0",
+            "nWL_OPh3g0gWL_OV",
+            "h3f0cWL^O\\h3e0^W",
+            "L_O`h3f0YWL^Ofh3",
+            "m0kVLYOSi3X4N2O1",
+            "N101O1N2O0O2O1O1",
+            "N101N2O1N101N2O1",
+            "N101N2O0O2O1N2O0",
+            "O2O1N101N2O001N2",
+            "O001O0O2O001O0O2",
+            "O001O001N101O001",
+            "O000O2O001O00001",
+            "N101O00001O0O100",
+            "01O0000001O0O100",
+            "001O000000000000",
+            "0000000O2O000000",
+            "000000000000001O",
+            "000000000O100000",
+            "1O000000000O2O00",
+            "00001O0O101O0O2O",
+            "001N101N2O0O2O1N",
+            "101N2O0O2O1N101N",
+            "2O001N2O1N2O0O2O",
+            "1N2O1N2N101N2O1N",
+            "1O2O1N2O0O2N2O0O",
+            "2N2O0O2O0O2O1N2O",
+            "0O2O1N101N2N2O1N",
+            "2O1N1O2N2O1N2N3M",
+            "2N2M4M4K;C<E;D;E",
+            ":F=WOkmVU3"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        5154.89599609375,
+        1444.997314453125,
+        5379.55517578125,
+        1725.579833984375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the tape in the image?",
+    "output_instruction": "What is the segmentation mask of the tape in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_80_c4dbc4a0_obj_011",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_64_fdbe5da2__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_64_fdbe5da2",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:05:16Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_64_fdbe5da2__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_64_fdbe5da2",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the potted plant in the image.",
+    "instruction": "Locate the potted plant in the image.",
+    "answer": "potted plant",
+    "rgb": "dark_messy_desk/64.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_64_fdbe5da2_obj_014",
+      "object_name": "potted plant",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3439,
+            4657
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "WcmR25W[36K5K5J6",
+            "I6K4L5L3L4L5L3L4",
+            "M3N2M4L3N2N3M3M3",
+            "M5K6J6J4L3N1N2N2",
+            "O0O2O0O100O100O1",
+            "O100O2N1O100O1O2",
+            "N1O1N2O2N1N3K4\\N",
+            "e1L3N3M2M4K4L5L3",
+            "M3N3N1O2M2O2N1O2",
+            "N1O2N1O2N2N1O2N1",
+            "O2N2N1O2N1O2N1O1",
+            "`NUH[oLl7dP3VHZo",
+            "Lk7dP3YHYoLh7fP3",
+            "ZHXoLg7fP3\\HWoLf",
+            "7hP3\\HUoLf7iP3^H",
+            "SoLd7lP3^HPoLf7n",
+            "P3]HmnLf7QQ3^Hjn",
+            "Le7TQ3aHdnLc7ZQ3",
+            "Z1M3K5L4L4N2N2N3",
+            "O0O2N1O2N1O2N1O2",
+            "M3N2O1N2O1N2O1N2",
+            "O1N3N0O2O1N2O1N2",
+            "O1O2M2O1N2O1N2O0",
+            "00O2O0000O10O10O",
+            "100O100O100O10O0",
+            "100O100000001O00",
+            "00000000010O0000",
+            "0000000010O00000",
+            "1O0000001O000010",
+            "O0001O00000010O0",
+            "kPMXDcn2]<M2N2N2",
+            "O3L6Jj0QSMQBjj2e",
+            "?E8H3M3M3M3N2M4L",
+            "3M5K4K8I`0@8H8G7",
+            "J3M3L3N2M3N2N1N3",
+            "N1N2O2N1N2O1N2O1",
+            "N2O0O2N2N2N1O2N1",
+            "N3N2N2N3L7J;F1N2",
+            "O1N2O00000000000",
+            "0001N10000000000",
+            "1O10O01O1O1O1O10",
+            "1N1O1O2N100O1O1O",
+            "1O1O01O01O000000",
+            "001O000000000000",
+            "00000000001O01O0",
+            "0000010O0001O000",
+            "0010O00001O00000",
+            "001O000000000000",
+            "0000001O00000000",
+            "0O1000O1000000O0",
+            "10O10000O1000O01",
+            "0000O1000O100000",
+            "0O2O000O10001O0O",
+            "10001O0O100O2N1M",
+            "4I6^Oc0H8K5K5L6J",
+            "7I8G9D;@`0F9I7I6",
+            "K5J5J6K6I5J7G8J7",
+            "J5L5K4L4L5G8J7J5",
+            "L4L4M3M3J6I7J6K4",
+            "K6K4L5I7J5I8J6L3",
+            "N3N2N101O1N2O2N1",
+            "O1O2N2N3M2O1fFln",
+            "LV8WQ3eGToLS8mP3",
+            "hGYoLU8kP3cG\\oL[",
+            "8mQ3N2O1N2O1N101",
+            "O1N101N1O101N1O1",
+            "01N100O1O2O000O1",
+            "01N1000001N101O0",
+            "01O1O1O001O2N1O2",
+            "N1O1O2N1O2N2O2M3",
+            "M5L2N2M2O1O001O0",
+            "01O000001O000000",
+            "000001N3N2M3N2N2",
+            "M3N2M4M3M2M3N1O1",
+            "N1O1O1O2N1N2O2M3",
+            "M4M3L3M2O2M2N3M2",
+            "O1N2N2O1N2N1O2O1",
+            "N2N2N1N3N2N3L3M4",
+            "M3L4K6K5I6K6J5J6",
+            "K5L4L4L4L5K7I9H8",
+            "G7I7IRWZZ;"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        620.3671875,
+        2036.3631591796875,
+        1223.8076171875,
+        2746.4189453125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the potted plant in the image?",
+    "output_instruction": "What is the segmentation mask of the potted plant in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_64_fdbe5da2_obj_014",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

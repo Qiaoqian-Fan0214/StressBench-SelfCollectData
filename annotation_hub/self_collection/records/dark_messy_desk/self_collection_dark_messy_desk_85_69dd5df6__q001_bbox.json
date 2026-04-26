@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_85_69dd5df6__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_85_69dd5df6",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:22:29Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_85_69dd5df6__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_85_69dd5df6",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the straw in the image.",
+    "instruction": "Locate the straw in the image.",
+    "answer": "straw",
+    "rgb": "dark_messy_desk/85.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_85_69dd5df6_obj_006",
+      "object_name": "straw",
+      "bbox_xyxy": [
+        2607.602783203125,
+        1395.9173583984375,
+        2779.791748046875,
+        3990.1123046875
+      ],
+      "bbox_xywh": [
+        2607.602783203125,
+        1395.9173583984375,
+        172.18896484375,
+        2594.1949462890625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the straw in the image?",
+    "output_instruction": "What is the bounding box of the straw in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "extreme_viewpoint",
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_85_69dd5df6_obj_006",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "extreme_viewpoint",
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

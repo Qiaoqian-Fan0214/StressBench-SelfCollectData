@@ -1,0 +1,152 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_19_9c704595__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_19_9c704595",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:19:37Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_19_9c704595__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_19_9c704595",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the pen in the image.",
+    "instruction": "Locate the pen in the image.",
+    "answer": "pen",
+    "rgb": "dark_messy_desk/19.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_19_9c704595_obj_002",
+      "object_name": "pen",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            6720,
+            4480
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "eU[ca0;da61N2N2O",
+            "1O1O1O1O1O1O1O1O",
+            "1O1O1N2O1O1N2O1O",
+            "1O1N2O1O1N2O1O1O",
+            "1O1O1O1O1O1N2O1O",
+            "1N2N2O1N2N2O1N2O",
+            "1N2O1O100O1O1O1O",
+            "1O1O100O1O1N2O1O",
+            "1O1N2N2O1N2N2N2O",
+            "1N2N2O1N2O1O1N2O",
+            "1N2O1O1O1N2O1O10",
+            "0O1N2O1O1O1O1O1O",
+            "1O1N2O1N2O1N2O1O",
+            "1N2O1N2O1O1O1O1O",
+            "1O1O1O1O1O1O1O1O",
+            "1N2O1N2N2NG9O101",
+            "00O0100000000001",
+            "N101O000000001OO",
+            "10000O1O1O1O1O1O",
+            "1O1O1000O01O1O1N",
+            "20OO2O00100000O0",
+            "1000O10000O100O0",
+            "100O001O10000O10",
+            "0O1O101O01O00000",
+            "000000000O10000O",
+            "100O1O010O1O10O1",
+            "00O1O100O1O1O1O2",
+            "N100O1O1000O10O0",
+            "1O1O100O1O2N100O",
+            "YMbcIO^\\62bcIM]\\",
+            "64ccIL]\\65bcIK]\\",
+            "66ccIJ\\\\68dcIG[\\",
+            "69fcIFZ\\6=dcIC[\\",
+            "6P31O010O1VM]cI8",
+            "c\\6FacI7_\\6HdcI7",
+            "\\\\6HfcI7Z\\6IgcI6",
+            "Y\\6IjcI5V\\6JlcI4",
+            "U\\6KmcI4S\\6JPdI5",
+            "P\\6ISdI6m[6GWdI8",
+            "i[6FZdI9f[6E]dI:",
+            "b[6F`dI9`[6GadI8",
+            "_[6HbdI7_[6HadI7",
+            "`[6J`dI5a[6J_dI6",
+            "a[6J_dI5b[6K^dI5",
+            "b[6K^dI5c[6J\\dI7",
+            "e[6HXdI:j[6ERdI?",
+            "o[6^OPdIe0Q\\6UOS",
+            "dIk0o[6QORdIQ1n[",
+            "6lNUdIT1l[6iNUdI",
+            "X1l[6fNUdIZ1k[6d",
+            "NWdI\\1j[6aNXdI_1",
+            "i[6_NXdIa1i[6\\NY",
+            "dId1g[6ZN\\dId1f[",
+            "6XN]dIh1d[6PNddI",
+            "o1][6mMfdIR2\\[6m",
+            "MedIR2\\[6mMedIR2",
+            "\\[6lMedIS2][6kMe",
+            "dIT2c]6O101O001O",
+            "0O100O001O2O0O1O",
+            "1O100O10000O2O00",
+            "000010O0001N1000",
+            "1O00000O2N100O10",
+            "0O100000000O1000",
+            "00O2O000O100001N",
+            "10000O100O2O0O2N",
+            "10001N1000000000",
+            "000O1000O1O100O1",
+            "000O100000000O2O",
+            "1N101N101N2N1O2N",
+            "1N2N3N10001O0000",
+            "01O0010O1O1O1O1O",
+            "1O3M5I_o\\b8"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2742.128662109375,
+        6336.7685546875,
+        3151.727294921875,
+        6709.279296875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the pen in the image?",
+    "output_instruction": "What is the segmentation mask of the pen in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame",
+          "small_scale"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_19_9c704595_obj_002",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame",
+        "small_scale"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_83_53edc730__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_83_53edc730",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:20:32Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_83_53edc730__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_83_53edc730",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the computer mouse in the image.",
+    "instruction": "Locate the computer mouse in the image.",
+    "answer": "computer mouse",
+    "rgb": "dark_messy_desk/83.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_83_53edc730_obj_005",
+      "object_name": "computer mouse",
+      "bbox_xyxy": [
+        719.0070190429688,
+        2169.069091796875,
+        865.5302734375,
+        2274.389892578125
+      ],
+      "bbox_xywh": [
+        719.0070190429688,
+        2169.069091796875,
+        146.52325439453125,
+        105.32080078125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the computer mouse in the image?",
+    "output_instruction": "What is the bounding box of the computer mouse in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_83_53edc730_obj_005",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

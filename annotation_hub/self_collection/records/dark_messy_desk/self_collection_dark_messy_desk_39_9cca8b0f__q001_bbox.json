@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_39_9cca8b0f__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_39_9cca8b0f",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:34:14Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_39_9cca8b0f__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_39_9cca8b0f",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the eraser in the image.",
+    "instruction": "Locate the eraser in the image.",
+    "answer": "eraser",
+    "rgb": "dark_messy_desk/39.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_39_9cca8b0f_obj_011",
+      "object_name": "eraser",
+      "bbox_xyxy": [
+        1323.0032958984375,
+        3586.273193359375,
+        1596.5550537109375,
+        3726.74365234375
+      ],
+      "bbox_xywh": [
+        1323.0032958984375,
+        3586.273193359375,
+        273.5517578125,
+        140.470458984375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the eraser in the image?",
+    "output_instruction": "What is the bounding box of the eraser in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_39_9cca8b0f_obj_011",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

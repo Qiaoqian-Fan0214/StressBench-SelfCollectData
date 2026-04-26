@@ -1,0 +1,107 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_69_780d96b0__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_69_780d96b0",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:10:43Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_69_780d96b0__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_69_780d96b0",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the phone in the image.",
+    "instruction": "Locate the phone in the image.",
+    "answer": "phone",
+    "rgb": "dark_messy_desk/69.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_69_780d96b0_obj_007",
+      "object_name": "phone",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2725,
+            4096
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "VZUV47kd28H7J8I9",
+            "F:H6I7I7J5J7J8H9",
+            "F6K4L5J5L6J6I6K6",
+            "e_MiK\\_2^4T`MmKi",
+            "_2k4M2k`MhJY^2[5",
+            "aaMiJ]^2Z5]aMlJa",
+            "^2m5O1N2O1O0O100",
+            "O10001N100O100O1",
+            "00O1000O0100000O",
+            "10O1000O1000000O",
+            "0100000O1000O010",
+            "000O0100000O10O1",
+            "000O1000O10O100O",
+            "1O010O100O010O1O",
+            "1O00100O10O10O10",
+            "00O10O1000O1000O",
+            "10000000001O001O",
+            "10O01O1O1O1O2N2N",
+            "6J9G;E8H7I7I8H7I",
+            "8H9G5K5K3M4L6J6J",
+            "7H:G8H6J6I7J5J5l",
+            "N^\\M=Xd2L4M2L3Nb",
+            "PRR6"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1608.096435546875,
+        889.6256713867188,
+        1761.594970703125,
+        1122.96826171875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the phone in the image?",
+    "output_instruction": "What is the segmentation mask of the phone in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_69_780d96b0_obj_007",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

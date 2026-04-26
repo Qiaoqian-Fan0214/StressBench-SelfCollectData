@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_97_948f454e__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_97_948f454e",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:29:56Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_97_948f454e__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_97_948f454e",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the pen in the image.",
+    "instruction": "Locate the pen in the image.",
+    "answer": "pen",
+    "rgb": "dark_messy_desk/97.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_97_948f454e_obj_002",
+      "object_name": "pen",
+      "bbox_xyxy": [
+        2974.605712890625,
+        2037.903564453125,
+        3141.2822265625,
+        2113.9384765625
+      ],
+      "bbox_xywh": [
+        2974.605712890625,
+        2037.903564453125,
+        166.676513671875,
+        76.034912109375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the pen in the image?",
+    "output_instruction": "What is the bounding box of the pen in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "V": [
+          "extreme_viewpoint"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_97_948f454e_obj_002",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "V": [
+        "extreme_viewpoint"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_4_f30a1e8b__q001",
+  "source_sample_id": "self_collection_dark_messy_desk_4_f30a1e8b",
+  "status": "annotated",
+  "updated_at": "2026-04-25T17:36:12Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_4_f30a1e8b__q001",
+    "source_sample_id": "self_collection_dark_messy_desk_4_f30a1e8b",
+    "entry_id": "q001",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the fire extinguisher relative to the window in the image?",
+    "instruction": "What is the spatial relation of the fire extinguisher relative to the window in the image?",
+    "answer": "down",
+    "rgb": "dark_messy_desk/4.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 1
+      },
+      "subject_a": {
+        "object_id": "self_collection_dark_messy_desk_4_f30a1e8b_obj_000",
+        "label": "fire extinguisher"
+      },
+      "subject_b": {
+        "object_id": "self_collection_dark_messy_desk_4_f30a1e8b_obj_003",
+        "label": "window"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the fire extinguisher relative to the window in the image?",
+    "output_instruction": "What is the spatial relation of the fire extinguisher relative to the window in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_4_f30a1e8b_obj_000",
+      "placementItem": "vase",
+      "answerIndex": 1,
+      "spatialRelationAObjectId": "self_collection_dark_messy_desk_4_f30a1e8b_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_dark_messy_desk_4_f30a1e8b_obj_003",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

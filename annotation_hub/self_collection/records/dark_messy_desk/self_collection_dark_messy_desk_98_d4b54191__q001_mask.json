@@ -1,0 +1,156 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_98_d4b54191__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_98_d4b54191",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:30:43Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_98_d4b54191__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_98_d4b54191",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the mouse in the image.",
+    "instruction": "Locate the mouse in the image.",
+    "answer": "mouse",
+    "rgb": "dark_messy_desk/98.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_98_d4b54191_obj_001",
+      "object_name": "mouse",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3959,
+            5938
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Snk^`0P1]j3S1SO`",
+            "0B>B:F;E=Bc0^O;E",
+            "9G7I6K5J5K5L4L4L",
+            "3M4L2M4M2N3L3N2M",
+            "3M3M3M3M4K4M3M4L",
+            "3M3M3N2M4L3M2O2M",
+            "3M3L4M3K5TH^G^lL",
+            "e8[S3mGUlLY8eS3c",
+            "H_kLc7^T3^I_jLg6",
+            "_U3eIQjLb6lU3kIc",
+            "iL[6ZV3UJRiLR6mV",
+            "3UJfhLR6XW3VJZhL",
+            "S6cW3VJmgLS6RX3W",
+            "J\\gLR6bX3WJmfLT6",
+            "QY3Z6N2O1N2O1N10",
+            "1N2O1N101N2N2O1N",
+            "2N2N2N2N2M4M2N3M",
+            "2N3M2N3M2O2M2O1O",
+            "1N2N3N2M2N4L3M4K",
+            "3M4L4J6L4K5L4M3L",
+            "4K5L5J5L4L3N3M2N",
+            "2O1N3M3N1N3N3L3N",
+            "3L3N2N1O2M2O1O2M",
+            "2O1O2N1N3N1O2M3N",
+            "1O2M3N1O1N2O2M2O",
+            "1O2M2O1N3N1N2O1O",
+            "1N2O1O1O0O2O001N",
+            "2O001O0O2O001N10",
+            "1N101O1N101O0O10",
+            "1O0O2O0O2O000O2O",
+            "0O101O0O2O001N10",
+            "0O2O001N10001N10",
+            "000O2O00000O1000",
+            "1N1000000O101O00",
+            "0O10001O0000001O",
+            "0000001O00000010",
+            "O00000001O01O000",
+            "0010O0000001O01O",
+            "000001O000000000",
+            "10O00000000001O0",
+            "001O01O0000001O0",
+            "000001O0000001O0",
+            "001O0001O0000000",
+            "000001O000000000",
+            "0000000000000000",
+            "00000000000000O1",
+            "000000000O100000",
+            "0000000000000O10",
+            "00000000000O1000",
+            "0000000000O10000",
+            "0000000000O10000",
+            "00000000O1000000",
+            "01O000O2O001O001",
+            "N101O00001N101O0",
+            "O2O001N101N101N2",
+            "O0O2O1N1O2N2N1O2",
+            "N2N1O2N1O2N2O0O2",
+            "N1O2O0O2N2N2N2N2",
+            "N2N2N3L3N2M3N2M3",
+            "N2N2M3N1O2N1O2M2",
+            "O2N1O2M2O2N1N3M2",
+            "O2N2M3N1N3N2M3N2",
+            "N2M4L3M4E:E;L5K4",
+            "N2M4L4L3M4K5L4L5",
+            "J5L5K5K4L5K4L5K6",
+            "J6J6J6J6J5K6J5L3",
+            "L5K5K6K4K5K5L4K7",
+            "I6J6J6J8H7I7J7H9",
+            "H7I6J6J7I6K5J6J6",
+            "K5J7I5K6I5L4L5I5",
+            "J7J5L3L5L4K4M4K4",
+            "M4K6K3M4M3M2M3N3",
+            "M3L5K4M3L5K6J6I6",
+            "K4L5K5K6J5K5K5K3",
+            "L5L3M3N2M3N2N2M5",
+            "J6K4K5L5K6G9H8H9",
+            "E:C=C<XNi1Ca0@h0",
+            "jNk^Pk3"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        4342.1259765625,
+        2842.4677734375,
+        4940.7919921875,
+        3738.461669921875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the mouse in the image?",
+    "output_instruction": "What is the segmentation mask of the mouse in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_98_d4b54191_obj_001",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

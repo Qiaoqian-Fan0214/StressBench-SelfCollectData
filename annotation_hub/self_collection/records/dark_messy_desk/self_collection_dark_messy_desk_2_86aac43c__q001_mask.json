@@ -1,0 +1,145 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_2_86aac43c__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_2_86aac43c",
+  "status": "annotated",
+  "updated_at": "2026-04-25T17:32:10Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_2_86aac43c__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_2_86aac43c",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "dark_messy_desk/2.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_2_86aac43c_obj_000",
+      "object_name": "cup",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3851,
+            5776
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "id]jb0?]g3c0E:G9",
+            "F;C>B<G9H6I7I7D=",
+            "N1O001O1O001O001",
+            "O00001O00001O000",
+            "0000000000000000",
+            "00000O1000000000",
+            "0000000O10000000",
+            "000000000000000O",
+            "1000000000000000",
+            "00000000000O1000",
+            "0000000000000000",
+            "00000O1000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "00000O1000000000",
+            "0000000000000000",
+            "0000000O10000000",
+            "0000000O10000000",
+            "000000000O100000",
+            "0000000000000000",
+            "0000000000000000",
+            "0O10000000000000",
+            "000000000O100000",
+            "0000000000000000",
+            "00000O1000000000",
+            "000000000000000O",
+            "1000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "000000000001O000",
+            "000001O00001O000",
+            "01O00001O001O1O0",
+            "01O1O001O1O1O1O1",
+            "O1O1O1O1O1O1O1O1",
+            "O1O1O2N1O1O2N1O2",
+            "N1O2N2N2N2N1O1O2",
+            "N1O1O1O1O2N1O2N1",
+            "O2N1O2N2N2N1O1O2",
+            "N1O1O1O1O2N1O2N2",
+            "N2N2N2N2N2N2N1O2",
+            "N1O1O2N1O2N1O1O2",
+            "N1O2N1O1O2N1O1O1",
+            "O1O1O2N1O1O1O1O1",
+            "O1O1O1O000000001",
+            "OO100O1O100O1O1O",
+            "1O1O1O1O1O1O1O1N",
+            "2O1O1N2O1O1O1O1O",
+            "1O1O1O1O1O1O1O1O",
+            "1O1O1O1O1O1N2O1O",
+            "1O1N2O1N2O1O1N2O",
+            "1O1N2O1O1O1O1O1O",
+            "1O1N2O1O1O1N2O1N",
+            "2O1O1O1N2O1O1O1N",
+            "2O1N2O1N2O1N2N2O",
+            "1N2O1O1N2O1O1N2O",
+            "1O1N2O1N2N2O1N2O",
+            "1N2N2O1N2O1N2N2N",
+            "2O1N2N2N2N2O1N2N",
+            "2O1N2N2M3M3L4M3M",
+            "3N2N2O1N2O100O1O",
+            "1O100O1O1N2O1O1O",
+            "1O1O1O1O1O1O1O1O",
+            "1O100O1O100O100O",
+            "1O100O1O1O1O1O1O",
+            "1O1O1N2O1O1O1O1O",
+            "1O1N2O1O1O1N2O1N",
+            "2L4L4L4M3MfQW>"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        5119.4208984375,
+        2.538297176361084,
+        5659.4013671875,
+        262.0048828125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the cup in the image?",
+    "output_instruction": "What is the segmentation mask of the cup in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_2_86aac43c_obj_000",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

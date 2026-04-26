@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_45_76ec61f5__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_45_76ec61f5",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:37:52Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_45_76ec61f5__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_45_76ec61f5",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the keyboard in the image.",
+    "instruction": "Locate the keyboard in the image.",
+    "answer": "keyboard",
+    "rgb": "dark_messy_desk/45.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_45_76ec61f5_obj_001",
+      "object_name": "keyboard",
+      "bbox_xyxy": [
+        2.776355266571045,
+        1.644417643547058,
+        1387.263671875,
+        737.7835693359375
+      ],
+      "bbox_xywh": [
+        2.776355266571045,
+        1.644417643547058,
+        1384.487316608429,
+        736.1391516923904
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the keyboard in the image?",
+    "output_instruction": "What is the bounding box of the keyboard in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_45_76ec61f5_obj_001",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

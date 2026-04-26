@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_32_6ca36299__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_32_6ca36299",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:30:34Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_32_6ca36299__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_32_6ca36299",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the laptop in the image.",
+    "instruction": "Locate the laptop in the image.",
+    "answer": "laptop",
+    "rgb": "dark_messy_desk/32.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_32_6ca36299_obj_005",
+      "object_name": "laptop",
+      "bbox_xyxy": [
+        1007.10400390625,
+        8.267278671264648,
+        3636.587890625,
+        1139.511474609375
+      ],
+      "bbox_xywh": [
+        1007.10400390625,
+        8.267278671264648,
+        2629.48388671875,
+        1131.2441959381104
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the laptop in the image?",
+    "output_instruction": "What is the bounding box of the laptop in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "occlusion",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_32_6ca36299_obj_005",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "occlusion",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

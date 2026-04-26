@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_21_450b8cc4__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_21_450b8cc4",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:22:38Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_21_450b8cc4__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_21_450b8cc4",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bottle in the image.",
+    "instruction": "Locate the bottle in the image.",
+    "answer": "bottle",
+    "rgb": "dark_messy_desk/21.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_21_450b8cc4_obj_006",
+      "object_name": "bottle",
+      "bbox_xyxy": [
+        4386.671875,
+        2114.586669921875,
+        4575.6181640625,
+        2234.5078125
+      ],
+      "bbox_xywh": [
+        4386.671875,
+        2114.586669921875,
+        188.9462890625,
+        119.921142578125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the bottle in the image?",
+    "output_instruction": "What is the bounding box of the bottle in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "stacked_layout"
+        ],
+        "L": [
+          "local_overexposure",
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_21_450b8cc4_obj_006",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "stacked_layout"
+      ],
+      "L": [
+        "local_overexposure",
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

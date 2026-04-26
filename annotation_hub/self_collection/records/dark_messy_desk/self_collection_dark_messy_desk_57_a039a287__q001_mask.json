@@ -1,0 +1,159 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_57_a039a287__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_57_a039a287",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:00:20Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_57_a039a287__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_57_a039a287",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the keyboard in the image.",
+    "instruction": "Locate the keyboard in the image.",
+    "answer": "keyboard",
+    "rgb": "dark_messy_desk/57.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_57_a039a287_obj_012",
+      "object_name": "keyboard",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3891,
+            5848
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "i`cm94Zi3:I7I9Gj",
+            "0VO6J5K3M3M3N2M3",
+            "N2N1O1O1O1O1O1O1",
+            "N101O1O1N2N2O1N2",
+            "N1O2O1O1O1O1O0O2",
+            "00O1O001O1O001N2",
+            "O1N1O2N2N1O2O0O2",
+            "O1O001O1O100O1O2",
+            "N1O1O2N1O1O2M2O1",
+            "N2L4L5L3N2N2N2O2",
+            "O0O1O100O1O100O1",
+            "00O100O100O100O1",
+            "00O100O100O10000",
+            "O10000000000001O",
+            "000000001O000000",
+            "00001O0000000000",
+            "001O000000000000",
+            "00000000001O0000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000O101O0",
+            "0000000000000000",
+            "01O000000001O000",
+            "0000000001O00000",
+            "00000001O000001O",
+            "0000000001O00000",
+            "00001O0001O00000",
+            "0000000000000000",
+            "00000O1000000000",
+            "0000000O10000000",
+            "00000000000001O0",
+            "000001O0000001O0",
+            "0001O000010O0001",
+            "O000000000000000",
+            "000000000O2O0000",
+            "0000000000000000",
+            "000000000001O000",
+            "0000000001O00000",
+            "00000001O0000000",
+            "0000000000000000",
+            "1O00000000000000",
+            "001O000000000000",
+            "0000000000000000",
+            "00000000000001O0",
+            "0000000000000000",
+            "0000000000000000",
+            "000000001O000000",
+            "0000000000000000",
+            "0000000001N10000",
+            "0000000001O00000",
+            "000000000000001O",
+            "000000000000001O",
+            "0000000000000000",
+            "0000000000000001",
+            "O0000000O1000000",
+            "00000000O1000000",
+            "01O000001O000000",
+            "00000000001O0000",
+            "0000000000000000",
+            "1O00000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "001O000000010O00",
+            "000000001O000000",
+            "00001O000001O000",
+            "0000000000001O00",
+            "0000000000000000",
+            "0000000001O00000",
+            "0000000000000000",
+            "0000000000000000",
+            "00001O0000000000",
+            "00001O0000000000",
+            "00001O0000000000",
+            "0O10000O100O2O0O",
+            "1O1O1N2[OS\\LcKnc",
+            "3Y4h0N2O1N2O1O1N",
+            "3N1O1O1O1O1O1O1O",
+            "0O2O1N2SOm0F:K4N",
+            "3M3N2M2N3L4M3M2N",
+            "3N1O2N3M3M3L4M3K",
+            "6G:F`[h]9"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2671.279052734375,
+        2783.93408203125,
+        3311.396240234375,
+        2974.474609375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the keyboard in the image?",
+    "output_instruction": "What is the segmentation mask of the keyboard in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_57_a039a287_obj_012",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_23_214f5908__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_23_214f5908",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:23:40Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_23_214f5908__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_23_214f5908",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bottle in the image.",
+    "instruction": "Locate the bottle in the image.",
+    "answer": "bottle",
+    "rgb": "dark_messy_desk/23.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_23_214f5908_obj_009",
+      "object_name": "bottle",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3648,
+            5472
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "[XX\\4m0Pa39G8J6J",
+            "7H:H7H8H9H;Eb0^O",
+            "7I6J8H6I7K1N3M2O",
+            "4K7I9H4K5K5idLRJ",
+            "SZ3T6\\eLZJ`Z3e6N",
+            "2O2M2N3N2M2M4M3M",
+            "5K5J6K3L4M4K5L4K",
+            "6K7I7H9H9G8G4M3M",
+            "2N1N2O1O001N2O00",
+            "1O000O101O000O2O",
+            "00000O2O00000O2O",
+            "000O10000O100000",
+            "O010000O10O1000O",
+            "1000O10O1000O10O",
+            "1000O10000O01000",
+            "O100O010O100O010",
+            "O100O1O010O100O0",
+            "10O100O010O10O10",
+            "O1000O010O10O100",
+            "0O010000O01000O1",
+            "000O010000O01000",
+            "O10O1000O1000O01",
+            "00000O0100O1000O",
+            "10O1000O010000O1",
+            "0O10O1000O010000",
+            "O10O1000O10O1000",
+            "O10O1000O10O10O1",
+            "00O01000O10O0100",
+            "00O010O1000O0100",
+            "0O10O1000O01000O",
+            "01000O0100O010O1",
+            "0O10O10O01000O01",
+            "00O10O10O10000O1",
+            "0O10O10000O01000",
+            "O100O01000O10O01",
+            "0000O10O10000000",
+            "O0100000000O1000",
+            "000O1000000O10O1",
+            "000O1000O1000O01",
+            "0000O10O1000O100",
+            "0O01000O10O1000O",
+            "1O100O010O1O100O",
+            "100O1O010O10000O",
+            "1000O01000O010O1",
+            "0O0100O10O01O1O1",
+            "0O01O1O1O001O100",
+            "O010O10O10000O10",
+            "0O010O100O100O1O",
+            "100O10000O1000O0",
+            "10000000000000O1",
+            "00000000000000O0",
+            "100000O1000O0100",
+            "00O00100O10000O0",
+            "10O100O100O010O1",
+            "00O1000O010000O1",
+            "0O1000O1000O1000",
+            "00O010000000O010",
+            "00000000O1000000",
+            "0O0100000000O100",
+            "000O10O100000O10",
+            "O1000O10000O0100",
+            "000O10O10O100000",
+            "O10O010000O10O01",
+            "00O10O10O1O100O0",
+            "10O1O10O10O10O10",
+            "O1000O100O01000O",
+            "10000O10O10O100O",
+            "1000O10O10O10000",
+            "O01000O10O10O10O",
+            "10O10O10O0100O10",
+            "00O0100001O0O100",
+            "0000O100000000O1",
+            "0001O001O001O001",
+            "O101N1O2O0O2N2N2",
+            "O2M3M3M3M2N2N101",
+            "N3M2M4M2N2N3M3L4",
+            "M3L4M2N3L2O2N2M2",
+            "O1O1N2O1O0O2N100",
+            "O2N100O001O10O01",
+            "O1O100O001O100O1",
+            "O100O0O3M2M3L4L4",
+            "L4iMPfLVLYZ3g3Q2",
+            "N2O2N2N101N2O0O2",
+            "O1O1N3N2N1O4K4M4",
+            "L4L4K6K5K4K6K5J6",
+            "K4L4K5L4K4M3L5L4",
+            "K9G9G[TPZ<"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1249.477294921875,
+        2997.03759765625,
+        1936.3282470703125,
+        3495.71875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the bottle in the image?",
+    "output_instruction": "What is the segmentation mask of the bottle in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_23_214f5908_obj_009",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

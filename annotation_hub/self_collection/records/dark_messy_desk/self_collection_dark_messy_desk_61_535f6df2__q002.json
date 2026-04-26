@@ -1,0 +1,64 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_61_535f6df2__q002",
+  "source_sample_id": "self_collection_dark_messy_desk_61_535f6df2",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:03:13Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_61_535f6df2__q002",
+    "source_sample_id": "self_collection_dark_messy_desk_61_535f6df2",
+    "entry_id": "q002",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a notebook in the image?",
+    "instruction": "Is there any vacant space to place a notebook in the image?",
+    "answer": "no",
+    "rgb": "dark_messy_desk/61.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 1
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a notebook in the image?",
+    "output_instruction": "Is there any vacant space to place a notebook in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_61_535f6df2_obj_000",
+      "placementItem": "notebook",
+      "answerIndex": 1,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

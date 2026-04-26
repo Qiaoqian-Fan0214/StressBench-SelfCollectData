@@ -1,0 +1,78 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_82_1118bdcb__q002",
+  "source_sample_id": "self_collection_dark_messy_desk_82_1118bdcb",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:19:54Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_82_1118bdcb__q002",
+    "source_sample_id": "self_collection_dark_messy_desk_82_1118bdcb",
+    "entry_id": "q002",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the mouse relative to the keyboard in the image?",
+    "instruction": "What is the spatial relation of the mouse relative to the keyboard in the image?",
+    "answer": "right",
+    "rgb": "dark_messy_desk/82.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 3
+      },
+      "subject_a": {
+        "object_id": "self_collection_dark_messy_desk_82_1118bdcb_obj_000",
+        "label": "mouse"
+      },
+      "subject_b": {
+        "object_id": "self_collection_dark_messy_desk_82_1118bdcb_obj_001",
+        "label": "keyboard"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the mouse relative to the keyboard in the image?",
+    "output_instruction": "What is the spatial relation of the mouse relative to the keyboard in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_82_1118bdcb_obj_000",
+      "placementItem": "plate",
+      "answerIndex": 3,
+      "spatialRelationAObjectId": "self_collection_dark_messy_desk_82_1118bdcb_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_dark_messy_desk_82_1118bdcb_obj_001",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

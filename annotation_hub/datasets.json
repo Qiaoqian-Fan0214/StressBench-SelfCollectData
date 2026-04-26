@@ -20,10 +20,10 @@
         "messy_desk",
         "messy_living_room_with_mirror"
       ],
-      "card_description": "自标数据第一阶段 stress 标注入口。当前阶段仅写入 stress，task / instruction / gt / 选项接口已预留，第二阶段再扩展。",
+      "card_description": "自标数据人工标注入口。当前支持 stress 标注，以及按图片连续添加多道 task / instruction / gt 问题并分别写出 json。",
       "provenance_dataset": "Self-Collection",
       "provenance_split": "self_collected",
-      "annotation_stage": "stress_only"
+      "annotation_stage": "stress_and_tasks"
     }
   ]
 }

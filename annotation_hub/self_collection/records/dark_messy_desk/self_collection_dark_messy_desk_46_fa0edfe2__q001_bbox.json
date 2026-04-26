@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_46_fa0edfe2__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_46_fa0edfe2",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:38:53Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_46_fa0edfe2__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_46_fa0edfe2",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the keyboard in the image.",
+    "instruction": "Locate the keyboard in the image.",
+    "answer": "keyboard",
+    "rgb": "dark_messy_desk/46.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_46_fa0edfe2_obj_010",
+      "object_name": "keyboard",
+      "bbox_xyxy": [
+        1321.650146484375,
+        1580.0535888671875,
+        2892.08349609375,
+        2415.32275390625
+      ],
+      "bbox_xywh": [
+        1321.650146484375,
+        1580.0535888671875,
+        1570.433349609375,
+        835.2691650390625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the keyboard in the image?",
+    "output_instruction": "What is the bounding box of the keyboard in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "occlusion"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_46_fa0edfe2_obj_010",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "occlusion"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

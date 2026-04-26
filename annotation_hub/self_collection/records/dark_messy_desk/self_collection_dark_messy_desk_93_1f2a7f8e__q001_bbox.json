@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_93_1f2a7f8e__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_93_1f2a7f8e",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:27:36Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_93_1f2a7f8e__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_93_1f2a7f8e",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the desk lamp in the image.",
+    "instruction": "Locate the desk lamp in the image.",
+    "answer": "desk lamp",
+    "rgb": "dark_messy_desk/93.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_93_1f2a7f8e_obj_011",
+      "object_name": "desk lamp",
+      "bbox_xyxy": [
+        842.2890014648438,
+        774.7328491210938,
+        1534.7135009765625,
+        1939.8123779296875
+      ],
+      "bbox_xywh": [
+        842.2890014648438,
+        774.7328491210938,
+        692.4244995117188,
+        1165.0795288085938
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the desk lamp in the image?",
+    "output_instruction": "What is the bounding box of the desk lamp in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_93_1f2a7f8e_obj_011",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

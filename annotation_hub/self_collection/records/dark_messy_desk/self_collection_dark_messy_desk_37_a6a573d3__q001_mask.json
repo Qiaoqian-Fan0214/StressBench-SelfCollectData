@@ -1,0 +1,117 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_37_a6a573d3__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_37_a6a573d3",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:32:33Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_37_a6a573d3__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_37_a6a573d3",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the envelope in the image.",
+    "instruction": "Locate the envelope in the image.",
+    "answer": "envelope",
+    "rgb": "dark_messy_desk/37.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_37_a6a573d3_obj_006",
+      "object_name": "envelope",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2333,
+            3500
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Rjo>9bX27K5J7J4K",
+            "5L4L5J5L4L4L5J6K",
+            "5K5K6J6I7J5K3M3M",
+            "3M4K4M4L3M5J8I5K",
+            "5K7I5K6I7J5K5K5K",
+            "5K6I5L4L4L4L5J6K",
+            "5K5K5K5J7J5K5K6I",
+            "5L3M3M2M2O1O000O",
+            "10001O000O100000",
+            "000O0100000O10O1",
+            "000O1000O1000O10",
+            "0000O01000000O10",
+            "0000O010000000O0",
+            "100000O100000O01",
+            "0000000O01000000",
+            "0O10O10000000O01",
+            "0000000O0100000O",
+            "0100000O10O1000O",
+            "10O1000O10O1000O",
+            "10O1000O10O10000",
+            "0O10O1000O100000",
+            "O01000000000O100",
+            "0O10O1000000O10O",
+            "100000000O10O100",
+            "000O1000O10000O0",
+            "1000O10O10000O01",
+            "000O100000O10O10",
+            "00O100000000O010",
+            "000000O01000000O",
+            "10O1000O100000O0",
+            "10000O1000O10O10",
+            "00O0100000O10000",
+            "0000O100000000O1",
+            "0000000000O10000",
+            "000000O10001O1O1",
+            "N4M3M2N2N2M5L<D5",
+            "K6I9H7I8H6J5J6K4",
+            "L6J4K4M3M3M3M5K:",
+            "E9H6J4L4K5L3M4K5",
+            "L5K5J6K5K8G7J6J6",
+            "J4L3L4M4L3M4L4K5",
+            "L5K7I6I6K6I7I5KY",
+            "]_b6"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        205.2418975830078,
+        1334.164306640625,
+        548.4819946289062,
+        1679.318115234375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the envelope in the image?",
+    "output_instruction": "What is the segmentation mask of the envelope in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "stacked_layout",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_37_a6a573d3_obj_006",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "stacked_layout",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

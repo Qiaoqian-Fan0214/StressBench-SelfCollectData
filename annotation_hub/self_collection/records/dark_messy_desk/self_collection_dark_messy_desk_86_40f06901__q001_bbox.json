@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_86_40f06901__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_86_40f06901",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:23:10Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_86_40f06901__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_86_40f06901",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "dark_messy_desk/86.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_86_40f06901_obj_001",
+      "object_name": "cup",
+      "bbox_xyxy": [
+        2220.343505859375,
+        2367.629638671875,
+        2652.543701171875,
+        2985.87451171875
+      ],
+      "bbox_xywh": [
+        2220.343505859375,
+        2367.629638671875,
+        432.2001953125,
+        618.244873046875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cup in the image?",
+    "output_instruction": "What is the bounding box of the cup in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend",
+          "transparent"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_86_40f06901_obj_001",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend",
+        "transparent"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

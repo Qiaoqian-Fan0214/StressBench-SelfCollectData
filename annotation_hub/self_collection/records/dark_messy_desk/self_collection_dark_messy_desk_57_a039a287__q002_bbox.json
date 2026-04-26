@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_57_a039a287__q002_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_57_a039a287",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:00:20Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_57_a039a287__q002_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_57_a039a287",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the person in the image.",
+    "instruction": "Locate the person in the image.",
+    "answer": "person",
+    "rgb": "dark_messy_desk/57.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_57_a039a287_obj_010",
+      "object_name": "person",
+      "bbox_xyxy": [
+        4436.2431640625,
+        1280.8587646484375,
+        4585.12255859375,
+        1514.8604736328125
+      ],
+      "bbox_xywh": [
+        4436.2431640625,
+        1280.8587646484375,
+        148.87939453125,
+        234.001708984375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the person in the image?",
+    "output_instruction": "What is the bounding box of the person in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "complex_texture"
+        ],
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_57_a039a287_obj_010",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ],
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}
