@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Home_Office_99_bf025e3a__q001_bbox",
+  "source_sample_id": "self_collection_Home_Office_99_bf025e3a",
+  "status": "annotated",
+  "updated_at": "2026-04-25T15:01:32Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_99_bf025e3a__q001_bbox",
+    "source_sample_id": "self_collection_Home_Office_99_bf025e3a",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "Home_Office/99.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Home_Office_99_bf025e3a_obj_007",
+      "object_name": "cup",
+      "bbox_xyxy": [
+        933.836181640625,
+        3390.684814453125,
+        1184.5089111328125,
+        3814.644775390625
+      ],
+      "bbox_xywh": [
+        933.836181640625,
+        3390.684814453125,
+        250.6727294921875,
+        423.9599609375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cup in the image?",
+    "output_instruction": "What is the bounding box of the cup in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_99_bf025e3a_obj_007",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

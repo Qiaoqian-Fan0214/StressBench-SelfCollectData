@@ -1,0 +1,113 @@
+{
+  "sample_id": "self_collection_Home_Office_53_7ad722fa__q001_mask",
+  "source_sample_id": "self_collection_Home_Office_53_7ad722fa",
+  "status": "annotated",
+  "updated_at": "2026-04-25T14:00:54Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_53_7ad722fa__q001_mask",
+    "source_sample_id": "self_collection_Home_Office_53_7ad722fa",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the scissors in the image.",
+    "instruction": "Locate the scissors in the image.",
+    "answer": "scissors",
+    "rgb": "Home_Office/53.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Home_Office_53_7ad722fa_obj_001",
+      "object_name": "scissors",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            1728,
+            2592
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "nlX]2;de13ZNJ]]N",
+            ":Yb14`]NOYb19b]N",
+            "KXb1;d]NHVb1?f]N",
+            "DTb1b0i]N_ORb1h0",
+            "k]NZOPb1l0m]NUOo",
+            "a1W1g]NkNVb1a2N3",
+            "L3N2N2N2N2O1O1O1",
+            "N2O1O]Mi^N?Va1]O",
+            "S_N?l`1^O]_N=b`1",
+            "_Of_N>Z`1^Ok_Na0",
+            "T`1^Oo_Na0Q`1\\OR",
+            "`Nd0m_1[OV`Nd0j_",
+            "1ZOX`Nf0h_1XOZ`N",
+            "h0e_1WO^`Nh0b_1V",
+            "O``Ni0`_1VOb`Nj0",
+            "^_1UOd`Nj0\\_1UOe",
+            "`Nk0Z_1UOg`Nk0Y_",
+            "1TOh`Nl0X_1SOh`N",
+            "n0X_1ROg`No0Y_1P",
+            "Oh`NP1X_1POg`NQ1",
+            "Y_1nNg`NS1Y_1mNf",
+            "`NT1Z_1lNe`NT1\\_",
+            "1kNd`NV1]_1jN``N",
+            "X1`_1hN_`NY1a_1g",
+            "N]`N[1d_1fNX`N\\1",
+            "h_1eNT`N^1m_1bNn",
+            "_Na1S`1`Ni_Nc1W`",
+            "1^Nd_Nf1]`1[N\\_N",
+            "j1d`1YNV_Nj1k`1W",
+            "No^Nm1Qa1UNj^Nn1",
+            "Va1^11N101O001O0",
+            "01O1N2O1O1O2N1N4",
+            "M3M3M2N001N10O10",
+            "0O1000O010000O10",
+            "00O010000O1000O1",
+            "0000O100O100O100",
+            "O100O2O0O101O0O2",
+            "N100O2N1O2N1O2M2",
+            "N3L4M3L4L3L6J5K6",
+            "L4K5K6I6J8H<ZO]o",
+            "Ud1"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1462.4287109375,
+        613.0955810546875,
+        1601.13525390625,
+        760.7335815429688
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the scissors in the image?",
+    "output_instruction": "What is the segmentation mask of the scissors in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_53_7ad722fa_obj_001",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

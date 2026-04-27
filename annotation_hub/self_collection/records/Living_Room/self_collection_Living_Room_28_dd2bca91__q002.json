@@ -1,0 +1,76 @@
+{
+  "sample_id": "self_collection_Living_Room_28_dd2bca91__q002",
+  "source_sample_id": "self_collection_Living_Room_28_dd2bca91",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:40:00Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_28_dd2bca91__q002",
+    "source_sample_id": "self_collection_Living_Room_28_dd2bca91",
+    "entry_id": "q002",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the magnifying glass relative to the books in the image?",
+    "instruction": "What is the spatial relation of the magnifying glass relative to the books in the image?",
+    "answer": "connect",
+    "rgb": "Living_Room/28.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 4
+      },
+      "subject_a": {
+        "object_id": "self_collection_Living_Room_28_dd2bca91_obj_000",
+        "label": "magnifying glass"
+      },
+      "subject_b": {
+        "object_id": "self_collection_Living_Room_28_dd2bca91_obj_001",
+        "label": "books"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the magnifying glass relative to the books in the image?",
+    "output_instruction": "What is the spatial relation of the magnifying glass relative to the books in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ],
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_28_dd2bca91_obj_000",
+      "placementItem": "book",
+      "answerIndex": 4,
+      "spatialRelationAObjectId": "self_collection_Living_Room_28_dd2bca91_obj_000",
+      "spatialRelationALabel": "magnifying glass",
+      "spatialRelationBObjectId": "self_collection_Living_Room_28_dd2bca91_obj_001",
+      "spatialRelationBLabel": "books",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ],
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

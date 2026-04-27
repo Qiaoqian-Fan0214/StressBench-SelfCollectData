@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Living_Room_81_5bb6c9da__q001_bbox",
+  "source_sample_id": "self_collection_Living_Room_81_5bb6c9da",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:46:59Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_81_5bb6c9da__q001_bbox",
+    "source_sample_id": "self_collection_Living_Room_81_5bb6c9da",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the side table in the image.",
+    "instruction": "Locate the side table in the image.",
+    "answer": "side table",
+    "rgb": "Living_Room/81.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_81_5bb6c9da_obj_004",
+      "object_name": "side table",
+      "bbox_xyxy": [
+        2125.43359375,
+        2562.20556640625,
+        2812.31640625,
+        2768.227783203125
+      ],
+      "bbox_xywh": [
+        2125.43359375,
+        2562.20556640625,
+        686.8828125,
+        206.022216796875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the side table in the image?",
+    "output_instruction": "What is the bounding box of the side table in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_81_5bb6c9da_obj_004",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

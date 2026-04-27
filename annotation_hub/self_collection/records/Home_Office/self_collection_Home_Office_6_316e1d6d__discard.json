@@ -1,0 +1,12 @@
+{
+  "sample_id": "self_collection_Home_Office_6_316e1d6d__discard",
+  "source_sample_id": "self_collection_Home_Office_6_316e1d6d",
+  "status": "discarded",
+  "updated_at": "2026-04-25T13:05:32Z",
+  "annotation": null,
+  "provenance": {
+    "dataset": "Self-Collection",
+    "subcategory": "Home_Office",
+    "split": "self_collected"
+  }
+}

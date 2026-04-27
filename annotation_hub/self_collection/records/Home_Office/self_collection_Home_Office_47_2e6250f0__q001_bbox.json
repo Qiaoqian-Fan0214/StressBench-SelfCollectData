@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Home_Office_47_2e6250f0__q001_bbox",
+  "source_sample_id": "self_collection_Home_Office_47_2e6250f0",
+  "status": "annotated",
+  "updated_at": "2026-04-25T13:51:16Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_47_2e6250f0__q001_bbox",
+    "source_sample_id": "self_collection_Home_Office_47_2e6250f0",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the monitor in the image.",
+    "instruction": "Locate the monitor in the image.",
+    "answer": "monitor",
+    "rgb": "Home_Office/47.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Home_Office_47_2e6250f0_obj_002",
+      "object_name": "monitor",
+      "bbox_xyxy": [
+        1968.5264892578125,
+        806.4205932617188,
+        2966.948974609375,
+        1854.7677001953125
+      ],
+      "bbox_xywh": [
+        1968.5264892578125,
+        806.4205932617188,
+        998.4224853515625,
+        1048.3471069335938
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the monitor in the image?",
+    "output_instruction": "What is the bounding box of the monitor in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_47_2e6250f0_obj_002",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

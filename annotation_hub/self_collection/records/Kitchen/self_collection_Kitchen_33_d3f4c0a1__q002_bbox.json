@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Kitchen_33_d3f4c0a1__q002_bbox",
+  "source_sample_id": "self_collection_Kitchen_33_d3f4c0a1",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:57:59Z",
+  "annotation": {
+    "sample_id": "self_collection_Kitchen_33_d3f4c0a1__q002_bbox",
+    "source_sample_id": "self_collection_Kitchen_33_d3f4c0a1",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the oven in the image.",
+    "instruction": "Locate the oven in the image.",
+    "answer": "oven",
+    "rgb": "Kitchen/33.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Kitchen_33_d3f4c0a1_obj_005",
+      "object_name": "oven",
+      "bbox_xyxy": [
+        4536.87158203125,
+        2472.802001953125,
+        5127.49072265625,
+        3652.66748046875
+      ],
+      "bbox_xywh": [
+        4536.87158203125,
+        2472.802001953125,
+        590.619140625,
+        1179.865478515625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the oven in the image?",
+    "output_instruction": "What is the bounding box of the oven in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Kitchen_33_d3f4c0a1_obj_005",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Kitchen",
+      "split": "self_collected"
+    }
+  }
+}

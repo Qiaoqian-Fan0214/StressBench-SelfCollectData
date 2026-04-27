@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_Kitchen_42_3977810c__q001_bbox",
+  "source_sample_id": "self_collection_Kitchen_42_3977810c",
+  "status": "annotated",
+  "updated_at": "2026-04-26T17:02:10Z",
+  "annotation": {
+    "sample_id": "self_collection_Kitchen_42_3977810c__q001_bbox",
+    "source_sample_id": "self_collection_Kitchen_42_3977810c",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the refrigerator in the image.",
+    "instruction": "Locate the refrigerator in the image.",
+    "answer": "refrigerator",
+    "rgb": "Kitchen/42.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Kitchen_42_3977810c_obj_014",
+      "object_name": "refrigerator",
+      "bbox_xyxy": [
+        3.8025081157684326,
+        121.19802856445312,
+        482.3919372558594,
+        2626.9677734375
+      ],
+      "bbox_xywh": [
+        3.8025081157684326,
+        121.19802856445312,
+        478.58942914009094,
+        2505.769744873047
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the refrigerator in the image?",
+    "output_instruction": "What is the bounding box of the refrigerator in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ],
+        "V": [
+          "extreme_viewpoint",
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_Kitchen_42_3977810c_obj_014",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ],
+      "V": [
+        "extreme_viewpoint",
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Kitchen",
+      "split": "self_collected"
+    }
+  }
+}

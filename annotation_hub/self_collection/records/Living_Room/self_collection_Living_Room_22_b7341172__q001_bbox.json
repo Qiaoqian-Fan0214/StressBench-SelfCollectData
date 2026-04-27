@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Living_Room_22_b7341172__q001_bbox",
+  "source_sample_id": "self_collection_Living_Room_22_b7341172",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:29:40Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_22_b7341172__q001_bbox",
+    "source_sample_id": "self_collection_Living_Room_22_b7341172",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the teapot in the image.",
+    "instruction": "Locate the teapot in the image.",
+    "answer": "teapot",
+    "rgb": "Living_Room/22.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_22_b7341172_obj_004",
+      "object_name": "teapot",
+      "bbox_xyxy": [
+        2357.568603515625,
+        1671.5032958984375,
+        2619.796875,
+        1911.1771240234375
+      ],
+      "bbox_xywh": [
+        2357.568603515625,
+        1671.5032958984375,
+        262.228271484375,
+        239.673828125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the teapot in the image?",
+    "output_instruction": "What is the bounding box of the teapot in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_22_b7341172_obj_004",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

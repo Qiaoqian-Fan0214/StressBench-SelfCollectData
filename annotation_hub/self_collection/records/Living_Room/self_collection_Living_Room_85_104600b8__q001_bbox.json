@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Living_Room_85_104600b8__q001_bbox",
+  "source_sample_id": "self_collection_Living_Room_85_104600b8",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:56:27Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_85_104600b8__q001_bbox",
+    "source_sample_id": "self_collection_Living_Room_85_104600b8",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the vase in the image.",
+    "instruction": "Locate the vase in the image.",
+    "answer": "vase",
+    "rgb": "Living_Room/85.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_85_104600b8_obj_002",
+      "object_name": "vase",
+      "bbox_xyxy": [
+        1395.4844970703125,
+        1308.826904296875,
+        1480.0665283203125,
+        1435.3248291015625
+      ],
+      "bbox_xywh": [
+        1395.4844970703125,
+        1308.826904296875,
+        84.58203125,
+        126.4979248046875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the vase in the image?",
+    "output_instruction": "What is the bounding box of the vase in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_85_104600b8_obj_002",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "sample_id": "self_collection_Home_Office_84_62aa7be3__q001_mask",
+  "source_sample_id": "self_collection_Home_Office_84_62aa7be3",
+  "status": "annotated",
+  "updated_at": "2026-04-25T14:50:47Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_84_62aa7be3__q001_mask",
+    "source_sample_id": "self_collection_Home_Office_84_62aa7be3",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the plastic bin in the image.",
+    "instruction": "Locate the plastic bin in the image.",
+    "answer": "plastic bin",
+    "rgb": "Home_Office/84.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Home_Office_84_62aa7be3_obj_012",
+      "object_name": "plastic bin",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3648,
+            5472
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "h\\ZW;j0:<l^3i3jc",
+            "L\\K_U3OWhLX5<`LT",
+            "W3j7K5M3L3N2N2O0",
+            "01N100000000010O",
+            "00000000001O0000",
+            "0000000000001O00",
+            "000O101O0000000O",
+            "2O0000001N100000",
+            "1O0O100000001N10",
+            "00000O1000001O0O",
+            "1000000O1000001N",
+            "10000O100O2O0O1O",
+            "1O2N100O1O2M2O1N",
+            "3M2M3N3L3M3N3K4H",
+            "9eNZ1J7B=B?`Na1D",
+            ";D<F:H8H8G8H9H8H",
+            "8I6K6J6K5I7I7H:F",
+            "^T`\\7"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        3222.49365234375,
+        2191.6689453125,
+        3346.8779296875,
+        2529.587646484375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the plastic bin in the image?",
+    "output_instruction": "What is the segmentation mask of the plastic bin in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_84_62aa7be3_obj_012",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

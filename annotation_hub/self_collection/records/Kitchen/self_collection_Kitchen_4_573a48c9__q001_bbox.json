@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Kitchen_4_573a48c9__q001_bbox",
+  "source_sample_id": "self_collection_Kitchen_4_573a48c9",
+  "status": "annotated",
+  "updated_at": "2026-04-25T15:09:10Z",
+  "annotation": {
+    "sample_id": "self_collection_Kitchen_4_573a48c9__q001_bbox",
+    "source_sample_id": "self_collection_Kitchen_4_573a48c9",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the window in the image.",
+    "instruction": "Locate the window in the image.",
+    "answer": "window",
+    "rgb": "Kitchen/4.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Kitchen_4_573a48c9_obj_001",
+      "object_name": "window",
+      "bbox_xyxy": [
+        9.387027740478516,
+        987.4407958984375,
+        1135.7547607421875,
+        2141.4033203125
+      ],
+      "bbox_xywh": [
+        9.387027740478516,
+        987.4407958984375,
+        1126.367733001709,
+        1153.9625244140625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the window in the image?",
+    "output_instruction": "What is the bounding box of the window in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_Kitchen_4_573a48c9_obj_001",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Kitchen",
+      "split": "self_collected"
+    }
+  }
+}

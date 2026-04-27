@@ -1,0 +1,113 @@
+{
+  "sample_id": "self_collection_Living_Room_40_250813fc__q001_mask",
+  "source_sample_id": "self_collection_Living_Room_40_250813fc",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:49:54Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_40_250813fc__q001_mask",
+    "source_sample_id": "self_collection_Living_Room_40_250813fc",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the monitor in the image.",
+    "instruction": "Locate the monitor in the image.",
+    "answer": "monitor",
+    "rgb": "Living_Room/40.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_40_250813fc_obj_000",
+      "object_name": "monitor",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3024,
+            4032
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "^\\ii45\\m28kRMd0b",
+            "l2S1B;F5J4M2M2O1",
+            "N2O001O000000001",
+            "O000001O00000000",
+            "0000000000000000",
+            "000000O100000000",
+            "0001O000000001O0",
+            "01O001O002N1O5K^",
+            "2bM6J3M3M3M1O00O",
+            "1000000000000000",
+            "000000000000001O",
+            "0000000000000000",
+            "00000001O001O000",
+            "01O00001N1000000",
+            "000001O000000000",
+            "0O10000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "000000000000000O",
+            "1000000O10000O10",
+            "00000O1000000000",
+            "0000000000000000",
+            "0000000000000O10",
+            "0000000000000000",
+            "0O1000000000000O",
+            "100000000000000O",
+            "1000000000000000",
+            "000O100000000000",
+            "0000000000O1000O",
+            "1000000000000000",
+            "00000000000O1000",
+            "0000000000000O10",
+            "00000000000O1000",
+            "00000O1000000O10",
+            "00001O0000000000",
+            "0000000O10000000",
+            "01O0000000000000",
+            "0000000000001O00",
+            "001O0O2O2M3dLaWM",
+            "b0Sl2TOa0^On0QO8",
+            "H[jQn5"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1663.8267822265625,
+        1470.984130859375,
+        1965.1195068359375,
+        1692.35205078125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the monitor in the image?",
+    "output_instruction": "What is the segmentation mask of the monitor in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_40_250813fc_obj_000",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

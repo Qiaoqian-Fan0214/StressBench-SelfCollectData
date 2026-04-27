@@ -1,0 +1,92 @@
+{
+  "sample_id": "self_collection_Living_Room_91_9b45510a__q001_mask",
+  "source_sample_id": "self_collection_Living_Room_91_9b45510a",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:58:55Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_91_9b45510a__q001_mask",
+    "source_sample_id": "self_collection_Living_Room_91_9b45510a",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the vase in the image.",
+    "instruction": "Locate the vase in the image.",
+    "answer": "vase",
+    "rgb": "Living_Room/91.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_91_9b45510a_obj_007",
+      "object_name": "vase",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2203,
+            3300
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "^S]S3:;9US2R1D5L",
+            "3M2N2N1O2N2M2N3J",
+            "5F:L5M2N2O2N1N2N",
+            "3M2M4N1O1O2N1000",
+            "1O00001O01O01OgL",
+            "QoMf2oP2ZMRoMe2m",
+            "P2[MToMe2lP2[MTo",
+            "Mf2kP2[MToMe2lP2",
+            "[MSoMf2mP2d0O100",
+            "00O100O10000000O",
+            "101N101O0TMSoMi1",
+            "oP2SNUoMl1kP2QNY",
+            "oMm1iP2oM[oMP2eP",
+            "2oM]oMo1eP2nM^oM",
+            "Q2bP2mMaoMR2`P2l",
+            "MboMS2^P2kMdoMU2",
+            "^P2gMeoMX2_Q201O",
+            "01O01O01O001O10I",
+            "7J7K5L5I:`NUmM6b",
+            "\\Te3"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1474.45654296875,
+        1365.4266357421875,
+        1560.550537109375,
+        1480.9508056640625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the vase in the image?",
+    "output_instruction": "What is the segmentation mask of the vase in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_91_9b45510a_obj_007",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

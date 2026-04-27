@@ -1,0 +1,58 @@
+{
+  "sample_id": "self_collection_Home_Office_4_df21e121__q001",
+  "source_sample_id": "self_collection_Home_Office_4_df21e121",
+  "status": "annotated",
+  "updated_at": "2026-04-25T13:03:17Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_4_df21e121__q001",
+    "source_sample_id": "self_collection_Home_Office_4_df21e121",
+    "entry_id": "q001",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a microwave in the image?",
+    "instruction": "Is there any vacant space to place a microwave in the image?",
+    "answer": "no",
+    "rgb": "Home_Office/4.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 1
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a microwave in the image?",
+    "output_instruction": "Is there any vacant space to place a microwave in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_4_df21e121_obj_000",
+      "placementItem": "microwave",
+      "answerIndex": 1,
+      "spatialRelationAObjectId": "self_collection_Home_Office_4_df21e121_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_Home_Office_4_df21e121_obj_001",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

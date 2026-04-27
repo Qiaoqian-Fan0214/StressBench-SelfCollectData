@@ -1,0 +1,104 @@
+{
+  "sample_id": "self_collection_Living_Room_14_dca40588__q001_mask",
+  "source_sample_id": "self_collection_Living_Room_14_dca40588",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:24:44Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_14_dca40588__q001_mask",
+    "source_sample_id": "self_collection_Living_Room_14_dca40588",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the faucet in the image.",
+    "instruction": "Locate the faucet in the image.",
+    "answer": "faucet",
+    "rgb": "Living_Room/14.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_14_dca40588_obj_001",
+      "object_name": "faucet",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4000,
+            6000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "jmcR76hl35L4L4M3",
+            "L3N3M3L6K:Ef0[O8",
+            "H2M3N1N2N2N2N2N1",
+            "O2M2N3L3M4aMmMiY",
+            "LY2Sf3XNUYLT2gf3",
+            "T2O10O0100O0100O",
+            "0VKcYLHHQ2gf3SNk",
+            "YL^OLV2\\f3YNX[L^",
+            "1ld3`NY[LX1ld3fN",
+            "X[LT1ld3kNW[LP1l",
+            "d3oNW[Ll0ld3ROW[",
+            "Lk0kd3TOX[Li0id3",
+            "UO[[Lh0fd3WO\\[Lf",
+            "0fd3YO\\[Le0ed3SO",
+            "d[Lk0]d3POi[Lm0Y",
+            "d3ROi[Ll0Xd3SOj[",
+            "Lk0Wd3UOj[Lh0Xd3",
+            "XOh[Lg0Xd3[Oh[Lc",
+            "0Yd3]Oh[La0Yd3@f",
+            "[L?[d3Af[L=[d3De",
+            "[L:\\d3Gc[L8^d3Ib",
+            "[L5_d3M`[L1`d32^",
+            "[LMcd35\\[LIed3:Z",
+            "[LCgd3>Z[L_Ogd3b",
+            "0k3001O1O001N2O1",
+            "O001O001O001O001",
+            "O10O01O1O1O1O2N2",
+            "N3M4M7H;E5K3M3N1",
+            "N4M1000O1001O10M",
+            "4J6J6K4K5L4L4K5L",
+            "4K6J8I5J5K5IkhX[",
+            "?"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1853.8516845703125,
+        1852.2613525390625,
+        1977.8917236328125,
+        2042.91650390625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the faucet in the image?",
+    "output_instruction": "What is the segmentation mask of the faucet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_14_dca40588_obj_001",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

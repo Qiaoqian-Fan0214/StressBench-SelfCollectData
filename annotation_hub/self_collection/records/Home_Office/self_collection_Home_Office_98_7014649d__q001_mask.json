@@ -1,0 +1,141 @@
+{
+  "sample_id": "self_collection_Home_Office_98_7014649d__q001_mask",
+  "source_sample_id": "self_collection_Home_Office_98_7014649d",
+  "status": "annotated",
+  "updated_at": "2026-04-25T15:01:10Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_98_7014649d__q001_mask",
+    "source_sample_id": "self_collection_Home_Office_98_7014649d",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the monitor in the image.",
+    "instruction": "Locate the monitor in the image.",
+    "answer": "monitor",
+    "rgb": "Home_Office/98.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Home_Office_98_7014649d_obj_001",
+      "object_name": "monitor",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3500,
+            2333
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "cj\\h2j0^\\39H3M4L",
+            "4K4L5K5J5K6I6G9I",
+            "8J5K6K4L5J5J7K4K",
+            "5K6G8H8I8J5I7L4M",
+            "4K4K5D=J5L5K4K5L",
+            "5J5I8H8H7H9H8I6K",
+            "6J5J6K6J5J6H9H7J",
+            "6K5J7H7K5L4J6H8J",
+            "6M3L4J6J6I7L4M4L",
+            "3N2N3L5L4K4\\OcBS",
+            "QMc=hn2d0L3L3M4L",
+            "4M200O1O10000000",
+            "O1000000O1000000",
+            "00001O001O000010",
+            "O01O00001O00001O",
+            "010O001O001O0010",
+            "O01O001O0001O01O",
+            "000001O01O000001",
+            "O01O00001O00010O",
+            "1O1O001O0010O01O",
+            "010O01O01O01O01O",
+            "01O01O0001O0001O",
+            "0010O0001O000010",
+            "O01O1O1O2O0O001O",
+            "1O01O01O00001O01",
+            "O000000001O00000",
+            "1O00000001O0001O",
+            "010O001O101N3M2O",
+            "1N2N01O01O0000O1",
+            "01O0O10000O10001",
+            "O000000010O00000",
+            "1O01O0000010O06J",
+            "5K1O1O0010O01O00",
+            "1O00001O01O01O00",
+            "001O1O102M1O1O10",
+            "0O000000000001O0",
+            "0000000000000000",
+            "1O01O01O10O01O10",
+            "1N1O2N100O001O1O",
+            "01O01O001O000010",
+            "O0001O0001O0001O",
+            "00010O001O1O1O1O",
+            "10O01O00001O0001",
+            "0O0000001O0001O0",
+            "1O000001O000001O",
+            "01O000000001O000",
+            "000010O00001O000",
+            "0001O0000000O1N2",
+            "N201N10000O11kSM",
+            "T_Ohk2l`0UTMY_Oi",
+            "k2g`0UTM\\_Ojk2e`",
+            "0STM^_Olk2Ra000O",
+            "1O1O1O0010O01O00",
+            "1O00010O00000010",
+            "O01O1O1O10O0O100",
+            "N2N2N2N3L3N2O1O1",
+            "O1O1O1N2N3N1M3K5",
+            "J6K6H7I7F:I7K5L5",
+            "K4K5K5L4J6L5E:G9",
+            "K5K5I8I6L4M3L4L4",
+            "I8H7I7J6K6H7J6J6",
+            "K6J5K5L4H9H7I7J6",
+            "J6L5F9I7M3L4L5K4",
+            "J6J6K5L5K4H8I7J7",
+            "H7K5mNchLRLbW3k3",
+            "ehLjKbW3U4l0N1N2",
+            "N2L4K6I6I7K5I8E:",
+            "L4M3M4L3L4I8H8J6",
+            "K5H9F:E;EZQWZ3"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        818.8508911132812,
+        1802.7738037109375,
+        1342.8079833984375,
+        2439.752197265625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the monitor in the image?",
+    "output_instruction": "What is the segmentation mask of the monitor in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_98_7014649d_obj_001",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

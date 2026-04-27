@@ -1,0 +1,76 @@
+{
+  "sample_id": "self_collection_Home_Office_46_9a75f35d__q002",
+  "source_sample_id": "self_collection_Home_Office_46_9a75f35d",
+  "status": "annotated",
+  "updated_at": "2026-04-25T13:50:53Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_46_9a75f35d__q002",
+    "source_sample_id": "self_collection_Home_Office_46_9a75f35d",
+    "entry_id": "q002",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the pen holder relative to the cellphone in the image?",
+    "instruction": "What is the spatial relation of the pen holder relative to the cellphone in the image?",
+    "answer": "left",
+    "rgb": "Home_Office/46.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 2
+      },
+      "subject_a": {
+        "object_id": "self_collection_Home_Office_46_9a75f35d_obj_000",
+        "label": "pen holder"
+      },
+      "subject_b": {
+        "object_id": "self_collection_Home_Office_46_9a75f35d_obj_001",
+        "label": "cellphone"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the pen holder relative to the cellphone in the image?",
+    "output_instruction": "What is the spatial relation of the pen holder relative to the cellphone in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_46_9a75f35d_obj_000",
+      "placementItem": "pillow",
+      "answerIndex": 2,
+      "spatialRelationAObjectId": "self_collection_Home_Office_46_9a75f35d_obj_000",
+      "spatialRelationALabel": "pen holder",
+      "spatialRelationBObjectId": "self_collection_Home_Office_46_9a75f35d_obj_001",
+      "spatialRelationBLabel": "cellphone",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

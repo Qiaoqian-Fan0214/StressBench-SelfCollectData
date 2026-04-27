@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_Living_Room_67_3249b04a__q001_bbox",
+  "source_sample_id": "self_collection_Living_Room_67_3249b04a",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:36:48Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_67_3249b04a__q001_bbox",
+    "source_sample_id": "self_collection_Living_Room_67_3249b04a",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the television in the image.",
+    "instruction": "Locate the television in the image.",
+    "answer": "television",
+    "rgb": "Living_Room/67.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_67_3249b04a_obj_000",
+      "object_name": "television",
+      "bbox_xyxy": [
+        3624.9462890625,
+        1031.154052734375,
+        4359.14453125,
+        1487.41015625
+      ],
+      "bbox_xywh": [
+        3624.9462890625,
+        1031.154052734375,
+        734.1982421875,
+        456.256103515625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the television in the image?",
+    "output_instruction": "What is the bounding box of the television in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_67_3249b04a_obj_000",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

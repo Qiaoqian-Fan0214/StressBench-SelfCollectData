@@ -1,0 +1,142 @@
+{
+  "sample_id": "self_collection_Living_Room_53_f5417df8__q001_mask",
+  "source_sample_id": "self_collection_Living_Room_53_f5417df8",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:15:18Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_53_f5417df8__q001_mask",
+    "source_sample_id": "self_collection_Living_Room_53_f5417df8",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the chandelier in the image.",
+    "instruction": "Locate the chandelier in the image.",
+    "answer": "chandelier",
+    "rgb": "Living_Room/53.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_53_f5417df8_obj_001",
+      "object_name": "chandelier",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3648,
+            5472
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "cUU_91ma35L3L3N2",
+            "M3O0O2N1O2N1O2N2",
+            "N1O2N2N2N2N1O2N2",
+            "O1N2N2O0O2N2O1N1",
+            "01fLkNfeLW1SZ3Nn",
+            "dL2oZ35ldLMQ[38l",
+            "dLIR[3:kdLGT[3=h",
+            "dLEV[3>gdLDX[3>e",
+            "dLCZ[3`0cdLB[[3a",
+            "0bdLA][3b0_dL@_[",
+            "3g0YdL\\Of[3P1kcL",
+            "SOT\\3^3O1N101N2O",
+            "0O2N101N101N101N",
+            "101O0O2O0O2O001N",
+            "101O1O0O2O1O0O2O",
+            "1O1O0O2O1O1O0O2O",
+            "1O1O1N2O1O001N10",
+            "1O000O10000O100O",
+            "10000O1O010O1O01",
+            "O000O1I7_Oa0H8M3",
+            "M3N3K5K5L3M4N2N2",
+            "N2O001O1O100O1O1",
+            "O100O10000O100O1",
+            "00O1O1O2O0O1O1O1",
+            "O2N1O1O2N1O1O2N2",
+            "M2O2M3M2N3M2N3M2",
+            "M4M2M4M2M4K4K5K6",
+            "D;]Od0H8E:K6J5L5",
+            "J5H9De05_O6L3hcL",
+            "N[V36]iL3_V30\\iL",
+            "5aV3NZiL8bV3KbeL",
+            "HT2d0VX3Z1cgLnNX",
+            "X3V1]gLTO`X3o0he",
+            "L_M=m1hY3g0^eLPN",
+            "8d1WZ3g4O2N1O1O1",
+            "O0000001N10O1000",
+            "00O1000000O1000O",
+            "010000O100O1O1O1",
+            "00O00100O001O10O",
+            "0100O00100O010O1",
+            "0O010O0100O01000",
+            "0O01000O1000O010",
+            "0O10000O10O01000",
+            "0O100O010O100O10",
+            "O0100O10O0100O01",
+            "0O10O0100O10O10O",
+            "10O0100O010O001O",
+            "010O1O001lMeeLbL",
+            "\\Z3[3ieLcLVZ3]3l",
+            "eLaLUZ3]3neLaLRZ",
+            "3_3QfL_LoY3`3SfL",
+            "^LmY3b3VfL[LkY3e",
+            "3WfLXLjY3g3ZfLUL",
+            "fY3l3]fLPLdY3P4^",
+            "fLmKbY3T4`fLiKaY",
+            "3W4afLeK`Y3\\4cfL",
+            "`K^Y3`4dfL]K\\Y3e",
+            "4efLWK]Y3i4efLTK",
+            "[Y3m4gfLPKYY3Q5i",
+            "fLkJYY3U5h11O1O1",
+            "00O1O1O1O100O100",
+            "00O10O1000000000",
+            "0O2O000000000O10",
+            "00000O2O0O101N1O",
+            "2N1O2N2N1O2M2O2N",
+            "2N1O2N2N1O2N2N2N",
+            "2N2N2M3M3N3K4K6L",
+            "4K5K5L5J5K5K5K4L",
+            "6I7J9Eb0]O?A?_Oe",
+            "jQW8"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2711.84716796875,
+        268.0975341796875,
+        3118.969482421875,
+        604.2907104492188
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the chandelier in the image?",
+    "output_instruction": "What is the segmentation mask of the chandelier in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_53_f5417df8_obj_001",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

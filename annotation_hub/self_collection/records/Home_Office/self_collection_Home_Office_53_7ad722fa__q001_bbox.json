@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Home_Office_53_7ad722fa__q001_bbox",
+  "source_sample_id": "self_collection_Home_Office_53_7ad722fa",
+  "status": "annotated",
+  "updated_at": "2026-04-25T14:00:54Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_53_7ad722fa__q001_bbox",
+    "source_sample_id": "self_collection_Home_Office_53_7ad722fa",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the scissors in the image.",
+    "instruction": "Locate the scissors in the image.",
+    "answer": "scissors",
+    "rgb": "Home_Office/53.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Home_Office_53_7ad722fa_obj_001",
+      "object_name": "scissors",
+      "bbox_xyxy": [
+        1462.4287109375,
+        613.0955810546875,
+        1601.13525390625,
+        760.7335815429688
+      ],
+      "bbox_xywh": [
+        1462.4287109375,
+        613.0955810546875,
+        138.70654296875,
+        147.63800048828125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the scissors in the image?",
+    "output_instruction": "What is the bounding box of the scissors in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_53_7ad722fa_obj_001",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

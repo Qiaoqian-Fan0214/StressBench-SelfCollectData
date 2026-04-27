@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Living_Room_50_556d4701__q001_bbox",
+  "source_sample_id": "self_collection_Living_Room_50_556d4701",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:13:15Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_50_556d4701__q001_bbox",
+    "source_sample_id": "self_collection_Living_Room_50_556d4701",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the conditioner in the image.",
+    "instruction": "Locate the conditioner in the image.",
+    "answer": "conditioner",
+    "rgb": "Living_Room/50.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_50_556d4701_obj_000",
+      "object_name": "conditioner",
+      "bbox_xyxy": [
+        548.4564208984375,
+        659.9708251953125,
+        1056.14990234375,
+        864.4356079101562
+      ],
+      "bbox_xywh": [
+        548.4564208984375,
+        659.9708251953125,
+        507.6934814453125,
+        204.46478271484375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the conditioner in the image?",
+    "output_instruction": "What is the bounding box of the conditioner in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_50_556d4701_obj_000",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

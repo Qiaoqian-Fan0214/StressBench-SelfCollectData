@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Kitchen_1_9e197250__q001_bbox",
+  "source_sample_id": "self_collection_Kitchen_1_9e197250",
+  "status": "annotated",
+  "updated_at": "2026-04-25T15:04:29Z",
+  "annotation": {
+    "sample_id": "self_collection_Kitchen_1_9e197250__q001_bbox",
+    "source_sample_id": "self_collection_Kitchen_1_9e197250",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the refrigerator in the image.",
+    "instruction": "Locate the refrigerator in the image.",
+    "answer": "refrigerator",
+    "rgb": "Kitchen/1.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Kitchen_1_9e197250_obj_001",
+      "object_name": "refrigerator",
+      "bbox_xyxy": [
+        5901.734375,
+        8.879356384277344,
+        7674.00732421875,
+        4308.9111328125
+      ],
+      "bbox_xywh": [
+        5901.734375,
+        8.879356384277344,
+        1772.27294921875,
+        4300.031776428223
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the refrigerator in the image?",
+    "output_instruction": "What is the bounding box of the refrigerator in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Kitchen_1_9e197250_obj_001",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Kitchen",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_Home_Office_5_5a0274f5__q001_bbox",
+  "source_sample_id": "self_collection_Home_Office_5_5a0274f5",
+  "status": "annotated",
+  "updated_at": "2026-04-25T13:05:08Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_5_5a0274f5__q001_bbox",
+    "source_sample_id": "self_collection_Home_Office_5_5a0274f5",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the keyboard in the image.",
+    "instruction": "Locate the keyboard in the image.",
+    "answer": "keyboard",
+    "rgb": "Home_Office/5.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Home_Office_5_5a0274f5_obj_000",
+      "object_name": "keyboard",
+      "bbox_xyxy": [
+        4262.22412109375,
+        2906.939453125,
+        4815.21533203125,
+        3194.23681640625
+      ],
+      "bbox_xywh": [
+        4262.22412109375,
+        2906.939453125,
+        552.9912109375,
+        287.29736328125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the keyboard in the image?",
+    "output_instruction": "What is the bounding box of the keyboard in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_5_5a0274f5_obj_000",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "self_collection_Home_Office_5_5a0274f5_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_Home_Office_5_5a0274f5_obj_001",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

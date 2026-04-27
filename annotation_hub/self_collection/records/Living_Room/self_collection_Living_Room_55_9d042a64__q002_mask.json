@@ -1,0 +1,88 @@
+{
+  "sample_id": "self_collection_Living_Room_55_9d042a64__q002_mask",
+  "source_sample_id": "self_collection_Living_Room_55_9d042a64",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:16:49Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_55_9d042a64__q002_mask",
+    "source_sample_id": "self_collection_Living_Room_55_9d042a64",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the speaker in the image.",
+    "instruction": "Locate the speaker in the image.",
+    "answer": "speaker",
+    "rgb": "Living_Room/55.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_55_9d042a64_obj_001",
+      "object_name": "speaker",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4480,
+            6720
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "]`ln;^1QY4Q2\\O=D",
+            ">Cg2ZM7I4L4M1N3N",
+            "1N2O1O0O2O1O0000",
+            "1O0000001N100000",
+            "01O0000000000000",
+            "0000000000000000",
+            "00001O00O1000000",
+            "0000000000000000",
+            "0000000000O10000",
+            "0000000000000000",
+            "0000O10000000000",
+            "000000000000O100",
+            "000000000000O100",
+            "01O0O2O1N2O1N3M4",
+            "L4L5K8GW1RJZlKV1",
+            "gW4@>@_o\\X`0"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2799.69189453125,
+        2508.344482421875,
+        2909.951416015625,
+        2763.23046875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the speaker in the image?",
+    "output_instruction": "What is the segmentation mask of the speaker in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_55_9d042a64_obj_001",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

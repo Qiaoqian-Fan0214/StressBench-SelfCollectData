@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_Living_Room_33_25d0e527__q001_bbox",
+  "source_sample_id": "self_collection_Living_Room_33_25d0e527",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:43:11Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_33_25d0e527__q001_bbox",
+    "source_sample_id": "self_collection_Living_Room_33_25d0e527",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the side table in the image.",
+    "instruction": "Locate the side table in the image.",
+    "answer": "side table",
+    "rgb": "Living_Room/33.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_33_25d0e527_obj_005",
+      "object_name": "side table",
+      "bbox_xyxy": [
+        1051.5343017578125,
+        2210.5966796875,
+        1290.1942138671875,
+        2458.79638671875
+      ],
+      "bbox_xywh": [
+        1051.5343017578125,
+        2210.5966796875,
+        238.659912109375,
+        248.19970703125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the side table in the image?",
+    "output_instruction": "What is the bounding box of the side table in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_33_25d0e527_obj_005",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

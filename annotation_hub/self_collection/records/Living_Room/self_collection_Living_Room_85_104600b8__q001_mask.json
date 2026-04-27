@@ -1,0 +1,84 @@
+{
+  "sample_id": "self_collection_Living_Room_85_104600b8__q001_mask",
+  "source_sample_id": "self_collection_Living_Room_85_104600b8",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:56:27Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_85_104600b8__q001_mask",
+    "source_sample_id": "self_collection_Living_Room_85_104600b8",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the vase in the image.",
+    "instruction": "Locate the vase in the image.",
+    "answer": "vase",
+    "rgb": "Living_Room/85.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_85_104600b8_obj_002",
+      "object_name": "vase",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2668,
+            4000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Pika3e0db2=D=D9G",
+            "5K5K3M2N2N2N2N1O",
+            "2O0O2O0O100O101N",
+            "100O100O1O1O1O1N",
+            "3M2N2F:D<M300O10",
+            "0O10000O1000000O",
+            "1001O001N103M4La",
+            "0_O4L1O2N1O1O1O0",
+            "01O001O00001O001",
+            "O001N101O001O0O2",
+            "O001O1N2O2N2M4M6",
+            "I:G:E:E;D:B^Ub\\6"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1395.4844970703125,
+        1308.826904296875,
+        1480.0665283203125,
+        1435.3248291015625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the vase in the image?",
+    "output_instruction": "What is the segmentation mask of the vase in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_85_104600b8_obj_002",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

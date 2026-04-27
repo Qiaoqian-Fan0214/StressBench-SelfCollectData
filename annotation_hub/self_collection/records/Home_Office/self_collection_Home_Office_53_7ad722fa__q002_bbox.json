@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Home_Office_53_7ad722fa__q002_bbox",
+  "source_sample_id": "self_collection_Home_Office_53_7ad722fa",
+  "status": "annotated",
+  "updated_at": "2026-04-25T14:00:54Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_53_7ad722fa__q002_bbox",
+    "source_sample_id": "self_collection_Home_Office_53_7ad722fa",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the plant in the image.",
+    "instruction": "Locate the plant in the image.",
+    "answer": "plant",
+    "rgb": "Home_Office/53.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Home_Office_53_7ad722fa_obj_005",
+      "object_name": "plant",
+      "bbox_xyxy": [
+        326.53265380859375,
+        1108.7823486328125,
+        909.8499755859375,
+        1722.5068359375
+      ],
+      "bbox_xywh": [
+        326.53265380859375,
+        1108.7823486328125,
+        583.3173217773438,
+        613.7244873046875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the plant in the image?",
+    "output_instruction": "What is the bounding box of the plant in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_53_7ad722fa_obj_005",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

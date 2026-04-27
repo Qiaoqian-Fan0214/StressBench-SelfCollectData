@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_Home_Office_87_997905d8__q001_bbox",
+  "source_sample_id": "self_collection_Home_Office_87_997905d8",
+  "status": "annotated",
+  "updated_at": "2026-04-25T14:52:43Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_87_997905d8__q001_bbox",
+    "source_sample_id": "self_collection_Home_Office_87_997905d8",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the phone in the image.",
+    "instruction": "Locate the phone in the image.",
+    "answer": "phone",
+    "rgb": "Home_Office/87.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Home_Office_87_997905d8_obj_004",
+      "object_name": "phone",
+      "bbox_xyxy": [
+        1154.2613525390625,
+        3292.23681640625,
+        1495.268798828125,
+        3406.6142578125
+      ],
+      "bbox_xywh": [
+        1154.2613525390625,
+        3292.23681640625,
+        341.0074462890625,
+        114.37744140625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the phone in the image?",
+    "output_instruction": "What is the bounding box of the phone in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_87_997905d8_obj_004",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

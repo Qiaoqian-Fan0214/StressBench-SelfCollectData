@@ -1,0 +1,142 @@
+{
+  "sample_id": "self_collection_Living_Room_28_dd2bca91__q001_mask",
+  "source_sample_id": "self_collection_Living_Room_28_dd2bca91",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:40:00Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_28_dd2bca91__q001_mask",
+    "source_sample_id": "self_collection_Living_Room_28_dd2bca91",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the picture in the image.",
+    "instruction": "Locate the picture in the image.",
+    "answer": "picture",
+    "rgb": "Living_Room/28.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_28_dd2bca91_obj_006",
+      "object_name": "picture",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4000,
+            6000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "\\_ef;i1P1Ibg3\\3j",
+            "YLZKPc3Z6Q[L\\Jed",
+            "3W7\\[LYH_c3h8L2M",
+            "3N2N2N2N101N1O10",
+            "0O2O000O1000000O",
+            "100000000O100000",
+            "1O000O1000000000",
+            "0O01000000000000",
+            "0O100000O100000O",
+            "100000000000O100",
+            "000O100000000000",
+            "0000O01000000000",
+            "00000O100000O100",
+            "00000O1000000000",
+            "00000O0100000000",
+            "000O10000000O10O",
+            "10000000000O0100",
+            "0000000O01000000",
+            "O10O10000000O10O",
+            "100000O100000O10",
+            "00O100000O1000O1",
+            "00000O100000000O",
+            "100000000O101O00",
+            "000O100000000O10",
+            "0000000000000O10",
+            "00O10000000O0100",
+            "00O1000O010000O1",
+            "000O10O10000O010",
+            "0000O1000O1000O1",
+            "0000000O01000000",
+            "0000000O01000000",
+            "00000O1000000000",
+            "000O100000O1000O",
+            "10lIW]LQ2ib3mMZ]",
+            "LR2fb3lM]]LS2cb3",
+            "mM^]LR2bb3nM^]LR",
+            "2bb3nM^]LR2ab3oM",
+            "_]LQ2ab3oM^]LR2b",
+            "b3nM^]LR2bb3oM]]",
+            "LQ2cb3oM\\]LR2db3",
+            "oM[]LQ2eb3oM[]LQ",
+            "2eb3PNY]LQ2fb3PN",
+            "Z]Lo1gb3RNW]Lo1i",
+            "b3RNV]Ln1jb3RNU]",
+            "Lo1kb3S40000O100",
+            "000000000000O100",
+            "0000000000O10000",
+            "000000O100000000",
+            "00O1000000000000",
+            "O1000O1000O10000",
+            "00O1000000O01000",
+            "00O1000000000000",
+            "O0100000000000O1",
+            "00000000000O10O1",
+            "00000000000000O1",
+            "000000000000O100",
+            "00000000O1000000",
+            "0000O1000000O100",
+            "000000O100000000",
+            "00O100000O1000O1",
+            "0000000O10000O10",
+            "00O10O100000000O",
+            "10O100000O2O0000",
+            "001N101O0O2N2N2N",
+            "2TGj]Lj6Xb3lH_^L",
+            "SOMQ2lNm1lb3aLQa",
+            "L>\\Lj2hb3[L^aL?S",
+            "Lo2ag3eLiXLS3hh3",
+            "mMlVLK`i3ESWLF`l",
+            "_a9"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        3056.80322265625,
+        1139.7396240234375,
+        3508.743896484375,
+        1524.5958251953125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the picture in the image?",
+    "output_instruction": "What is the segmentation mask of the picture in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_28_dd2bca91_obj_006",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

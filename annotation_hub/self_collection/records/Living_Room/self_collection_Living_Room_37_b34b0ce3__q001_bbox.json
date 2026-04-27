@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_Living_Room_37_b34b0ce3__q001_bbox",
+  "source_sample_id": "self_collection_Living_Room_37_b34b0ce3",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:47:03Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_37_b34b0ce3__q001_bbox",
+    "source_sample_id": "self_collection_Living_Room_37_b34b0ce3",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the side table in the image.",
+    "instruction": "Locate the side table in the image.",
+    "answer": "side table",
+    "rgb": "Living_Room/37.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_37_b34b0ce3_obj_007",
+      "object_name": "side table",
+      "bbox_xyxy": [
+        1779.7340087890625,
+        2302.59228515625,
+        2534.140380859375,
+        2691.974609375
+      ],
+      "bbox_xywh": [
+        1779.7340087890625,
+        2302.59228515625,
+        754.4063720703125,
+        389.38232421875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the side table in the image?",
+    "output_instruction": "What is the bounding box of the side table in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "specular_confusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_37_b34b0ce3_obj_007",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

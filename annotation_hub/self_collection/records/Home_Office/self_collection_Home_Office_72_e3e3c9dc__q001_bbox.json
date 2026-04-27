@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_Home_Office_72_e3e3c9dc__q001_bbox",
+  "source_sample_id": "self_collection_Home_Office_72_e3e3c9dc",
+  "status": "annotated",
+  "updated_at": "2026-04-25T14:33:28Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_72_e3e3c9dc__q001_bbox",
+    "source_sample_id": "self_collection_Home_Office_72_e3e3c9dc",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the keyboard in the image.",
+    "instruction": "Locate the keyboard in the image.",
+    "answer": "keyboard",
+    "rgb": "Home_Office/72.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Home_Office_72_e3e3c9dc_obj_001",
+      "object_name": "keyboard",
+      "bbox_xyxy": [
+        1562.48583984375,
+        2891.536376953125,
+        2313.232666015625,
+        2961.430908203125
+      ],
+      "bbox_xywh": [
+        1562.48583984375,
+        2891.536376953125,
+        750.746826171875,
+        69.89453125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the keyboard in the image?",
+    "output_instruction": "What is the bounding box of the keyboard in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "extreme_viewpoint"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_72_e3e3c9dc_obj_001",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "extreme_viewpoint"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

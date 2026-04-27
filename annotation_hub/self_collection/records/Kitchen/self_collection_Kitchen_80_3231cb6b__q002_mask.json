@@ -1,0 +1,102 @@
+{
+  "sample_id": "self_collection_Kitchen_80_3231cb6b__q002_mask",
+  "source_sample_id": "self_collection_Kitchen_80_3231cb6b",
+  "status": "annotated",
+  "updated_at": "2026-04-27T00:36:46Z",
+  "annotation": {
+    "sample_id": "self_collection_Kitchen_80_3231cb6b__q002_mask",
+    "source_sample_id": "self_collection_Kitchen_80_3231cb6b",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the plant in the image.",
+    "instruction": "Locate the plant in the image.",
+    "answer": "plant",
+    "rgb": "Kitchen/80.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Kitchen_80_3231cb6b_obj_009",
+      "object_name": "plant",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3648,
+            5472
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "dedj38ba3:A?^Oe0",
+            "E;H8I7H9H8H7H5L3",
+            "L3N3L4M3L4M2N3L3",
+            "N2N2N3L5L4L2M3N2",
+            "M3M3M4L4K5J7H7K4",
+            "L4L5L3M3M2N2N3M2",
+            "N2N2O0O2O1N101N1",
+            "O2N100O2N1O101N1",
+            "00O2O0O100O100O1",
+            "0O10O10000O100O1",
+            "0O0100O100O1O100",
+            "00O010O100001O00",
+            "000000000O101O00",
+            "0000001N10O1000O",
+            "1000O010O10O100O",
+            "01000O10O0100O10",
+            "0O100O10001N100O",
+            "2N1O2O0O2N1N2O2N",
+            "1N3M2N3M2O1N3M2N",
+            "3M2N2N3L3N3K4M3N",
+            "3L3N3M2N3M3L3N3L",
+            "3M4M2N3M3M3M2N3M",
+            "3M2N3M3M2N3N2M2O",
+            "2N1N3N1N3N1O2N1O",
+            "2N1O1O2N1N3O0O2N",
+            "2M2O2O0O2N1O2N10",
+            "0O2N1O2O0O2M2O2N",
+            "1N3N2N2N1N3M3M3L",
+            "4M3L4M3L5K4L5J6E",
+            "iSU]>"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1060.077880859375,
+        2318.6572265625,
+        1333.6016845703125,
+        2578.8896484375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the plant in the image?",
+    "output_instruction": "What is the segmentation mask of the plant in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ]
+      },
+      "selectedObjectId": "self_collection_Kitchen_80_3231cb6b_obj_009",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Kitchen",
+      "split": "self_collected"
+    }
+  }
+}

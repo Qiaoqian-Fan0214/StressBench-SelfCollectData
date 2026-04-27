@@ -1,0 +1,58 @@
+{
+  "sample_id": "self_collection_Home_Office_10_46f82a5b__q001",
+  "source_sample_id": "self_collection_Home_Office_10_46f82a5b",
+  "status": "annotated",
+  "updated_at": "2026-04-25T13:11:02Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_10_46f82a5b__q001",
+    "source_sample_id": "self_collection_Home_Office_10_46f82a5b",
+    "entry_id": "q001",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a piano in the image?",
+    "instruction": "Is there any vacant space to place a piano in the image?",
+    "answer": "yes",
+    "rgb": "Home_Office/10.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a piano in the image?",
+    "output_instruction": "Is there any vacant space to place a piano in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_10_46f82a5b_obj_000",
+      "placementItem": "piano",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "self_collection_Home_Office_10_46f82a5b_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_Home_Office_10_46f82a5b_obj_001",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

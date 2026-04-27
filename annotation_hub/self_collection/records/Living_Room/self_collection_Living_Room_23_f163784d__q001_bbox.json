@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Living_Room_23_f163784d__q001_bbox",
+  "source_sample_id": "self_collection_Living_Room_23_f163784d",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:30:13Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_23_f163784d__q001_bbox",
+    "source_sample_id": "self_collection_Living_Room_23_f163784d",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bed in the image.",
+    "instruction": "Locate the bed in the image.",
+    "answer": "bed",
+    "rgb": "Living_Room/23.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_23_f163784d_obj_001",
+      "object_name": "bed",
+      "bbox_xyxy": [
+        1711.788818359375,
+        2240.923583984375,
+        1987.60888671875,
+        2917.38818359375
+      ],
+      "bbox_xywh": [
+        1711.788818359375,
+        2240.923583984375,
+        275.820068359375,
+        676.464599609375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the bed in the image?",
+    "output_instruction": "What is the bounding box of the bed in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_23_f163784d_obj_001",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

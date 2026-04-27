@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Kitchen_70_0ec475fb__q001_bbox",
+  "source_sample_id": "self_collection_Kitchen_70_0ec475fb",
+  "status": "annotated",
+  "updated_at": "2026-04-26T23:00:13Z",
+  "annotation": {
+    "sample_id": "self_collection_Kitchen_70_0ec475fb__q001_bbox",
+    "source_sample_id": "self_collection_Kitchen_70_0ec475fb",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the sink in the image.",
+    "instruction": "Locate the sink in the image.",
+    "answer": "sink",
+    "rgb": "Kitchen/70.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Kitchen_70_0ec475fb_obj_007",
+      "object_name": "sink",
+      "bbox_xyxy": [
+        1753.073486328125,
+        3445.136474609375,
+        2291.8955078125,
+        3551.505126953125
+      ],
+      "bbox_xywh": [
+        1753.073486328125,
+        3445.136474609375,
+        538.822021484375,
+        106.36865234375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the sink in the image?",
+    "output_instruction": "What is the bounding box of the sink in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Kitchen_70_0ec475fb_obj_007",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Kitchen",
+      "split": "self_collected"
+    }
+  }
+}

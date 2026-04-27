@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Kitchen_12_5916fb50__q001_bbox",
+  "source_sample_id": "self_collection_Kitchen_12_5916fb50",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:49:40Z",
+  "annotation": {
+    "sample_id": "self_collection_Kitchen_12_5916fb50__q001_bbox",
+    "source_sample_id": "self_collection_Kitchen_12_5916fb50",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the microwave in the image.",
+    "instruction": "Locate the microwave in the image.",
+    "answer": "microwave",
+    "rgb": "Kitchen/12.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Kitchen_12_5916fb50_obj_000",
+      "object_name": "microwave",
+      "bbox_xyxy": [
+        5408.908203125,
+        1660.2232666015625,
+        6248.43408203125,
+        2168.366943359375
+      ],
+      "bbox_xywh": [
+        5408.908203125,
+        1660.2232666015625,
+        839.52587890625,
+        508.1436767578125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the microwave in the image?",
+    "output_instruction": "What is the bounding box of the microwave in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Kitchen_12_5916fb50_obj_000",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Kitchen",
+      "split": "self_collected"
+    }
+  }
+}

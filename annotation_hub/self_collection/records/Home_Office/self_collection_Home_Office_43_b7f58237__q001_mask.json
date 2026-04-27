@@ -1,0 +1,91 @@
+{
+  "sample_id": "self_collection_Home_Office_43_b7f58237__q001_mask",
+  "source_sample_id": "self_collection_Home_Office_43_b7f58237",
+  "status": "annotated",
+  "updated_at": "2026-04-25T13:42:50Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_43_b7f58237__q001_mask",
+    "source_sample_id": "self_collection_Home_Office_43_b7f58237",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the clock in the image.",
+    "instruction": "Locate the clock in the image.",
+    "answer": "clock",
+    "rgb": "Home_Office/43.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Home_Office_43_b7f58237_obj_000",
+      "object_name": "clock",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            5336,
+            8000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Qf_Ug0`0jU5c0G7J",
+            "6K5K4L5K5K4M4K4L",
+            "4M2M4M3M2M3N2N2M",
+            "3N2N2N1O2M2O2N1O",
+            "2N1O2N1O2N1O1O2N",
+            "1O1O2N1O101N1O1O",
+            "2O0O1O2O0O1O101N",
+            "1O100O10000O2O00",
+            "0O1001O000O10000",
+            "0000000000000000",
+            "0000O10001O00000",
+            "00000000O1000000",
+            "01N1000000O10001",
+            "N100O100O101N100",
+            "O100O1O101N1O1O1",
+            "O2N1O2N2N1O2N2M3",
+            "N3M3L4M3L5L4K6K4",
+            "K5K5L4K5K5K5K5K5",
+            "K7GmRYj`0"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        4543.75,
+        2253.621337890625,
+        4697.92724609375,
+        2413.51220703125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the clock in the image?",
+    "output_instruction": "What is the segmentation mask of the clock in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_43_b7f58237_obj_000",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

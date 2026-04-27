@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Kitchen_57_67dc51ef__q001_bbox",
+  "source_sample_id": "self_collection_Kitchen_57_67dc51ef",
+  "status": "annotated",
+  "updated_at": "2026-04-26T22:55:18Z",
+  "annotation": {
+    "sample_id": "self_collection_Kitchen_57_67dc51ef__q001_bbox",
+    "source_sample_id": "self_collection_Kitchen_57_67dc51ef",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the stove in the image.",
+    "instruction": "Locate the stove in the image.",
+    "answer": "stove",
+    "rgb": "Kitchen/57.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Kitchen_57_67dc51ef_obj_002",
+      "object_name": "stove",
+      "bbox_xyxy": [
+        858.1893920898438,
+        1117.543212890625,
+        1191.4013671875,
+        1177.64306640625
+      ],
+      "bbox_xywh": [
+        858.1893920898438,
+        1117.543212890625,
+        333.21197509765625,
+        60.099853515625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the stove in the image?",
+    "output_instruction": "What is the bounding box of the stove in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "extreme_viewpoint"
+        ]
+      },
+      "selectedObjectId": "self_collection_Kitchen_57_67dc51ef_obj_002",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "extreme_viewpoint"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Kitchen",
+      "split": "self_collected"
+    }
+  }
+}

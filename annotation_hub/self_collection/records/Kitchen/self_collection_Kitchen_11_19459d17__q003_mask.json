@@ -1,0 +1,134 @@
+{
+  "sample_id": "self_collection_Kitchen_11_19459d17__q003_mask",
+  "source_sample_id": "self_collection_Kitchen_11_19459d17",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:48:57Z",
+  "annotation": {
+    "sample_id": "self_collection_Kitchen_11_19459d17__q003_mask",
+    "source_sample_id": "self_collection_Kitchen_11_19459d17",
+    "entry_id": "q003",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the stove in the image.",
+    "instruction": "Locate the stove in the image.",
+    "answer": "stove",
+    "rgb": "Kitchen/11.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Kitchen_11_19459d17_obj_005",
+      "object_name": "stove",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3456,
+            5184
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "WgSj53m[33M5K5K0",
+            "0001O0000001O000",
+            "0000000001O00000",
+            "01O001O001O001O0",
+            "01O10O1O1O010O00",
+            "00001O0001O00000",
+            "1O00000000000O2O",
+            "00000O101O00000O",
+            "2O00000O2OO1O1O2",
+            "N1N2N2M4L3N3M2N3",
+            "L3N3N1N2N3N1O101",
+            "N1O10000O2O00000",
+            "00000001O0O10000",
+            "00000001O000O100",
+            "00O100O100O101N1",
+            "00O1O100O100O100",
+            "O1O101O0000001O0",
+            "10O010O100O100O1",
+            "00O1O100O10O01O0",
+            "1O0001O0001O0000",
+            "0000000000001O00",
+            "00000000000O1000",
+            "O1000000O10O10O1",
+            "0000O100O1O100O0",
+            "10O100O100000000",
+            "O010000000000000",
+            "0O100000000O0100",
+            "00000O010000O100",
+            "O10O01O100O1O1O1",
+            "000O010000001O00",
+            "001O00000O101O00",
+            "00000000001N1000",
+            "00000000000O1000",
+            "00000000000O1000",
+            "000000001O000000",
+            "001N100000001O00",
+            "0000001O00O10O10",
+            "000000O10O10O100",
+            "00O01000O10000O0",
+            "10O10000O10O0100",
+            "00O100O010O1O100",
+            "O100O00100000000",
+            "001N2O1O001O1O1O",
+            "0O2O001O001O0000",
+            "1N10001O0000000O",
+            "1000000000000O10",
+            "000000000O1000O1",
+            "0000O100O010O100",
+            "O1O1O100O1O1O001",
+            "O1N200O1O1O1O100",
+            "0O01000000O1000O",
+            "10O1000000000O10",
+            "001O001O001N2O1O",
+            "001O1O0O2O001O00",
+            "0O2O000000001N10",
+            "O101O00000000000",
+            "0000000000000O10",
+            "0000000O10000O10",
+            "000O10001O0O1000",
+            "0O101O1O1N2O3M3M",
+            "6I=D6I4M3L3N2M3M",
+            "3MPQ\\e9"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1749.2275390625,
+        2203.96142578125,
+        2381.679443359375,
+        2335.122802734375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the stove in the image?",
+    "output_instruction": "What is the segmentation mask of the stove in the image?",
+    "editor_state": {
+      "entry_id": "q003",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ]
+      },
+      "selectedObjectId": "self_collection_Kitchen_11_19459d17_obj_005",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Kitchen",
+      "split": "self_collected"
+    }
+  }
+}

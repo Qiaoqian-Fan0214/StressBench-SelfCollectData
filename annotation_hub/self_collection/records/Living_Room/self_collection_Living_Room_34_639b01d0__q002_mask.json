@@ -1,0 +1,105 @@
+{
+  "sample_id": "self_collection_Living_Room_34_639b01d0__q002_mask",
+  "source_sample_id": "self_collection_Living_Room_34_639b01d0",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:45:18Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_34_639b01d0__q002_mask",
+    "source_sample_id": "self_collection_Living_Room_34_639b01d0",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the chair in the image.",
+    "instruction": "Locate the chair in the image.",
+    "answer": "chair",
+    "rgb": "Living_Room/34.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_34_639b01d0_obj_014",
+      "object_name": "chair",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3024,
+            4032
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "^ha\\2c0dm2=D<]Ob",
+            "0H9G>nNQ1ZOa0G8I",
+            "6E;F9M3N3L3M3L3J",
+            "7L4N2O100O01000O",
+            "100000O100000000",
+            "00TOhWM`KXh2_4kW",
+            "M^KVh2b4kWM]KUh2",
+            "b4mWM]KSh2c4mWM]",
+            "KSh2b4oWM]KQh2b4",
+            "PXM]KQh2c4PXM\\KP",
+            "h2c4QXM]Kog2c4RX",
+            "M\\Kng2e4PXM\\KPh2",
+            "e4oWMZKRh2f4nWMZ",
+            "KRh2h4kWMYKUh2a5",
+            "0000000000O10000",
+            "0O10000000000000",
+            "0000000000000XOn",
+            "WMRKRh2l4SXMQKmg",
+            "2m4VXMRKjg2m4XXM",
+            "QKig2o4WXMRKhg2n",
+            "4XXMSKgg2l4ZXMVK",
+            "dg2j4\\XMXKbg2h4]",
+            "XM\\K`g2e4^XM]Kag",
+            "2c4^XM^Kbg2c4\\XM",
+            "_Kcg2a4\\XM`Kdg2a",
+            "4ZXM`Kfg2a4XXMaK",
+            "fg2`4YXMaKgg2`4W",
+            "XMbKhg2`4TXMbKlg",
+            "2b5O0000000010O0",
+            "000001O010O00010",
+            "O3N5kI\\XM8Im3cj2",
+            "PO;F8E<aNS2mN__V",
+            "m8"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        816.2247924804688,
+        1517.8516845703125,
+        939.6005249023438,
+        1724.6875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the chair in the image?",
+    "output_instruction": "What is the segmentation mask of the chair in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_34_639b01d0_obj_014",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

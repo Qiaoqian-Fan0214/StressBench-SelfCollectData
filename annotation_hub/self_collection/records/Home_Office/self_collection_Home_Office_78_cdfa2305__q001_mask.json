@@ -1,0 +1,106 @@
+{
+  "sample_id": "self_collection_Home_Office_78_cdfa2305__q001_mask",
+  "source_sample_id": "self_collection_Home_Office_78_cdfa2305",
+  "status": "annotated",
+  "updated_at": "2026-04-25T14:46:21Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_78_cdfa2305__q001_mask",
+    "source_sample_id": "self_collection_Home_Office_78_cdfa2305",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the mouse in the image.",
+    "instruction": "Locate the mouse in the image.",
+    "answer": "mouse",
+    "rgb": "Home_Office/78.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Home_Office_78_cdfa2305_obj_001",
+      "object_name": "mouse",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            5584,
+            3723
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "SZXU:6U^57H8J5K5",
+            "M3N2M3N2N3fcJhNW",
+            "[5Z1fdJkNV[5W1gd",
+            "JlNW[5W1edJlNZ[5",
+            "U1bdJoN\\[5T1`dJn",
+            "N`[5U1ZdJoNd[5P2",
+            "O1N101N2O000O2O0",
+            "O2O000O101N10001",
+            "N10001N100O101O0",
+            "0000O2O000000000",
+            "00000000O1000000",
+            "000O100000000000",
+            "0000000000000000",
+            "000O10001O000000",
+            "000000000O10000O",
+            "2O00000O100O1000",
+            "000O10000O100000",
+            "000O1000001N1000",
+            "1O000O2O001O0O2O",
+            "001O0O101O000O2O",
+            "0000001N1000000O",
+            "2O00000O10001O0O",
+            "101O00001N101O00",
+            "1O1N101O1O1N2O1O",
+            "0O2O1N1O2N1O2N1N",
+            "3M2N3K4N3L3O2M3N",
+            "1N3N3L3M4M2M5K5J",
+            "mjde8"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1900.1104736328125,
+        3789.91796875,
+        2093.81494140625,
+        3911.5380859375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the mouse in the image?",
+    "output_instruction": "What is the segmentation mask of the mouse in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_78_cdfa2305_obj_001",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

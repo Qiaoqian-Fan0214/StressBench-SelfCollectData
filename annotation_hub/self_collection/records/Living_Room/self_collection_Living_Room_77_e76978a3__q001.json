@@ -1,0 +1,70 @@
+{
+  "sample_id": "self_collection_Living_Room_77_e76978a3__q001",
+  "source_sample_id": "self_collection_Living_Room_77_e76978a3",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:44:24Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_77_e76978a3__q001",
+    "source_sample_id": "self_collection_Living_Room_77_e76978a3",
+    "entry_id": "q001",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the blinds relative to the freme in the image?",
+    "instruction": "What is the spatial relation of the blinds relative to the freme in the image?",
+    "answer": "left",
+    "rgb": "Living_Room/77.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 2
+      },
+      "subject_a": {
+        "object_id": "self_collection_Living_Room_77_e76978a3_obj_000",
+        "label": "blinds"
+      },
+      "subject_b": {
+        "object_id": "self_collection_Living_Room_77_e76978a3_obj_001",
+        "label": "freme"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the blinds relative to the freme in the image?",
+    "output_instruction": "What is the spatial relation of the blinds relative to the freme in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_77_e76978a3_obj_000",
+      "placementItem": "mug",
+      "answerIndex": 2,
+      "spatialRelationAObjectId": "self_collection_Living_Room_77_e76978a3_obj_000",
+      "spatialRelationALabel": "blinds",
+      "spatialRelationBObjectId": "self_collection_Living_Room_77_e76978a3_obj_001",
+      "spatialRelationBLabel": "freme",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}
