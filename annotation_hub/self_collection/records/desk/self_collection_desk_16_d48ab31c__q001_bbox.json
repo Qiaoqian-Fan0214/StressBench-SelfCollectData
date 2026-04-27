@@ -1,0 +1,53 @@
+{
+  "sample_id": "self_collection_desk_16_d48ab31c__q001_bbox",
+  "source_sample_id": "self_collection_desk_16_d48ab31c",
+  "status": "annotated",
+  "updated_at": "2026-04-26T17:56:00Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_16_d48ab31c__q001_bbox",
+    "source_sample_id": "self_collection_desk_16_d48ab31c",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the stapler in the image.",
+    "instruction": "Locate the stapler in the image.",
+    "answer": "stapler",
+    "rgb": "desk/16.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_desk_16_d48ab31c_obj_001",
+      "object_name": "stapler",
+      "bbox_xyxy": [
+        2147.22314453125,
+        4441.5205078125,
+        2609.951171875,
+        4930.55419921875
+      ],
+      "bbox_xywh": [
+        2147.22314453125,
+        4441.5205078125,
+        462.72802734375,
+        489.03369140625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the stapler in the image?",
+    "output_instruction": "What is the bounding box of the stapler in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_16_d48ab31c_obj_001"
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "sample_id": "self_collection_desk_6_ecc5113d__q001_bbox",
+  "source_sample_id": "self_collection_desk_6_ecc5113d",
+  "status": "annotated",
+  "updated_at": "2026-04-26T17:47:56Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_6_ecc5113d__q001_bbox",
+    "source_sample_id": "self_collection_desk_6_ecc5113d",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the vase in the image.",
+    "instruction": "Locate the vase in the image.",
+    "answer": "vase",
+    "rgb": "desk/6.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_desk_6_ecc5113d_obj_003",
+      "object_name": "vase",
+      "bbox_xyxy": [
+        4089.203857421875,
+        2367.033447265625,
+        4993.38818359375,
+        3344.647705078125
+      ],
+      "bbox_xywh": [
+        4089.203857421875,
+        2367.033447265625,
+        904.184326171875,
+        977.6142578125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the vase in the image?",
+    "output_instruction": "What is the bounding box of the vase in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_6_ecc5113d_obj_003"
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

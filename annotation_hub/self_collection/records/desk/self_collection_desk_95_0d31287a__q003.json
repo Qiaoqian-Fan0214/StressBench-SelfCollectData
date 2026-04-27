@@ -1,0 +1,47 @@
+{
+  "sample_id": "self_collection_desk_95_0d31287a__q003",
+  "source_sample_id": "self_collection_desk_95_0d31287a",
+  "status": "annotated",
+  "updated_at": "2026-04-27T05:43:14Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_95_0d31287a__q003",
+    "source_sample_id": "self_collection_desk_95_0d31287a",
+    "entry_id": "q003",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a mug in the image?",
+    "instruction": "Is there any vacant space to place a mug in the image?",
+    "answer": "no",
+    "rgb": "desk/95.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 1
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a mug in the image?",
+    "output_instruction": "Is there any vacant space to place a mug in the image?",
+    "editor_state": {
+      "placementItem": "mug",
+      "answerIndex": 1
+    },
+    "stress": {
+      "L": [
+        "global_underexposure"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

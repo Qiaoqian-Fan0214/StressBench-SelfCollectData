@@ -1,0 +1,44 @@
+{
+  "sample_id": "self_collection_desk_84_6ea46bd0__q002",
+  "source_sample_id": "self_collection_desk_84_6ea46bd0",
+  "status": "annotated",
+  "updated_at": "2026-04-27T04:51:24Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_84_6ea46bd0__q002",
+    "source_sample_id": "self_collection_desk_84_6ea46bd0",
+    "entry_id": "q002",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a pillow in the image?",
+    "instruction": "Is there any vacant space to place a pillow in the image?",
+    "answer": "yes",
+    "rgb": "desk/84.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a pillow in the image?",
+    "output_instruction": "Is there any vacant space to place a pillow in the image?",
+    "editor_state": {
+      "placementItem": "pillow",
+      "answerIndex": 0
+    },
+    "stress": {
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

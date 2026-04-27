@@ -1,0 +1,56 @@
+{
+  "sample_id": "self_collection_desk_27_1132ef1a__q001_bbox",
+  "source_sample_id": "self_collection_desk_27_1132ef1a",
+  "status": "annotated",
+  "updated_at": "2026-04-27T05:43:14Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_27_1132ef1a__q001_bbox",
+    "source_sample_id": "self_collection_desk_27_1132ef1a",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "desk/27.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_desk_27_1132ef1a_obj_000",
+      "object_name": "cup",
+      "bbox_xyxy": [
+        300.9610900878906,
+        1513.62109375,
+        724.1731567382812,
+        1755.31884765625
+      ],
+      "bbox_xywh": [
+        300.9610900878906,
+        1513.62109375,
+        423.2120666503906,
+        241.69775390625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cup in the image?",
+    "output_instruction": "What is the bounding box of the cup in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_27_1132ef1a_obj_000"
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "local_underexposure"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

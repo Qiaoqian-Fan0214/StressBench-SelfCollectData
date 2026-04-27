@@ -1,0 +1,140 @@
+{
+  "sample_id": "self_collection_desk_66_31e85b18__q001_mask",
+  "source_sample_id": "self_collection_desk_66_31e85b18",
+  "status": "annotated",
+  "updated_at": "2026-04-27T05:43:14Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_66_31e85b18__q001_mask",
+    "source_sample_id": "self_collection_desk_66_31e85b18",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the medicine bottle in the image.",
+    "instruction": "Locate the medicine bottle in the image.",
+    "answer": "medicine bottle",
+    "rgb": "desk/66.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_desk_66_31e85b18_obj_000",
+      "object_name": "medicine bottle",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            5712,
+            3213
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "adWh8:]a5Q1[Ob0S",
+            "`JaNo\\5R3ibJ\\MP\\",
+            "5e3hcJeLXZ5\\5_eJ",
+            "kJlY5W7_Oa0fNY1C",
+            ">^Oa0_Oa0[Of0_O`",
+            "0H8H7K6K5ZNhBmmJ",
+            "^=lP5nCinJX<kP5[",
+            "DhnJk;nP5Q3I7H7K",
+            "6L4M3L4M2N3M3M2O",
+            "2M2N3N101N1O2O0O",
+            "2N1O2O1N1O2O1N10",
+            "1N2N2O1N1O2O1N10",
+            "1N101O0O2O001N10",
+            "001N101O0O101N10",
+            "1N101O0O101O0O10",
+            "001O0O10001O0O10",
+            "1O000O101N101O0O",
+            "101O001O000O20O0",
+            "1O00001O0000010O",
+            "0001O010O0010O00",
+            "0O101N1O1O1M4M2M",
+            "3M3M3J7\\Oc0L4N2N",
+            "2N2O1N3N1N2O1O1O",
+            "1O1N2O1O1O1O1O1O",
+            "1O1O1O1O100TLfXO",
+            "a\\K[g0^c4kXO\\\\KV",
+            "g0cc4SYOT\\Knf0kc",
+            "4\\YOk[Kef0Td4eYO",
+            "b[K\\f0^d4RZOT[Kn",
+            "e0kd4cZOdZK^e0\\e",
+            "4eZO`ZK\\e0`e4eZO",
+            "^ZK\\e0be4fZO\\ZKZ",
+            "e0ce4hZO[ZKYe0ee",
+            "4hZOYZKYe0ge4iZO",
+            "VZKXe0ke4hZOSZKY",
+            "e0me4hZOQZKYe0oe",
+            "4iZOmYKYe0Sf4iZO",
+            "iYKXe0Yf4iZO_YK]",
+            "e0af4gZOSYKae0mf",
+            "4Q3001O0000001O0",
+            "00000001O0O101O0",
+            "0001O001O0O2O000",
+            "01O001N10001O000",
+            "01SXOcXKed0]g4U[",
+            "OmXKfd0Ug4S[OSYK",
+            "kd0mf4Q[OYYKmd0h",
+            "f4nZO]YKQe0cf4mZ",
+            "OaYKQe0`f4lZOcYK",
+            "Se0^f4iZOfYKUe0[",
+            "f4hZOiYKWe0Xf4fZ",
+            "OkYKYe0Vf4cZOnYK",
+            "\\e0Sf4`ZOQZK^e0P",
+            "f4_ZOSZKae0ne4ZZ",
+            "OWZKee0je4VZO[ZK",
+            "ie0ee4TZO^ZKke0d",
+            "e4QZO`ZKne0be4nY",
+            "OaZKQf0`e4kYOcZK",
+            "Tf0`e4eYOfZKZf0h",
+            "h401O0O2O2N3M2M3",
+            "N2N3M4K8I>B9G6J3",
+            "M3L3N2N1O2N1O1N2",
+            "O001O0O101O0O100",
+            "O100O10000O100O1",
+            "0O10O10000O10000",
+            "00O2O000O101N100",
+            "O2N1O2O0O101N1O1",
+            "O2N100O2O0O1O2O0",
+            "O2N1O1O2O0O2M2O2",
+            "N2N1N3M3K4K6I7J5",
+            "G:G8L5K4K6E;C=F:",
+            "iNW1\\Od0^Ob0POP1",
+            "TOl0WOi0oNQ1I7H8",
+            "B>XOh0G9E<mNR1]M",
+            "\\dJdMZ\\5U2ncJ[M`",
+            "\\5[2mcJYM^\\5k1bd",
+            "JeMj[5R2_2I8F:F:",
+            "F>Cif[k6"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1592.2703857421875,
+        2939.89208984375,
+        1966.2882080078125,
+        3836.39404296875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the medicine bottle in the image?",
+    "output_instruction": "What is the segmentation mask of the medicine bottle in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_66_31e85b18_obj_000"
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "L": [
+        "local_underexposure"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

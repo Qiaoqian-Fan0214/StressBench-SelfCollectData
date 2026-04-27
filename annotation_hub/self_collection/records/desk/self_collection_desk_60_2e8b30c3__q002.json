@@ -1,0 +1,44 @@
+{
+  "sample_id": "self_collection_desk_60_2e8b30c3__q002",
+  "source_sample_id": "self_collection_desk_60_2e8b30c3",
+  "status": "annotated",
+  "updated_at": "2026-04-27T03:46:57Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_60_2e8b30c3__q002",
+    "source_sample_id": "self_collection_desk_60_2e8b30c3",
+    "entry_id": "q002",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a notebook in the image?",
+    "instruction": "Is there any vacant space to place a notebook in the image?",
+    "answer": "yes",
+    "rgb": "desk/60.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a notebook in the image?",
+    "output_instruction": "Is there any vacant space to place a notebook in the image?",
+    "editor_state": {
+      "placementItem": "notebook",
+      "answerIndex": 0
+    },
+    "stress": {
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

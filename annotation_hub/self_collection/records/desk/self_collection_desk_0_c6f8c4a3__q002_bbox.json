@@ -1,0 +1,50 @@
+{
+  "sample_id": "self_collection_desk_0_c6f8c4a3__q002_bbox",
+  "source_sample_id": "self_collection_desk_0_c6f8c4a3",
+  "status": "annotated",
+  "updated_at": "2026-04-26T17:40:59Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_0_c6f8c4a3__q002_bbox",
+    "source_sample_id": "self_collection_desk_0_c6f8c4a3",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the desk organizer in the image.",
+    "instruction": "Locate the desk organizer in the image.",
+    "answer": "desk organizer",
+    "rgb": "desk/0.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_desk_0_c6f8c4a3_obj_009",
+      "object_name": "desk organizer",
+      "bbox_xyxy": [
+        1296.53076171875,
+        3633.706298828125,
+        2931.63671875,
+        5280.91943359375
+      ],
+      "bbox_xywh": [
+        1296.53076171875,
+        3633.706298828125,
+        1635.10595703125,
+        1647.213134765625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the desk organizer in the image?",
+    "output_instruction": "What is the bounding box of the desk organizer in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_0_c6f8c4a3_obj_009"
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

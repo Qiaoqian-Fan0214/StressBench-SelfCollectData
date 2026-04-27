@@ -1,0 +1,53 @@
+{
+  "sample_id": "self_collection_desk_42_75e659fd__q001_bbox",
+  "source_sample_id": "self_collection_desk_42_75e659fd",
+  "status": "annotated",
+  "updated_at": "2026-04-27T05:43:14Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_42_75e659fd__q001_bbox",
+    "source_sample_id": "self_collection_desk_42_75e659fd",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the apple in the image.",
+    "instruction": "Locate the apple in the image.",
+    "answer": "apple",
+    "rgb": "desk/42.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_desk_42_75e659fd_obj_000",
+      "object_name": "apple",
+      "bbox_xyxy": [
+        1463.970458984375,
+        2949.09521484375,
+        1994.9453125,
+        3599.24365234375
+      ],
+      "bbox_xywh": [
+        1463.970458984375,
+        2949.09521484375,
+        530.974853515625,
+        650.1484375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the apple in the image?",
+    "output_instruction": "What is the bounding box of the apple in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_42_75e659fd_obj_000"
+    },
+    "stress": {
+      "L": [
+        "local_overexposure"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

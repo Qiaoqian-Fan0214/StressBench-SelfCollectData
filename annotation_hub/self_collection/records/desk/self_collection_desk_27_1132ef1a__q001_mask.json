@@ -1,0 +1,120 @@
+{
+  "sample_id": "self_collection_desk_27_1132ef1a__q001_mask",
+  "source_sample_id": "self_collection_desk_27_1132ef1a",
+  "status": "annotated",
+  "updated_at": "2026-04-27T05:43:14Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_27_1132ef1a__q001_mask",
+    "source_sample_id": "self_collection_desk_27_1132ef1a",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "desk/27.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_desk_27_1132ef1a_obj_000",
+      "object_name": "cup",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4032,
+            3024
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "nleV1U1gl3b0_O>B",
+            "h0YO;E`0@:G6J6J5",
+            "K4M2N1N2O1N2O1O1",
+            "N2O1O001N101N2O0",
+            "01N2O0O2O1N2N2N1",
+            "O2N2N2M2N3N2N1O2",
+            "N1O101N100O101N1",
+            "00O100O2N100O2N1",
+            "O2N1O1O2N101N1O1",
+            "01O0O2O0O2O00001",
+            "N1000001O0O10001",
+            "O0000001N1000001",
+            "O000001O01O00000",
+            "0001O000000001N1",
+            "000000000000O2O0",
+            "000000000001O000",
+            "00010O0001O00001",
+            "O010O000000001O0",
+            "000O101O00000000",
+            "000000000O100000",
+            "0000000O10000000",
+            "1N100000O10O1000",
+            "000000000000O10O",
+            "1000000000000000",
+            "0000000000000000",
+            "00000000000O1000",
+            "0000000000000000",
+            "000O2O00000O1000",
+            "0O100O10000O1000",
+            "0O1000000O1000O1",
+            "000O100000000000",
+            "0O1000000000000O",
+            "100000001O0O1000",
+            "001O0O1000000O2O",
+            "00000O10001O0O10",
+            "000O101O0O100O10",
+            "0O2O0O1O100O2O0O",
+            "100O10000O10000O",
+            "10001O0O1000000O",
+            "1000000000001O00",
+            "00000000001O0000",
+            "00000O1000001O00",
+            "00000000001O0000",
+            "00001O00001O0000",
+            "1O001O001O1O1O1N",
+            "2O1O1O1O1O000010",
+            "O01O00001O00001O",
+            "0000001O00100O00",
+            "1O101N3M5K5K3N1N",
+            "1O2N2N2N1O1O1N2O",
+            "001jNSWLWMnh3f2W",
+            "WLWMih3g2[WLWMfh",
+            "3f2^WLWMjg3MhWLj",
+            "2a0XMeg31jWLe2c0",
+            "YMdg30kWL>0l0aj3",
+            "POkULd0Yj3YOY2M3",
+            "N3Le`Zk8"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        300.9610900878906,
+        1513.62109375,
+        724.1731567382812,
+        1755.31884765625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the cup in the image?",
+    "output_instruction": "What is the segmentation mask of the cup in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_27_1132ef1a_obj_000"
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "local_underexposure"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

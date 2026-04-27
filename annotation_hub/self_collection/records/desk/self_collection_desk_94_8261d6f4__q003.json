@@ -1,0 +1,47 @@
+{
+  "sample_id": "self_collection_desk_94_8261d6f4__q003",
+  "source_sample_id": "self_collection_desk_94_8261d6f4",
+  "status": "annotated",
+  "updated_at": "2026-04-27T05:43:15Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_94_8261d6f4__q003",
+    "source_sample_id": "self_collection_desk_94_8261d6f4",
+    "entry_id": "q003",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a plate in the image?",
+    "instruction": "Is there any vacant space to place a plate in the image?",
+    "answer": "no",
+    "rgb": "desk/94.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 1
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a plate in the image?",
+    "output_instruction": "Is there any vacant space to place a plate in the image?",
+    "editor_state": {
+      "placementItem": "plate",
+      "answerIndex": 1
+    },
+    "stress": {
+      "V": [
+        "extreme_viewpoint"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

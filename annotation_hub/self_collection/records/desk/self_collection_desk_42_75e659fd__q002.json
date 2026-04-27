@@ -1,0 +1,47 @@
+{
+  "sample_id": "self_collection_desk_42_75e659fd__q002",
+  "source_sample_id": "self_collection_desk_42_75e659fd",
+  "status": "annotated",
+  "updated_at": "2026-04-27T05:43:14Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_42_75e659fd__q002",
+    "source_sample_id": "self_collection_desk_42_75e659fd",
+    "entry_id": "q002",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a monitor in the image?",
+    "instruction": "Is there any vacant space to place a monitor in the image?",
+    "answer": "yes",
+    "rgb": "desk/42.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a monitor in the image?",
+    "output_instruction": "Is there any vacant space to place a monitor in the image?",
+    "editor_state": {
+      "placementItem": "monitor",
+      "answerIndex": 0
+    },
+    "stress": {
+      "L": [
+        "local_overexposure"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "sample_id": "self_collection_desk_54_5f74aeca__q002_mask",
+  "source_sample_id": "self_collection_desk_54_5f74aeca",
+  "status": "annotated",
+  "updated_at": "2026-04-27T03:46:57Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_54_5f74aeca__q002_mask",
+    "source_sample_id": "self_collection_desk_54_5f74aeca",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the pen in the image.",
+    "instruction": "Locate the pen in the image.",
+    "answer": "pen",
+    "rgb": "desk/54.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_desk_54_5f74aeca_obj_001",
+      "object_name": "pen",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3000,
+            4500
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "XZbc:?Wm27I5K5K6",
+            "J8H8H7K4K6J8H6J5",
+            "L7H7J6I7J7I6I4M4",
+            "K4M5J7J7I8H9F:G8",
+            "H7I5K6J5K;E9G5J5",
+            "L4L5K6J8H6J5K4M4",
+            "K6J7J5J5L4L5K4L5",
+            "J6L6I7J7J6K3L5K1",
+            "O02M3N0O0001O30U",
+            "Ek]Mm9Yb2]Eb^MY:",
+            "db2L2O0b0_O2O24J",
+            "20OO2O2ON1OO3M10",
+            "N3M0O03L8H1O0000",
+            "01O106Ng0ZO2MO01",
+            "01N2M215K1OM2M3M",
+            "2O1O1O01118IK3L3",
+            "M2N1001O2M3O0002",
+            "M1O1;D11M`0@5K5M",
+            "16J2NM3N1002O11N",
+            "01M2O014K2NN4L4M",
+            "3M30L5K4M1N3L411",
+            "4KM2N2N2O0O3N1O1",
+            "b0^O2M31L2N12M4L",
+            "3N20O3K1OO0N5K8a",
+            "^MRDb`2d<O001002",
+            "O2O5J5K3L4L:F6LO",
+            "3O`0A:G0N10O2L2O",
+            "00O2N3N01O1O100O",
+            "2OO1M2O0O1N10000",
+            "02O01OT_MjCS`2W=",
+            "KO2K7I9H<D1O2M3N",
+            "110>B10O2M3L2O10",
+            "07H20O2N0O4M3K27",
+            "F4MOO2O2f_MVC__2",
+            "f=L3N3N4K2O01N3M",
+            "2M<E6I2O47J4LM2N",
+            "2M3M2N2N202N1N1L",
+            "3M2M6J6J5K5K4K4M",
+            "3L3N2M4M2M3M3N3L",
+            "5K5K6K7H>Ba0_O9G",
+            "5K5K6J5K6J6J7I7I",
+            "6J8H6J6J7I6J:F:E",
+            "8I6J6J4K3N3L3N2N",
+            "2M4M3M5J5L4L5J;F",
+            ">B;D:G7I5J6K4K7J",
+            "6I7I<CUWfY1"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        3705.459716796875,
+        83.07730865478516,
+        4052.567138671875,
+        1798.2218017578125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the pen in the image?",
+    "output_instruction": "What is the segmentation mask of the pen in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_54_5f74aeca_obj_001"
+    },
+    "stress": {
+      "V": [
+        "extreme_viewpoint"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}
