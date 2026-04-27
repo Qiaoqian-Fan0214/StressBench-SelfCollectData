@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_12_941225d4__q001_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_12_941225d4",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:28:51Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_12_941225d4__q001_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_12_941225d4",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the pillow in the image.",
+    "instruction": "Locate the pillow in the image.",
+    "answer": "pillow",
+    "rgb": "messy_living_room_with_mirror/12.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_12_941225d4_obj_000",
+      "object_name": "pillow",
+      "bbox_xyxy": [
+        2402.93017578125,
+        2447.067626953125,
+        3192.54541015625,
+        3179.717529296875
+      ],
+      "bbox_xywh": [
+        2402.93017578125,
+        2447.067626953125,
+        789.615234375,
+        732.64990234375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the pillow in the image?",
+    "output_instruction": "What is the bounding box of the pillow in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_12_941225d4_obj_000",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

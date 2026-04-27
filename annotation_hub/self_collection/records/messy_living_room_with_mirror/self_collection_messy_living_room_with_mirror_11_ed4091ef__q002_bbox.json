@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_11_ed4091ef__q002_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_11_ed4091ef",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:07:56Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_11_ed4091ef__q002_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_11_ed4091ef",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the fan in the image.",
+    "instruction": "Locate the fan in the image.",
+    "answer": "fan",
+    "rgb": "messy_living_room_with_mirror/11.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_11_ed4091ef_obj_002",
+      "object_name": "fan",
+      "bbox_xyxy": [
+        2833.583984375,
+        2616.74169921875,
+        3059.971923828125,
+        2953.426513671875
+      ],
+      "bbox_xywh": [
+        2833.583984375,
+        2616.74169921875,
+        226.387939453125,
+        336.684814453125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the fan in the image?",
+    "output_instruction": "What is the bounding box of the fan in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_11_ed4091ef_obj_002",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

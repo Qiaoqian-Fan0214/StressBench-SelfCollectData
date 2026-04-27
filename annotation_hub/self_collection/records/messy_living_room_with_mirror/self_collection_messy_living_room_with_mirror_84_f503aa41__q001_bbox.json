@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_84_f503aa41__q001_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_84_f503aa41",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:33Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_84_f503aa41__q001_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_84_f503aa41",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the ladder in the image.",
+    "instruction": "Locate the ladder in the image.",
+    "answer": "ladder",
+    "rgb": "messy_living_room_with_mirror/84.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_84_f503aa41_obj_000",
+      "object_name": "ladder",
+      "bbox_xyxy": [
+        4164.2490234375,
+        366.0815124511719,
+        5930.11474609375,
+        4023.37646484375
+      ],
+      "bbox_xywh": [
+        4164.2490234375,
+        366.0815124511719,
+        1765.86572265625,
+        3657.294952392578
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the ladder in the image?",
+    "output_instruction": "What is the bounding box of the ladder in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "large_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_84_f503aa41_obj_000",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "large_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

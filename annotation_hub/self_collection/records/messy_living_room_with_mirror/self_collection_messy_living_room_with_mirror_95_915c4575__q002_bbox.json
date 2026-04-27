@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_95_915c4575__q002_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_95_915c4575",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:34Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_95_915c4575__q002_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_95_915c4575",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the monitor in the image.",
+    "instruction": "Locate the monitor in the image.",
+    "answer": "monitor",
+    "rgb": "messy_living_room_with_mirror/95.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_95_915c4575_obj_003",
+      "object_name": "monitor",
+      "bbox_xyxy": [
+        548.0015258789062,
+        1520.0198974609375,
+        1978.4998779296875,
+        2926.77783203125
+      ],
+      "bbox_xywh": [
+        548.0015258789062,
+        1520.0198974609375,
+        1430.4983520507812,
+        1406.7579345703125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the monitor in the image?",
+    "output_instruction": "What is the bounding box of the monitor in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_95_915c4575_obj_003",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

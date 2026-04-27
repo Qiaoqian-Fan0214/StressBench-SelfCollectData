@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_20_706f3218__q001_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_20_706f3218",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:26Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_20_706f3218__q001_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_20_706f3218",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the radiator in the image.",
+    "instruction": "Locate the radiator in the image.",
+    "answer": "radiator",
+    "rgb": "messy_living_room_with_mirror/20.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_20_706f3218_obj_000",
+      "object_name": "radiator",
+      "bbox_xyxy": [
+        4.801959037780762,
+        942.0064697265625,
+        1484.9063720703125,
+        2093.675048828125
+      ],
+      "bbox_xywh": [
+        4.801959037780762,
+        942.0064697265625,
+        1480.1044130325317,
+        1151.6685791015625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the radiator in the image?",
+    "output_instruction": "What is the bounding box of the radiator in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "L": [
+          "global_underexposure"
+        ],
+        "M": [
+          "dark_absorptive"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_20_706f3218_obj_000",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "L": [
+        "global_underexposure"
+      ],
+      "M": [
+        "dark_absorptive"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

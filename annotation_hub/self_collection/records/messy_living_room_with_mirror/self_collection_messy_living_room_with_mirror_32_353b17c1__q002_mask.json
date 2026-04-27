@@ -1,0 +1,135 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_32_353b17c1__q002_mask",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_32_353b17c1",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:27Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_32_353b17c1__q002_mask",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_32_353b17c1",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the vase in the image.",
+    "instruction": "Locate the vase in the image.",
+    "answer": "vase",
+    "rgb": "messy_living_room_with_mirror/32.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_living_room_with_mirror_32_353b17c1_obj_004",
+      "object_name": "vase",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            6000,
+            4000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "bT`V9`0_j5^1VVJl",
+            "2Vc5P3eLVI[`JAHb",
+            "7m^5o3oFUDRRKS<Q",
+            "k4[D]mJQ1U7k:Rk4",
+            "ZGURK`LhL\\<iP5cG",
+            "jmJSL>MY1a0^Nl<g",
+            "Q5[HjmJnJ_1e>_P5",
+            "kHPnJm7jQ5o8M4L3",
+            "N2O2M2O1O1O100O2",
+            "O00000000O100000",
+            "0000000000000000",
+            "000000000000000O",
+            "1000000000000000",
+            "0000O10000000000",
+            "000000000001O000",
+            "0000000001O00000",
+            "0010O000000001O0",
+            "0000000000000000",
+            "0000000O10000000",
+            "0O1000000O10001O",
+            "0O10O10000000O10",
+            "00000000O1000000",
+            "0001O000O1000000",
+            "0000000000O10000",
+            "000000O100000000",
+            "00O1000000000000",
+            "00O1000000001O00",
+            "0000000000001O00",
+            "0000000000000010",
+            "O000000000000O10",
+            "001O000000000000",
+            "0000001O00000000",
+            "000000000000001O",
+            "0000000O10000000",
+            "0000000000000000",
+            "00001O01O0000000",
+            "000001O000000000",
+            "1O01O00000000000",
+            "0000000000000000",
+            "00000000000O1000",
+            "000000000000001N",
+            "1000000000001O00",
+            "00000O2O00000000",
+            "1O000000001O0O10",
+            "001O00000O101O00",
+            "00000O2O00000000",
+            "1N100000001O000O",
+            "101O001N101O0O2O",
+            "1N2O1N102M3N3L3L",
+            "5K5VOj0d@llJP6^S",
+            "5_IXmJRIhNP<XT5e",
+            "HokJnKb2T:PM^EfT",
+            "5T3ZmJ`Le19bLU98",
+            "bF_T5S3hQKlLiIY9",
+            "<ZF[T5U3oRKY6Zn4",
+            "hHeRKP7bm4jHeRKX",
+            "6Yn4cIlQKU3kFZMf",
+            "W5[OgQKl1^FVMd0R",
+            "1dW5EhQK[1eR5]Nn",
+            "mJN[S5LTmJ@WS58T",
+            "<L5J5L6J6JTQ`30n",
+            "n_L3M2O2M1O2O0O1",
+            "O2O02MY]n];"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1593.8128662109375,
+        1708.2813720703125,
+        1998.2784423828125,
+        2569.484619140625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the vase in the image?",
+    "output_instruction": "What is the segmentation mask of the vase in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "complex_texture"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_32_353b17c1_obj_004",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

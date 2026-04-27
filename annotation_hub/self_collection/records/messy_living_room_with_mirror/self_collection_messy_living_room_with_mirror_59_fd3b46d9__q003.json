@@ -1,0 +1,58 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_59_fd3b46d9__q003",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_59_fd3b46d9",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:30Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_59_fd3b46d9__q003",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_59_fd3b46d9",
+    "entry_id": "q003",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a book in the image?",
+    "instruction": "Is there any vacant space to place a book in the image?",
+    "answer": "yes",
+    "rgb": "messy_living_room_with_mirror/59.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a book in the image?",
+    "output_instruction": "Is there any vacant space to place a book in the image?",
+    "editor_state": {
+      "entry_id": "q003",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "",
+      "placementItem": "book",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

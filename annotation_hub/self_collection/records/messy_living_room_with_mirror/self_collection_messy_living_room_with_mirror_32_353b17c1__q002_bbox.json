@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_32_353b17c1__q002_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_32_353b17c1",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:27Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_32_353b17c1__q002_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_32_353b17c1",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the vase in the image.",
+    "instruction": "Locate the vase in the image.",
+    "answer": "vase",
+    "rgb": "messy_living_room_with_mirror/32.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_32_353b17c1_obj_004",
+      "object_name": "vase",
+      "bbox_xyxy": [
+        1593.8128662109375,
+        1708.2813720703125,
+        1998.2784423828125,
+        2569.484619140625
+      ],
+      "bbox_xywh": [
+        1593.8128662109375,
+        1708.2813720703125,
+        404.465576171875,
+        861.2032470703125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the vase in the image?",
+    "output_instruction": "What is the bounding box of the vase in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "complex_texture"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_32_353b17c1_obj_004",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

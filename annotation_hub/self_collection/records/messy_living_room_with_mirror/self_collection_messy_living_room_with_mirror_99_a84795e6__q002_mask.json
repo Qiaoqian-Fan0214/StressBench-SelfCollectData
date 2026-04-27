@@ -1,0 +1,146 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_99_a84795e6__q002_mask",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_99_a84795e6",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:17:34Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_99_a84795e6__q002_mask",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_99_a84795e6",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the flower in the image.",
+    "instruction": "Locate the flower in the image.",
+    "answer": "flower",
+    "rgb": "messy_living_room_with_mirror/99.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_living_room_with_mirror_99_a84795e6_obj_002",
+      "object_name": "flower",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3000,
+            2000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "^l1Z2^k200000000",
+            "00000001O0000000",
+            "000000O010000O10",
+            "0O1O1N2^Ob0K5M3N",
+            "2L4J6L4M3F:I7M3M",
+            "3L4L4L4N2L4M3\\On",
+            "J_XMU5\\g2e0M4M3N",
+            "2N2M3O001O100O01",
+            "0O10O10O10O01O10",
+            "0O001O1O010O010O",
+            "010O0100O10000O2",
+            "O1N2O1N2N2N1O2M2",
+            "N3N1N2O1O1O1O1O1",
+            "O1O1O1O1O1O001N2",
+            "O1O1N1RNjWMZNXh2",
+            "e1kWMnM`h2P2cWMn",
+            "M^h2Q2dWMnM[h2R2",
+            "fWMmM[h2R2fWMnMY",
+            "h2R2hWMmMXh2U1_W",
+            "M\\N9`0Wh2o0iWM]N",
+            "0d0Wh2l0oWM\\NKi0",
+            "Uh2i0VXMWNFS1Sh2",
+            "d0oXM@Rg2=oXMEPg",
+            "29SYMGlf27VYMJif",
+            "2G_WMQOl1W1ef2Ek",
+            "YM;Uf2BmYM?Rf2@P",
+            "ZM`0Pf2]ORZMc0ne",
+            "2ZOUZMg0ke2VOWZM",
+            "k0ie2SOXZMm0ie2Q",
+            "OXZMo0he2QOXZM5W",
+            "MOah2LVZM5]ML^h2",
+            "NTZM8`MG]h21QZM:",
+            "dM@]h26nYM;kf2ES",
+            "YM=lf2DSYM=mf2CQ",
+            "YM?nf2BQYM?of2AP",
+            "YM`0of2AoXMa0Qg2",
+            "_OnXMb0Qg2_OnXMa",
+            "0Sg2_OkXMc0Tg2^O",
+            "kXMc0Ug2\\OiXMg0V",
+            "g2ZOgXMh0Zg2WOcX",
+            "Mm0\\g2SOcXMo0]g2",
+            "oNcXMR1^g2mNaXMT",
+            "1`g2jNaXMW1_g2hN",
+            "aXMX1`g2fNaXM[1^",
+            "g2eNbXM\\1^g2cNbX",
+            "M]1_g2bNbXM^1^g2",
+            "aNbXM`1^g2`NbXM_",
+            "1_g2`NaXMa1`g2]N",
+            "aXMc1`g2[NaXMd1`",
+            "g2[N`XMe1cg2XN^X",
+            "Mg1ii21O00000000",
+            "0O1000O2N1YOWTM]",
+            "Omk2`0ZTMYOhk2g0",
+            "d001O00100O10001",
+            "O001O001O001O1O0",
+            "00O2O000O3M`m2Ai",
+            "RM8N1O2N1O10O010",
+            "00O01O00001N1000",
+            "1O00O2O0O2N2O001",
+            "O10O10O10O10O01O",
+            "1N2O0O2O1O1O10O0",
+            "10O01OO2O000O100",
+            "0000001O00000000",
+            "0000O1010O010O01",
+            "O010O10O01O1O01O",
+            "01O01O01O010O0O2",
+            "O1O0O2K5N10010O2",
+            "Nnlel4"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        0.9693503379821777,
+        1753.3167724609375,
+        292.06585693359375,
+        2009.7066650390625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the flower in the image?",
+    "output_instruction": "What is the segmentation mask of the flower in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "complex_texture"
+        ],
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_99_a84795e6_obj_002",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ],
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

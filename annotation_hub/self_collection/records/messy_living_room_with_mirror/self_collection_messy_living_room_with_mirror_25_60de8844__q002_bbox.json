@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_25_60de8844__q002_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_25_60de8844",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:07:56Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_25_60de8844__q002_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_25_60de8844",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the carpet in the image.",
+    "instruction": "Locate the carpet in the image.",
+    "answer": "carpet",
+    "rgb": "messy_living_room_with_mirror/25.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_25_60de8844_obj_003",
+      "object_name": "carpet",
+      "bbox_xyxy": [
+        1230.7061767578125,
+        2086.7958984375,
+        4792.79443359375,
+        3188.2001953125
+      ],
+      "bbox_xywh": [
+        1230.7061767578125,
+        2086.7958984375,
+        3562.0882568359375,
+        1101.404296875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the carpet in the image?",
+    "output_instruction": "What is the bounding box of the carpet in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "large_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_25_60de8844_obj_003",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "large_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

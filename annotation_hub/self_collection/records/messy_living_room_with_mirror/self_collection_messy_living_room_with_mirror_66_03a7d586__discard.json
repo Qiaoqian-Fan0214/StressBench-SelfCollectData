@@ -1,0 +1,12 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_66_03a7d586__discard",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_66_03a7d586",
+  "status": "discarded",
+  "updated_at": "2026-04-27T15:04:31Z",
+  "annotation": null,
+  "provenance": {
+    "dataset": "Self-Collection",
+    "subcategory": "messy_living_room_with_mirror",
+    "split": "self_collected"
+  }
+}

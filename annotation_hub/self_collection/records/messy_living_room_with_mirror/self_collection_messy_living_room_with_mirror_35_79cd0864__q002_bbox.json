@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_35_79cd0864__q002_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_35_79cd0864",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:26:15Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_35_79cd0864__q002_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_35_79cd0864",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the picture in the image.",
+    "instruction": "Locate the picture in the image.",
+    "answer": "picture",
+    "rgb": "messy_living_room_with_mirror/35.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_35_79cd0864_obj_004",
+      "object_name": "picture",
+      "bbox_xyxy": [
+        3051.69677734375,
+        1517.7574462890625,
+        3992.12353515625,
+        2759.992919921875
+      ],
+      "bbox_xywh": [
+        3051.69677734375,
+        1517.7574462890625,
+        940.4267578125,
+        1242.2354736328125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the picture in the image?",
+    "output_instruction": "What is the bounding box of the picture in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_35_79cd0864_obj_004",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

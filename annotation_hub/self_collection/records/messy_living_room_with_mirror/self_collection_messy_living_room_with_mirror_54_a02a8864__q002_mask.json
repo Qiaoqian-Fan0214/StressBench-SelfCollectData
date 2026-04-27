@@ -1,0 +1,95 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_54_a02a8864__q002_mask",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_54_a02a8864",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:23:57Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_54_a02a8864__q002_mask",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_54_a02a8864",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the vase in the image.",
+    "instruction": "Locate the vase in the image.",
+    "answer": "vase",
+    "rgb": "messy_living_room_with_mirror/54.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_living_room_with_mirror_54_a02a8864_obj_003",
+      "object_name": "vase",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2000,
+            3000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "jVfW2Z1Rm1f0\\Ob0",
+            "@X1gNc0^O7I6K3L2",
+            "N2O1N1O2N101N1O1",
+            "O1O1O100O001O1O2",
+            "O0O6J6J4L100O000",
+            "000001O0000001O1",
+            "O1O2N2N1O2N1O1O2",
+            "N2N3M2N2N1O1O000",
+            "10O00000000000O1",
+            "0000000O10000000",
+            "00000O1000000000",
+            "0000000000O10000",
+            "000O10000O010O1O",
+            "1M2@a0A?J5O2N2N1",
+            "01N2O001O1O1O1N2",
+            "O1N2M3M2O2L4L4_O",
+            "c0fL\\3[OilnW3"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1169.384765625,
+        1259.851318359375,
+        1299.9227294921875,
+        1495.9815673828125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the vase in the image?",
+    "output_instruction": "What is the segmentation mask of the vase in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_54_a02a8864_obj_003",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

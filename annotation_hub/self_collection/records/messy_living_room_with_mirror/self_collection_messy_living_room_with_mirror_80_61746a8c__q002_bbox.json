@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_80_61746a8c__q002_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_80_61746a8c",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:19:50Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_80_61746a8c__q002_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_80_61746a8c",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the vase in the image.",
+    "instruction": "Locate the vase in the image.",
+    "answer": "vase",
+    "rgb": "messy_living_room_with_mirror/80.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_80_61746a8c_obj_004",
+      "object_name": "vase",
+      "bbox_xyxy": [
+        282.707763671875,
+        1694.3798828125,
+        414.3882141113281,
+        1917.4931640625
+      ],
+      "bbox_xywh": [
+        282.707763671875,
+        1694.3798828125,
+        131.68045043945312,
+        223.11328125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the vase in the image?",
+    "output_instruction": "What is the bounding box of the vase in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "complex_texture"
+        ],
+        "V": [
+          "small_scale"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_80_61746a8c_obj_004",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ],
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

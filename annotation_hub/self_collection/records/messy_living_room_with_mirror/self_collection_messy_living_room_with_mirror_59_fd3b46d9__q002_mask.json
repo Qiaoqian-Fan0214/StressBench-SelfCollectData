@@ -1,0 +1,88 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_59_fd3b46d9__q002_mask",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_59_fd3b46d9",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:30Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_59_fd3b46d9__q002_mask",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_59_fd3b46d9",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "messy_living_room_with_mirror/59.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_living_room_with_mirror_59_fd3b46d9_obj_000",
+      "object_name": "cup",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            1987,
+            2997
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "cni9:fm1:G8H:F9H",
+            "5L3L5K4M5J5L3L4M",
+            "3L4M2M4M2M4M3M3L",
+            "4M3M4L5J6K3M4L4K",
+            "5L3M2N2N2N0O2O00",
+            "1O1O001O001O0O10",
+            "0000O1000000O100",
+            "000O100000000000",
+            "0000000000000000",
+            "0000000000O10000",
+            "000001O000O10000",
+            "00O1000000O2O000",
+            "O101N1O1O2M2N3PO",
+            "QWNgLRi1m2X1K6J6",
+            "J5L5H8J6K5L4L5K8",
+            "DTXRU5"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        157.32757568359375,
+        1557.5882568359375,
+        276.7340393066406,
+        1722.625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the cup in the image?",
+    "output_instruction": "What is the segmentation mask of the cup in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_59_fd3b46d9_obj_000",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}
