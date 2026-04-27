@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_41_6b32824f__q001_bbox",
+  "source_sample_id": "self_collection_cabinet_occlusion_41_6b32824f",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:21:13Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_41_6b32824f__q001_bbox",
+    "source_sample_id": "self_collection_cabinet_occlusion_41_6b32824f",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the microwave in the image.",
+    "instruction": "Locate the microwave in the image.",
+    "answer": "microwave",
+    "rgb": "cabinet_occlusion/41.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_cabinet_occlusion_41_6b32824f_obj_000",
+      "object_name": "microwave",
+      "bbox_xyxy": [
+        1864.8807373046875,
+        873.7410888671875,
+        2729.345947265625,
+        1400.85498046875
+      ],
+      "bbox_xywh": [
+        1864.8807373046875,
+        873.7410888671875,
+        864.4652099609375,
+        527.1138916015625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the microwave in the image?",
+    "output_instruction": "What is the bounding box of the microwave in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_41_6b32824f_obj_000",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

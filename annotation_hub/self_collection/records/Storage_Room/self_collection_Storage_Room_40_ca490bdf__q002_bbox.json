@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Storage_Room_40_ca490bdf__q002_bbox",
+  "source_sample_id": "self_collection_Storage_Room_40_ca490bdf",
+  "status": "annotated",
+  "updated_at": "2026-04-26T17:42:51Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_40_ca490bdf__q002_bbox",
+    "source_sample_id": "self_collection_Storage_Room_40_ca490bdf",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cable in the image.",
+    "instruction": "Locate the cable in the image.",
+    "answer": "cable",
+    "rgb": "Storage_Room/40.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_40_ca490bdf_obj_001",
+      "object_name": "cable",
+      "bbox_xyxy": [
+        1347.1746826171875,
+        4.074111461639404,
+        2302.052001953125,
+        174.31919860839844
+      ],
+      "bbox_xywh": [
+        1347.1746826171875,
+        4.074111461639404,
+        954.8773193359375,
+        170.24508714675903
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cable in the image?",
+    "output_instruction": "What is the bounding box of the cable in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_40_ca490bdf_obj_001",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "sample_id": "self_collection_Storage_Room_76_93d05c63__q002",
+  "source_sample_id": "self_collection_Storage_Room_76_93d05c63",
+  "status": "annotated",
+  "updated_at": "2026-04-26T18:22:34Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_76_93d05c63__q002",
+    "source_sample_id": "self_collection_Storage_Room_76_93d05c63",
+    "entry_id": "q002",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the flower relative to the laundry basket in the image?",
+    "instruction": "What is the spatial relation of the flower relative to the laundry basket in the image?",
+    "answer": "up",
+    "rgb": "Storage_Room/76.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 0
+      },
+      "subject_a": {
+        "object_id": "self_collection_Storage_Room_76_93d05c63_obj_001",
+        "label": "flower"
+      },
+      "subject_b": {
+        "object_id": "self_collection_Storage_Room_76_93d05c63_obj_005",
+        "label": "laundry basket"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the flower relative to the laundry basket in the image?",
+    "output_instruction": "What is the spatial relation of the flower relative to the laundry basket in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_76_93d05c63_obj_001",
+      "placementItem": "plate",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "self_collection_Storage_Room_76_93d05c63_obj_001",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_Storage_Room_76_93d05c63_obj_005",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

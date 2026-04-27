@@ -1,0 +1,83 @@
+{
+  "sample_id": "self_collection_Storage_Room_35_fbe1a342__q001_mask",
+  "source_sample_id": "self_collection_Storage_Room_35_fbe1a342",
+  "status": "annotated",
+  "updated_at": "2026-04-26T17:31:29Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_35_fbe1a342__q001_mask",
+    "source_sample_id": "self_collection_Storage_Room_35_fbe1a342",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the power outlet in the image.",
+    "instruction": "Locate the power outlet in the image.",
+    "answer": "power outlet",
+    "rgb": "Storage_Room/35.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Storage_Room_35_fbe1a342_obj_005",
+      "object_name": "power outlet",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2668,
+            4000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "^UZn65U`2m0[aMH\\",
+            "^2i2K3O1N2O001N1",
+            "00000000O1000000",
+            "0000000O01000000",
+            "0O100000O1000O10",
+            "000000O100000000",
+            "0O1000O10001O000",
+            "0000O100000001N1",
+            "001N10001N2N2N4_",
+            "Ll`Mc2b`2RNe_MC[",
+            "b2CbTmQ3"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2722.853759765625,
+        1156.3218994140625,
+        2800.305908203125,
+        1286.7318115234375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the power outlet in the image?",
+    "output_instruction": "What is the segmentation mask of the power outlet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_35_fbe1a342_obj_005",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

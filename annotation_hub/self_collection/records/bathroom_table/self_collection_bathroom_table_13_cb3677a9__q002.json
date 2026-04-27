@@ -1,0 +1,70 @@
+{
+  "sample_id": "self_collection_bathroom_table_13_cb3677a9__q002",
+  "source_sample_id": "self_collection_bathroom_table_13_cb3677a9",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:56:03Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_13_cb3677a9__q002",
+    "source_sample_id": "self_collection_bathroom_table_13_cb3677a9",
+    "entry_id": "q002",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the faucet relative to the cup in the image?",
+    "instruction": "What is the spatial relation of the faucet relative to the cup in the image?",
+    "answer": "right",
+    "rgb": "bathroom_table/13.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 3
+      },
+      "subject_a": {
+        "object_id": "self_collection_bathroom_table_13_cb3677a9_obj_000",
+        "label": "faucet"
+      },
+      "subject_b": {
+        "object_id": "self_collection_bathroom_table_13_cb3677a9_obj_007",
+        "label": "cup"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the faucet relative to the cup in the image?",
+    "output_instruction": "What is the spatial relation of the faucet relative to the cup in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "M": [
+          "transparent"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_13_cb3677a9_obj_000",
+      "placementItem": "vase",
+      "answerIndex": 3,
+      "spatialRelationAObjectId": "self_collection_bathroom_table_13_cb3677a9_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_bathroom_table_13_cb3677a9_obj_007",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_82_79615662__q001_bbox",
+  "source_sample_id": "self_collection_cabinet_occlusion_82_79615662",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:59:04Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_82_79615662__q001_bbox",
+    "source_sample_id": "self_collection_cabinet_occlusion_82_79615662",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the faucet in the image.",
+    "instruction": "Locate the faucet in the image.",
+    "answer": "faucet",
+    "rgb": "cabinet_occlusion/82.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_cabinet_occlusion_82_79615662_obj_003",
+      "object_name": "faucet",
+      "bbox_xyxy": [
+        1726.4151611328125,
+        1390.8209228515625,
+        1848.5030517578125,
+        1744.976806640625
+      ],
+      "bbox_xywh": [
+        1726.4151611328125,
+        1390.8209228515625,
+        122.087890625,
+        354.1558837890625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the faucet in the image?",
+    "output_instruction": "What is the bounding box of the faucet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_82_79615662_obj_003",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

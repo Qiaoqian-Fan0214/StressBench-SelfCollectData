@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_Storage_Room_20_735d4fcf__q002_bbox",
+  "source_sample_id": "self_collection_Storage_Room_20_735d4fcf",
+  "status": "annotated",
+  "updated_at": "2026-04-26T10:39:14Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_20_735d4fcf__q002_bbox",
+    "source_sample_id": "self_collection_Storage_Room_20_735d4fcf",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "Storage_Room/20.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_20_735d4fcf_obj_005",
+      "object_name": "cup",
+      "bbox_xyxy": [
+        5238.57275390625,
+        2078.6748046875,
+        5327.7822265625,
+        2170.45166015625
+      ],
+      "bbox_xywh": [
+        5238.57275390625,
+        2078.6748046875,
+        89.20947265625,
+        91.77685546875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cup in the image?",
+    "output_instruction": "What is the bounding box of the cup in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_20_735d4fcf_obj_005",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

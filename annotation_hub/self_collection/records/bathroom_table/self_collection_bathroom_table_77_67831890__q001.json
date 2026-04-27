@@ -1,0 +1,58 @@
+{
+  "sample_id": "self_collection_bathroom_table_77_67831890__q001",
+  "source_sample_id": "self_collection_bathroom_table_77_67831890",
+  "status": "annotated",
+  "updated_at": "2026-04-27T12:09:25Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_77_67831890__q001",
+    "source_sample_id": "self_collection_bathroom_table_77_67831890",
+    "entry_id": "q001",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a armchair in the image?",
+    "instruction": "Is there any vacant space to place a armchair in the image?",
+    "answer": "yes",
+    "rgb": "bathroom_table/77.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a armchair in the image?",
+    "output_instruction": "Is there any vacant space to place a armchair in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "M": [
+          "complex_texture"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_77_67831890_obj_000",
+      "placementItem": "armchair",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

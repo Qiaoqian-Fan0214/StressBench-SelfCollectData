@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_bathroom_table_76_2638b7ba__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_76_2638b7ba",
+  "status": "annotated",
+  "updated_at": "2026-04-27T12:08:14Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_76_2638b7ba__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_76_2638b7ba",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the toilet paper holder in the image.",
+    "instruction": "Locate the toilet paper holder in the image.",
+    "answer": "toilet paper holder",
+    "rgb": "bathroom_table/76.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_76_2638b7ba_obj_002",
+      "object_name": "toilet paper holder",
+      "bbox_xyxy": [
+        1652.9415283203125,
+        1497.8173828125,
+        1755.348876953125,
+        1619.0928955078125
+      ],
+      "bbox_xywh": [
+        1652.9415283203125,
+        1497.8173828125,
+        102.4073486328125,
+        121.2755126953125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the toilet paper holder in the image?",
+    "output_instruction": "What is the bounding box of the toilet paper holder in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_76_2638b7ba_obj_002",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

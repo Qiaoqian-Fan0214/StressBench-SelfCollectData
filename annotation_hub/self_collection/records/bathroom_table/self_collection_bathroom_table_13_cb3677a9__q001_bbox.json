@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_bathroom_table_13_cb3677a9__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_13_cb3677a9",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:56:03Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_13_cb3677a9__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_13_cb3677a9",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the ironing board in the image.",
+    "instruction": "Locate the ironing board in the image.",
+    "answer": "ironing board",
+    "rgb": "bathroom_table/13.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_13_cb3677a9_obj_008",
+      "object_name": "ironing board",
+      "bbox_xyxy": [
+        1632.8131103515625,
+        2372.153564453125,
+        2086.18701171875,
+        3064.361328125
+      ],
+      "bbox_xywh": [
+        1632.8131103515625,
+        2372.153564453125,
+        453.3739013671875,
+        692.207763671875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the ironing board in the image?",
+    "output_instruction": "What is the bounding box of the ironing board in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_13_cb3677a9_obj_008",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

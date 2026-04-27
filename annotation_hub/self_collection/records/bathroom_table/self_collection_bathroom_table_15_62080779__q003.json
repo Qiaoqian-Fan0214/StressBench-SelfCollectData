@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_bathroom_table_15_62080779__q003",
+  "source_sample_id": "self_collection_bathroom_table_15_62080779",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:59:36Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_15_62080779__q003",
+    "source_sample_id": "self_collection_bathroom_table_15_62080779",
+    "entry_id": "q003",
+    "task": "spatial_mcq",
+    "template_id": "nearest",
+    "question": "Which object is closest to us in the image?",
+    "instruction": "Which object is closest to us in the image?",
+    "answer": "faucet",
+    "rgb": "bathroom_table/15.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "faucet",
+          "mirror",
+          "cloth",
+          "photo",
+          "intercom"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Which object is closest to us in the image?",
+    "output_instruction": "Which object is closest to us in the image?",
+    "editor_state": {
+      "entry_id": "q003",
+      "task": "spatial_mcq",
+      "template_id": "nearest",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_15_62080779_obj_000",
+      "placementItem": "notebook",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "self_collection_bathroom_table_15_62080779_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_bathroom_table_15_62080779_obj_001",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": [
+        "faucet",
+        "mirror",
+        "cloth",
+        "photo",
+        "intercom"
+      ]
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

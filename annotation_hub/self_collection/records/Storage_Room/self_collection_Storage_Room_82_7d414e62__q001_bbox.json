@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Storage_Room_82_7d414e62__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_82_7d414e62",
+  "status": "annotated",
+  "updated_at": "2026-04-26T18:28:11Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_82_7d414e62__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_82_7d414e62",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the laundry basket in the image.",
+    "instruction": "Locate the laundry basket in the image.",
+    "answer": "laundry basket",
+    "rgb": "Storage_Room/82.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_82_7d414e62_obj_008",
+      "object_name": "laundry basket",
+      "bbox_xyxy": [
+        2.60539174079895,
+        3197.30322265625,
+        501.9068603515625,
+        3854.555419921875
+      ],
+      "bbox_xywh": [
+        2.60539174079895,
+        3197.30322265625,
+        499.30146861076355,
+        657.252197265625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the laundry basket in the image?",
+    "output_instruction": "What is the bounding box of the laundry basket in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_82_7d414e62_obj_008",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

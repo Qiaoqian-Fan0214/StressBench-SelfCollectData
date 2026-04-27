@@ -1,0 +1,99 @@
+{
+  "sample_id": "self_collection_Storage_Room_54_3a88f92f__q001_mask",
+  "source_sample_id": "self_collection_Storage_Room_54_3a88f92f",
+  "status": "annotated",
+  "updated_at": "2026-04-26T18:05:08Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_54_3a88f92f__q001_mask",
+    "source_sample_id": "self_collection_Storage_Room_54_3a88f92f",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the shoe in the image.",
+    "instruction": "Locate the shoe in the image.",
+    "answer": "shoe",
+    "rgb": "Storage_Room/54.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Storage_Room_54_3a88f92f_obj_003",
+      "object_name": "shoe",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            5790,
+            3860
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "QdoX;n0kc5?A;E7G",
+            "9H7I7I7L4K4N3L4K",
+            "5L4L4K5L4L5J5L5K",
+            "5K4L5L4K4M3M2N3L",
+            "4M3M2O1O1O2N1N3N",
+            "1O1O2N2N1O2M3N2N",
+            "2M3M3M3M3N3M4K<E",
+            "1O1N2O1O1O1N2O1O",
+            "1N2O1N2O1N2N2N2O",
+            "1N200O1O1O100001",
+            "O1O001O1O1O1O2N1",
+            "O2N1O3M2N4L4L4L3",
+            "M3M2N1O2N2N1O2N2",
+            "N1O2N1O2N2N1O2N2",
+            "N1O2N1O1O2N1O1O1",
+            "O1O1O2N2N2N2N2N1",
+            "O2N1O1O1O1O1O1O1",
+            "O1O001O1O001O1O1",
+            "O1O1O1O2N1O1O1O2",
+            "N1O001O1O1O1O001",
+            "O001O001fNS`JaMn",
+            "_5g1l`JVNU_5d0Sb",
+            "JYOn]5?[bJ_Of]5:",
+            "abJEa]52ibJKWa5N",
+            "2N3M3M]`ja1Ob_U^",
+            "N2O1O100O1O11O1O",
+            "3Mdb]_7"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2028.9796142578125,
+        5507.12939453125,
+        2539.5078125,
+        5782.22314453125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the shoe in the image?",
+    "output_instruction": "What is the segmentation mask of the shoe in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_54_3a88f92f_obj_003",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

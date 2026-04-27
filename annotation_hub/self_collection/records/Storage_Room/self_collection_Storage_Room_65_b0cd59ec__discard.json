@@ -1,0 +1,12 @@
+{
+  "sample_id": "self_collection_Storage_Room_65_b0cd59ec__discard",
+  "source_sample_id": "self_collection_Storage_Room_65_b0cd59ec",
+  "status": "discarded",
+  "updated_at": "2026-04-26T18:12:48Z",
+  "annotation": null,
+  "provenance": {
+    "dataset": "Self-Collection",
+    "subcategory": "Storage_Room",
+    "split": "self_collected"
+  }
+}

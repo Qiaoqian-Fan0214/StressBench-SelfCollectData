@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Storage_Room_45_a57fc5cb__q002_bbox",
+  "source_sample_id": "self_collection_Storage_Room_45_a57fc5cb",
+  "status": "annotated",
+  "updated_at": "2026-04-26T17:55:01Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_45_a57fc5cb__q002_bbox",
+    "source_sample_id": "self_collection_Storage_Room_45_a57fc5cb",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the dustpan in the image.",
+    "instruction": "Locate the dustpan in the image.",
+    "answer": "dustpan",
+    "rgb": "Storage_Room/45.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_45_a57fc5cb_obj_009",
+      "object_name": "dustpan",
+      "bbox_xyxy": [
+        2001.441162109375,
+        2158.119384765625,
+        3974.15380859375,
+        4147.56640625
+      ],
+      "bbox_xywh": [
+        2001.441162109375,
+        2158.119384765625,
+        1972.712646484375,
+        1989.447021484375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the dustpan in the image?",
+    "output_instruction": "What is the bounding box of the dustpan in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_45_a57fc5cb_obj_009",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_bathroom_table_64_2ab9adda__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_64_2ab9adda",
+  "status": "annotated",
+  "updated_at": "2026-04-27T11:53:14Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_64_2ab9adda__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_64_2ab9adda",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the toilet in the image.",
+    "instruction": "Locate the toilet in the image.",
+    "answer": "toilet",
+    "rgb": "bathroom_table/64.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_64_2ab9adda_obj_002",
+      "object_name": "toilet",
+      "bbox_xyxy": [
+        917.8170776367188,
+        1091.3341064453125,
+        1012.8514404296875,
+        1306.3818359375
+      ],
+      "bbox_xywh": [
+        917.8170776367188,
+        1091.3341064453125,
+        95.03436279296875,
+        215.0477294921875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the toilet in the image?",
+    "output_instruction": "What is the bounding box of the toilet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_64_2ab9adda_obj_002",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

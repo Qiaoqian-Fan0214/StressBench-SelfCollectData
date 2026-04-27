@@ -1,0 +1,110 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_78_bce9a4f2__q001_mask",
+  "source_sample_id": "self_collection_cabinet_occlusion_78_bce9a4f2",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:54:22Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_78_bce9a4f2__q001_mask",
+    "source_sample_id": "self_collection_cabinet_occlusion_78_bce9a4f2",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the glass in the image.",
+    "instruction": "Locate the glass in the image.",
+    "answer": "glass",
+    "rgb": "cabinet_occlusion/78.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_cabinet_occlusion_78_bce9a4f2_obj_001",
+      "object_name": "glass",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3333,
+            5000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "`R_l6?^W3;F9H7K6",
+            "L4L5K5K5K3N3L4M3",
+            "M2N2nmL^M_n2c2_Q",
+            "M_M_n2c2`QM^M^n2",
+            "e2_QM]M_n2e2_QM]",
+            "M`n2d2^QM^M`n2d2",
+            "^QM^M`n2d2_QM]M_",
+            "n2f2^QM\\Man2e2]Q",
+            "M]Man2e2^QM[M`n2",
+            "h2^QMZM`n2i2]QMX",
+            "Mbn2j2\\QMXMbn2k2",
+            "[QMVMdn2m2YQMUMe",
+            "n2n2XQMSMfn2R3VQ",
+            "MPMhn2T3TQMmLkn2",
+            "U3SQMlLmn2W3oPMj",
+            "LQo2]3gPMdLXo2h3",
+            "[PM[Ldo2W4goLlKX",
+            "P3Q600O100O2O0O1",
+            "00O1000000000O1^",
+            "MeoLZM\\P3X2lPMlL",
+            "Vo2n2UQMlLln2Q3Y",
+            "QMkLin2R3[QMkLgn",
+            "2R3]QMlLdn2Q3_QM",
+            "mLcn2Q3_QMmLcn2Q",
+            "3_QMnLbn2P3`QMnL",
+            "bn2P3_QMPMbn2o2_",
+            "QMoLcn2o2^QMQMcn",
+            "2m2_QMRMan2m2`QM",
+            "RMbn2l2_QMTMcn2i",
+            "2^QMVMdn2h2^QMWM",
+            "cn2g2^QMXMdn2f2]",
+            "QMZMdn2c2^QM\\Mdn",
+            "2a2_QM^Mbn2`2_QM",
+            "_Mcn2^2`QMaMan2]",
+            "2aQMaMan2\\2bQMbM",
+            "_n2]2cQMaM_n2]2f",
+            "3N2M3M3M3K4N3M5K",
+            "5K5J8G<@olgf8"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2164.8466796875,
+        1744.7017822265625,
+        2260.4169921875,
+        1957.3494873046875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the glass in the image?",
+    "output_instruction": "What is the segmentation mask of the glass in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_78_bce9a4f2_obj_001",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

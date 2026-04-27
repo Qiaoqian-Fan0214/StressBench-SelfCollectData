@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_bathroom_table_45_0e309146__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_45_0e309146",
+  "status": "annotated",
+  "updated_at": "2026-04-27T10:30:41Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_45_0e309146__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_45_0e309146",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the mirror in the image.",
+    "instruction": "Locate the mirror in the image.",
+    "answer": "mirror",
+    "rgb": "bathroom_table/45.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_45_0e309146_obj_004",
+      "object_name": "mirror",
+      "bbox_xyxy": [
+        3476.3310546875,
+        344.5664367675781,
+        3655.6015625,
+        2119.566650390625
+      ],
+      "bbox_xywh": [
+        3476.3310546875,
+        344.5664367675781,
+        179.2705078125,
+        1775.0002136230469
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the mirror in the image?",
+    "output_instruction": "What is the bounding box of the mirror in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_45_0e309146_obj_004",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

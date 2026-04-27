@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_bathroom_table_47_b1537ea1__q002_bbox",
+  "source_sample_id": "self_collection_bathroom_table_47_b1537ea1",
+  "status": "annotated",
+  "updated_at": "2026-04-27T10:33:54Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_47_b1537ea1__q002_bbox",
+    "source_sample_id": "self_collection_bathroom_table_47_b1537ea1",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the shoe rack in the image.",
+    "instruction": "Locate the shoe rack in the image.",
+    "answer": "shoe rack",
+    "rgb": "bathroom_table/47.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_47_b1537ea1_obj_002",
+      "object_name": "shoe rack",
+      "bbox_xyxy": [
+        427.27886962890625,
+        3527.09228515625,
+        2314.377197265625,
+        4067.258544921875
+      ],
+      "bbox_xywh": [
+        427.27886962890625,
+        3527.09228515625,
+        1887.0983276367188,
+        540.166259765625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the shoe rack in the image?",
+    "output_instruction": "What is the bounding box of the shoe rack in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_47_b1537ea1_obj_002",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

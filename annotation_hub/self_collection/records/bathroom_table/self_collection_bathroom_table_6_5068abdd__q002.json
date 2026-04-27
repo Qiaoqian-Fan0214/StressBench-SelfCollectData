@@ -1,0 +1,70 @@
+{
+  "sample_id": "self_collection_bathroom_table_6_5068abdd__q002",
+  "source_sample_id": "self_collection_bathroom_table_6_5068abdd",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:47:17Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_6_5068abdd__q002",
+    "source_sample_id": "self_collection_bathroom_table_6_5068abdd",
+    "entry_id": "q002",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the faucet relative to the mirror in the image?",
+    "instruction": "What is the spatial relation of the faucet relative to the mirror in the image?",
+    "answer": "up",
+    "rgb": "bathroom_table/6.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 0
+      },
+      "subject_a": {
+        "object_id": "self_collection_bathroom_table_6_5068abdd_obj_000",
+        "label": "faucet"
+      },
+      "subject_b": {
+        "object_id": "self_collection_bathroom_table_6_5068abdd_obj_009",
+        "label": "mirror"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the faucet relative to the mirror in the image?",
+    "output_instruction": "What is the spatial relation of the faucet relative to the mirror in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_6_5068abdd_obj_000",
+      "placementItem": "book",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "self_collection_bathroom_table_6_5068abdd_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_bathroom_table_6_5068abdd_obj_009",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

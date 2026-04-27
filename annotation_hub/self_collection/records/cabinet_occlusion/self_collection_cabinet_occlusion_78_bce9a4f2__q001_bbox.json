@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_78_bce9a4f2__q001_bbox",
+  "source_sample_id": "self_collection_cabinet_occlusion_78_bce9a4f2",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:54:22Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_78_bce9a4f2__q001_bbox",
+    "source_sample_id": "self_collection_cabinet_occlusion_78_bce9a4f2",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the glass in the image.",
+    "instruction": "Locate the glass in the image.",
+    "answer": "glass",
+    "rgb": "cabinet_occlusion/78.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_cabinet_occlusion_78_bce9a4f2_obj_001",
+      "object_name": "glass",
+      "bbox_xyxy": [
+        2164.8466796875,
+        1744.7017822265625,
+        2260.4169921875,
+        1957.3494873046875
+      ],
+      "bbox_xywh": [
+        2164.8466796875,
+        1744.7017822265625,
+        95.5703125,
+        212.647705078125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the glass in the image?",
+    "output_instruction": "What is the bounding box of the glass in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_78_bce9a4f2_obj_001",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

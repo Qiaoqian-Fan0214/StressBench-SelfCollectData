@@ -1,0 +1,109 @@
+{
+  "sample_id": "self_collection_bathroom_table_7_b72382a0__q001_mask",
+  "source_sample_id": "self_collection_bathroom_table_7_b72382a0",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:48:23Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_7_b72382a0__q001_mask",
+    "source_sample_id": "self_collection_bathroom_table_7_b72382a0",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the candle in the image.",
+    "instruction": "Locate the candle in the image.",
+    "answer": "candle",
+    "rgb": "bathroom_table/7.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_bathroom_table_7_b72382a0_obj_012",
+      "object_name": "candle",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            5404,
+            3603
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "lUPX2>XX5>^O>C<G",
+            "8J5M3mMXNklJn1mR",
+            "5T2I8L4N1O2N1O2O",
+            "0O10000O2O000000",
+            "00O10O100000000O",
+            "100O100O1O1O1O1N",
+            "2UOeJSnJ]5dQ5ZKh",
+            "mJk4WR5n0N2O1O1O",
+            "100O10000O010000",
+            "000O100000000000",
+            "000000000001O000",
+            "00000000000001O0",
+            "00000001O0000000",
+            "01O0000000000001",
+            "N100000000000000",
+            "0000000000000000",
+            "00000000001O0000",
+            "000001O000000000",
+            "0000000000000000",
+            "0000000000001O00",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0001O000000001O0",
+            "000001O00001O000",
+            "0001O0000001O000",
+            "0001O0O101O00001",
+            "O1O1O2N2N<Dj0VO4",
+            "L3M3M3L4M3M2M4L;",
+            "FS1lN6J6J6J9FT\\R",
+            "V?"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        438.4041442871094,
+        3152.292236328125,
+        652.4537963867188,
+        3372.96728515625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the candle in the image?",
+    "output_instruction": "What is the segmentation mask of the candle in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_7_b72382a0_obj_012",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

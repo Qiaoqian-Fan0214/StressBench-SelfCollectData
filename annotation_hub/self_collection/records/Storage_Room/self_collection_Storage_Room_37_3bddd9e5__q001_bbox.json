@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Storage_Room_37_3bddd9e5__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_37_3bddd9e5",
+  "status": "annotated",
+  "updated_at": "2026-04-26T17:35:51Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_37_3bddd9e5__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_37_3bddd9e5",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the ceiling in the image.",
+    "instruction": "Locate the ceiling in the image.",
+    "answer": "ceiling",
+    "rgb": "Storage_Room/37.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_37_3bddd9e5_obj_001",
+      "object_name": "ceiling",
+      "bbox_xyxy": [
+        455.76971435546875,
+        2.433866262435913,
+        4674.0537109375,
+        480.5440673828125
+      ],
+      "bbox_xywh": [
+        455.76971435546875,
+        2.433866262435913,
+        4218.283996582031,
+        478.1102011203766
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the ceiling in the image?",
+    "output_instruction": "What is the bounding box of the ceiling in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_37_3bddd9e5_obj_001",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

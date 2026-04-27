@@ -1,0 +1,110 @@
+{
+  "sample_id": "self_collection_bathroom_table_38_b41aad9f__q002_mask",
+  "source_sample_id": "self_collection_bathroom_table_38_b41aad9f",
+  "status": "annotated",
+  "updated_at": "2026-04-27T10:23:01Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_38_b41aad9f__q002_mask",
+    "source_sample_id": "self_collection_bathroom_table_38_b41aad9f",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the plant in the image.",
+    "instruction": "Locate the plant in the image.",
+    "answer": "plant",
+    "rgb": "bathroom_table/38.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_bathroom_table_38_b41aad9f_obj_014",
+      "object_name": "plant",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2560,
+            2560
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "c_dl5?^_26J5M100",
+            "O2O00001N10001O0",
+            "O2O001O0O2O001O0",
+            "O2O1O1O2N1N2O1O0",
+            "01O00001O00000O1",
+            "000001O000000O10",
+            "0000000O10O10100",
+            "O1O3M3M3M1O2N1O0",
+            "0100O010O010O010",
+            "O00010O0YeMfNhV2",
+            "Z1QiMYOdV2f0QiMN",
+            "fV22ViM8dV2HXiM?",
+            "fV2@ViMf0hV2[OTi",
+            "Mk0iV2UOSiMQ1lV2",
+            "nNRiMV1lV2jNQiMZ",
+            "1nV2fNPiM^1nV2bN",
+            "QiM`1nV2`NPiMc1P",
+            "W2[NohMi1oV2WNoh",
+            "Ml1PW2TNnhMP2PW2",
+            "PNohMR2PW2nMnhMU",
+            "2QW2kMmhMX2RW2iM",
+            "lhMY2SW2gMlhM[2R",
+            "W2fMmhM\\2RW2eMlh",
+            "M]2RW2dMlhM`2QW2",
+            "bMmhM`2QW2bMlhMa",
+            "2RW2`MkhMd2SW2^M",
+            "jhMe2UW2\\MhhMg2V",
+            "W2ZMihMg2WW2YMgh",
+            "Mj2WW2WMghMk2XW2",
+            "VMghMl2WW2UMghMm",
+            "2XW2TMfhMo2XW2RM",
+            "ghMo2XW2RMghMP3X",
+            "W2oLghMS3XW2k2O2",
+            "O0O100O1O1O1N2N3",
+            "M2N2N2O1N2N2O1O1",
+            "O1O1O1O1O1N101N2",
+            "N2L4M3N101O1O100",
+            "0000^bN"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2414.846435546875,
+        1456.8154296875,
+        2558.449951171875,
+        1777.89892578125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the plant in the image?",
+    "output_instruction": "What is the segmentation mask of the plant in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_38_b41aad9f_obj_014",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

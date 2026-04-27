@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_27_57d84f23__q001_bbox",
+  "source_sample_id": "self_collection_cabinet_occlusion_27_57d84f23",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:06:48Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_27_57d84f23__q001_bbox",
+    "source_sample_id": "self_collection_cabinet_occlusion_27_57d84f23",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the clock in the image.",
+    "instruction": "Locate the clock in the image.",
+    "answer": "clock",
+    "rgb": "cabinet_occlusion/27.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_cabinet_occlusion_27_57d84f23_obj_012",
+      "object_name": "clock",
+      "bbox_xyxy": [
+        1213.2548828125,
+        1405.239501953125,
+        1493.2445068359375,
+        1672.1553955078125
+      ],
+      "bbox_xywh": [
+        1213.2548828125,
+        1405.239501953125,
+        279.9896240234375,
+        266.9158935546875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the clock in the image?",
+    "output_instruction": "What is the bounding box of the clock in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "complex_texture"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_27_57d84f23_obj_012",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

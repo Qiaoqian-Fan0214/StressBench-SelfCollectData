@@ -1,0 +1,148 @@
+{
+  "sample_id": "self_collection_bathroom_table_35_3365d922__q001_mask",
+  "source_sample_id": "self_collection_bathroom_table_35_3365d922",
+  "status": "annotated",
+  "updated_at": "2026-04-27T10:19:18Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_35_3365d922__q001_mask",
+    "source_sample_id": "self_collection_bathroom_table_35_3365d922",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the candle in the image.",
+    "instruction": "Locate the candle in the image.",
+    "answer": "candle",
+    "rgb": "bathroom_table/35.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_bathroom_table_35_3365d922_obj_004",
+      "object_name": "candle",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            6720,
+            4480
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Pf4ca0]P60000000",
+            "0000000000000001",
+            "O0000001N10001O0",
+            "0001O00001O0O100",
+            "0001O00000000000",
+            "0001O00000000000",
+            "O10O100000000000",
+            "0000000000000000",
+            "O100000O10000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000O10000",
+            "0O10000000000000",
+            "0000000000O10000",
+            "01O0000000000000",
+            "0000000000000000",
+            "00O1000000000000",
+            "0000000000000000",
+            "00000000O1000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "00000O1000000000",
+            "0000000000O10000",
+            "0000000000000000",
+            "0000000000000000",
+            "00000O1000000000",
+            "000000O100000000",
+            "0000000000000000",
+            "0000000000000000",
+            "000000O100000000",
+            "0000000000000000",
+            "0000000O100000O1",
+            "0000000000000000",
+            "00000000000O10O1",
+            "0000000000000000",
+            "0000000000000O10",
+            "00000000000000O1",
+            "0000000000000000",
+            "000000000000000O",
+            "1000000000000000",
+            "0000O10000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0001O00000000000",
+            "000000000O100000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "000000000O100000",
+            "0000000000000000",
+            "0000000000000000",
+            "000000000000000O",
+            "1000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "00000O2O00000000",
+            "0O101O000O10000O",
+            "2O000O101N1O1O10",
+            "1M2N2N3L3L4G:F9E",
+            "<C<B?cMgnIaCjQ6Y",
+            ";R3nLR3VOj0[Oe0I",
+            "7J7H8H7G:ZOg0C<E",
+            "<D>YOi0YOg0ZOi0X",
+            "ORW_Xi0"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2.5632762908935547,
+        4778.39306640625,
+        546.6719970703125,
+        5379.7294921875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the candle in the image?",
+    "output_instruction": "What is the segmentation mask of the candle in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_35_3365d922_obj_004",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

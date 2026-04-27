@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_Storage_Room_39_60cc2543__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_39_60cc2543",
+  "status": "annotated",
+  "updated_at": "2026-04-26T17:39:57Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_39_60cc2543__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_39_60cc2543",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the coat rack in the image.",
+    "instruction": "Locate the coat rack in the image.",
+    "answer": "coat rack",
+    "rgb": "Storage_Room/39.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_39_60cc2543_obj_009",
+      "object_name": "coat rack",
+      "bbox_xyxy": [
+        1833.310791015625,
+        2080.34716796875,
+        2818.479248046875,
+        2203.7724609375
+      ],
+      "bbox_xywh": [
+        1833.310791015625,
+        2080.34716796875,
+        985.16845703125,
+        123.42529296875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the coat rack in the image?",
+    "output_instruction": "What is the bounding box of the coat rack in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "extreme_viewpoint",
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_39_60cc2543_obj_009",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "extreme_viewpoint",
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

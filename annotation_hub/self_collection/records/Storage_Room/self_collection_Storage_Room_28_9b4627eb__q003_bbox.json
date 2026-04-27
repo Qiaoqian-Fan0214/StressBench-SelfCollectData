@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_Storage_Room_28_9b4627eb__q003_bbox",
+  "source_sample_id": "self_collection_Storage_Room_28_9b4627eb",
+  "status": "annotated",
+  "updated_at": "2026-04-26T10:50:01Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_28_9b4627eb__q003_bbox",
+    "source_sample_id": "self_collection_Storage_Room_28_9b4627eb",
+    "entry_id": "q003",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the person in the image.",
+    "instruction": "Locate the person in the image.",
+    "answer": "person",
+    "rgb": "Storage_Room/28.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_28_9b4627eb_obj_001",
+      "object_name": "person",
+      "bbox_xyxy": [
+        2562.59423828125,
+        1057.2015380859375,
+        2702.962890625,
+        1289.8607177734375
+      ],
+      "bbox_xywh": [
+        2562.59423828125,
+        1057.2015380859375,
+        140.36865234375,
+        232.6591796875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the person in the image?",
+    "output_instruction": "What is the bounding box of the person in the image?",
+    "editor_state": {
+      "entry_id": "q003",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_28_9b4627eb_obj_001",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

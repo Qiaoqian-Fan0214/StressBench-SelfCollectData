@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Storage_Room_48_9404eac9__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_48_9404eac9",
+  "status": "annotated",
+  "updated_at": "2026-04-26T17:58:07Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_48_9404eac9__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_48_9404eac9",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the power outlet in the image.",
+    "instruction": "Locate the power outlet in the image.",
+    "answer": "power outlet",
+    "rgb": "Storage_Room/48.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_48_9404eac9_obj_004",
+      "object_name": "power outlet",
+      "bbox_xyxy": [
+        4783.46142578125,
+        3055.10693359375,
+        4870.28466796875,
+        3145.4609375
+      ],
+      "bbox_xywh": [
+        4783.46142578125,
+        3055.10693359375,
+        86.8232421875,
+        90.35400390625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the power outlet in the image?",
+    "output_instruction": "What is the bounding box of the power outlet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_48_9404eac9_obj_004",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

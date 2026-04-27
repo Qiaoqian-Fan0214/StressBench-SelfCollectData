@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_bathroom_table_46_184f127e__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_46_184f127e",
+  "status": "annotated",
+  "updated_at": "2026-04-27T10:32:07Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_46_184f127e__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_46_184f127e",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the faucet in the image.",
+    "instruction": "Locate the faucet in the image.",
+    "answer": "faucet",
+    "rgb": "bathroom_table/46.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_46_184f127e_obj_006",
+      "object_name": "faucet",
+      "bbox_xyxy": [
+        3293.86376953125,
+        2787.9482421875,
+        3605.119140625,
+        3164.3056640625
+      ],
+      "bbox_xywh": [
+        3293.86376953125,
+        2787.9482421875,
+        311.25537109375,
+        376.357421875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the faucet in the image?",
+    "output_instruction": "What is the bounding box of the faucet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_46_184f127e_obj_006",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

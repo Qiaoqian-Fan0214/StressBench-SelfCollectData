@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_bathroom_table_19_6bf8e779__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_19_6bf8e779",
+  "status": "annotated",
+  "updated_at": "2026-04-27T10:06:02Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_19_6bf8e779__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_19_6bf8e779",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the potted plant in the image.",
+    "instruction": "Locate the potted plant in the image.",
+    "answer": "potted plant",
+    "rgb": "bathroom_table/19.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_19_6bf8e779_obj_003",
+      "object_name": "potted plant",
+      "bbox_xyxy": [
+        661.39990234375,
+        68.51886749267578,
+        1800.4615478515625,
+        2049.5625
+      ],
+      "bbox_xywh": [
+        661.39990234375,
+        68.51886749267578,
+        1139.0616455078125,
+        1981.0436325073242
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the potted plant in the image?",
+    "output_instruction": "What is the bounding box of the potted plant in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_19_6bf8e779_obj_003",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

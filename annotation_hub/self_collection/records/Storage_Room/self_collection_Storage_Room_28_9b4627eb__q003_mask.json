@@ -1,0 +1,119 @@
+{
+  "sample_id": "self_collection_Storage_Room_28_9b4627eb__q003_mask",
+  "source_sample_id": "self_collection_Storage_Room_28_9b4627eb",
+  "status": "annotated",
+  "updated_at": "2026-04-26T10:50:01Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_28_9b4627eb__q003_mask",
+    "source_sample_id": "self_collection_Storage_Room_28_9b4627eb",
+    "entry_id": "q003",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the person in the image.",
+    "instruction": "Locate the person in the image.",
+    "answer": "person",
+    "rgb": "Storage_Room/28.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Storage_Room_28_9b4627eb_obj_001",
+      "object_name": "person",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2368,
+            3531
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "^_eh51lY26L3N1N3",
+            "kfMG_X29`gMJ^X25",
+            "h0O0O1O1O101N10[",
+            "iM1YS2N^lMa0^S2]",
+            "O`lMi0]S2WO`lMm0",
+            "`S2RO]lMQ1cS2nN\\",
+            "lMU1dS2jNZlMX1fS",
+            "2hNXlMZ1VV21O1O1",
+            "O101N1O1O1O100O1",
+            "O1O1O1O1O1N2O1O1",
+            "O1O1O2N100O10000",
+            "00O1000000O100O1",
+            "00O1O1O1liMTNRT2",
+            "n1jkM^NlS2d1TlMY",
+            "NZS2\\2elMcMXS2b2",
+            "glM]MWS2g2ilMYMR",
+            "S2m2llMSMjR2X3Vm",
+            "MhLiR2Y3VmMgLjR2",
+            "Z3VmMfLiR2[3VmMf",
+            "LjR2Z3VmMeLjR2\\3",
+            "UmMfLjR2[3SmMhLl",
+            "R2X3SmMiLlR2Y3Pm",
+            "MkLoR2V3llMPMQS2",
+            "S3glMUMWS2n2alMZ",
+            "M\\S2g4M2mlMeI_R2",
+            "\\6_mMfI`R2[6]mMh",
+            "IaR2Z6]mMgIcR2Y6",
+            "\\mMiIcR2X6[mMiId",
+            "R2X6[mMiIeR2X6Zm",
+            "MiIeR2Y6XmMhIhR2",
+            "h600000000000O01",
+            "000000001O0O1O1O",
+            "2aN_mMYKeR2]4e1L",
+            "3O2N2N1O2O1O1N3N",
+            "2N2M3N1O1N2O1N2O",
+            "0O2N2kNejMcM\\U2X",
+            "2SkMSMWU2k2Q1WNn",
+            "hMa0UW2XOSiMe0nV",
+            "2TO[iMi0gV2QO`iM",
+            "k0dV2mNeiMo0jW2L",
+            "3M4K5KRRcl1"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2562.59423828125,
+        1057.2015380859375,
+        2702.962890625,
+        1289.8607177734375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the person in the image?",
+    "output_instruction": "What is the segmentation mask of the person in the image?",
+    "editor_state": {
+      "entry_id": "q003",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_28_9b4627eb_obj_001",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

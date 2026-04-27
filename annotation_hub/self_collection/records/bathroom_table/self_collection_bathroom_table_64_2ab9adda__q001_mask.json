@@ -1,0 +1,85 @@
+{
+  "sample_id": "self_collection_bathroom_table_64_2ab9adda__q001_mask",
+  "source_sample_id": "self_collection_bathroom_table_64_2ab9adda",
+  "status": "annotated",
+  "updated_at": "2026-04-27T11:53:14Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_64_2ab9adda__q001_mask",
+    "source_sample_id": "self_collection_bathroom_table_64_2ab9adda",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the toilet in the image.",
+    "instruction": "Locate the toilet in the image.",
+    "answer": "toilet",
+    "rgb": "bathroom_table/64.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_bathroom_table_64_2ab9adda_obj_002",
+      "object_name": "toilet",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            1706,
+            2560
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "YUQ`1?hd19I<D6J5",
+            "K4M3L4M5J6K5J6J<",
+            "E:E7I7J3L3N3L4M3",
+            "M3L4M3M2M4M3M3L4",
+            "M3M3L5L2N3L4M3M2",
+            "M3N2N1O1N2O1O0O2",
+            "O001N10001N101O0",
+            "00O10001O000O100",
+            "000001O0O1000000",
+            "0000O10000000000",
+            "00000000002L3eMj",
+            "aN^M\\^1mNSaNc00G",
+            "7Egb1JYch`2"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        917.8170776367188,
+        1091.3341064453125,
+        1012.8514404296875,
+        1306.3818359375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the toilet in the image?",
+    "output_instruction": "What is the segmentation mask of the toilet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_64_2ab9adda_obj_002",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

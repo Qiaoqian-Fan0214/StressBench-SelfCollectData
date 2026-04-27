@@ -1,0 +1,121 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_29_f9a2b276__q001_mask",
+  "source_sample_id": "self_collection_cabinet_occlusion_29_f9a2b276",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:09:14Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_29_f9a2b276__q001_mask",
+    "source_sample_id": "self_collection_cabinet_occlusion_29_f9a2b276",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the window in the image.",
+    "instruction": "Locate the window in the image.",
+    "answer": "window",
+    "rgb": "cabinet_occlusion/29.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_cabinet_occlusion_29_f9a2b276_obj_009",
+      "object_name": "window",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3701,
+            5654
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "`Y\\Qc0?`a3j1D9\\M",
+            "_OlaLh0][3jMmdLG",
+            "1Y5XY3T4nNR1A?E:",
+            "YMSE[lLX;\\S3f2UM",
+            "fBnnLe=en2RBVQMi",
+            "`0_n2o_OiPM\\`0Ri",
+            "2_BjWMP`0de2n[Oc",
+            "ZM^j0Te2V2ROn0mB",
+            "VROQPN4hI<WNgm0g",
+            "W2eROjlM[OVM8oN[",
+            "O^Ono0VV2aPOjiMT",
+            "1k0[OJf0D9ISo0SV",
+            "2`TOkiMgLH5Mln0`",
+            "V2b;000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "000000000000000O",
+            "1000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "00000000000001O0",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0O10000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000001",
+            "O000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0001O00000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        5386.298828125,
+        6.400395393371582,
+        5646.728515625,
+        1447.0008544921875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the window in the image?",
+    "output_instruction": "What is the segmentation mask of the window in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_29_f9a2b276_obj_009",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

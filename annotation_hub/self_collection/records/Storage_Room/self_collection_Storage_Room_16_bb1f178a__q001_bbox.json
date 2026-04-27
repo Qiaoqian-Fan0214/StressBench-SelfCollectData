@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_Storage_Room_16_bb1f178a__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_16_bb1f178a",
+  "status": "annotated",
+  "updated_at": "2026-04-26T10:31:14Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_16_bb1f178a__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_16_bb1f178a",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the chest storage in the image.",
+    "instruction": "Locate the chest storage in the image.",
+    "answer": "chest storage",
+    "rgb": "Storage_Room/16.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_16_bb1f178a_obj_007",
+      "object_name": "chest storage",
+      "bbox_xyxy": [
+        2067.737060546875,
+        2503.607421875,
+        2584.1259765625,
+        2826.709228515625
+      ],
+      "bbox_xywh": [
+        2067.737060546875,
+        2503.607421875,
+        516.388916015625,
+        323.101806640625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the chest storage in the image?",
+    "output_instruction": "What is the bounding box of the chest storage in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_16_bb1f178a_obj_007",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

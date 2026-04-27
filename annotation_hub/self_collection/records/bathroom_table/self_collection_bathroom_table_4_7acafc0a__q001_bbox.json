@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_bathroom_table_4_7acafc0a__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_4_7acafc0a",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:42:45Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_4_7acafc0a__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_4_7acafc0a",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the glass in the image.",
+    "instruction": "Locate the glass in the image.",
+    "answer": "glass",
+    "rgb": "bathroom_table/4.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_4_7acafc0a_obj_000",
+      "object_name": "glass",
+      "bbox_xyxy": [
+        1232.598876953125,
+        1430.43505859375,
+        1608.9344482421875,
+        2340.189208984375
+      ],
+      "bbox_xywh": [
+        1232.598876953125,
+        1430.43505859375,
+        376.3355712890625,
+        909.754150390625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the glass in the image?",
+    "output_instruction": "What is the bounding box of the glass in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_4_7acafc0a_obj_000",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

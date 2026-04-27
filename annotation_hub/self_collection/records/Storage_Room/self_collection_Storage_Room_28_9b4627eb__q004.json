@@ -1,0 +1,64 @@
+{
+  "sample_id": "self_collection_Storage_Room_28_9b4627eb__q004",
+  "source_sample_id": "self_collection_Storage_Room_28_9b4627eb",
+  "status": "annotated",
+  "updated_at": "2026-04-26T10:50:01Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_28_9b4627eb__q004",
+    "source_sample_id": "self_collection_Storage_Room_28_9b4627eb",
+    "entry_id": "q004",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a bed in the image?",
+    "instruction": "Is there any vacant space to place a bed in the image?",
+    "answer": "yes",
+    "rgb": "Storage_Room/28.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a bed in the image?",
+    "output_instruction": "Is there any vacant space to place a bed in the image?",
+    "editor_state": {
+      "entry_id": "q004",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_28_9b4627eb_obj_000",
+      "placementItem": "bed",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "sample_id": "self_collection_Storage_Room_63_c894288c__q001_mask",
+  "source_sample_id": "self_collection_Storage_Room_63_c894288c",
+  "status": "annotated",
+  "updated_at": "2026-04-26T18:11:52Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_63_c894288c__q001_mask",
+    "source_sample_id": "self_collection_Storage_Room_63_c894288c",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the door handle in the image.",
+    "instruction": "Locate the door handle in the image.",
+    "answer": "door handle",
+    "rgb": "Storage_Room/63.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Storage_Room_63_c894288c_obj_004",
+      "object_name": "door handle",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3648,
+            5472
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Wn1i9WX300000000",
+            "0000000000000000",
+            "O100O101N100O1O1",
+            "O1N2O1M3N2M3M3M3",
+            "M4J5G:H8I7K5J7J6",
+            "J7J5L5K4M4K4M4L8",
+            "H9G7I6J5K5K4M2M3",
+            "M3N1N2O1N2O1N101",
+            "N2O001N10001N100",
+            "01N1000001O0O100",
+            "00000000O2O00000",
+            "00000000O1000000",
+            "0000000000000000",
+            "O100000000000000",
+            "O10000000000O11O",
+            "00000000001O010O",
+            "00001O0010O01O00",
+            "1O10O0001O1O0010",
+            "0O001O1O001O1O00",
+            "1O010O1O001O1O00",
+            "1O1O00001O000000",
+            "1O01O00000000000",
+            "00001O0000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "00000O100000O100",
+            "00000000O0100000",
+            "00O100000O1000O1",
+            "0000O10000O010O1",
+            "00O100O1O100O100",
+            "O100O100O100O100",
+            "O1O10O0100O100O1",
+            "O100O1O100O100O1",
+            "00O100O1O100O1O1",
+            "O100O1O1O001O1O1",
+            "O100O1O1O1O10O01",
+            "00O100O10000O10O",
+            "10O10000O10O1000",
+            "O10000O10O1000O1",
+            "00O1O101N1O1N3N1",
+            "N3M2M4L4L4L4L4oN",
+            "QaLjNV_3j0Z1WO_Q",
+            "gla0"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2.0392534732818604,
+        1976.2705078125,
+        340.0497131347656,
+        2309.756103515625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the door handle in the image?",
+    "output_instruction": "What is the segmentation mask of the door handle in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_63_c894288c_obj_004",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

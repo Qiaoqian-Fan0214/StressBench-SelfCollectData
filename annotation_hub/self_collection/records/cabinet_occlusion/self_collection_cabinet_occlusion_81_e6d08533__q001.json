@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_81_e6d08533__q001",
+  "source_sample_id": "self_collection_cabinet_occlusion_81_e6d08533",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:58:02Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_81_e6d08533__q001",
+    "source_sample_id": "self_collection_cabinet_occlusion_81_e6d08533",
+    "entry_id": "q001",
+    "task": "spatial_mcq",
+    "template_id": "farthest",
+    "question": "Which object is farthest from us in the image?",
+    "instruction": "Which object is farthest from us in the image?",
+    "answer": "refrigerator",
+    "rgb": "cabinet_occlusion/81.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "microwave",
+          "refrigerator",
+          "cup",
+          "oven",
+          "decorative bowl"
+        ],
+        "answer_index": 1
+      }
+    },
+    "output_variant": null,
+    "output_question": "Which object is farthest from us in the image?",
+    "output_instruction": "Which object is farthest from us in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "spatial_mcq",
+      "template_id": "farthest",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_81_e6d08533_obj_000",
+      "placementItem": "book",
+      "answerIndex": 1,
+      "spatialRelationAObjectId": "self_collection_cabinet_occlusion_81_e6d08533_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_cabinet_occlusion_81_e6d08533_obj_001",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": [
+        "microwave",
+        "refrigerator",
+        "cup",
+        "oven",
+        "decorative bowl"
+      ]
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

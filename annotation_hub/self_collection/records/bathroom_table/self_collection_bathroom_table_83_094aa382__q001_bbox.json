@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_bathroom_table_83_094aa382__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_83_094aa382",
+  "status": "annotated",
+  "updated_at": "2026-04-27T12:23:29Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_83_094aa382__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_83_094aa382",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "bathroom_table/83.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_83_094aa382_obj_003",
+      "object_name": "cup",
+      "bbox_xyxy": [
+        3347.369140625,
+        2445.600341796875,
+        3518.100830078125,
+        2670.387939453125
+      ],
+      "bbox_xywh": [
+        3347.369140625,
+        2445.600341796875,
+        170.731689453125,
+        224.78759765625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cup in the image?",
+    "output_instruction": "What is the bounding box of the cup in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_83_094aa382_obj_003",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

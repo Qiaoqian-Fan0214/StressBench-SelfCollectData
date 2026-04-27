@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Storage_Room_54_3a88f92f__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_54_3a88f92f",
+  "status": "annotated",
+  "updated_at": "2026-04-26T18:05:08Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_54_3a88f92f__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_54_3a88f92f",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the shoe in the image.",
+    "instruction": "Locate the shoe in the image.",
+    "answer": "shoe",
+    "rgb": "Storage_Room/54.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_54_3a88f92f_obj_003",
+      "object_name": "shoe",
+      "bbox_xyxy": [
+        2028.9796142578125,
+        5507.12939453125,
+        2539.5078125,
+        5782.22314453125
+      ],
+      "bbox_xywh": [
+        2028.9796142578125,
+        5507.12939453125,
+        510.5281982421875,
+        275.09375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the shoe in the image?",
+    "output_instruction": "What is the bounding box of the shoe in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_54_3a88f92f_obj_003",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

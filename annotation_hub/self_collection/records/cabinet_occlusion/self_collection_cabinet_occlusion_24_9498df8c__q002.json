@@ -1,0 +1,58 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_24_9498df8c__q002",
+  "source_sample_id": "self_collection_cabinet_occlusion_24_9498df8c",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:04:45Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_24_9498df8c__q002",
+    "source_sample_id": "self_collection_cabinet_occlusion_24_9498df8c",
+    "entry_id": "q002",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a mug in the image?",
+    "instruction": "Is there any vacant space to place a mug in the image?",
+    "answer": "yes",
+    "rgb": "cabinet_occlusion/24.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a mug in the image?",
+    "output_instruction": "Is there any vacant space to place a mug in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_24_9498df8c_obj_000",
+      "placementItem": "mug",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

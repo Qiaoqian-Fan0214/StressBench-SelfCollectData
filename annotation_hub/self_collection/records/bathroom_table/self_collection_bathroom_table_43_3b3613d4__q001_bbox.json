@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_bathroom_table_43_3b3613d4__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_43_3b3613d4",
+  "status": "annotated",
+  "updated_at": "2026-04-27T10:28:05Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_43_3b3613d4__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_43_3b3613d4",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the toilet paper in the image.",
+    "instruction": "Locate the toilet paper in the image.",
+    "answer": "toilet paper",
+    "rgb": "bathroom_table/43.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_43_3b3613d4_obj_007",
+      "object_name": "toilet paper",
+      "bbox_xyxy": [
+        1599.9056396484375,
+        1158.9268798828125,
+        2319.20458984375,
+        1978.3223876953125
+      ],
+      "bbox_xywh": [
+        1599.9056396484375,
+        1158.9268798828125,
+        719.2989501953125,
+        819.3955078125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the toilet paper in the image?",
+    "output_instruction": "What is the bounding box of the toilet paper in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_43_3b3613d4_obj_007",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

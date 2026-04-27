@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_bathroom_table_80_11e2a23f__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_80_11e2a23f",
+  "status": "annotated",
+  "updated_at": "2026-04-27T12:15:53Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_80_11e2a23f__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_80_11e2a23f",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the toilet paper holder in the image.",
+    "instruction": "Locate the toilet paper holder in the image.",
+    "answer": "toilet paper holder",
+    "rgb": "bathroom_table/80.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_80_11e2a23f_obj_004",
+      "object_name": "toilet paper holder",
+      "bbox_xyxy": [
+        5025.26953125,
+        3333.353515625,
+        5213.06494140625,
+        3617.2099609375
+      ],
+      "bbox_xywh": [
+        5025.26953125,
+        3333.353515625,
+        187.79541015625,
+        283.8564453125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the toilet paper holder in the image?",
+    "output_instruction": "What is the bounding box of the toilet paper holder in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "extreme_viewpoint"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_80_11e2a23f_obj_004",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "extreme_viewpoint"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

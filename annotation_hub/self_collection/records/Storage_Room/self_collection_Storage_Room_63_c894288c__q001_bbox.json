@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Storage_Room_63_c894288c__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_63_c894288c",
+  "status": "annotated",
+  "updated_at": "2026-04-26T18:11:52Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_63_c894288c__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_63_c894288c",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the door handle in the image.",
+    "instruction": "Locate the door handle in the image.",
+    "answer": "door handle",
+    "rgb": "Storage_Room/63.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_63_c894288c_obj_004",
+      "object_name": "door handle",
+      "bbox_xyxy": [
+        2.0392534732818604,
+        1976.2705078125,
+        340.0497131347656,
+        2309.756103515625
+      ],
+      "bbox_xywh": [
+        2.0392534732818604,
+        1976.2705078125,
+        338.01045966148376,
+        333.485595703125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the door handle in the image?",
+    "output_instruction": "What is the bounding box of the door handle in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_63_c894288c_obj_004",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

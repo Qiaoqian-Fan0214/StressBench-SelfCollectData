@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_Storage_Room_15_e865d354__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_15_e865d354",
+  "status": "annotated",
+  "updated_at": "2026-04-26T10:16:13Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_15_e865d354__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_15_e865d354",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the plastic bin in the image.",
+    "instruction": "Locate the plastic bin in the image.",
+    "answer": "plastic bin",
+    "rgb": "Storage_Room/15.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_15_e865d354_obj_003",
+      "object_name": "plastic bin",
+      "bbox_xyxy": [
+        331.816162109375,
+        2399.28125,
+        868.44287109375,
+        2683.43212890625
+      ],
+      "bbox_xywh": [
+        331.816162109375,
+        2399.28125,
+        536.626708984375,
+        284.15087890625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the plastic bin in the image?",
+    "output_instruction": "What is the bounding box of the plastic bin in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_15_e865d354_obj_003",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

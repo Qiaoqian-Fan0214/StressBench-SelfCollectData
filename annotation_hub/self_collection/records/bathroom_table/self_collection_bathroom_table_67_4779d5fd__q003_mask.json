@@ -1,0 +1,117 @@
+{
+  "sample_id": "self_collection_bathroom_table_67_4779d5fd__q003_mask",
+  "source_sample_id": "self_collection_bathroom_table_67_4779d5fd",
+  "status": "annotated",
+  "updated_at": "2026-04-27T11:59:33Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_67_4779d5fd__q003_mask",
+    "source_sample_id": "self_collection_bathroom_table_67_4779d5fd",
+    "entry_id": "q003",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the towel rack in the image.",
+    "instruction": "Locate the towel rack in the image.",
+    "answer": "towel rack",
+    "rgb": "bathroom_table/67.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_bathroom_table_67_4779d5fd_obj_006",
+      "object_name": "towel rack",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            5760,
+            3840
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "TmXic04hc5g0[OV2",
+            "jMT2mMc0]O`0_Oe1",
+            "cbJiHQ1AXX5S9jfJ",
+            "oHdW5\\<ZMa1_NY1h",
+            "Nb0]OT1lNd0\\O`0A",
+            "7H:F;F9F<EZ1eNn0",
+            "RO;F8G?B=B;E7J3M",
+            "2M2TFXVO^iKji0\\V",
+            "4jVOTiKWi0gV4dWO",
+            "ahK^h0[W4fYOdfKZ",
+            "f0YY4TZO\\fKme0aY",
+            "4^ZOUfKce0iY4gZO",
+            "oeKZe0oY4oZOheKR",
+            "e0VZ4_[O[eKbd0cZ",
+            "4Z\\OadKgc0_[4j\\O",
+            "PdKVc0o[4W]OdcKk",
+            "b0Z\\4`]O[cKab0e\\",
+            "4i]OPcKYb0n\\4S^O",
+            "fbKna0Z]4^^OXbKd",
+            "a0g]4i^OkaKZa0T^",
+            "4l^OdaKVa0[^4Y:O",
+            "00001O0O2O001O00",
+            "001O00001O000000",
+            "1O00001O00001O00",
+            "001O00001O00001O",
+            "000010O0001O0000",
+            "1O00001O00001O01",
+            "O0001O000000001O",
+            "000000001O000000",
+            "001O0000000010O0",
+            "00001O00001O0000",
+            "1O00001O00001O00",
+            "001O000000001O00",
+            "00001O0001O0001O",
+            "00001O00001O001O",
+            "001O1O2N1O2N2N4L",
+            "5K8H6J4M2M3M2N2N",
+            "2N2N1O1O1O1O001O",
+            "0000001O0001O000",
+            "000000000000O100",
+            "000001O000000000",
+            "00001O0001O01O00",
+            "1O00001O001O01O0",
+            "1O000010L3L5L4K5",
+            "L5L2000PfL"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        3592.276611328125,
+        3361.029541015625,
+        3834.072021484375,
+        4669.501953125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the towel rack in the image?",
+    "output_instruction": "What is the segmentation mask of the towel rack in the image?",
+    "editor_state": {
+      "entry_id": "q003",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_67_4779d5fd_obj_006",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

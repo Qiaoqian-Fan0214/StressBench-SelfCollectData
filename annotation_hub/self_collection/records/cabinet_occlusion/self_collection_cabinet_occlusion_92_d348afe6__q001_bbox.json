@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_92_d348afe6__q001_bbox",
+  "source_sample_id": "self_collection_cabinet_occlusion_92_d348afe6",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:13:06Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_92_d348afe6__q001_bbox",
+    "source_sample_id": "self_collection_cabinet_occlusion_92_d348afe6",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the stove in the image.",
+    "instruction": "Locate the stove in the image.",
+    "answer": "stove",
+    "rgb": "cabinet_occlusion/92.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_cabinet_occlusion_92_d348afe6_obj_005",
+      "object_name": "stove",
+      "bbox_xyxy": [
+        404.758544921875,
+        2305.63720703125,
+        2041.8536376953125,
+        2595.413818359375
+      ],
+      "bbox_xywh": [
+        404.758544921875,
+        2305.63720703125,
+        1637.0950927734375,
+        289.776611328125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the stove in the image?",
+    "output_instruction": "What is the bounding box of the stove in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_92_d348afe6_obj_005",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

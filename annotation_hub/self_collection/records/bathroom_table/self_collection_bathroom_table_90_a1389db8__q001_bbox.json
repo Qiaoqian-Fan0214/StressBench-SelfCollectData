@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_bathroom_table_90_a1389db8__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_90_a1389db8",
+  "status": "annotated",
+  "updated_at": "2026-04-27T12:30:22Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_90_a1389db8__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_90_a1389db8",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the shower head in the image.",
+    "instruction": "Locate the shower head in the image.",
+    "answer": "shower head",
+    "rgb": "bathroom_table/90.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_90_a1389db8_obj_009",
+      "object_name": "shower head",
+      "bbox_xyxy": [
+        1851.81591796875,
+        1891.990966796875,
+        2114.98828125,
+        2114.809326171875
+      ],
+      "bbox_xywh": [
+        1851.81591796875,
+        1891.990966796875,
+        263.17236328125,
+        222.818359375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the shower head in the image?",
+    "output_instruction": "What is the bounding box of the shower head in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_90_a1389db8_obj_009",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

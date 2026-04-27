@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Storage_Room_18_df7e6b8e__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_18_df7e6b8e",
+  "status": "annotated",
+  "updated_at": "2026-04-26T10:35:15Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_18_df7e6b8e__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_18_df7e6b8e",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the ceiling light in the image.",
+    "instruction": "Locate the ceiling light in the image.",
+    "answer": "ceiling light",
+    "rgb": "Storage_Room/18.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_18_df7e6b8e_obj_004",
+      "object_name": "ceiling light",
+      "bbox_xyxy": [
+        4317.30712890625,
+        2.6597392559051514,
+        4871.93701171875,
+        248.63734436035156
+      ],
+      "bbox_xywh": [
+        4317.30712890625,
+        2.6597392559051514,
+        554.6298828125,
+        245.9776051044464
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the ceiling light in the image?",
+    "output_instruction": "What is the bounding box of the ceiling light in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_18_df7e6b8e_obj_004",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

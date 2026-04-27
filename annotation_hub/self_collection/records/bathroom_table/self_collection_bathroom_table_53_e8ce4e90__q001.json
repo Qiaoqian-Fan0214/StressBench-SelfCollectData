@@ -1,0 +1,58 @@
+{
+  "sample_id": "self_collection_bathroom_table_53_e8ce4e90__q001",
+  "source_sample_id": "self_collection_bathroom_table_53_e8ce4e90",
+  "status": "annotated",
+  "updated_at": "2026-04-27T10:40:09Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_53_e8ce4e90__q001",
+    "source_sample_id": "self_collection_bathroom_table_53_e8ce4e90",
+    "entry_id": "q001",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a tablet in the image?",
+    "instruction": "Is there any vacant space to place a tablet in the image?",
+    "answer": "no",
+    "rgb": "bathroom_table/53.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 1
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a tablet in the image?",
+    "output_instruction": "Is there any vacant space to place a tablet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_53_e8ce4e90_obj_000",
+      "placementItem": "tablet",
+      "answerIndex": 1,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

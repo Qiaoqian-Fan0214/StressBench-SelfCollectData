@@ -1,0 +1,93 @@
+{
+  "sample_id": "self_collection_Storage_Room_72_49ca10cf__q001_mask",
+  "source_sample_id": "self_collection_Storage_Room_72_49ca10cf",
+  "status": "annotated",
+  "updated_at": "2026-04-26T18:19:22Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_72_49ca10cf__q001_mask",
+    "source_sample_id": "self_collection_Storage_Room_72_49ca10cf",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the security camera in the image.",
+    "instruction": "Locate the security camera in the image.",
+    "answer": "security camera",
+    "rgb": "Storage_Room/72.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Storage_Room_72_49ca10cf_obj_003",
+      "object_name": "security camera",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3333,
+            5000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "]jij81QX36L4L3M3",
+            "M2O0O100O100O1O1",
+            "00O1O100O1O1O1O1",
+            "00fNUOYkLk0fT3Ig",
+            "jL8VU3OfjL1YU34a",
+            "jLN_U35]jLKdU3[1",
+            "O0100O1O010O10O0",
+            "1O1O1O010O1O1O1O",
+            "1N3O0O1O2N1O2N10",
+            "0O2N100O2O0O101O",
+            "0O10000O2O00O10O",
+            "10000000000O1000",
+            "000000000O101O00",
+            "000O2O001N1O2N1O",
+            "2N2M4K5K6I\\mlg6"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2777.46337890625,
+        1204.162109375,
+        2878.871826171875,
+        1297.2022705078125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the security camera in the image?",
+    "output_instruction": "What is the segmentation mask of the security camera in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_72_49ca10cf_obj_003",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

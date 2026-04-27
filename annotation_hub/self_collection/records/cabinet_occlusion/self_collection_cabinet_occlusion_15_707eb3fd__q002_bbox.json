@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_15_707eb3fd__q002_bbox",
+  "source_sample_id": "self_collection_cabinet_occlusion_15_707eb3fd",
+  "status": "annotated",
+  "updated_at": "2026-04-27T12:51:36Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_15_707eb3fd__q002_bbox",
+    "source_sample_id": "self_collection_cabinet_occlusion_15_707eb3fd",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the power outlet in the image.",
+    "instruction": "Locate the power outlet in the image.",
+    "answer": "power outlet",
+    "rgb": "cabinet_occlusion/15.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_cabinet_occlusion_15_707eb3fd_obj_009",
+      "object_name": "power outlet",
+      "bbox_xyxy": [
+        397.3835754394531,
+        1933.0906982421875,
+        576.8639526367188,
+        2121.381591796875
+      ],
+      "bbox_xywh": [
+        397.3835754394531,
+        1933.0906982421875,
+        179.48037719726562,
+        188.2908935546875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the power outlet in the image?",
+    "output_instruction": "What is the bounding box of the power outlet in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_15_707eb3fd_obj_009",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

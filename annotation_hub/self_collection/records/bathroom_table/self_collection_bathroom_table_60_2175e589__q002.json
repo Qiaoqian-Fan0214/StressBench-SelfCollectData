@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_bathroom_table_60_2175e589__q002",
+  "source_sample_id": "self_collection_bathroom_table_60_2175e589",
+  "status": "annotated",
+  "updated_at": "2026-04-27T11:49:37Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_60_2175e589__q002",
+    "source_sample_id": "self_collection_bathroom_table_60_2175e589",
+    "entry_id": "q002",
+    "task": "spatial_mcq",
+    "template_id": "farthest",
+    "question": "Which object is farthest from us in the image?",
+    "instruction": "Which object is farthest from us in the image?",
+    "answer": "bathtub",
+    "rgb": "bathroom_table/60.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "bathtub",
+          "faucet",
+          "photo",
+          "bottle",
+          "mirror"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Which object is farthest from us in the image?",
+    "output_instruction": "Which object is farthest from us in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "spatial_mcq",
+      "template_id": "farthest",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_60_2175e589_obj_000",
+      "placementItem": "toy",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "self_collection_bathroom_table_60_2175e589_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_bathroom_table_60_2175e589_obj_001",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": [
+        "bathtub",
+        "faucet",
+        "photo",
+        "bottle",
+        "mirror"
+      ]
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

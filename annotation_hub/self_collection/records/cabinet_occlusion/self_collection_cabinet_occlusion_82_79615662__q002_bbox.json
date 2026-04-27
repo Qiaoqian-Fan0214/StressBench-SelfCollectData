@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_82_79615662__q002_bbox",
+  "source_sample_id": "self_collection_cabinet_occlusion_82_79615662",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:59:04Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_82_79615662__q002_bbox",
+    "source_sample_id": "self_collection_cabinet_occlusion_82_79615662",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the sink in the image.",
+    "instruction": "Locate the sink in the image.",
+    "answer": "sink",
+    "rgb": "cabinet_occlusion/82.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_cabinet_occlusion_82_79615662_obj_013",
+      "object_name": "sink",
+      "bbox_xyxy": [
+        1497.9610595703125,
+        1740.775634765625,
+        2008.879150390625,
+        1789.7186279296875
+      ],
+      "bbox_xywh": [
+        1497.9610595703125,
+        1740.775634765625,
+        510.9180908203125,
+        48.9429931640625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the sink in the image?",
+    "output_instruction": "What is the bounding box of the sink in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_82_79615662_obj_013",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

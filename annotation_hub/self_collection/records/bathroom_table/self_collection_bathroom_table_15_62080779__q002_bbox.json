@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_bathroom_table_15_62080779__q002_bbox",
+  "source_sample_id": "self_collection_bathroom_table_15_62080779",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:59:36Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_15_62080779__q002_bbox",
+    "source_sample_id": "self_collection_bathroom_table_15_62080779",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the faucet in the image.",
+    "instruction": "Locate the faucet in the image.",
+    "answer": "faucet",
+    "rgb": "bathroom_table/15.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_15_62080779_obj_000",
+      "object_name": "faucet",
+      "bbox_xyxy": [
+        3729.228759765625,
+        4472.72021484375,
+        4150.3134765625,
+        5500.017578125
+      ],
+      "bbox_xywh": [
+        3729.228759765625,
+        4472.72021484375,
+        421.084716796875,
+        1027.29736328125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the faucet in the image?",
+    "output_instruction": "What is the bounding box of the faucet in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_15_62080779_obj_000",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

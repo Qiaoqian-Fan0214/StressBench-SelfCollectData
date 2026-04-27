@@ -1,0 +1,135 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_75_feb40fb9__q002_mask",
+  "source_sample_id": "self_collection_cabinet_occlusion_75_feb40fb9",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:50:20Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_75_feb40fb9__q002_mask",
+    "source_sample_id": "self_collection_cabinet_occlusion_75_feb40fb9",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the microwave in the image.",
+    "instruction": "Locate the microwave in the image.",
+    "answer": "microwave",
+    "rgb": "cabinet_occlusion/75.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_cabinet_occlusion_75_feb40fb9_obj_005",
+      "object_name": "microwave",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4480,
+            6720
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "eXb`:7e[4;]eK_OV",
+            "Y4i0afK\\O\\Y4l0Vf",
+            "K]OgY4`1L4M3M2M4",
+            "M2M4L3M3L4L4K6K4",
+            "N2M3N2N2N2N2N2N2",
+            "N2M3L4M3N2M3N2N2",
+            "N2N2N2M3N2M3N2M2",
+            "O2N2N2O1N2O1N2O1",
+            "N2O1O1N2O1N2N2O1",
+            "N2N2N2O1N2M3N2N2",
+            "M3M3M3M3N2N2N2O1",
+            "N2N2N2O1N2N2N2N2",
+            "N2N2N2O1N2N2N2O2",
+            "M2N2N2M3N2N2N2N2",
+            "O1N2O0O2O1O1N2O1",
+            "O001N2O1N101O1N2",
+            "O0O2O1N1O2O1N2N1",
+            "O2N2N2N2N1O2N2N2",
+            "O0O2O1O1O1O0O2O1",
+            "O001O1O1N101O1O1",
+            "N101O1O1O1N101O1",
+            "O1O1N2O1O1O1O1O1",
+            "O1O1O1O1O001O1O1",
+            "O1O1O1O1O1O1O1O1",
+            "O100O1O1O100O1O1",
+            "00O1O100O1O100O1",
+            "0O01O100O100O100",
+            "O100O100O100O100",
+            "O100O100O1O100O1",
+            "O100O1O1O100O1O1",
+            "O1O10000O100O100",
+            "O10001O0000000O1",
+            "0000000000O10000",
+            "0000O1000000O100",
+            "000000O100000000",
+            "000000O100000000",
+            "0000000000000O10",
+            "O100000000000000",
+            "0000000O10000000",
+            "0000000000O10000",
+            "0O10000000000000",
+            "O1000000000000O1",
+            "0000000000O01000",
+            "00000000O1000000",
+            "000000001O000000",
+            "0000000000000000",
+            "0000001O00000000",
+            "001N10001O0O101O",
+            "0O2O001N101N101N",
+            "101N101N101N101N",
+            "2N1O2M3N2M3L4J6I",
+            "8F9G:RNToK\\HVQ4R",
+            "7W2fLklKYMbS4R2c",
+            "mKTMgR4R2T4aN_1@",
+            "dYW_`0"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2444.021484375,
+        3103.16064453125,
+        2919.123046875,
+        3536.541015625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the microwave in the image?",
+    "output_instruction": "What is the segmentation mask of the microwave in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ],
+        "V": [
+          "extreme_viewpoint",
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_75_feb40fb9_obj_005",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ],
+      "V": [
+        "extreme_viewpoint",
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

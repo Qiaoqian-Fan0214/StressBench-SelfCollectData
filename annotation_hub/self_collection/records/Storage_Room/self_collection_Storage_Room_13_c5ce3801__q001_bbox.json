@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Storage_Room_13_c5ce3801__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_13_c5ce3801",
+  "status": "annotated",
+  "updated_at": "2026-04-26T10:12:00Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_13_c5ce3801__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_13_c5ce3801",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bucket in the image.",
+    "instruction": "Locate the bucket in the image.",
+    "answer": "bucket",
+    "rgb": "Storage_Room/13.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_13_c5ce3801_obj_001",
+      "object_name": "bucket",
+      "bbox_xyxy": [
+        1678.6717529296875,
+        719.1149291992188,
+        2511.61865234375,
+        1782.541015625
+      ],
+      "bbox_xywh": [
+        1678.6717529296875,
+        719.1149291992188,
+        832.9468994140625,
+        1063.4260864257812
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the bucket in the image?",
+    "output_instruction": "What is the bounding box of the bucket in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_13_c5ce3801_obj_001",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

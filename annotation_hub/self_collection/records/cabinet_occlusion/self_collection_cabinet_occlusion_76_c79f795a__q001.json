@@ -1,0 +1,70 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_76_c79f795a__q001",
+  "source_sample_id": "self_collection_cabinet_occlusion_76_c79f795a",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:51:42Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_76_c79f795a__q001",
+    "source_sample_id": "self_collection_cabinet_occlusion_76_c79f795a",
+    "entry_id": "q001",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a tablet in the image?",
+    "instruction": "Is there any vacant space to place a tablet in the image?",
+    "answer": "no",
+    "rgb": "cabinet_occlusion/76.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 1
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a tablet in the image?",
+    "output_instruction": "Is there any vacant space to place a tablet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_76_c79f795a_obj_000",
+      "placementItem": "tablet",
+      "answerIndex": 1,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

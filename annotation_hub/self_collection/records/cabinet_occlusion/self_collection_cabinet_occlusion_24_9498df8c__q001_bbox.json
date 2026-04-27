@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_24_9498df8c__q001_bbox",
+  "source_sample_id": "self_collection_cabinet_occlusion_24_9498df8c",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:04:45Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_24_9498df8c__q001_bbox",
+    "source_sample_id": "self_collection_cabinet_occlusion_24_9498df8c",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the clock in the image.",
+    "instruction": "Locate the clock in the image.",
+    "answer": "clock",
+    "rgb": "cabinet_occlusion/24.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_cabinet_occlusion_24_9498df8c_obj_001",
+      "object_name": "clock",
+      "bbox_xyxy": [
+        1272.5289306640625,
+        1.681834101676941,
+        2122.019287109375,
+        272.58978271484375
+      ],
+      "bbox_xywh": [
+        1272.5289306640625,
+        1.681834101676941,
+        849.4903564453125,
+        270.9079486131668
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the clock in the image?",
+    "output_instruction": "What is the bounding box of the clock in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_24_9498df8c_obj_001",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

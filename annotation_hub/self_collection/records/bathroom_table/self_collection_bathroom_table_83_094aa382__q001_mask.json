@@ -1,0 +1,95 @@
+{
+  "sample_id": "self_collection_bathroom_table_83_094aa382__q001_mask",
+  "source_sample_id": "self_collection_bathroom_table_83_094aa382",
+  "status": "annotated",
+  "updated_at": "2026-04-27T12:23:29Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_83_094aa382__q001_mask",
+    "source_sample_id": "self_collection_bathroom_table_83_094aa382",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "bathroom_table/83.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_bathroom_table_83_094aa382_obj_003",
+      "object_name": "cup",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3741,
+            5311
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Pgdn;6Yd3[1hNV1g",
+            "Nh0D:G:F;d_LRLU_",
+            "3n4L3M4M2N1N3N1O",
+            "1O2M2O1O1O001N2O",
+            "1O1O001O1O1O1O1N",
+            "101O2N1O1O1O1O1O",
+            "000O2O0000000000",
+            "000000O100000000",
+            "00000000O1000000",
+            "00000001O0000000",
+            "0000000000O10001",
+            "O000000000000000",
+            "1O01O00000000000",
+            "1O0001O000000000",
+            "0001O01O000000O2",
+            "O0000001O0000001",
+            "O000000001N100O1",
+            "00O2O0O1O1O101N1",
+            "O1O100O2N100O1O2",
+            "N1O1N2N3L3K5K6K4",
+            "L5L3L5J5J7I7J5K6",
+            "J6J6C=^Ob0^Oc0A`",
+            "0@dYk\\6"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        3347.369140625,
+        2445.600341796875,
+        3518.100830078125,
+        2670.387939453125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the cup in the image?",
+    "output_instruction": "What is the segmentation mask of the cup in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_83_094aa382_obj_003",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

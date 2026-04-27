@@ -1,0 +1,58 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_21_c702136e__q001",
+  "source_sample_id": "self_collection_cabinet_occlusion_21_c702136e",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:02:28Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_21_c702136e__q001",
+    "source_sample_id": "self_collection_cabinet_occlusion_21_c702136e",
+    "entry_id": "q001",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a tablet in the image?",
+    "instruction": "Is there any vacant space to place a tablet in the image?",
+    "answer": "yes",
+    "rgb": "cabinet_occlusion/21.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a tablet in the image?",
+    "output_instruction": "Is there any vacant space to place a tablet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_21_c702136e_obj_000",
+      "placementItem": "tablet",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

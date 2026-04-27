@@ -1,0 +1,101 @@
+{
+  "sample_id": "self_collection_bathroom_table_38_b41aad9f__q001_mask",
+  "source_sample_id": "self_collection_bathroom_table_38_b41aad9f",
+  "status": "annotated",
+  "updated_at": "2026-04-27T10:23:01Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_38_b41aad9f__q001_mask",
+    "source_sample_id": "self_collection_bathroom_table_38_b41aad9f",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the toilet in the image.",
+    "instruction": "Locate the toilet in the image.",
+    "answer": "toilet",
+    "rgb": "bathroom_table/38.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_bathroom_table_38_b41aad9f_obj_000",
+      "object_name": "toilet",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2560,
+            2560
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Rj1f9ZV2000000O1",
+            "00000000O10000O1",
+            "0000O100O1O1O100",
+            "O1O100O100O1O100",
+            "O1O100O2N100O1O1",
+            "00O100O100O10000",
+            "O100O10000O10000",
+            "O10000O10000O100",
+            "O100O100O100O100",
+            "O1O100O100O1O100",
+            "O1O100O1O100O100",
+            "O1O1O1O1O1O100O1",
+            "O100O1O100O1O1O1",
+            "O1O1O100O1O100O1",
+            "O100O1O1O100O2N1",
+            "O1O1O1O1O100O1O1",
+            "O1N2N2N2N2M3N2N2",
+            "O1N2O1N2N2N2N2N3",
+            "K4M3N2M3M3N2M3L4",
+            "L4L4M4L3M3M4M2M5",
+            "K6J6J5K4I8I6M3K5",
+            "L5J5L4H8F;I7H8G9",
+            "I9G;EgTVj5"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        0.8075904846191406,
+        1848.98974609375,
+        175.34481811523438,
+        2170.57958984375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the toilet in the image?",
+    "output_instruction": "What is the segmentation mask of the toilet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_38_b41aad9f_obj_000",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

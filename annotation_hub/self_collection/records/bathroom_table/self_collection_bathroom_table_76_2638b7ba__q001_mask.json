@@ -1,0 +1,87 @@
+{
+  "sample_id": "self_collection_bathroom_table_76_2638b7ba__q001_mask",
+  "source_sample_id": "self_collection_bathroom_table_76_2638b7ba",
+  "status": "annotated",
+  "updated_at": "2026-04-27T12:08:14Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_76_2638b7ba__q001_mask",
+    "source_sample_id": "self_collection_bathroom_table_76_2638b7ba",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the toilet paper holder in the image.",
+    "instruction": "Locate the toilet paper holder in the image.",
+    "answer": "toilet paper holder",
+    "rgb": "bathroom_table/76.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_bathroom_table_76_2638b7ba_obj_002",
+      "object_name": "toilet paper holder",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2543,
+            3840
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "T]nP46V_26L4^aM2",
+            "[]21`bM;V]2IebMT",
+            "1`\\2R1K3M2N2N2O0",
+            "00O101O00O1000O1",
+            "000000000000O100",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "000000000000001O",
+            "00000000000O101O",
+            "0O1O1O1O1N3TOkcM",
+            "ZNW\\2]1R1L4L5L3^",
+            "Od0K6K4L5J4MZkoQ",
+            "5"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1652.9415283203125,
+        1497.8173828125,
+        1755.348876953125,
+        1619.0928955078125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the toilet paper holder in the image?",
+    "output_instruction": "What is the segmentation mask of the toilet paper holder in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_76_2638b7ba_obj_002",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

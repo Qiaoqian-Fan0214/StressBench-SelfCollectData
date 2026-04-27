@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_bathroom_table_2_da0b2665__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_2_da0b2665",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:40:12Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_2_da0b2665__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_2_da0b2665",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the paper towel roll in the image.",
+    "instruction": "Locate the paper towel roll in the image.",
+    "answer": "paper towel roll",
+    "rgb": "bathroom_table/2.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_2_da0b2665_obj_004",
+      "object_name": "paper towel roll",
+      "bbox_xyxy": [
+        2651.398193359375,
+        2523.2958984375,
+        2855.602783203125,
+        2816.484619140625
+      ],
+      "bbox_xywh": [
+        2651.398193359375,
+        2523.2958984375,
+        204.20458984375,
+        293.188720703125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the paper towel roll in the image?",
+    "output_instruction": "What is the bounding box of the paper towel roll in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_2_da0b2665_obj_004",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

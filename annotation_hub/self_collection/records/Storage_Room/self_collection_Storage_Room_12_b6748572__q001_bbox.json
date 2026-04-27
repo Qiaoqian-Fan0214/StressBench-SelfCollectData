@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Storage_Room_12_b6748572__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_12_b6748572",
+  "status": "annotated",
+  "updated_at": "2026-04-26T10:10:46Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_12_b6748572__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_12_b6748572",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the stairs in the image.",
+    "instruction": "Locate the stairs in the image.",
+    "answer": "stairs",
+    "rgb": "Storage_Room/12.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_12_b6748572_obj_002",
+      "object_name": "stairs",
+      "bbox_xyxy": [
+        4866.48291015625,
+        2253.028076171875,
+        5710.91845703125,
+        3584.84375
+      ],
+      "bbox_xywh": [
+        4866.48291015625,
+        2253.028076171875,
+        844.435546875,
+        1331.815673828125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the stairs in the image?",
+    "output_instruction": "What is the bounding box of the stairs in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_12_b6748572_obj_002",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

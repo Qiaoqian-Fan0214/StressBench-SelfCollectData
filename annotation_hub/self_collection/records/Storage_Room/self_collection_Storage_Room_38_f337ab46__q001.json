@@ -1,0 +1,58 @@
+{
+  "sample_id": "self_collection_Storage_Room_38_f337ab46__q001",
+  "source_sample_id": "self_collection_Storage_Room_38_f337ab46",
+  "status": "annotated",
+  "updated_at": "2026-04-26T17:37:49Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_38_f337ab46__q001",
+    "source_sample_id": "self_collection_Storage_Room_38_f337ab46",
+    "entry_id": "q001",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a mountain bike in the image?",
+    "instruction": "Is there any vacant space to place a mountain bike in the image?",
+    "answer": "yes",
+    "rgb": "Storage_Room/38.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a mountain bike in the image?",
+    "output_instruction": "Is there any vacant space to place a mountain bike in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_38_f337ab46_obj_000",
+      "placementItem": "mountain bike",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

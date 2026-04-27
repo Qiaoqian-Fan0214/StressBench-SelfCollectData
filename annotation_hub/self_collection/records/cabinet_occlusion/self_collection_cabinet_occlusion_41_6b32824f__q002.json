@@ -1,0 +1,58 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_41_6b32824f__q002",
+  "source_sample_id": "self_collection_cabinet_occlusion_41_6b32824f",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:21:13Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_41_6b32824f__q002",
+    "source_sample_id": "self_collection_cabinet_occlusion_41_6b32824f",
+    "entry_id": "q002",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a cup in the image?",
+    "instruction": "Is there any vacant space to place a cup in the image?",
+    "answer": "yes",
+    "rgb": "cabinet_occlusion/41.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a cup in the image?",
+    "output_instruction": "Is there any vacant space to place a cup in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_41_6b32824f_obj_000",
+      "placementItem": "cup",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

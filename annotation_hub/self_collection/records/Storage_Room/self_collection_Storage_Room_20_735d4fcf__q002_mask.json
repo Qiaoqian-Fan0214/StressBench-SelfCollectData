@@ -1,0 +1,91 @@
+{
+  "sample_id": "self_collection_Storage_Room_20_735d4fcf__q002_mask",
+  "source_sample_id": "self_collection_Storage_Room_20_735d4fcf",
+  "status": "annotated",
+  "updated_at": "2026-04-26T10:39:14Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_20_735d4fcf__q002_mask",
+    "source_sample_id": "self_collection_Storage_Room_20_735d4fcf",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "Storage_Room/20.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Storage_Room_20_735d4fcf_obj_005",
+      "object_name": "cup",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4000,
+            6000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "UP_oc0c0jk3Q1_O9",
+            "G9I4L2M3N2N2O1N1",
+            "O101N100O2O0O100",
+            "00O2O00000000001",
+            "O000000000000000",
+            "01O0000000000000",
+            "01O000000000O100",
+            "000O100000000000",
+            "O1000O1000000000",
+            "O10O101O0O10000O",
+            "101N100O2N1O2N2N",
+            "1O2L5J5K6J6I7]Oh",
+            "0nNXRka2"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        5238.57275390625,
+        2078.6748046875,
+        5327.7822265625,
+        2170.45166015625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the cup in the image?",
+    "output_instruction": "What is the segmentation mask of the cup in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_20_735d4fcf_obj_005",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

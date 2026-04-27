@@ -1,0 +1,98 @@
+{
+  "sample_id": "self_collection_Storage_Room_76_93d05c63__q001_mask",
+  "source_sample_id": "self_collection_Storage_Room_76_93d05c63",
+  "status": "annotated",
+  "updated_at": "2026-04-26T18:22:34Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_76_93d05c63__q001_mask",
+    "source_sample_id": "self_collection_Storage_Room_76_93d05c63",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the flower in the image.",
+    "instruction": "Locate the flower in the image.",
+    "answer": "flower",
+    "rgb": "Storage_Room/76.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Storage_Room_76_93d05c63_obj_001",
+      "object_name": "flower",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3648,
+            5472
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "S__h8=aa39G4M3L4",
+            "M3M3M3L5L4K6K5K3",
+            "M2N3M3M2N1O1O100",
+            "O1O1O100O1O1O1O1",
+            "00O1O1O1O1O100O0",
+            "0100O01O010O0010",
+            "O010O010O01O01O0",
+            "10O010O100O10000",
+            "0001O0000001O000",
+            "01N1000001O00001",
+            "00O001O001O1O1O1",
+            "00O001O1O001O1O0",
+            "10O1O001O0000001",
+            "O000000000000O10",
+            "0000000000001O00",
+            "00000000001O001N",
+            "101O001O001O0O3N",
+            "1O1N2O1O1N2O1O1O",
+            "1O100O100000001N",
+            "10000O10O01O10O0",
+            "1O001O01O01O0000",
+            "0000000O2O000000",
+            "000000000O10001O",
+            "00000O1O101N1O1O",
+            "2K5L3N3L4L4M4K5K",
+            "5K8H8G9H`^Zb9"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2515.724853515625,
+        1512.262939453125,
+        2720.51416015625,
+        1646.1070556640625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the flower in the image?",
+    "output_instruction": "What is the segmentation mask of the flower in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_76_93d05c63_obj_001",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

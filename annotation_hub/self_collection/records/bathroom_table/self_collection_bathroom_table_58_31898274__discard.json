@@ -1,0 +1,12 @@
+{
+  "sample_id": "self_collection_bathroom_table_58_31898274__discard",
+  "source_sample_id": "self_collection_bathroom_table_58_31898274",
+  "status": "discarded",
+  "updated_at": "2026-04-27T11:44:47Z",
+  "annotation": null,
+  "provenance": {
+    "dataset": "Self-Collection",
+    "subcategory": "bathroom_table",
+    "split": "self_collected"
+  }
+}

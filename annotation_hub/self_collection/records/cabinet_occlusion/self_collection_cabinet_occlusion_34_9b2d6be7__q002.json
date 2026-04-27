@@ -1,0 +1,58 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_34_9b2d6be7__q002",
+  "source_sample_id": "self_collection_cabinet_occlusion_34_9b2d6be7",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:15:55Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_34_9b2d6be7__q002",
+    "source_sample_id": "self_collection_cabinet_occlusion_34_9b2d6be7",
+    "entry_id": "q002",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a chair in the image?",
+    "instruction": "Is there any vacant space to place a chair in the image?",
+    "answer": "yes",
+    "rgb": "cabinet_occlusion/34.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a chair in the image?",
+    "output_instruction": "Is there any vacant space to place a chair in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_34_9b2d6be7_obj_000",
+      "placementItem": "chair",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}
