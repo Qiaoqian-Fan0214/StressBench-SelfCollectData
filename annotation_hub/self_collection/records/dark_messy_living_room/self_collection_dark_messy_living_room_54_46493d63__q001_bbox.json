@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_54_46493d63__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_living_room_54_46493d63",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:52Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_54_46493d63__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_living_room_54_46493d63",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bed in the image.",
+    "instruction": "Locate the bed in the image.",
+    "answer": "bed",
+    "rgb": "dark_messy_living_room/54.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_living_room_54_46493d63_obj_013",
+      "object_name": "bed",
+      "bbox_xyxy": [
+        2.521634101867676,
+        1498.9552001953125,
+        1341.6632080078125,
+        2493.19189453125
+      ],
+      "bbox_xywh": [
+        2.521634101867676,
+        1498.9552001953125,
+        1339.1415739059448,
+        994.2366943359375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the bed in the image?",
+    "output_instruction": "What is the bounding box of the bed in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "specular_confusion"
+        ],
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_54_46493d63_obj_013",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "specular_confusion"
+      ],
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

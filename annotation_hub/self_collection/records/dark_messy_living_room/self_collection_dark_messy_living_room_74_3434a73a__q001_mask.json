@@ -1,0 +1,163 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_74_3434a73a__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_living_room_74_3434a73a",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:15:33Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_74_3434a73a__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_living_room_74_3434a73a",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the flower in the image.",
+    "instruction": "Locate the flower in the image.",
+    "answer": "flower",
+    "rgb": "dark_messy_living_room/74.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_living_room_74_3434a73a_obj_000",
+      "object_name": "flower",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2653,
+            1990
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "QjPg22jfd02jY[O6",
+            "Ua2Mi^M6Ta2Lj^M6",
+            "Ta2Kl^M6Pa2No^M3",
+            "m`20S_M0j`24T_MN",
+            "e`28[_MHb`2;^_MF",
+            "^`2>a_MB\\`2a0d_M",
+            "_OZ`2d0c_M^O[`2e",
+            "0`_M@]`2a1M3M3M4",
+            "M2M3N2O2N1O2O1N2",
+            "e`MoLh^2T3QaMRMl",
+            "^2b3N1O1N2O0O2O0",
+            "01N10001N10001N1",
+            "000001N1000001O0",
+            "0001O00001O00000",
+            "01O001O001O00000",
+            "1O00001O000O2N1M",
+            "3L5M2O1O100O1O1O",
+            "1O1O1O2O0O100O10",
+            "0O1O2O0O1O1O2O0O",
+            "\\aMdLi]2\\3WbMeLi",
+            "]2Y3WbMiLh]2W3Xb",
+            "MiLi]2U3WbMlLj]2",
+            "S3UbMnLk]2R3TbMP",
+            "Ml]2o2SbMRMm]2m2",
+            "TbMSMl]2m2SbMTMm",
+            "]2l2RbMUMn]2k2Rb",
+            "MUMm]2l2SbMTMm]2",
+            "l2SbMTMl]2l2UbMT",
+            "Mk]2l2UbMTMj]2m2",
+            "VbMSMh]2o2XbMRMf",
+            "]2o2ZbMQMc]2R3]b",
+            "MnLa]2T3_bMlL`]2",
+            "U3`bMkL_]2V3abMj",
+            "L^]2W3bbMiL^]2X3",
+            "bbMgL]]2Z3cbMfL\\",
+            "]2[3dbMfLZ]2[3fb",
+            "MeLZ]2[3fbMeLZ]2",
+            "\\3ebMdLZ]2]3gbMb",
+            "LY]2^3gbMbLY]2^3",
+            "gbMbLY]2^3gbMbLZ",
+            "]2]3fbMcLZ]2]3fb",
+            "MbL[]2^3ebMbL[]2",
+            "^3ebMbL[]2^3ebMb",
+            "L[]2^3ebMbL[]2^3",
+            "ebMbL[]2^3ebMbL[",
+            "]2^3ebMbLZ]2_3fb",
+            "MaLZ]2_3fbMaLZ]2",
+            "`3ebM`L[]2`3ebM_",
+            "L\\]2a3dbM_L\\]2a3",
+            "dbM_L\\]2a3ebM^L[",
+            "]2b3ebM^LZ]2c3fb",
+            "M]LZ]2c3fbM]LZ]2",
+            "d3ebM\\L\\]2c3dbM\\",
+            "L]]2d3dbM[L\\]2f3",
+            "cbMZL]]2f3cbMZL]",
+            "]2f3cbMZL]]2g3cb",
+            "MXL]]2h3bbMYL^]2",
+            "g3bbMYL_]2f3abMZ",
+            "L`]2e3`bM[La]2d3",
+            "^bM]Lc]2a3^bM`Lb",
+            "]2_3^bMaLd]2]3[b",
+            "MdLn]2S3RbMmLQ^2",
+            "P3oaMQMQ^2n2oaMR",
+            "MR^2m2naMSMS^2m2",
+            "laMSMV^2k2jaMUMW",
+            "^2k2haMUMY^2k2ga",
+            "MTMY^2m2faMSM[^2",
+            "n2caMRM^^2o2`aMQ",
+            "M`^2P3`aMoLa^2P3",
+            "_aMPMa^2Q3]aMPMd",
+            "^2o2\\aMQMd^2o2\\a",
+            "MQMd^2P3ZaMQMg^2",
+            "n2YaMSMf^2m2YaMT",
+            "Mg^2l2YaMTMg^2m2",
+            "WaMTMi^2l2WaMTMj",
+            "^2l2TaMUMl^2l2Ra",
+            "MUMn^2\\3100O101N",
+            "100O1O1dNn`MmNS_",
+            "2m0UaMnNn^2m0WaM",
+            "oNm^2k0YaMQOl^2i",
+            "0YaMROo^2d0WaMUO",
+            "S_21eaMKh`2L4O1O",
+            "2N[keh1"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1082.0115966796875,
+        2240.7392578125,
+        1295.5452880859375,
+        2399.9541015625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the flower in the image?",
+    "output_instruction": "What is the segmentation mask of the flower in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_74_3434a73a_obj_000",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

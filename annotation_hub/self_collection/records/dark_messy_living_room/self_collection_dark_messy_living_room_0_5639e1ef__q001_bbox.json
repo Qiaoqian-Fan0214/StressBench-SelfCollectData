@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_0_5639e1ef__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_living_room_0_5639e1ef",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:47:46Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_0_5639e1ef__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_living_room_0_5639e1ef",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the laundry basket in the image.",
+    "instruction": "Locate the laundry basket in the image.",
+    "answer": "laundry basket",
+    "rgb": "dark_messy_living_room/0.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_living_room_0_5639e1ef_obj_005",
+      "object_name": "laundry basket",
+      "bbox_xyxy": [
+        4406.98291015625,
+        169.5567626953125,
+        5090.1494140625,
+        533.98193359375
+      ],
+      "bbox_xywh": [
+        4406.98291015625,
+        169.5567626953125,
+        683.16650390625,
+        364.4251708984375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the laundry basket in the image?",
+    "output_instruction": "What is the bounding box of the laundry basket in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "non_rigid_deform"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_0_5639e1ef_obj_005",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "non_rigid_deform"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

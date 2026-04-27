@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_82_1364638d__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_living_room_82_1364638d",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:24:44Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_82_1364638d__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_living_room_82_1364638d",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bread in the image.",
+    "instruction": "Locate the bread in the image.",
+    "answer": "bread",
+    "rgb": "dark_messy_living_room/82.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_living_room_82_1364638d_obj_002",
+      "object_name": "bread",
+      "bbox_xyxy": [
+        1734.168212890625,
+        2688.2001953125,
+        2177.7060546875,
+        3073.04345703125
+      ],
+      "bbox_xywh": [
+        1734.168212890625,
+        2688.2001953125,
+        443.537841796875,
+        384.84326171875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the bread in the image?",
+    "output_instruction": "What is the bounding box of the bread in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_overexposure",
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_82_1364638d_obj_002",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_overexposure",
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

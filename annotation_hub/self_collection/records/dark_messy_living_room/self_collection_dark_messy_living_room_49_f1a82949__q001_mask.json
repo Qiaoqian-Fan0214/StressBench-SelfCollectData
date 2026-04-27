@@ -1,0 +1,168 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_49_f1a82949__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_living_room_49_f1a82949",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:03:34Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_49_f1a82949__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_living_room_49_f1a82949",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the box in the image.",
+    "instruction": "Locate the box in the image.",
+    "answer": "box",
+    "rgb": "dark_messy_living_room/49.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_living_room_49_f1a82949_obj_001",
+      "object_name": "box",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3444,
+            5165
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "ST_P7<X6LVm2b3QP",
+            "MjMnn2k3inL[Nlo2",
+            "[7\\Ol2SM;XTMeBdh",
+            "2Z`0K3M3M2N2N2O1",
+            "O0O101N10000O100",
+            "O101N100O100O100",
+            "00O100O2N1O10000",
+            "O2N101N100O2O0O2",
+            "O0O2O0O101N101O0",
+            "O10000O2O00000O1",
+            "000000O1000000O2",
+            "O00000O10000O100",
+            "00O100O100O10000",
+            "O100O1O101N100O1",
+            "00O10000O10000O2",
+            "O00000O1000001O0",
+            "O10000000001O0O1",
+            "0001O000000001O0",
+            "000001O000000001",
+            "O01O0000001O0000",
+            "1O001N101O00001O",
+            "001O001N11O00000",
+            "0001O1O001O001O0",
+            "01O001O001O00001",
+            "O000000001O0001O",
+            "000000000000001O",
+            "00000VNQXMo_OPh2",
+            "o?RXMP@ng2o?TXMQ",
+            "@kg2o?UXMQ@kg2o?",
+            "TXMR@lg2n?TXMR@l",
+            "g2m?UXMS@lg2n?QX",
+            "MS@og2o?nWMR@Rh2",
+            "ia0O000000010O00",
+            "00000010O0000000",
+            "000010O000000000",
+            "000000001O000000",
+            "0001O01O0000000O",
+            "101O000000001O00",
+            "000000001N1001O0",
+            "00001O01O001O001",
+            "0O0001O001O000Y]",
+            "ORXMia0ng2V^OTXM",
+            "ha0lg2W^OWXMga0i",
+            "g2Y^OWXMga0ig2Y^",
+            "OWXMga0jg2X^OVXM",
+            "ha0jg2X^OVXMia0i",
+            "g2W^OWXMia0ig2W^",
+            "OWXMia0ig2W^OWXM",
+            "ia0ig2X^OTXMja0l",
+            "g2V^ORXMma0mg2m0",
+            "000001O0000001O0",
+            "0001O0000001O000",
+            "0000000000000000",
+            "0000000000O10000",
+            "000001O0000000O1",
+            "0000000000O10000",
+            "00000000000O0100",
+            "00001N100O100O10",
+            "0O1O1O1O1O1N2O1M",
+            "3L4J6K5L4M3N200O",
+            "1O100O100000000O",
+            "10000000000O1000",
+            "00000O1000000O10",
+            "00001O0O10000000",
+            "0RFjVM]1Wi2cNjVM",
+            "\\1Vi2cNkVM]1Ui2b",
+            "NlVM^1Ti2aNnVM^1",
+            "Ri2a810000O10001",
+            "O0O10000O1000000",
+            "O1aDdVMf4\\i2ZKdV",
+            "Mf4\\i2ZKcVMf4^i2",
+            "YKcVMg4]i2YKcVMf",
+            "4^i2h60O1O1O1O1O",
+            "1O1O1O1O1O100O1O",
+            "100O2O0O100O100Y",
+            "G]VM\\Oei2>eVM]O[",
+            "i2>nVM]OTi2;XWM@",
+            "hh27eWMD\\h25oWMF",
+            "Sh24UXMIkg23\\XMI",
+            "fg2dNoUMZKa2o5`g",
+            "2^NhVMPKn1^6\\g2Z",
+            "NTWMoJe1c6Yg2XNj",
+            "ZMc1Xe2YNP[Ma1Qe",
+            "2[NY[M^1jd2YNd[M",
+            "_1_d2eMd\\Mn1hc2b",
+            "Me]MU1Pc2UNP^Ml0",
+            "]b2gNU^Mg0db2]Mo",
+            "^Mo1Yn2bN]Pj]8"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2117.713623046875,
+        2453.453125,
+        2607.0966796875,
+        3148.8134765625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the box in the image?",
+    "output_instruction": "What is the segmentation mask of the box in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "complex_texture"
+        ],
+        "G": [
+          "stacked_layout",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_49_f1a82949_obj_001",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ],
+      "G": [
+        "stacked_layout",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

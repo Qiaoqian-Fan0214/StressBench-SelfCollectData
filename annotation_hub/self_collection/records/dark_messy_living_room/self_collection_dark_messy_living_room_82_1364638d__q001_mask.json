@@ -1,0 +1,136 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_82_1364638d__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_living_room_82_1364638d",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:24:44Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_82_1364638d__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_living_room_82_1364638d",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bread in the image.",
+    "instruction": "Locate the bread in the image.",
+    "answer": "bread",
+    "rgb": "dark_messy_living_room/82.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_living_room_82_1364638d_obj_002",
+      "object_name": "bread",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            5184,
+            3888
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "_b[c8?fP5Z1[O;H7",
+            "H8I7H7J8H7J5K5K4",
+            "L4M3L4L4L4M3L4L4",
+            "L4L5K4L4L4M2M4L3",
+            "N2M4M2M2O2N2N2N1",
+            "O2N1O2N1O1O2N1O2",
+            "N1O101N1O2N101N1",
+            "00O2N101N1O2O0O2",
+            "N1O101N1O2N1O2N1",
+            "O1O2N1O2N1O2N1O1",
+            "O2O0O2N101N1O2O0",
+            "O2O0O2O1N101N101",
+            "N2O1N2O1N2O1N2N2",
+            "O1N2O1N2N1O2N2O0",
+            "O2N2N1O2O0O2N101",
+            "N101N2O001N2O0O2",
+            "O0O2O001N10001N1",
+            "00O2O000O101N100",
+            "O101N100O10001N1",
+            "00O101O0O100O2O0",
+            "00O101O0O10000O2",
+            "O000O101O0O10000",
+            "O101O0O100O100O1",
+            "0001N100O100O100",
+            "O101N10000O10000",
+            "O1000001N1000000",
+            "00O100000000O100",
+            "000001N100000000",
+            "0000O101O0000000",
+            "0000O101O0000000",
+            "0000O10001O00000",
+            "00O100000001O000",
+            "O10000000000O100",
+            "0001O000O1000000",
+            "0000O10000000000",
+            "000001O00000001O",
+            "0000000000000000",
+            "1O000000001O0000",
+            "001O00001O000010",
+            "O01O00001O001O00",
+            "1O001O001O1O1O00",
+            "1O100O1O1O1O1O1O",
+            "1O1O1O2N1O1O1O1O",
+            "2N1O1O1O1O1O1O1O",
+            "1O1O1O1O0O2O1O2N",
+            "1O1O1O1O2N2M2O2N",
+            "2N3M2N3L4M4L4L4L",
+            "3M4K4M2N3M3M2M3N",
+            "2N2N3L3N1O2M3N2N",
+            "1N3N1O1N3N1N3N2N",
+            "2M3M2O3L3N2N3L3N",
+            "2M4M2M4M2M4M4K5L",
+            "4L4K4M2M3N3L3M4M",
+            "4K7H;F7I6I8H?ZN`",
+            "QKPOfo4GaPK5hP5L",
+            "5K5J6JdY\\_8"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1734.168212890625,
+        2688.2001953125,
+        2177.7060546875,
+        3073.04345703125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the bread in the image?",
+    "output_instruction": "What is the segmentation mask of the bread in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_overexposure",
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_82_1364638d_obj_002",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_overexposure",
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

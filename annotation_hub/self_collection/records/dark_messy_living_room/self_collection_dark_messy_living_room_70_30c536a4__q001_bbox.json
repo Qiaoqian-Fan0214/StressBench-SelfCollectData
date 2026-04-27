@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_70_30c536a4__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_living_room_70_30c536a4",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:13:34Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_70_30c536a4__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_living_room_70_30c536a4",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the keyboard in the image.",
+    "instruction": "Locate the keyboard in the image.",
+    "answer": "keyboard",
+    "rgb": "dark_messy_living_room/70.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_living_room_70_30c536a4_obj_008",
+      "object_name": "keyboard",
+      "bbox_xyxy": [
+        1297.449951171875,
+        2212.2041015625,
+        1966.271484375,
+        2463.70947265625
+      ],
+      "bbox_xywh": [
+        1297.449951171875,
+        2212.2041015625,
+        668.821533203125,
+        251.50537109375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the keyboard in the image?",
+    "output_instruction": "What is the bounding box of the keyboard in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_70_30c536a4_obj_008",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

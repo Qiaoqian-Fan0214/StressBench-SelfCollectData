@@ -1,0 +1,101 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_31_8b34897a__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_living_room_31_8b34897a",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:41:18Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_31_8b34897a__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_living_room_31_8b34897a",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bottle in the image.",
+    "instruction": "Locate the bottle in the image.",
+    "answer": "bottle",
+    "rgb": "dark_messy_living_room/31.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_living_room_31_8b34897a_obj_005",
+      "object_name": "bottle",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2000,
+            3000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "kel^3:Pn18L3N2N1",
+            "N3O0O2N100O2O0O2",
+            "O1O0O2O002M3N1O3",
+            "M3L3N1O1N2O001O0",
+            "O101OO01000000O0",
+            "1000O10O1000O10O",
+            "10O01000O0100O01",
+            "0O1000O01000000O",
+            "010000000O10O010",
+            "000O01000O10O10O",
+            "1000O0100O0100O0",
+            "10O10O10O100O010",
+            "00O01000O100O010",
+            "0000O0100000O010",
+            "00000O01000O0100",
+            "O1O010O1O1O010O1",
+            "0O100000000O1000",
+            "00000O10001O1N2O",
+            "1N3N3L5L2N2M3M3N",
+            "1N1O3M2N4K:FWogn",
+            "1"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1808.52490234375,
+        1797.3631591796875,
+        1976.0616455078125,
+        1890.5223388671875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the bottle in the image?",
+    "output_instruction": "What is the segmentation mask of the bottle in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "G": [
+          "stacked_layout",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_31_8b34897a_obj_005",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "stacked_layout",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

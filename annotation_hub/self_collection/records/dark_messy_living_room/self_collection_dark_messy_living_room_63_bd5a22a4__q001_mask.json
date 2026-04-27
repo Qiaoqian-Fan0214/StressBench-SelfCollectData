@@ -1,0 +1,151 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_63_bd5a22a4__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_living_room_63_bd5a22a4",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:08:36Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_63_bd5a22a4__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_living_room_63_bd5a22a4",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the picture in the image.",
+    "instruction": "Locate the picture in the image.",
+    "answer": "picture",
+    "rgb": "dark_messy_living_room/63.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_living_room_63_bd5a22a4_obj_010",
+      "object_name": "picture",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            5184,
+            3456
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Sjb]>>TP5f1mNo0Y",
+            "N`MVSKQ3ih4T5]Nc",
+            "1TOl0^Nb1aN^1cN]",
+            "1eN\\1lNS1WKS^OSg",
+            "KYd0gX4m\\OleKac0",
+            "PZ4Y2N2N2N3M2O1O",
+            "2N100O101O0O1000",
+            "1O0001O01O01O000",
+            "10O0010O00010O00",
+            "10O0001O01O01O00",
+            "001O000010O00000",
+            "001O00000010O000",
+            "001O01O0001O01O0",
+            "001O0001O000001O",
+            "01O00000001O01O0",
+            "0000001O01O00000",
+            "1O01O0001O000001",
+            "O01O000001O0001O",
+            "01O00001O01O0001",
+            "O01O0001O01O0000",
+            "1O01O01O00001O00",
+            "10O0001O0000010O",
+            "0000010O0001O000",
+            "010O00000001O01O",
+            "0001O01O00000001",
+            "0O00001O01O0001O",
+            "000010O0001O0001",
+            "0O000001O01O0001",
+            "O0000001O01O0000",
+            "01O0000010O00000",
+            "0010O00000001O00",
+            "01O01O0000001O01",
+            "0O001O000010O01O",
+            "001O010O001O01O0",
+            "1O00010O000010O0",
+            "00001O000001O01O",
+            "0000001O0001O000",
+            "1O000001O01O0001",
+            "O0001O01O0000010",
+            "O000001O01O01O00",
+            "0000010O0000001O",
+            "0001O0001O000000",
+            "0010O000001O0001",
+            "0O00001O00010O00",
+            "1O01O0001O01O000",
+            "1O0001O01O000000",
+            "01O01O00000010O0",
+            "000010O00000010O",
+            "000001O0001O01O0",
+            "001O0001O01O0000",
+            "10O0001O001O01O0",
+            "1O001O00010O0000",
+            "1O0001O01O00010O",
+            "0000010O000001O0",
+            "1O000001O01O0000",
+            "01O01O0000001O00",
+            "01O01O0000001O01",
+            "O0001O000001O01O",
+            "0000010O0000001O",
+            "01O0001O000010O0",
+            "001O000010O0001O",
+            "000010O000001O00",
+            "010O0000001O01O0",
+            "00001O01O0000000",
+            "010O00000000010O",
+            "0000000010O00000",
+            "1O0001O01O000000",
+            "10O0000000001O01",
+            "O00000000001O000",
+            "0010O00001O00001",
+            "N3M3M3L6mNYfKcYO",
+            "iY4]f0WfKcYOiY4]",
+            "f0WfKcYOk\\1"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2905.420166015625,
+        2854.8623046875,
+        3451.11083984375,
+        3745.6552734375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the picture in the image?",
+    "output_instruction": "What is the segmentation mask of the picture in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "complex_texture"
+        ],
+        "G": [
+          "stacked_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_63_bd5a22a4_obj_010",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ],
+      "G": [
+        "stacked_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_86_97c7a8e6__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_living_room_86_97c7a8e6",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:27:29Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_86_97c7a8e6__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_living_room_86_97c7a8e6",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cloth in the image.",
+    "instruction": "Locate the cloth in the image.",
+    "answer": "cloth",
+    "rgb": "dark_messy_living_room/86.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_living_room_86_97c7a8e6_obj_011",
+      "object_name": "cloth",
+      "bbox_xyxy": [
+        1998.8907470703125,
+        1965.7557373046875,
+        2777.377197265625,
+        2871.819091796875
+      ],
+      "bbox_xywh": [
+        1998.8907470703125,
+        1965.7557373046875,
+        778.4864501953125,
+        906.0633544921875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cloth in the image?",
+    "output_instruction": "What is the bounding box of the cloth in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "non_rigid_deform",
+          "stacked_layout",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_86_97c7a8e6_obj_011",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "non_rigid_deform",
+        "stacked_layout",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

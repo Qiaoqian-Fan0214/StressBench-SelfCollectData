@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_28_defe26f4__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_living_room_28_defe26f4",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:40:04Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_28_defe26f4__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_living_room_28_defe26f4",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the banana in the image.",
+    "instruction": "Locate the banana in the image.",
+    "answer": "banana",
+    "rgb": "dark_messy_living_room/28.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_living_room_28_defe26f4_obj_002",
+      "object_name": "banana",
+      "bbox_xyxy": [
+        120.22283935546875,
+        3966.661865234375,
+        661.2567138671875,
+        4508.2734375
+      ],
+      "bbox_xywh": [
+        120.22283935546875,
+        3966.661865234375,
+        541.0338745117188,
+        541.611572265625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the banana in the image?",
+    "output_instruction": "What is the bounding box of the banana in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "non_rigid_deform",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_28_defe26f4_obj_002",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "non_rigid_deform",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

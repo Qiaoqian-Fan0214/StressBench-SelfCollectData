@@ -1,0 +1,131 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_53_2747672e__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_living_room_53_2747672e",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:22Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_53_2747672e__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_living_room_53_2747672e",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the chair in the image.",
+    "instruction": "Locate the chair in the image.",
+    "answer": "chair",
+    "rgb": "dark_messy_living_room/53.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_living_room_53_2747672e_obj_014",
+      "object_name": "chair",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2505,
+            3757
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "TZhV63[[2f0]eMo0",
+            "cX2Z3nNP1^Na1bN^",
+            "1]Mb2D<^Ob0bNeCh",
+            "PN`<So1mC`PNX<\\o",
+            "1\\1N201N100O2O0O",
+            "2O0001O010O1O001",
+            "O100O010O100O010",
+            "00O2O0O101N101N1",
+            "O1N3N1N2M4L3I8D<",
+            "J5K6kNnnM`DdQ2i:",
+            "Z1ZOf0K4N3N2M3N2",
+            "N2N2N2N2N2N3M010",
+            "O1O100O10O0100O1",
+            "0000O100O01000O1",
+            "0O0100O10O10O10O",
+            "0100O010O100O001",
+            "0000O10O010000O1",
+            "0O10O1000O01000O",
+            "0100O010O10O10O1",
+            "O10O0100O1O1000O",
+            "0100O10000O01000",
+            "O10000O10O1000O1",
+            "0000000O01000O10",
+            "O10O10O10O01000O",
+            "010000O10O10O100",
+            "0000000O01000000",
+            "00O01000O1000O01",
+            "0000O10O1000O100",
+            "00O0100000O10000",
+            "O1000O0100O10000",
+            "O100O100O1O1O1O2",
+            "N1N2O1N2N20O10O0",
+            "2N2N3L5L7akMkGRO",
+            "CiR2k8imMdH[OiNi",
+            "Q2m8XnM^IlP2^M\\o",
+            "MY<`P2lC\\oMV<`P2",
+            "PD[oMS<`P2TDZoMP",
+            "<bP2m0N10000O100",
+            "O100O2N101O001O1",
+            "O010O010O10O1000",
+            "0O10000O10000O10",
+            "000O100O2O0O1O1O",
+            "2M2O1TOloM_CYP2[",
+            ";m1QOo0oNR1oNQ1U",
+            "Nk1oNQ1B>VNk1F:J",
+            "5M3N2M3N2N1N3N2M",
+            "101N200O00100O01",
+            "00O010000O01000O",
+            "1N2O1O1N3M2O1O1O",
+            "1O1O2N1O1O1O2M3L",
+            "3N4K5J:Cajmn1"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2586.561279296875,
+        1938.4384765625,
+        2922.8779296875,
+        2484.166015625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the chair in the image?",
+    "output_instruction": "What is the segmentation mask of the chair in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_53_2747672e_obj_014",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

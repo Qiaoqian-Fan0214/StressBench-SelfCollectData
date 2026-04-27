@@ -1,0 +1,69 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_8_5b9bbc24__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_living_room_8_5b9bbc24",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:17:22Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_8_5b9bbc24__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_living_room_8_5b9bbc24",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the shower curtain in the image.",
+    "instruction": "Locate the shower curtain in the image.",
+    "answer": "shower curtain",
+    "rgb": "dark_messy_living_room/8.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_living_room_8_5b9bbc24_obj_004",
+      "object_name": "shower curtain",
+      "bbox_xyxy": [
+        2519.8662109375,
+        364.21221923828125,
+        3010.35107421875,
+        5326.37841796875
+      ],
+      "bbox_xywh": [
+        2519.8662109375,
+        364.21221923828125,
+        490.48486328125,
+        4962.166198730469
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the shower curtain in the image?",
+    "output_instruction": "What is the bounding box of the shower curtain in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "non_rigid_deform",
+          "stacked_layout",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_8_5b9bbc24_obj_004",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "non_rigid_deform",
+        "stacked_layout",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

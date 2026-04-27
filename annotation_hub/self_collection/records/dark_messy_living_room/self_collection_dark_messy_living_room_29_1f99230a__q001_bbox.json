@@ -1,0 +1,69 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_29_1f99230a__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_living_room_29_1f99230a",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:40:15Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_29_1f99230a__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_living_room_29_1f99230a",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the hand in the image.",
+    "instruction": "Locate the hand in the image.",
+    "answer": "hand",
+    "rgb": "dark_messy_living_room/29.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_living_room_29_1f99230a_obj_001",
+      "object_name": "hand",
+      "bbox_xyxy": [
+        909.184814453125,
+        1179.47412109375,
+        1310.679443359375,
+        1734.2545166015625
+      ],
+      "bbox_xywh": [
+        909.184814453125,
+        1179.47412109375,
+        401.49462890625,
+        554.7803955078125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the hand in the image?",
+    "output_instruction": "What is the bounding box of the hand in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion",
+          "non_rigid_deform",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_29_1f99230a_obj_001",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion",
+        "non_rigid_deform",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_3_18f72eaf__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_living_room_3_18f72eaf",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:15:00Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_3_18f72eaf__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_living_room_3_18f72eaf",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bottle in the image.",
+    "instruction": "Locate the bottle in the image.",
+    "answer": "bottle",
+    "rgb": "dark_messy_living_room/3.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_living_room_3_18f72eaf_obj_013",
+      "object_name": "bottle",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3983,
+            5974
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "ZdYo8;kk3<H7oVLS",
+            "OZf3S1^YLVO[f3Q1",
+            "\\YLUO2CYd3]1^[LT",
+            "O6CXd3_2[ZLSNY1C",
+            "Xd3b2UZLPN`1BVd3",
+            "h3h[L\\LSd3h3j[L\\",
+            "LPd3i3m[LZLnc3k3",
+            "n[LXLmc3n3P\\LULk",
+            "c3o3Q\\LVLjc3Q4P\\",
+            "LSLlc3T4k[LRLRd3",
+            "X6L6J8H8H5K5K4L4",
+            "L3N2M3N1N3N1O2M2",
+            "O2M2N2N2N2N3L3L4",
+            "L4K5K6K4K5M3cNZE",
+            "m`Lk:n^3_Ei`Ld:T",
+            "_3dEc`L`:Z_3\\1N2",
+            "O2M2O1O1O100000O",
+            "010000000000000O",
+            "10000000000O1000",
+            "000O1000001O0O10",
+            "001O0000001O0O10",
+            "1O1O1O1O1O3M4ZDV",
+            "`L_:n_3TEa`Lf:k`",
+            "3I6J3M3M2N2N3L3N",
+            "2N2N2N2N2N2N2N3M",
+            "2N2N1O2N1O2N3M2M",
+            "4M4L4K5K4L4L5PMZ",
+            "\\LmLlc3^2k\\LZM]c",
+            "3V2S]LjLZNBod3S3",
+            "U]LlLcf32UnaV="
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2364.377685546875,
+        2269.514404296875,
+        2502.3427734375,
+        2678.460693359375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the bottle in the image?",
+    "output_instruction": "What is the segmentation mask of the bottle in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent"
+        ],
+        "G": [
+          "stacked_layout",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_3_18f72eaf_obj_013",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ],
+      "G": [
+        "stacked_layout",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

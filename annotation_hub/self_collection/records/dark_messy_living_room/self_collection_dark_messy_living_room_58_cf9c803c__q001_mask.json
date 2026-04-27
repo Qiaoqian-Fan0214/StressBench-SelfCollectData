@@ -1,0 +1,139 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_58_cf9c803c__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_living_room_58_cf9c803c",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:06:43Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_58_cf9c803c__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_living_room_58_cf9c803c",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the medicine bottle in the image.",
+    "instruction": "Locate the medicine bottle in the image.",
+    "answer": "medicine bottle",
+    "rgb": "dark_messy_living_room/58.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_living_room_58_cf9c803c_obj_013",
+      "object_name": "medicine bottle",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2448,
+            3264
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "YdSU14W\\2:[dMk0f",
+            "n1lN]QN9j8a2Ye1Z",
+            "MiQN9d8m2Ye1nLoQ",
+            "N:\\8X3\\e1bLSRN;S",
+            "1ZOX5e4Wg1jKZRN<",
+            "R1]Om4Q5[g1`LcSN",
+            "bNe4a5Vg1[LQTNWN",
+            "^4n5Wg1PLXTNTNX4",
+            "Y6Zg1eK\\TNTNP4e6",
+            "^g1YK`TNTNl3m6^g",
+            "1QKeTNTNg3S7_g1j",
+            "JiTNVNa3Y7ag1cJm",
+            "TNWNY3`7fg1YJPUN",
+            "bNj2_7Qh1QJTUNnN",
+            "W2[7`h1hIYUNIU1j",
+            "6\\i1^I^UN4c0j6ji",
+            "1TIaUNb01c6Yj1lH",
+            "fUNZ;Tj1iDjUN];P",
+            "j1eDoUN`;ji1bDPV",
+            "Nh;ii1d3J6I7K5L4",
+            "L4K5L4L3M3M2M3N2",
+            "N2N2N1O2N1O2N1O2",
+            "O0O101O0O10001O0",
+            "0000O2O0000000O2",
+            "O000O101O000O100",
+            "01O00000001O0000",
+            "0O2O0000001O0000",
+            "1O001O001O1N101O",
+            "1O1O001O1O2M2O1O",
+            "1O001N2O001O001N",
+            "100V_OiWN[=Xh1bB",
+            "lWN\\=Th1bBPXN[=Q",
+            "h1dBRXNZ=ng1eBTX",
+            "NZ=lg1eBUXNZ=mg1",
+            "dBUXN[=kg1dBWXN[",
+            "=ig1dBXXN\\=hg1cB",
+            "ZXN[=hg1cBYXN]=g",
+            "g1bBZXN^=gg1`B[X",
+            "N^=hg1_BYXNa=ig1",
+            "\\BYXNb=kg1YBWXNg",
+            "=kg1VBWXNh=kg1UB",
+            "WXNk=kg1g@QWN?V1",
+            "h>kg1f@SWN=U1m>j",
+            "g1b@TWN3_1[?ag1[",
+            "@UWN5^1^?Yh1_@iW",
+            "Na?Yh1Z@kWNd?aj1",
+            "01O1o@oSNg1@S9cl",
+            "1PE`TNY1UOe9]l1j",
+            "DUUNh0hN[:[P2O1N",
+            "3N1N2N2O1N3M3N2M",
+            "3M4L4L4L4M2M4L9G",
+            "6J4L3L6K6I9G9F9F",
+            ":B>C;E<A>C=D;B`0",
+            "@a0\\Oj0QLbgMh2mY",
+            "2]NmcbQ6"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        482.32989501953125,
+        1488.9453125,
+        681.1985473632812,
+        2169.783203125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the medicine bottle in the image?",
+    "output_instruction": "What is the segmentation mask of the medicine bottle in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent"
+        ],
+        "G": [
+          "occlusion"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_58_cf9c803c_obj_013",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ],
+      "G": [
+        "occlusion"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

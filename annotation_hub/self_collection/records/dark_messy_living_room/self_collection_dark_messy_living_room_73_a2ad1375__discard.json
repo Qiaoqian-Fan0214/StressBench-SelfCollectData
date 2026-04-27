@@ -1,0 +1,12 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_73_a2ad1375__discard",
+  "source_sample_id": "self_collection_dark_messy_living_room_73_a2ad1375",
+  "status": "discarded",
+  "updated_at": "2026-04-27T15:14:46Z",
+  "annotation": null,
+  "provenance": {
+    "dataset": "Self-Collection",
+    "subcategory": "dark_messy_living_room",
+    "split": "self_collected"
+  }
+}

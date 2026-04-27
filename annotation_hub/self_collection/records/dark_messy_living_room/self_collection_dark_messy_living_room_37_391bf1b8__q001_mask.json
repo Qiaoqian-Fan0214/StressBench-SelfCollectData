@@ -1,0 +1,108 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_37_391bf1b8__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_living_room_37_391bf1b8",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:59:01Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_37_391bf1b8__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_living_room_37_391bf1b8",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the flower in the image.",
+    "instruction": "Locate the flower in the image.",
+    "answer": "flower",
+    "rgb": "dark_messy_living_room/37.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_living_room_37_391bf1b8_obj_000",
+      "object_name": "flower",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3456,
+            2592
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "jo_Y36f[3>C8I7Rf",
+            "L8XW3Q3WOV1jN8H>",
+            "C5K4K5L4L2M2O1O0",
+            "O2O00001N101O000",
+            "01N101O001O0OiI[",
+            "kLV5dT3iJ_kLU5bT",
+            "3hJakLW5_T3gJckL",
+            "X5^T3fJekLY5\\T3c",
+            "JhkLZ5[T3bJjkL[5",
+            "XT3aJlkL\\5WT3`Jm",
+            "kL^5XT3ZJmkLb5[U",
+            "3M3K5M4M3M3N2M3N",
+            "1O1O1O001O00001N",
+            "10001O0000000001",
+            "0O000000001O00QO",
+            "`K^jL`4_U3iK[jLW",
+            "4cU3oKYjLR4eU3RL",
+            "XjLn3gU3ULWjLk3i",
+            "U3VLUjLl3iU3WLTj",
+            "Lj3lU3YLPjLi3oU3",
+            "T100O2O1O001O01N",
+            "3M3YKQjLX3hW3Ah0",
+            "dL^gLl1^Z3mMleL0",
+            "RfXn4"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        999.3297729492188,
+        993.8323364257812,
+        1091.36181640625,
+        1230.7955322265625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the flower in the image?",
+    "output_instruction": "What is the segmentation mask of the flower in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "G": [
+          "occlusion"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_37_391bf1b8_obj_000",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "occlusion"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

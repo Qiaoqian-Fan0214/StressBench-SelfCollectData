@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_23_e4a40d24__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_living_room_23_e4a40d24",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:37:53Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_23_e4a40d24__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_living_room_23_e4a40d24",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cabinet in the image.",
+    "instruction": "Locate the cabinet in the image.",
+    "answer": "cabinet",
+    "rgb": "dark_messy_living_room/23.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_living_room_23_e4a40d24_obj_004",
+      "object_name": "cabinet",
+      "bbox_xyxy": [
+        4.065534591674805,
+        3138.259521484375,
+        2242.773681640625,
+        3975.673828125
+      ],
+      "bbox_xywh": [
+        4.065534591674805,
+        3138.259521484375,
+        2238.70814704895,
+        837.414306640625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cabinet in the image?",
+    "output_instruction": "What is the bounding box of the cabinet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "stacked_layout",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_23_e4a40d24_obj_004",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "stacked_layout",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

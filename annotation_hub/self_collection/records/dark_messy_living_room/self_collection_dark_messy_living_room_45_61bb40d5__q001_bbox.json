@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_45_61bb40d5__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_living_room_45_61bb40d5",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:01:26Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_45_61bb40d5__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_living_room_45_61bb40d5",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the television in the image.",
+    "instruction": "Locate the television in the image.",
+    "answer": "television",
+    "rgb": "dark_messy_living_room/45.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_living_room_45_61bb40d5_obj_005",
+      "object_name": "television",
+      "bbox_xyxy": [
+        460.9336853027344,
+        3411.22900390625,
+        1340.9056396484375,
+        4068.493896484375
+      ],
+      "bbox_xywh": [
+        460.9336853027344,
+        3411.22900390625,
+        879.9719543457031,
+        657.264892578125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the television in the image?",
+    "output_instruction": "What is the bounding box of the television in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_45_61bb40d5_obj_005",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

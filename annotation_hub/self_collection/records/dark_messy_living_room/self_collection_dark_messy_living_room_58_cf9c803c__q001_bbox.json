@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_58_cf9c803c__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_living_room_58_cf9c803c",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:06:43Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_58_cf9c803c__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_living_room_58_cf9c803c",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the medicine bottle in the image.",
+    "instruction": "Locate the medicine bottle in the image.",
+    "answer": "medicine bottle",
+    "rgb": "dark_messy_living_room/58.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_living_room_58_cf9c803c_obj_013",
+      "object_name": "medicine bottle",
+      "bbox_xyxy": [
+        482.32989501953125,
+        1488.9453125,
+        681.1985473632812,
+        2169.783203125
+      ],
+      "bbox_xywh": [
+        482.32989501953125,
+        1488.9453125,
+        198.86865234375,
+        680.837890625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the medicine bottle in the image?",
+    "output_instruction": "What is the bounding box of the medicine bottle in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent"
+        ],
+        "G": [
+          "occlusion"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_58_cf9c803c_obj_013",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ],
+      "G": [
+        "occlusion"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

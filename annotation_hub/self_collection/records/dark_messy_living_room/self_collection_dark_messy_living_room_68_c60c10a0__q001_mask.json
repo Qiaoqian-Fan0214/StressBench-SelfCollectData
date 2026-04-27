@@ -1,0 +1,141 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_68_c60c10a0__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_living_room_68_c60c10a0",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:13:00Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_68_c60c10a0__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_living_room_68_c60c10a0",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the laptop in the image.",
+    "instruction": "Locate the laptop in the image.",
+    "answer": "laptop",
+    "rgb": "dark_messy_living_room/68.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_living_room_68_c60c10a0_obj_000",
+      "object_name": "laptop",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2433,
+            3637
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "UoR\\26j[22M3M2N3",
+            "N1O2O0000O101O0O",
+            "2O001N101O1N2O1N",
+            "2N2N_oT4h0\\ojKb0",
+            "feMiNZY2d1YfMeNk",
+            "X2g2\\Od0E;^Ob0E;",
+            "D<D;G:YOf0D<G:K4",
+            "N2N2O1N200O2N100",
+            "O1000000O10001O0",
+            "01O0000001O00000",
+            "0001O00000000000",
+            "00000000VlMTH_S2",
+            "l7^lMYH`S2U8O1O0",
+            "0000000O10000O10",
+            "00000O1000001O00",
+            "0000000000000000",
+            "000000000O100000",
+            "00000O0100000000",
+            "0000000000000001",
+            "O00000010O0001O0",
+            "0000000000000000",
+            "000000000001O000",
+            "00000000000000O1",
+            "0001O00000000000",
+            "000O100000000000",
+            "0000000000000000",
+            "000001O0001O0000",
+            "000001O000000001",
+            "O0000001O0000000",
+            "01O00000O1000000",
+            "00000001O0000000",
+            "0000000000000001",
+            "O00000001O000000",
+            "0000000000001O00",
+            "01O0000000000000",
+            "001O000000000000",
+            "0000000000000000",
+            "01O0000000000001",
+            "O000000000000001",
+            "O000O10000000000",
+            "00001O0000000000",
+            "0000000001O00000",
+            "0001O0000001O000",
+            "0000000000000000",
+            "0O100000000000O1",
+            "0000000000000000",
+            "1O00000001O00O10",
+            "0000000000000O10",
+            "000000000O10001O",
+            "0O10001O000O101O",
+            "000O2O001O1O001O",
+            "1jJblMg1`S2nMfmM",
+            "U1[R2aNinMd0jQ2`",
+            "NbnM\\1cQ2nMQoMP2",
+            "SQ2ZMaoMd2QU2VMS",
+            "gMZ2]Y2M1O2M1000",
+            "0O10O10O100O1000",
+            "0O10000O2O1N101N",
+            "2N1O2K5J5J7J5L5L",
+            "3N3L4L3N3M2NVQZn",
+            "4"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        960.9395141601562,
+        1742.233154296875,
+        1507.6907958984375,
+        2083.607666015625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the laptop in the image?",
+    "output_instruction": "What is the segmentation mask of the laptop in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_68_c60c10a0_obj_000",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_77_2fe97556__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_living_room_77_2fe97556",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:19:45Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_77_2fe97556__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_living_room_77_2fe97556",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "dark_messy_living_room/77.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_living_room_77_2fe97556_obj_000",
+      "object_name": "cup",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3944,
+            7008
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "n[Zh:7kj3a0B7I5M",
+            "10O1O1N2N2N2O1N2",
+            "N2M3N2N2N2KG1<3K",
+            "3M3N2N2L4M1O1M30",
+            "10O01O11L4L4J6M4",
+            "L3N2O1N2O2O0O2N3",
+            "NReR1OnZmN3M2N2N",
+            "2M4L3M3N2M3M3N2M",
+            "4M2N3M2M4M3M3L4L",
+            "5J6H8C=I7J6L5aYL",
+            "VMVd3P3^[LZM_d3W",
+            "3gZLVMUe3a4M3L4M",
+            "3N2M4M2M3N2M4M3L",
+            "5L6I7Ja0^Oh0YO`0",
+            "_O8I4K4M3M3L4M2M",
+            "3N1O1N2O1N2O1O00",
+            "1N2O001N101O000O",
+            "2O001N101O0O101O",
+            "0O2O00001N100000",
+            "1O0O100000000000",
+            "0O10001O00000000",
+            "0O10000000000000",
+            "001N100000000000",
+            "1O00000O101O0000",
+            "0000001O000O1000",
+            "1O00000000000000",
+            "000000O100000000",
+            "0O10O10000000000",
+            "O10000000000O100",
+            "00000000O1000000",
+            "0000O10000000000",
+            "00O10001O0000000",
+            "0000O1000001O000",
+            "000001N100000000",
+            "01O00000O1000000",
+            "01O000O1000000O1",
+            "01O000O1000001N1",
+            "0000O2O001N1\\MY_",
+            "LgJh`3Q5b_LlJ^`3",
+            "Q5g_LlJZ`3Q5k_Lm",
+            "JV`3o4o_LoJQ`3n4",
+            "S`LPKo_3k4V`LTKj",
+            "_3i4Z`LVKg_3f4\\`",
+            "LZKd_3c4``L[Kb_3",
+            "`4c`L_K`_3[4c`Le",
+            "K__3U4f`LiK]_3Q4",
+            "h`LnKZ_3k3k`LTLY",
+            "_3b3n`L^LU_3P3[a",
+            "LnLk^3]2eaLcMc^3",
+            "g1laLWNk^3eNQ^La",
+            "0k3i0nd3N1O2N2O0",
+            "O2N1O2N101N1O2N1",
+            "O2O0O2N3M3M5K5J5",
+            "J7H`[Z[>"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2855.940673828125,
+        2816.84765625,
+        3176.41357421875,
+        3163.24462890625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the cup in the image?",
+    "output_instruction": "What is the segmentation mask of the cup in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_77_2fe97556_obj_000",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

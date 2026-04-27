@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_98_86ec26a6__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_living_room_98_86ec26a6",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:30:34Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_98_86ec26a6__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_living_room_98_86ec26a6",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the shoe in the image.",
+    "instruction": "Locate the shoe in the image.",
+    "answer": "shoe",
+    "rgb": "dark_messy_living_room/98.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_living_room_98_86ec26a6_obj_012",
+      "object_name": "shoe",
+      "bbox_xyxy": [
+        1525.624755859375,
+        3441.021728515625,
+        2578.56494140625,
+        4028.264404296875
+      ],
+      "bbox_xywh": [
+        1525.624755859375,
+        3441.021728515625,
+        1052.940185546875,
+        587.24267578125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the shoe in the image?",
+    "output_instruction": "What is the bounding box of the shoe in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_98_86ec26a6_obj_012",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

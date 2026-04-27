@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_57_b46b0f06__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_living_room_57_b46b0f06",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:06:01Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_57_b46b0f06__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_living_room_57_b46b0f06",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the sofa in the image.",
+    "instruction": "Locate the sofa in the image.",
+    "answer": "sofa",
+    "rgb": "dark_messy_living_room/57.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_living_room_57_b46b0f06_obj_005",
+      "object_name": "sofa",
+      "bbox_xyxy": [
+        669.3637084960938,
+        1668.67138671875,
+        1512.149658203125,
+        2333.891357421875
+      ],
+      "bbox_xywh": [
+        669.3637084960938,
+        1668.67138671875,
+        842.7859497070312,
+        665.219970703125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the sofa in the image?",
+    "output_instruction": "What is the bounding box of the sofa in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_57_b46b0f06_obj_005",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

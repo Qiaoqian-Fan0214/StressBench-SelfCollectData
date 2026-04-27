@@ -1,0 +1,103 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_1_bff3bb22__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_living_room_1_bff3bb22",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:49:10Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_1_bff3bb22__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_living_room_1_bff3bb22",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the picture in the image.",
+    "instruction": "Locate the picture in the image.",
+    "answer": "picture",
+    "rgb": "dark_messy_living_room/1.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_living_room_1_bff3bb22_obj_011",
+      "object_name": "picture",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3997,
+            5996
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "b`RY;<Yl3=F:I7jT",
+            "LZOii3d2YOV1jN6J",
+            "5L5K6Ij0WO8H7H9H",
+            "m1SN8H3M1N2O1O00",
+            "1O1O000O1000001O",
+            "00O1000000000000",
+            "000O100000O10000",
+            "0000000000000O10",
+            "0000000000000O10",
+            "0000000000000O10",
+            "00000000O10O1000",
+            "0000000O100000O1",
+            "0O1000000O100000",
+            "000O010000000001",
+            "O000O101O001O001",
+            "N2O1O2N3jGa\\Lg6d",
+            "c3hHb]L^6_e3oN^1",
+            "bNa0^Ol0TOR1lNj0",
+            "WOf0UOb[]S;"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2957.73779296875,
+        671.1693725585938,
+        3084.2724609375,
+        976.4625244140625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the picture in the image?",
+    "output_instruction": "What is the segmentation mask of the picture in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "complex_texture"
+        ],
+        "G": [
+          "stacked_layout"
+        ],
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_1_bff3bb22_obj_011",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ],
+      "G": [
+        "stacked_layout"
+      ],
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

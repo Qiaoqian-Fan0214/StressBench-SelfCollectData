@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_14_144e1c03__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_living_room_14_144e1c03",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:19:13Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_14_144e1c03__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_living_room_14_144e1c03",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the plate in the image.",
+    "instruction": "Locate the plate in the image.",
+    "answer": "plate",
+    "rgb": "dark_messy_living_room/14.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_living_room_14_144e1c03_obj_006",
+      "object_name": "plate",
+      "bbox_xyxy": [
+        1071.5887451171875,
+        2080.900390625,
+        1596.7762451171875,
+        2294.390380859375
+      ],
+      "bbox_xywh": [
+        1071.5887451171875,
+        2080.900390625,
+        525.1875,
+        213.489990234375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the plate in the image?",
+    "output_instruction": "What is the bounding box of the plate in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion",
+          "stacked_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_14_144e1c03_obj_006",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion",
+        "stacked_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

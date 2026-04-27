@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_66_23ba9410__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_living_room_66_23ba9410",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:12:49Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_66_23ba9410__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_living_room_66_23ba9410",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bucket in the image.",
+    "instruction": "Locate the bucket in the image.",
+    "answer": "bucket",
+    "rgb": "dark_messy_living_room/66.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_living_room_66_23ba9410_obj_000",
+      "object_name": "bucket",
+      "bbox_xyxy": [
+        2432.930908203125,
+        3951.038330078125,
+        3302.931884765625,
+        5174.1953125
+      ],
+      "bbox_xywh": [
+        2432.930908203125,
+        3951.038330078125,
+        870.0009765625,
+        1223.156982421875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the bucket in the image?",
+    "output_instruction": "What is the bounding box of the bucket in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "large_scale"
+        ],
+        "G": [
+          "stacked_layout"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_66_23ba9410_obj_000",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "large_scale"
+      ],
+      "G": [
+        "stacked_layout"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

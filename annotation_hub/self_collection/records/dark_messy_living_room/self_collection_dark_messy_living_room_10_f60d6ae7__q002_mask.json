@@ -1,0 +1,153 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_10_f60d6ae7__q002_mask",
+  "source_sample_id": "self_collection_dark_messy_living_room_10_f60d6ae7",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:18:16Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_10_f60d6ae7__q002_mask",
+    "source_sample_id": "self_collection_dark_messy_living_room_10_f60d6ae7",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the flower in the image.",
+    "instruction": "Locate the flower in the image.",
+    "answer": "flower",
+    "rgb": "dark_messy_living_room/10.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_living_room_10_f60d6ae7_obj_011",
+      "object_name": "flower",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            5794,
+            3863
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "lXk82od5a0^O5L3N",
+            "1O1N2O1O1O10O010",
+            "OSbJPOhW5Q1ThJ^O",
+            "aW5a0\\hJG`W59]hJ",
+            "IcW57[hJLeW54WhJ",
+            "OiW51ThJ3lW5MogJ",
+            "7RX5IigJ<VX5EegJ",
+            "`0[X5_ObgJd0^X5]",
+            "O^gJg0bX5YOZgJj0",
+            "fX5WOVgJm0jX5SOR",
+            "gJP1nX5QOPgJP1PY",
+            "5QOmfJR1SY5mNjfJ",
+            "V1VY5kNgfJW1YY5j",
+            "NafJ\\1^Y5eN^fJ^1",
+            "cY5bNXfJc1gY5^NR",
+            "fJh1nY5YNbdJW3][",
+            "5jL_dJY3a[5hL]dJ",
+            "Z3c[5fLZdJ\\3f[5e",
+            "LWdJ^3h[5dLTdJ_3",
+            "k[5bLRdJa3m[5aLo",
+            "cJc3o[5_LlcJe3T\\",
+            "5\\LhcJh3V\\5\\LacJ",
+            "k3]\\5a2L6J5K2N2N",
+            "1O2N001O1N101O0O",
+            "2O000O2O0O101O0O",
+            "100O2N1000000000",
+            "000001O1O1O001O1",
+            "O1O1O1O1O1O1O1O1",
+            "N2O1O1O1O1N2O001",
+            "N2O0O1O1]NkcJVJX",
+            "\\5f5UdJgIU\\5V6^1",
+            "L3N2O1O1O1O1O2O0",
+            "O1O1O1001O001O1O",
+            "002N3L3N3M2N4L4U",
+            "bJjIb\\5_7L3M2M3N",
+            "001O001O00001O00",
+            "01O0001O01O001O1",
+            "O001O100O001O2N1",
+            "O1O101N2N3M4L6J5",
+            "K4L3M2N2N1O2O0O1",
+            "O1O1O1O001O1O1O0",
+            "01O010O001O00001",
+            "O010O001O1O010O1",
+            "O001O010O1OoeJeI",
+            "\\U5[6^jJlIaU5S6U",
+            "jJXJjU5h5PjJ^JQV",
+            "5a5kiJdJUV5\\5iiJ",
+            "dJXV5\\5giJeJZV5[",
+            "5ciJfJ_V5Y5_iJhJ",
+            "bV5Y5ZiJiJhV5W5W",
+            "iJhJkV5W5XiJ_JPW",
+            "5a5TiJSJTW5m5Q40",
+            "00001O11O1OW1iN1",
+            "O00O0000000O1N1O",
+            "2O0O2N1O1N2N2N2O",
+            "1N2O2N100O1O100O",
+            "10000O2O0001O01O",
+            "01O010O0100O010O",
+            "00100O1O010O1O01",
+            "0O1O1_LeaJ9\\^5Bl",
+            "aJ:V^5@PbJ>Q^5]O",
+            "TbJb0n]5WOXbJh0i",
+            "]5SO\\bJl0f]5nN^b",
+            "JR1e]5gN`bJX1b]5",
+            "bNcbJ\\1b]5\\NcbJc",
+            "1b]5SNdbJk1d]5cM",
+            "hbJ\\2P`5N2O2M2N2",
+            "N2N2M5K5gMk]J[1Z",
+            "c5_Ofbe]c0"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        41.76842498779297,
+        358.6468505859375,
+        359.7446594238281,
+        849.3615112304688
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the flower in the image?",
+    "output_instruction": "What is the segmentation mask of the flower in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "V": [
+          "small_scale"
+        ],
+        "G": [
+          "stacked_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_10_f60d6ae7_obj_011",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "stacked_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

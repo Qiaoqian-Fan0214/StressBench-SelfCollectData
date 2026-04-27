@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_47_6cb05d49__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_living_room_47_6cb05d49",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:02:28Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_47_6cb05d49__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_living_room_47_6cb05d49",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the desk in the image.",
+    "instruction": "Locate the desk in the image.",
+    "answer": "desk",
+    "rgb": "dark_messy_living_room/47.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_living_room_47_6cb05d49_obj_011",
+      "object_name": "desk",
+      "bbox_xyxy": [
+        1817.221435546875,
+        2239.326904296875,
+        2779.87109375,
+        3094.221435546875
+      ],
+      "bbox_xywh": [
+        1817.221435546875,
+        2239.326904296875,
+        962.649658203125,
+        854.89453125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the desk in the image?",
+    "output_instruction": "What is the bounding box of the desk in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_47_6cb05d49_obj_011",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

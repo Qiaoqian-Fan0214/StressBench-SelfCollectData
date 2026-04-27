@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_71_bc56b61d__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_living_room_71_bc56b61d",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:14:38Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_71_bc56b61d__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_living_room_71_bc56b61d",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the sofa in the image.",
+    "instruction": "Locate the sofa in the image.",
+    "answer": "sofa",
+    "rgb": "dark_messy_living_room/71.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_living_room_71_bc56b61d_obj_011",
+      "object_name": "sofa",
+      "bbox_xyxy": [
+        2100.011962890625,
+        3534.142578125,
+        3959.08935546875,
+        4816.86376953125
+      ],
+      "bbox_xywh": [
+        2100.011962890625,
+        3534.142578125,
+        1859.077392578125,
+        1282.72119140625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the sofa in the image?",
+    "output_instruction": "What is the bounding box of the sofa in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_71_bc56b61d_obj_011",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

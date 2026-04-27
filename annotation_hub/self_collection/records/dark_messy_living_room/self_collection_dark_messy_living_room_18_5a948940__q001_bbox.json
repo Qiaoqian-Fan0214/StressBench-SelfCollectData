@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_18_5a948940__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_living_room_18_5a948940",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:20:35Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_18_5a948940__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_living_room_18_5a948940",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the teapot in the image.",
+    "instruction": "Locate the teapot in the image.",
+    "answer": "teapot",
+    "rgb": "dark_messy_living_room/18.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_living_room_18_5a948940_obj_009",
+      "object_name": "teapot",
+      "bbox_xyxy": [
+        1191.4835205078125,
+        3478.190185546875,
+        1497.5841064453125,
+        3734.3017578125
+      ],
+      "bbox_xywh": [
+        1191.4835205078125,
+        3478.190185546875,
+        306.1005859375,
+        256.111572265625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the teapot in the image?",
+    "output_instruction": "What is the bounding box of the teapot in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "V": [
+          "small_scale"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_18_5a948940_obj_009",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_16_c8ccc884__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_living_room_16_c8ccc884",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:19:33Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_16_c8ccc884__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_living_room_16_c8ccc884",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the shoe in the image.",
+    "instruction": "Locate the shoe in the image.",
+    "answer": "shoe",
+    "rgb": "dark_messy_living_room/16.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_living_room_16_c8ccc884_obj_009",
+      "object_name": "shoe",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3000,
+            4000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "SWVX6>Sm2e0]Oa0A",
+            "5K5L3N2M3N1O2O0O",
+            "1O101N1000000O10",
+            "001O000000000001",
+            "O1O1O1O1O2N2N2N2",
+            "N3M3M5J7J5K5K3L7",
+            "I5K6I6JfifQ5"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2181.299072265625,
+        1938.3448486328125,
+        2232.826904296875,
+        2019.48876953125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the shoe in the image?",
+    "output_instruction": "What is the segmentation mask of the shoe in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "V": [
+          "small_scale"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_16_c8ccc884_obj_009",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_75_d947d628__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_living_room_75_d947d628",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:19:06Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_75_d947d628__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_living_room_75_d947d628",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the photo in the image.",
+    "instruction": "Locate the photo in the image.",
+    "answer": "photo",
+    "rgb": "dark_messy_living_room/75.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_living_room_75_d947d628_obj_001",
+      "object_name": "photo",
+      "bbox_xyxy": [
+        19.293258666992188,
+        21.282028198242188,
+        3199.653076171875,
+        4796.86865234375
+      ],
+      "bbox_xywh": [
+        19.293258666992188,
+        21.282028198242188,
+        3180.359817504883,
+        4775.586624145508
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the photo in the image?",
+    "output_instruction": "What is the bounding box of the photo in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_75_d947d628_obj_001",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

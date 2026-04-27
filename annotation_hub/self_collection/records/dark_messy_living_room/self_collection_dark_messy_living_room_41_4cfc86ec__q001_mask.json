@@ -1,0 +1,110 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_41_4cfc86ec__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_living_room_41_4cfc86ec",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:00:47Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_41_4cfc86ec__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_living_room_41_4cfc86ec",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the picture in the image.",
+    "instruction": "Locate the picture in the image.",
+    "answer": "picture",
+    "rgb": "dark_messy_living_room/41.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_living_room_41_4cfc86ec_obj_011",
+      "object_name": "picture",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4000,
+            6000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "bSTac0m1ij3m0YOe",
+            "0]Oe0\\Od0\\O=bXLn",
+            "JTf3a6^OW1iNa1_N",
+            "6J4L3M2N2N2O0O2N",
+            "100O1O2N10O01O1O",
+            "1O1O00001O00001O",
+            "0000010O00010O00",
+            "10O0010O0100O010",
+            "O010O01O001O010O",
+            "0010O00010O010O0",
+            "10O10O0010O00010",
+            "O0001O01O01O01O0",
+            "1O010O010O01O010",
+            "O01O010O0010O01O",
+            "0001O0000010O000",
+            "01O00001O010O001",
+            "0O0100O0100O0100",
+            "O010O10O10O0100O",
+            "001O010O1O1O001O",
+            "10O0100O0010O001",
+            "0O010O010O01O01O",
+            "010O0010O01O0010",
+            "0O00001O010O0010",
+            "O0001O01O01O010O",
+            "001O010O001O0010",
+            "O0010O010O02O0O1",
+            "00O100O101N1O1O1",
+            "01N100O2N101N2N3",
+            "M4L6I;F>eGk\\Lo5S",
+            "h3oLZ2aMj`m`2"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        5114.59130859375,
+        60.231285095214844,
+        5344.22412109375,
+        506.93499755859375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the picture in the image?",
+    "output_instruction": "What is the segmentation mask of the picture in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "G": [
+          "stacked_layout",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_41_4cfc86ec_obj_011",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "G": [
+        "stacked_layout",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

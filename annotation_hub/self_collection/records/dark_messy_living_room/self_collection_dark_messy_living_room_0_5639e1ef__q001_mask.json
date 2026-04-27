@@ -1,0 +1,182 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_0_5639e1ef__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_living_room_0_5639e1ef",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:47:46Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_0_5639e1ef__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_living_room_0_5639e1ef",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the laundry basket in the image.",
+    "instruction": "Locate the laundry basket in the image.",
+    "answer": "laundry basket",
+    "rgb": "dark_messy_living_room/0.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_living_room_0_5639e1ef_obj_005",
+      "object_name": "laundry basket",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4000,
+            6000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Ubjj`02ll34M3M3L",
+            "3O2M2N2O1N2N2M4M",
+            "1N3M3L3M4M3L3N3M",
+            "3L4M3L3M4M3M2N3M",
+            "2N3N1O1O1N101O1N",
+            "1O2N1O2N1O2N1O10",
+            "1N100O2O0001O01O",
+            "00001O01O01O0000",
+            "1O010O00010O0010",
+            "O0010O0100000000",
+            "000000001O00001O",
+            "0cYLeLVc3[3g\\LhL",
+            "Xc3Y3f\\LhLZc3Y3d",
+            "\\LiL[c3X3d\\LhL\\c",
+            "3Y3b\\LiL^c3W3`\\L",
+            "kL_c3W3_\\LiLac3Y",
+            "3]\\LhLbc3Y3\\\\LiL",
+            "dc3X3Z\\LhLfc3Y3Y",
+            "\\LgLgc3[3W\\LeLic",
+            "3\\3V\\LdLjc3]3U\\L",
+            "cLkc3]3U\\LcLkc3^",
+            "3U\\LaLkc3`3T\\L`L",
+            "lc3`3T\\L_Lmc3b3S",
+            "\\L\\Lnc3e3R\\LZLnc",
+            "3f3R\\LYLoc3h3Q\\L",
+            "WLPd3h3Q\\LVLPd3k",
+            "3o[LTLRd3l3o[LSL",
+            "Qd3n3o[LPLRd3P4_",
+            "21O001O001O001O1",
+            "O1O001O1O1O2N2N2",
+            "N4K6K6YXLdK^f3b5",
+            "M2N1O2N001O1O001",
+            "O00001O1O1O1N101",
+            "O1O1N3N1O1O1N2O1",
+            "O1O001N2O1O1O001",
+            "N2O001O1N101O001",
+            "N10001O0O101O000",
+            "O101O0O10001N100",
+            "01N0100O01000O00",
+            "1O1N2O001N2O001N",
+            "2O001O1O0O2O001O",
+            "1N101O1O1O001N2O",
+            "1O10O01O1O100O00",
+            "100O10O10O100O01",
+            "000O10O010000O10",
+            "0O100O1000O0100O",
+            "10000O1O100O100O",
+            "01000O100O10000O",
+            "1000000O1000000O",
+            "1000000O1000O10O",
+            "100O10000O100O10",
+            "0O100O100O100O10",
+            "0O100O100O100O10",
+            "0O10000O100O100O",
+            "100O10000O10000O",
+            "1000000O1000000O",
+            "01000O10000O100O",
+            "100O1O010O100O00",
+            "1O10O01N101N100K",
+            "5L4M3M3N101O100O",
+            "1000O100O100N2N2",
+            "M3M4N1O1O2O01O00",
+            "001O00100O001O00",
+            "1O1O010O010O0100",
+            "O010O100O010O10O",
+            "10O10O10O010000O",
+            "10O0100O01000O10",
+            "0O01000O100O1O1O",
+            "1O1O1O1N2N2N2O1O",
+            "1O1O1O1O100O100O",
+            "100O100O1O1O10O0",
+            "1O1O1N2O1O1O1N2O",
+            "1O1O1O1O1O1O1O1O",
+            "1O1O1O1O1N2O1N2O",
+            "1M4M2O1O1O1O2O0O",
+            "2O0O2O1O001N101O",
+            "001O0O10000O1000",
+            "0O010O100O010O10",
+            "0O10O0100O100O10",
+            "O10O10O01O10O01O",
+            "10O01O10O010000O",
+            "010O10O10O10O100",
+            "0O0100000O10O100",
+            "000O10O1000O10O1",
+            "0000O010O10000O1",
+            "0O01O10O0100O10O",
+            "010O10O10O10O010",
+            "00O01000O010000O",
+            "100O01000O100O10",
+            "0O10000O10001N10",
+            "000O1000000O1000",
+            "000O101O000O2O00",
+            "0O2O001N101N2O00",
+            "1N2O0O2O1O1N2O1N",
+            "2O2N1N2O1N3N1O1N",
+            "2O1O1N2O1O1N2O1O",
+            "1N2O1N2N2M3N2N1N",
+            "4L4K5KRXe`3"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        4406.98291015625,
+        169.5567626953125,
+        5090.1494140625,
+        533.98193359375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the laundry basket in the image?",
+    "output_instruction": "What is the segmentation mask of the laundry basket in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "non_rigid_deform"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_0_5639e1ef_obj_005",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "non_rigid_deform"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

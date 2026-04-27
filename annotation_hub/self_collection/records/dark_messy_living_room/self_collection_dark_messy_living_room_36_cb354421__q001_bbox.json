@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_36_cb354421__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_living_room_36_cb354421",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:58:22Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_36_cb354421__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_living_room_36_cb354421",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the shoe in the image.",
+    "instruction": "Locate the shoe in the image.",
+    "answer": "shoe",
+    "rgb": "dark_messy_living_room/36.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_living_room_36_cb354421_obj_002",
+      "object_name": "shoe",
+      "bbox_xyxy": [
+        2047.1982421875,
+        3030.915771484375,
+        2600.894287109375,
+        3249.138916015625
+      ],
+      "bbox_xywh": [
+        2047.1982421875,
+        3030.915771484375,
+        553.696044921875,
+        218.22314453125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the shoe in the image?",
+    "output_instruction": "What is the bounding box of the shoe in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_36_cb354421_obj_002",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_18_5a948940__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_living_room_18_5a948940",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:20:35Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_18_5a948940__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_living_room_18_5a948940",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the teapot in the image.",
+    "instruction": "Locate the teapot in the image.",
+    "answer": "teapot",
+    "rgb": "dark_messy_living_room/18.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_living_room_18_5a948940_obj_009",
+      "object_name": "teapot",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4000,
+            6000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "nmfb4b0Xl3<F7I5M",
+            "3M2O2M3N2N1O2N1O",
+            "1O2N1O1O2N1O2N1N",
+            "2O2N1O2N1N3N1O1O",
+            "2N1O2O0O2N1O2N2N",
+            "1O2N2N1O2N2N2M3N",
+            "2M3N2N2N3M2N2N2O",
+            "1N3M2O1N2O1N2N3N",
+            "1N2N2O1N2N2O1N2N",
+            "2N2N2N2N1O2N2N2O",
+            "0O2N2O1N2O1N2N10",
+            "1N2O1N2O1N2O1N2N",
+            "2O1N2N2O0O2O1N10",
+            "1N2N101O0O2O0O2O",
+            "0O2O001N101N101N",
+            "1O2O001N10001N10",
+            "000O10000O10000O",
+            "10000O01000O1000",
+            "000O100000000000",
+            "0O10000000000000",
+            "0000000000000000",
+            "000001O000000000",
+            "01O001O001O1O001",
+            "O1O1O1O1O001O1O1",
+            "N2O1O001O001O0O1",
+            "01O000O1000001O0",
+            "O1000001O00000O2",
+            "O00000O100O101N1",
+            "O1O1O1O1O1O1O1O1",
+            "O1O001O1O1N2O1O1",
+            "O100N2O1N101O000",
+            "O01N1N3O0010O100",
+            "00O2O0ZKhXLe3Yg3",
+            "YLmXLb3Sg3^LSYL\\",
+            "3nf3cLYYLV3gf3jL",
+            "]YLR3df3nL\\YLQ3e",
+            "f3oL]YLm2ef3RM]Y",
+            "Ll2df3TM]YLj2df3",
+            "VM]YLg2ef3XM]YLe",
+            "2ef3[M\\YLc2ef3]M",
+            "\\YL_2hf3_MZYL]2i",
+            "f3cMXYLZ2kf3dMWY",
+            "LX2lf3hMUYLU2nf3",
+            "iMTYLT2nf3kMTYLR",
+            "2of3mMSYLn1Pg3QN",
+            "RYLl1Qg3RNQYLk1Q",
+            "g3SNRYLh1Sg3VNoX",
+            "Lf1Vg3WNmXLc1Xg3",
+            "ZNlXL`1Yg3]NkXL\\",
+            "1ii3VOaTUWa0"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1191.4835205078125,
+        3478.190185546875,
+        1497.5841064453125,
+        3734.3017578125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the teapot in the image?",
+    "output_instruction": "What is the segmentation mask of the teapot in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "V": [
+          "small_scale"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_18_5a948940_obj_009",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}

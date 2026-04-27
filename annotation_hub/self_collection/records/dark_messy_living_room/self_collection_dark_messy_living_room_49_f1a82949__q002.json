@@ -1,0 +1,66 @@
+{
+  "sample_id": "self_collection_dark_messy_living_room_49_f1a82949__q002",
+  "source_sample_id": "self_collection_dark_messy_living_room_49_f1a82949",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:03:34Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_living_room_49_f1a82949__q002",
+    "source_sample_id": "self_collection_dark_messy_living_room_49_f1a82949",
+    "entry_id": "q002",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a toy in the image?",
+    "instruction": "Is there any vacant space to place a toy in the image?",
+    "answer": "yes",
+    "rgb": "dark_messy_living_room/49.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a toy in the image?",
+    "output_instruction": "Is there any vacant space to place a toy in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "M": [
+          "complex_texture"
+        ],
+        "G": [
+          "stacked_layout",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_living_room_49_f1a82949_obj_000",
+      "placementItem": "toy",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ],
+      "G": [
+        "stacked_layout",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_living_room",
+      "split": "self_collected"
+    }
+  }
+}
