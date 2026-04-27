@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Living_Room_87_94d8777d__q001_bbox",
+  "source_sample_id": "self_collection_Living_Room_87_94d8777d",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:57:34Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_87_94d8777d__q001_bbox",
+    "source_sample_id": "self_collection_Living_Room_87_94d8777d",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cabinet in the image.",
+    "instruction": "Locate the cabinet in the image.",
+    "answer": "cabinet",
+    "rgb": "Living_Room/87.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_87_94d8777d_obj_004",
+      "object_name": "cabinet",
+      "bbox_xyxy": [
+        3802.316162109375,
+        1198.431884765625,
+        4409.30078125,
+        1714.7080078125
+      ],
+      "bbox_xywh": [
+        3802.316162109375,
+        1198.431884765625,
+        606.984619140625,
+        516.276123046875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cabinet in the image?",
+    "output_instruction": "What is the bounding box of the cabinet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_87_94d8777d_obj_004",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

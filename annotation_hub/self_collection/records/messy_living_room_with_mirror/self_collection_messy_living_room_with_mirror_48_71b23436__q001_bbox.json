@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_48_71b23436__q001_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_48_71b23436",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:29Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_48_71b23436__q001_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_48_71b23436",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the chandelier in the image.",
+    "instruction": "Locate the chandelier in the image.",
+    "answer": "chandelier",
+    "rgb": "messy_living_room_with_mirror/48.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_48_71b23436_obj_000",
+      "object_name": "chandelier",
+      "bbox_xyxy": [
+        1332.7491455078125,
+        3.937462568283081,
+        3210.970703125,
+        1430.3309326171875
+      ],
+      "bbox_xywh": [
+        1332.7491455078125,
+        3.937462568283081,
+        1878.2215576171875,
+        1426.3934700489044
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the chandelier in the image?",
+    "output_instruction": "What is the bounding box of the chandelier in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_48_71b23436_obj_000",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

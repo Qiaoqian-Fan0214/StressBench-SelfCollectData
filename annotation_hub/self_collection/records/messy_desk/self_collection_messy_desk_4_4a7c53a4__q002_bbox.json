@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_messy_desk_4_4a7c53a4__q002_bbox",
+  "source_sample_id": "self_collection_messy_desk_4_4a7c53a4",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:46:14Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_4_4a7c53a4__q002_bbox",
+    "source_sample_id": "self_collection_messy_desk_4_4a7c53a4",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the potted plant in the image.",
+    "instruction": "Locate the potted plant in the image.",
+    "answer": "potted plant",
+    "rgb": "messy_desk/4.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_desk_4_4a7c53a4_obj_007",
+      "object_name": "potted plant",
+      "bbox_xyxy": [
+        4552.91845703125,
+        2245.69287109375,
+        5610.31982421875,
+        3621.477783203125
+      ],
+      "bbox_xywh": [
+        4552.91845703125,
+        2245.69287109375,
+        1057.4013671875,
+        1375.784912109375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the potted plant in the image?",
+    "output_instruction": "What is the bounding box of the potted plant in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_desk_4_4a7c53a4_obj_007",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

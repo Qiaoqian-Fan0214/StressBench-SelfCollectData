@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_bathroom_table_57_5b49c3cd__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_57_5b49c3cd",
+  "status": "annotated",
+  "updated_at": "2026-04-27T11:44:02Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_57_5b49c3cd__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_57_5b49c3cd",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the straw in the image.",
+    "instruction": "Locate the straw in the image.",
+    "answer": "straw",
+    "rgb": "bathroom_table/57.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_57_5b49c3cd_obj_004",
+      "object_name": "straw",
+      "bbox_xyxy": [
+        2396.84033203125,
+        1622.843017578125,
+        2615.895751953125,
+        2006.658935546875
+      ],
+      "bbox_xywh": [
+        2396.84033203125,
+        1622.843017578125,
+        219.055419921875,
+        383.81591796875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the straw in the image?",
+    "output_instruction": "What is the bounding box of the straw in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_57_5b49c3cd_obj_004",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

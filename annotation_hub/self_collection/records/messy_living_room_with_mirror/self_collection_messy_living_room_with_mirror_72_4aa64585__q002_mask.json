@@ -1,0 +1,147 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_72_4aa64585__q002_mask",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_72_4aa64585",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:31Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_72_4aa64585__q002_mask",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_72_4aa64585",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the lamp in the image.",
+    "instruction": "Locate the lamp in the image.",
+    "answer": "lamp",
+    "rgb": "messy_living_room_with_mirror/72.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_living_room_with_mirror_72_4aa64585_obj_004",
+      "object_name": "lamp",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4767,
+            3178
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "WcfQ8Y3Uf3n1QoL[",
+            "Ocn2Q3[PMoMQo2g2",
+            "bnLEQQ3g0hlL`1QS",
+            "3gNQfL^GVH02;BO6",
+            "R<ka3]LdeL_8VZ3h",
+            "GccL^:W\\3jE]bLoF",
+            "lKgc0aa3bEP_LaFM",
+            "J9Uf0e`3hCd^LkG4",
+            "gd0Ua3j<M3M2O1N2",
+            "N2O1N101N101N101",
+            "N100000000O2O000",
+            "0000000000O10001",
+            "O00000O101O00001",
+            "O001O001N10001O0",
+            "0001O00001O00000",
+            "O100000000000000",
+            "00O101O000000000",
+            "00000001O001O000",
+            "01O001O001O1O001",
+            "O001O001O00001O0",
+            "00000001O0000001",
+            "O00000O101O00000",
+            "0000000001O00000",
+            "00000000000001O0",
+            "0000000001O00000",
+            "1O0001O000000000",
+            "0001O00000000000",
+            "0O10000000001O00",
+            "000O100000000000",
+            "000000000000O100",
+            "00000000000001O0",
+            "000000000001O000",
+            "00000001O0000kWO",
+            "[`LP;e_3oD^`Lo:b",
+            "_3PEa`LPEKjc0d_3",
+            "UGc`LjD2nc0[_3WG",
+            "f`LdD70[O`b0h_3l",
+            "Hg`L`D<N]Oab0`_3",
+            "PIj`L\\D>N@ab0X_3",
+            "TIl`LZDa0LAab0S_",
+            "3XIo`LUDd0KAk0UO",
+            "P`0h_3TKRaLPDi0H",
+            "@l0SOT`0c_3WKWaL",
+            "iCl0FAm0oNm0FCOk",
+            ";i_3XO\\aLcCg2>fL",
+            "S1FA3k;`_3^OmeLh",
+            "CPKX1F_Om0U;c^3:",
+            "XgLlD_IZOU1c0aNk",
+            "5JSKU`3W:igLPDgK",
+            "=QMc0ZO[3b0oKd`3",
+            "d;_kLUDeD9Am0BGc",
+            "b3k:oiLnCdD8He0@",
+            "0Yb3Q;[lLPDVB?F3",
+            "Pb3Z;dnLSDm_OOla",
+            "3k;md0L4K5H8G9J6",
+            "M3M4N1O10000O100",
+            "01O000O100000000",
+            "01O000000001O000",
+            "00000010O0000000",
+            "000001O000000000",
+            "0001O00000000000",
+            "010O0000000001O0",
+            "0000000001O00000",
+            "1O00000001O00000",
+            "000001O000000001",
+            "N1000001O0000001",
+            "O0O10001O0000001",
+            "O00001O0000001O0",
+            "00O10001O0000001",
+            "O000O2O00001O0O1",
+            "01O0000001O0O100",
+            "01O000O2O00001N1",
+            "01N2O0O2N2O0O2M4",
+            "M2M3J7RJUdKSN``4",
+            "Anl[e4"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1761.035400390625,
+        1145.50537109375,
+        2161.337890625,
+        2356.55810546875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the lamp in the image?",
+    "output_instruction": "What is the segmentation mask of the lamp in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_72_4aa64585_obj_004",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "sample_id": "self_collection_Living_Room_60_06179c8b__q001",
+  "source_sample_id": "self_collection_Living_Room_60_06179c8b",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:20:08Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_60_06179c8b__q001",
+    "source_sample_id": "self_collection_Living_Room_60_06179c8b",
+    "entry_id": "q001",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the flower relative to the cup in the image?",
+    "instruction": "What is the spatial relation of the flower relative to the cup in the image?",
+    "answer": "right",
+    "rgb": "Living_Room/60.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 3
+      },
+      "subject_a": {
+        "object_id": "self_collection_Living_Room_60_06179c8b_obj_000",
+        "label": "flower"
+      },
+      "subject_b": {
+        "object_id": "self_collection_Living_Room_60_06179c8b_obj_001",
+        "label": "cup"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the flower relative to the cup in the image?",
+    "output_instruction": "What is the spatial relation of the flower relative to the cup in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "M": [
+          "transparent"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_60_06179c8b_obj_000",
+      "placementItem": "vase",
+      "answerIndex": 3,
+      "spatialRelationAObjectId": "self_collection_Living_Room_60_06179c8b_obj_000",
+      "spatialRelationALabel": "flower",
+      "spatialRelationBObjectId": "self_collection_Living_Room_60_06179c8b_obj_001",
+      "spatialRelationBLabel": "cup",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

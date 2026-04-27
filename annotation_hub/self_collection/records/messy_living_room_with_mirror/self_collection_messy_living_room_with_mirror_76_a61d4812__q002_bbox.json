@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_76_a61d4812__q002_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_76_a61d4812",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:32Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_76_a61d4812__q002_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_76_a61d4812",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the flower in the image.",
+    "instruction": "Locate the flower in the image.",
+    "answer": "flower",
+    "rgb": "messy_living_room_with_mirror/76.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_76_a61d4812_obj_002",
+      "object_name": "flower",
+      "bbox_xyxy": [
+        4221.857421875,
+        2015.6451416015625,
+        4528.68408203125,
+        2232.876953125
+      ],
+      "bbox_xywh": [
+        4221.857421875,
+        2015.6451416015625,
+        306.82666015625,
+        217.2318115234375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the flower in the image?",
+    "output_instruction": "What is the bounding box of the flower in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "M": [
+          "complex_texture"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_76_a61d4812_obj_002",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "M": [
+        "complex_texture"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "sample_id": "self_collection_Home_Office_38_4fdf2212__q001_mask",
+  "source_sample_id": "self_collection_Home_Office_38_4fdf2212",
+  "status": "annotated",
+  "updated_at": "2026-04-25T13:39:28Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_38_4fdf2212__q001_mask",
+    "source_sample_id": "self_collection_Home_Office_38_4fdf2212",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the phone in the image.",
+    "instruction": "Locate the phone in the image.",
+    "answer": "phone",
+    "rgb": "Home_Office/38.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Home_Office_38_4fdf2212_obj_003",
+      "object_name": "phone",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4480,
+            6720
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "XbTR`07\\T48`RLMX",
+            "m3a0]RLB]m3Q1TRL",
+            "QOfm3a1kQLcNom3n",
+            "1bQLUNZn3Z2XQLjM",
+            "dn3[3WPLhLfo3_3S",
+            "PLeLio3a3QPLbLlo",
+            "3c3PoKgK^Nk0`R4a",
+            "3jnKdMSQ4_2enKiM",
+            "XQ4\\2]nKmM`Q4X2n",
+            "mKYNoQ4o5L3N2M3N",
+            "2M3N1N3N1O1N2O1O",
+            "1N2O1O1O0O2O1O00",
+            "1O001N101O001O00",
+            "1O00001O0O101O00",
+            "1O000O2O00000000",
+            "001N1000000000O1",
+            "0000000000000000",
+            "000O1000O1000000",
+            "0000000000001O00",
+            "0O1000001O000000",
+            "00001O000O100000",
+            "001OO10000000000",
+            "0000O1000000O100",
+            "00000O0100000000",
+            "000000O10001O000",
+            "000000O101O00001",
+            "O0O101O001O1O1N2",
+            "O1O1O1O2M3N3M5K7",
+            "H9H5K5J5L5K?@`0A",
+            ":F9F:F<E;D>C>A>B",
+            "=C9G8I7H>B?@=D:F",
+            "9G8G:E<Dc0[OX][j",
+            ";"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        3754.9853515625,
+        2342.310791015625,
+        3954.8330078125,
+        2695.746337890625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the phone in the image?",
+    "output_instruction": "What is the segmentation mask of the phone in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_38_4fdf2212_obj_003",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

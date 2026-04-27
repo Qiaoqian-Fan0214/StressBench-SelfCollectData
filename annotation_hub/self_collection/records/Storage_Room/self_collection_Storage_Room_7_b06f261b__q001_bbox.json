@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_Storage_Room_7_b06f261b__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_7_b06f261b",
+  "status": "annotated",
+  "updated_at": "2026-04-26T07:34:44Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_7_b06f261b__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_7_b06f261b",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the toilet paper holder in the image.",
+    "instruction": "Locate the toilet paper holder in the image.",
+    "answer": "toilet paper holder",
+    "rgb": "Storage_Room/7.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_7_b06f261b_obj_002",
+      "object_name": "toilet paper holder",
+      "bbox_xyxy": [
+        4153.021484375,
+        3052.715576171875,
+        4467.91943359375,
+        3334.083984375
+      ],
+      "bbox_xywh": [
+        4153.021484375,
+        3052.715576171875,
+        314.89794921875,
+        281.368408203125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the toilet paper holder in the image?",
+    "output_instruction": "What is the bounding box of the toilet paper holder in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_7_b06f261b_obj_002",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

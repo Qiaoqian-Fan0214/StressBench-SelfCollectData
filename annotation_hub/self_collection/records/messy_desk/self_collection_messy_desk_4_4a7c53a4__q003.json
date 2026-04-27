@@ -1,0 +1,58 @@
+{
+  "sample_id": "self_collection_messy_desk_4_4a7c53a4__q003",
+  "source_sample_id": "self_collection_messy_desk_4_4a7c53a4",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:46:14Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_4_4a7c53a4__q003",
+    "source_sample_id": "self_collection_messy_desk_4_4a7c53a4",
+    "entry_id": "q003",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a toy in the image?",
+    "instruction": "Is there any vacant space to place a toy in the image?",
+    "answer": "no",
+    "rgb": "messy_desk/4.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 1
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a toy in the image?",
+    "output_instruction": "Is there any vacant space to place a toy in the image?",
+    "editor_state": {
+      "entry_id": "q003",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "",
+      "placementItem": "toy",
+      "answerIndex": 1,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

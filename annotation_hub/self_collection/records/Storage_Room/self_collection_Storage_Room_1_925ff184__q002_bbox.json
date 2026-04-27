@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Storage_Room_1_925ff184__q002_bbox",
+  "source_sample_id": "self_collection_Storage_Room_1_925ff184",
+  "status": "annotated",
+  "updated_at": "2026-04-26T06:21:01Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_1_925ff184__q002_bbox",
+    "source_sample_id": "self_collection_Storage_Room_1_925ff184",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bowl in the image.",
+    "instruction": "Locate the bowl in the image.",
+    "answer": "bowl",
+    "rgb": "Storage_Room/1.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_1_925ff184_obj_000",
+      "object_name": "bowl",
+      "bbox_xyxy": [
+        4730.36328125,
+        5204.31982421875,
+        5461.39990234375,
+        5713.99267578125
+      ],
+      "bbox_xywh": [
+        4730.36328125,
+        5204.31982421875,
+        731.03662109375,
+        509.6728515625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the bowl in the image?",
+    "output_instruction": "What is the bounding box of the bowl in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_1_925ff184_obj_000",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

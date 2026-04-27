@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_94_8e701146__q001_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_94_8e701146",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:18:29Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_94_8e701146__q001_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_94_8e701146",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the sofa in the image.",
+    "instruction": "Locate the sofa in the image.",
+    "answer": "sofa",
+    "rgb": "messy_living_room_with_mirror/94.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_94_8e701146_obj_003",
+      "object_name": "sofa",
+      "bbox_xyxy": [
+        281.2147216796875,
+        2097.977294921875,
+        5152.35302734375,
+        4136.88916015625
+      ],
+      "bbox_xywh": [
+        281.2147216796875,
+        2097.977294921875,
+        4871.1383056640625,
+        2038.911865234375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the sofa in the image?",
+    "output_instruction": "What is the bounding box of the sofa in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "large_scale"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_94_8e701146_obj_003",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "large_scale"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

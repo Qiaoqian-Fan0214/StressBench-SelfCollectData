@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_Home_Office_28_bb5d6e50__q001_bbox",
+  "source_sample_id": "self_collection_Home_Office_28_bb5d6e50",
+  "status": "annotated",
+  "updated_at": "2026-04-25T13:31:43Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_28_bb5d6e50__q001_bbox",
+    "source_sample_id": "self_collection_Home_Office_28_bb5d6e50",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the mouse in the image.",
+    "instruction": "Locate the mouse in the image.",
+    "answer": "mouse",
+    "rgb": "Home_Office/28.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Home_Office_28_bb5d6e50_obj_003",
+      "object_name": "mouse",
+      "bbox_xyxy": [
+        1582.56884765625,
+        2941.313720703125,
+        1938.0570068359375,
+        3212.937744140625
+      ],
+      "bbox_xywh": [
+        1582.56884765625,
+        2941.313720703125,
+        355.4881591796875,
+        271.6240234375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the mouse in the image?",
+    "output_instruction": "What is the bounding box of the mouse in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_28_bb5d6e50_obj_003",
+      "placementItem": "keyboard",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

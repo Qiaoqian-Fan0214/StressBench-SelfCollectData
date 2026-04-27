@@ -1,0 +1,113 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_27_57d84f23__q001_mask",
+  "source_sample_id": "self_collection_cabinet_occlusion_27_57d84f23",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:06:48Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_27_57d84f23__q001_mask",
+    "source_sample_id": "self_collection_cabinet_occlusion_27_57d84f23",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the clock in the image.",
+    "instruction": "Locate the clock in the image.",
+    "answer": "clock",
+    "rgb": "cabinet_occlusion/27.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_cabinet_occlusion_27_57d84f23_obj_012",
+      "object_name": "clock",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3200,
+            4800
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Wmng3c1WR3a0RoLa",
+            "Nan2h3H9GQ1iPMTK",
+            "Zm2n5K3L3N1N2O00",
+            "1O1N101O00000O2O",
+            "0000000000000000",
+            "O100000000000000",
+            "000000000000000O",
+            "10000000000O1000",
+            "000O100000000000",
+            "000000000001O01O",
+            "0000000000000001",
+            "O000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000001",
+            "O000000000000000",
+            "1O00000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000001",
+            "O000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "001O000000000000",
+            "0000000000000000",
+            "O100000000000001",
+            "O00000000000O100",
+            "0001N100O100O1O2",
+            "M2N2H9I6M3N3M4K5",
+            "gMSRM_MM@Vn2i1ZS",
+            "MVNTODim2k1d4RNY",
+            "VeT:"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1213.2548828125,
+        1405.239501953125,
+        1493.2445068359375,
+        1672.1553955078125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the clock in the image?",
+    "output_instruction": "What is the segmentation mask of the clock in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "complex_texture"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_27_57d84f23_obj_012",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

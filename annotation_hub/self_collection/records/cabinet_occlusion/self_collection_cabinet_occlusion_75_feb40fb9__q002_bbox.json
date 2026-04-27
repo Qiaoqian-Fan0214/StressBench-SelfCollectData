@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_75_feb40fb9__q002_bbox",
+  "source_sample_id": "self_collection_cabinet_occlusion_75_feb40fb9",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:50:20Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_75_feb40fb9__q002_bbox",
+    "source_sample_id": "self_collection_cabinet_occlusion_75_feb40fb9",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the microwave in the image.",
+    "instruction": "Locate the microwave in the image.",
+    "answer": "microwave",
+    "rgb": "cabinet_occlusion/75.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_cabinet_occlusion_75_feb40fb9_obj_005",
+      "object_name": "microwave",
+      "bbox_xyxy": [
+        2444.021484375,
+        3103.16064453125,
+        2919.123046875,
+        3536.541015625
+      ],
+      "bbox_xywh": [
+        2444.021484375,
+        3103.16064453125,
+        475.1015625,
+        433.38037109375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the microwave in the image?",
+    "output_instruction": "What is the bounding box of the microwave in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ],
+        "V": [
+          "extreme_viewpoint",
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_75_feb40fb9_obj_005",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ],
+      "V": [
+        "extreme_viewpoint",
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

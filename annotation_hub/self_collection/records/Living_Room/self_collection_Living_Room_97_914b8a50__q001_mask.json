@@ -1,0 +1,92 @@
+{
+  "sample_id": "self_collection_Living_Room_97_914b8a50__q001_mask",
+  "source_sample_id": "self_collection_Living_Room_97_914b8a50",
+  "status": "annotated",
+  "updated_at": "2026-04-27T10:01:28Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_97_914b8a50__q001_mask",
+    "source_sample_id": "self_collection_Living_Room_97_914b8a50",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "Living_Room/97.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_97_914b8a50_obj_000",
+      "object_name": "cup",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2336,
+            3112
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "RR]63cX2b0PNDfjM",
+            "S1eT2ROVkMV1eT2l",
+            "NWkM[1dT2hNWkM_1",
+            "dT2cNXkMb1eT2`NX",
+            "kMd1eT2^NWkMg1gT",
+            "2[NRkMk1lT2XNmjM",
+            "n1QU2R1N2O1N2N2O",
+            "1N1O2N2N2N1O2N1O",
+            "2N10001O00000000",
+            "01O01O0000000000",
+            "000O100000000O10",
+            "000000000O100000",
+            "00O1000000000O01",
+            "00O100O010O1000O",
+            "01000000O1000000",
+            "00O10001O0O10000",
+            "O10000O10000O100",
+            "O101N100O1O2N2N1",
+            "O2M3M4M2M6K9Ga0^",
+            "Od0[O=B=B=C_bU_6"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        84.56426239013672,
+        1984.43701171875,
+        205.13412475585938,
+        2143.161865234375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the cup in the image?",
+    "output_instruction": "What is the segmentation mask of the cup in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_97_914b8a50_obj_000",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_86_8ddbda03__q002_mask",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_86_8ddbda03",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:33Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_86_8ddbda03__q002_mask",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_86_8ddbda03",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the candle in the image.",
+    "instruction": "Locate the candle in the image.",
+    "answer": "candle",
+    "rgb": "messy_living_room_with_mirror/86.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_living_room_with_mirror_86_8ddbda03_obj_001",
+      "object_name": "candle",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            6016,
+            4016
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "VXfo>`0Qk5l0[O=D",
+            ":G9C<]Od0D=E:F<C",
+            "=A?YOf0\\Oc0F9G8I",
+            "8I7K4L4L5K5K4K6K",
+            "6G8J7H8J8I8G8J7I",
+            "]1bN5L2N3M2N2M3N",
+            "2N2O1N1O2N2N2O1N",
+            "2N2O2M2N101N2O00",
+            "1N2O0O10000O1000",
+            "0O101O0O1000000O",
+            "101O000O1000000O",
+            "1000000O10000000",
+            "0O1000000O100000",
+            "000O101O1O001O00",
+            "1O1O1O2M101O1O1O",
+            "1O001O001O001O0O",
+            "2O00001O00010O00",
+            "00001O0001O01O00",
+            "00010O0000000000",
+            "010O00000000001O",
+            "000000001O000001",
+            "O01O000000001O00",
+            "0000000001O01O00",
+            "00O1000000000000",
+            "000000000001O000",
+            "0000000000000001",
+            "O000000000O101O0",
+            "000000000001O000",
+            "000000O101O00000",
+            "O2O001N10001N2N1",
+            "N3M3M2gNmaJbDW^5",
+            "Y;TbJ\\DQ^5_;[1I7",
+            "I8B>eN[1\\Od0_Oa0",
+            "@a0RNT]JTJ`c5Lk[",
+            "J]4Yg5UOj0kLjoRd",
+            "6"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2606.819091796875,
+        4615.806640625,
+        2860.634033203125,
+        5089.25146484375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the candle in the image?",
+    "output_instruction": "What is the segmentation mask of the candle in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_86_8ddbda03_obj_001",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "sample_id": "self_collection_Living_Room_17_8f3935a5__q001_mask",
+  "source_sample_id": "self_collection_Living_Room_17_8f3935a5",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:26:39Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_17_8f3935a5__q001_mask",
+    "source_sample_id": "self_collection_Living_Room_17_8f3935a5",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the refrigerator in the image.",
+    "instruction": "Locate the refrigerator in the image.",
+    "answer": "refrigerator",
+    "rgb": "Living_Room/17.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_17_8f3935a5_obj_000",
+      "object_name": "refrigerator",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4834,
+            3223
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "cTZT:6ff4g0[O:G8",
+            "bZK@oc4b2WO>B7I6",
+            "K4L5l]K^K]a4_5E9",
+            "G<UaKSJR1>`V4S6^",
+            "fKUKc2WO]MKkW4[:",
+            "]hKfGZW4a8[hKgGa",
+            "W4n;O1O1N101O000",
+            "0000O2O00000O100",
+            "00000000O1000000",
+            "00O101O00000O100",
+            "00000000O1000000",
+            "0000O1000000000O",
+            "100000O010000PNQ",
+            "iKlCPW4Q<WiKkCiV",
+            "4S<]iKhCdV4V<biK",
+            "fC^V4X<jiKaCWV4^",
+            "<PjK[CQV4d<VjKlB",
+            "TV4T=l1010000001",
+            "O00000O1000001O0",
+            "000000O100000000",
+            "000000O2O0000000",
+            "00O10000000000O1",
+            "01O000000000O2O0",
+            "000001O0000000O2",
+            "O000000001O000O1",
+            "0000000000000000",
+            "O101O00000000O10",
+            "0000000O1000O010",
+            "0O10000O100O011N",
+            "101O1N2O3M5gCefK",
+            "`:dY4PEhfKl:lZ4K",
+            "7Hj0WO:F9F9cFbcK",
+            "f7\\_4`Nh0\\JV_Kb3",
+            "Wa4jKV_K<_Oe2hc4",
+            "YMP\\Kg1od4F6`NV[",
+            "K<ke4L5K5K4LWWej",
+            "3"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2198.651611328125,
+        2057.39208984375,
+        2388.32080078125,
+        2561.131591796875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the refrigerator in the image?",
+    "output_instruction": "What is the segmentation mask of the refrigerator in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_17_8f3935a5_obj_000",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

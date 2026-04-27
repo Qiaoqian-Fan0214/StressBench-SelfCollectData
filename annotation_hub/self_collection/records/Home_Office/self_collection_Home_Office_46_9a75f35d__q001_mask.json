@@ -1,0 +1,135 @@
+{
+  "sample_id": "self_collection_Home_Office_46_9a75f35d__q001_mask",
+  "source_sample_id": "self_collection_Home_Office_46_9a75f35d",
+  "status": "annotated",
+  "updated_at": "2026-04-25T13:50:53Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_46_9a75f35d__q001_mask",
+    "source_sample_id": "self_collection_Home_Office_46_9a75f35d",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the person in the image.",
+    "instruction": "Locate the person in the image.",
+    "answer": "person",
+    "rgb": "Home_Office/46.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Home_Office_46_9a75f35d_obj_013",
+      "object_name": "person",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3649,
+            5557
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "hWP\\b0a0]a3:G5K4",
+            "M2N2N1O2O0O100O0",
+            "1000aKROjgLo0aV3",
+            "T1neLhM[2T1^W3Z2",
+            "]hLfM\\W3c2bhL\\MY",
+            "W3m2chLTMZW3Q3dh",
+            "LoLYW3W3dhLiL[W3",
+            "Z3chLfL[W3_3ahLb",
+            "L^W3a3`hL_L^W3e3",
+            "`hL[L`W3g3^hLYLa",
+            "W3i3]hLWLcW3k3\\h",
+            "LULcW3m3\\hLSLcW3",
+            "o3[hLRLeW3o3ZhLQ",
+            "LeW3Q4ZhLoKeW3S4",
+            "YhLnKfW3T4YhLlKg",
+            "W3U4WhLlKhW3V4Vh",
+            "LkKiW3W4VhLiKiW3",
+            "Y4UhLhKkW3Y4ShLh",
+            "KlW3Z4RhLgKmW3[4",
+            "PhLhKoW3Y4ogLhKP",
+            "X3[4lgLgKSX3\\4hg",
+            "LgKXX3[4bgLiK]X3",
+            "n600O100O010O100",
+            "O100O10O0100O100",
+            "O1O10O01O100O100",
+            "O10O01000000O100",
+            "0000000000O10000",
+            "000000O100000000",
+            "00000O2O000O101O",
+            "000O101O0O10001O",
+            "0O10001O0O2O001O",
+            "1O1O001O1O1O1O1O",
+            "1O1O101N1O1O1O1O",
+            "1O1O1O1O1O1O1N3N",
+            "1O2N2M2O2N3L5RMT",
+            "fL_MQZ3T2\\fLfMjY",
+            "3R2\\fLkMhY3P2\\fL",
+            "lMiY3n1[fLoMjY3l",
+            "1XfLSNkY3i1XfLTN",
+            "lY3h1VfLVNmY3f1V",
+            "fLWNnY3f1TfLXNoY",
+            "3d1SfL[NPZ3b1RfL",
+            "[NRZ3a1QfL]NQZ3`",
+            "1QfL_NQZ3]1SfLaN",
+            "PZ3[1RfLdNPZ3X1S",
+            "fLhNnY3U1TfLjNnY",
+            "3S1UfLkNnY3Q1TfL",
+            "oNmY3o0TfLPOnY3m",
+            "0UfLROlY3l0UfLSO",
+            "nY3j0SfLVOnY3g0U",
+            "fLXOlY3f0UfLYOmY",
+            "3e0TfL[OnY3a0UfL",
+            "^OlY3`0UfL_OoY3=",
+            "RfLCPZ36VfLIRZ3I",
+            "TfL6UZ3\\ORfLc0f]",
+            "301O0O2O1O1N2O1N",
+            "2O1N2O1N2N3M\\fV9"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        5276.9423828125,
+        836.201416015625,
+        5478.8486328125,
+        1141.06787109375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the person in the image?",
+    "output_instruction": "What is the segmentation mask of the person in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_46_9a75f35d_obj_013",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

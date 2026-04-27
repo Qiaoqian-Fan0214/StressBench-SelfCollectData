@@ -1,0 +1,70 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_7_dc3da9dd__q004",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_7_dc3da9dd",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:30:01Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_7_dc3da9dd__q004",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_7_dc3da9dd",
+    "entry_id": "q004",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the mirror relative to the sofa in the image?",
+    "instruction": "What is the spatial relation of the mirror relative to the sofa in the image?",
+    "answer": "right",
+    "rgb": "messy_living_room_with_mirror/7.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 3
+      },
+      "subject_a": {
+        "object_id": "self_collection_messy_living_room_with_mirror_7_dc3da9dd_obj_000",
+        "label": "mirror"
+      },
+      "subject_b": {
+        "object_id": "self_collection_messy_living_room_with_mirror_7_dc3da9dd_obj_001",
+        "label": "sofa"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the mirror relative to the sofa in the image?",
+    "output_instruction": "What is the spatial relation of the mirror relative to the sofa in the image?",
+    "editor_state": {
+      "entry_id": "q004",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_7_dc3da9dd_obj_000",
+      "placementItem": "book",
+      "answerIndex": 3,
+      "spatialRelationAObjectId": "self_collection_messy_living_room_with_mirror_7_dc3da9dd_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_messy_living_room_with_mirror_7_dc3da9dd_obj_001",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "sample_id": "self_collection_bathroom_table_80_11e2a23f__q001_mask",
+  "source_sample_id": "self_collection_bathroom_table_80_11e2a23f",
+  "status": "annotated",
+  "updated_at": "2026-04-27T12:15:53Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_80_11e2a23f__q001_mask",
+    "source_sample_id": "self_collection_bathroom_table_80_11e2a23f",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the toilet paper holder in the image.",
+    "instruction": "Locate the toilet paper holder in the image.",
+    "answer": "toilet paper holder",
+    "rgb": "bathroom_table/80.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_bathroom_table_80_11e2a23f_obj_004",
+      "object_name": "toilet paper holder",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4912,
+            7360
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "d]Xeg0;dh4T1YLTO",
+            "b\\KR2Wc4[Nl[KZ2o",
+            "c4g1K4N3L3N2N2N2",
+            "N2N2N2O1N2O1N2O1",
+            "O001O1O0O2O1O001",
+            "O100O1O1O10O01O1",
+            "O100O1O1O100O1O1",
+            "00O100O00100O1O1",
+            "00O00100O1O100O1",
+            "O1O100O1O1O10O01",
+            "O100O001O10O01O1",
+            "0O01O010O01O01O0",
+            "10O01O00010O001O",
+            "01O01O0010O01O01",
+            "0O010O0010O010O0",
+            "1O001O002N1N2O1N",
+            "2O1N2N2N1O2N2N2N",
+            "1O2N2M2O2N1N3M2L",
+            "5C<^Oc0J5L5J5K6I",
+            "6G:C<G:F;A>hNY1@",
+            "?HSZTT:"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        5025.26953125,
+        3333.353515625,
+        5213.06494140625,
+        3617.2099609375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the toilet paper holder in the image?",
+    "output_instruction": "What is the segmentation mask of the toilet paper holder in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "extreme_viewpoint"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_80_11e2a23f_obj_004",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "extreme_viewpoint"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

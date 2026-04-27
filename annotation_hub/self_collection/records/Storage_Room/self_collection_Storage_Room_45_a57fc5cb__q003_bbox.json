@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Storage_Room_45_a57fc5cb__q003_bbox",
+  "source_sample_id": "self_collection_Storage_Room_45_a57fc5cb",
+  "status": "annotated",
+  "updated_at": "2026-04-26T17:55:01Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_45_a57fc5cb__q003_bbox",
+    "source_sample_id": "self_collection_Storage_Room_45_a57fc5cb",
+    "entry_id": "q003",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the chest of drawers in the image.",
+    "instruction": "Locate the chest of drawers in the image.",
+    "answer": "chest of drawers",
+    "rgb": "Storage_Room/45.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_45_a57fc5cb_obj_010",
+      "object_name": "chest of drawers",
+      "bbox_xyxy": [
+        642.0543212890625,
+        3118.44775390625,
+        2504.9296875,
+        4148.421875
+      ],
+      "bbox_xywh": [
+        642.0543212890625,
+        3118.44775390625,
+        1862.8753662109375,
+        1029.97412109375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the chest of drawers in the image?",
+    "output_instruction": "What is the bounding box of the chest of drawers in the image?",
+    "editor_state": {
+      "entry_id": "q003",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_45_a57fc5cb_obj_010",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

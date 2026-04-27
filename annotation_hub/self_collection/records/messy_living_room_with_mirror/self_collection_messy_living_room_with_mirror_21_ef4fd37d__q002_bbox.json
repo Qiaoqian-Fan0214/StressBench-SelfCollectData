@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_21_ef4fd37d__q002_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_21_ef4fd37d",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:26Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_21_ef4fd37d__q002_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_21_ef4fd37d",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bean bag in the image.",
+    "instruction": "Locate the bean bag in the image.",
+    "answer": "bean bag",
+    "rgb": "messy_living_room_with_mirror/21.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_21_ef4fd37d_obj_000",
+      "object_name": "bean bag",
+      "bbox_xyxy": [
+        2050.7890625,
+        3462.281982421875,
+        2370.434326171875,
+        4065.606689453125
+      ],
+      "bbox_xywh": [
+        2050.7890625,
+        3462.281982421875,
+        319.645263671875,
+        603.32470703125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the bean bag in the image?",
+    "output_instruction": "What is the bounding box of the bean bag in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "complex_texture"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_21_ef4fd37d_obj_000",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

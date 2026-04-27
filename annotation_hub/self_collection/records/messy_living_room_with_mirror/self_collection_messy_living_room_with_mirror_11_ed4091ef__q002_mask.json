@@ -1,0 +1,112 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_11_ed4091ef__q002_mask",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_11_ed4091ef",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:07:56Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_11_ed4091ef__q002_mask",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_11_ed4091ef",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the fan in the image.",
+    "instruction": "Locate the fan in the image.",
+    "answer": "fan",
+    "rgb": "messy_living_room_with_mirror/11.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_living_room_with_mirror_11_ed4091ef_obj_002",
+      "object_name": "fan",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3962,
+            5946
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Rjeh:b0oj3>E:D<E",
+            ":H9H7J8G9G9H7H7H",
+            "7I7H8H8H7J7I6F:\\",
+            "Oe0F9H8H7K5L4M4K",
+            "4M3M4M2N2N3M2O1O",
+            "2M3N1N3N3M2Nd0\\O",
+            "2N2N2N1O101N100O",
+            "1O101N1O100O100O",
+            "10000O2O00001O00",
+            "001O01O01O010O00",
+            "0100O1O1O010O1O1",
+            "O1O2O0O1O1O1O001",
+            "O1O001O00001O000",
+            "01O0000001O00000",
+            "000001N1000001O0",
+            "0001O00001O001O1",
+            "O001O001O001O1O0",
+            "O2O00100O001O0UN",
+            "b]LZJ_b3d5g]LWJZ",
+            "b3g5h]LYJXb3f5j]",
+            "LXJWb3e5l]LZJUb3",
+            "b5o]L]JRb3m2R]L[",
+            "NS1hNla3h2W]LSNW",
+            "1UOda3c2[]LQNU1\\",
+            "Oda3X2c]LTNm0C]b",
+            "3P1X]LTO>Lib39U]",
+            "LE42Yc3_Oo\\L:I7Q",
+            "f3ERZL;Pf3AQZL?Q",
+            "f3^OPZLb0Rf3[OoY",
+            "Le0Rf3YOoYLg0Sf3",
+            "TOPZLl0`h3O00000",
+            "0001N101O0O2O001",
+            "N101N2O1N2N2N3M2",
+            "MkPoP;"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2833.583984375,
+        2616.74169921875,
+        3059.971923828125,
+        2953.426513671875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the fan in the image?",
+    "output_instruction": "What is the segmentation mask of the fan in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_11_ed4091ef_obj_002",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

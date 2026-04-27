@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Storage_Room_25_e4904f8b__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_25_e4904f8b",
+  "status": "annotated",
+  "updated_at": "2026-04-26T10:45:23Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_25_e4904f8b__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_25_e4904f8b",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the broom in the image.",
+    "instruction": "Locate the broom in the image.",
+    "answer": "broom",
+    "rgb": "Storage_Room/25.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_25_e4904f8b_obj_013",
+      "object_name": "broom",
+      "bbox_xyxy": [
+        673.0424194335938,
+        1257.821533203125,
+        810.6318969726562,
+        1617.5655517578125
+      ],
+      "bbox_xywh": [
+        673.0424194335938,
+        1257.821533203125,
+        137.5894775390625,
+        359.7440185546875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the broom in the image?",
+    "output_instruction": "What is the bounding box of the broom in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "stacked_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_25_e4904f8b_obj_013",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "stacked_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

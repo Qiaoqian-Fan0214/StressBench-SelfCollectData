@@ -1,0 +1,98 @@
+{
+  "sample_id": "self_collection_desk_57_67b71114__q001_mask",
+  "source_sample_id": "self_collection_desk_57_67b71114",
+  "status": "annotated",
+  "updated_at": "2026-04-27T03:46:57Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_57_67b71114__q001_mask",
+    "source_sample_id": "self_collection_desk_57_67b71114",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the camera in the image.",
+    "instruction": "Locate the camera in the image.",
+    "answer": "camera",
+    "rgb": "desk/57.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_desk_57_67b71114_obj_001",
+      "object_name": "camera",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4898,
+            3265
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "d[QT66jh44L4M3\\X",
+            "KC^f4b0TYKf2mc4f",
+            "1A7I5K3N2M2O1N10",
+            "1O1N11O00010O001",
+            "O001O010O001O000",
+            "01O0001O00000000",
+            "0000000O10O10O10",
+            "000O01000O1000O0",
+            "1000000000000000",
+            "000001O000001O00",
+            "01O000000001O000",
+            "0000O2O0000001O0",
+            "O1000001O0O10000",
+            "0000O100000O1000",
+            "O0100O1O1O1N2N10",
+            "1N2N2O1O1O1N200O",
+            "010O10000O10000O",
+            "1000000O10O10000",
+            "000000001O000001",
+            "O000000000000000",
+            "000001O000001O00",
+            "01O00000000001O0",
+            "00001O0000000000",
+            "000000000000000O",
+            "1000000000000O10",
+            "0000000O1000000O",
+            "10000000000O1000",
+            "0000000000000000",
+            "0000O10001O00000",
+            "0000000001N10000",
+            "0000000000000000",
+            "001O000000000000",
+            "000000000O100000",
+            "0000000000000000",
+            "00000000O1000000",
+            "O100O1O100O1O2N1",
+            "O1O1O1N2O1O2N1O2",
+            "N2N2N2N3M3YKa\\Kf",
+            "3dc4mKn\\Ki3\\d4I7",
+            "I8H<Db0^O<Cj1UNe",
+            "_Yg7"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1305.6719970703125,
+        2609.11474609375,
+        1613.1895751953125,
+        2821.023681640625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the camera in the image?",
+    "output_instruction": "What is the segmentation mask of the camera in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_57_67b71114_obj_001"
+    },
+    "stress": {
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

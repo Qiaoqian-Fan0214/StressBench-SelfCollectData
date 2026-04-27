@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_Storage_Room_20_735d4fcf__q003_bbox",
+  "source_sample_id": "self_collection_Storage_Room_20_735d4fcf",
+  "status": "annotated",
+  "updated_at": "2026-04-26T10:39:14Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_20_735d4fcf__q003_bbox",
+    "source_sample_id": "self_collection_Storage_Room_20_735d4fcf",
+    "entry_id": "q003",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the window in the image.",
+    "instruction": "Locate the window in the image.",
+    "answer": "window",
+    "rgb": "Storage_Room/20.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_20_735d4fcf_obj_007",
+      "object_name": "window",
+      "bbox_xyxy": [
+        2732.611328125,
+        1632.4327392578125,
+        2978.534423828125,
+        1908.274169921875
+      ],
+      "bbox_xywh": [
+        2732.611328125,
+        1632.4327392578125,
+        245.923095703125,
+        275.8414306640625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the window in the image?",
+    "output_instruction": "What is the bounding box of the window in the image?",
+    "editor_state": {
+      "entry_id": "q003",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_20_735d4fcf_obj_007",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

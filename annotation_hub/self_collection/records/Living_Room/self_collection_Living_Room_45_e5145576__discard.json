@@ -1,0 +1,12 @@
+{
+  "sample_id": "self_collection_Living_Room_45_e5145576__discard",
+  "source_sample_id": "self_collection_Living_Room_45_e5145576",
+  "status": "discarded",
+  "updated_at": "2026-04-27T09:07:05Z",
+  "annotation": null,
+  "provenance": {
+    "dataset": "Self-Collection",
+    "subcategory": "Living_Room",
+    "split": "self_collected"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_13_651cb399__q002_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_13_651cb399",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:25Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_13_651cb399__q002_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_13_651cb399",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the side table in the image.",
+    "instruction": "Locate the side table in the image.",
+    "answer": "side table",
+    "rgb": "messy_living_room_with_mirror/13.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_13_651cb399_obj_004",
+      "object_name": "side table",
+      "bbox_xyxy": [
+        1125.0574951171875,
+        2764.9033203125,
+        1851.015869140625,
+        3391.45947265625
+      ],
+      "bbox_xywh": [
+        1125.0574951171875,
+        2764.9033203125,
+        725.9583740234375,
+        626.55615234375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the side table in the image?",
+    "output_instruction": "What is the bounding box of the side table in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_13_651cb399_obj_004",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_bathroom_table_60_2175e589__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_60_2175e589",
+  "status": "annotated",
+  "updated_at": "2026-04-27T11:49:37Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_60_2175e589__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_60_2175e589",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the mirror in the image.",
+    "instruction": "Locate the mirror in the image.",
+    "answer": "mirror",
+    "rgb": "bathroom_table/60.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_60_2175e589_obj_004",
+      "object_name": "mirror",
+      "bbox_xyxy": [
+        3666.205810546875,
+        1152.3834228515625,
+        4118.34521484375,
+        3673.33251953125
+      ],
+      "bbox_xywh": [
+        3666.205810546875,
+        1152.3834228515625,
+        452.139404296875,
+        2520.9490966796875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the mirror in the image?",
+    "output_instruction": "What is the bounding box of the mirror in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ],
+        "V": [
+          "extreme_viewpoint"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_60_2175e589_obj_004",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ],
+      "V": [
+        "extreme_viewpoint"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_Home_Office_9_f54ac6f8__q001",
+  "source_sample_id": "self_collection_Home_Office_9_f54ac6f8",
+  "status": "annotated",
+  "updated_at": "2026-04-25T13:09:40Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_9_f54ac6f8__q001",
+    "source_sample_id": "self_collection_Home_Office_9_f54ac6f8",
+    "entry_id": "q001",
+    "task": "spatial_mcq",
+    "template_id": "nearest",
+    "question": "Which object is closest to us in the image?",
+    "instruction": "Which object is closest to us in the image?",
+    "answer": "keyboard",
+    "rgb": "Home_Office/9.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "keyboard",
+          "monitor",
+          "speaker",
+          "camera",
+          "note"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Which object is closest to us in the image?",
+    "output_instruction": "Which object is closest to us in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "spatial_mcq",
+      "template_id": "nearest",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_9_f54ac6f8_obj_000",
+      "placementItem": "vase",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "self_collection_Home_Office_9_f54ac6f8_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_Home_Office_9_f54ac6f8_obj_001",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": [
+        "keyboard",
+        "monitor",
+        "speaker",
+        "camera",
+        "note"
+      ]
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

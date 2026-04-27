@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_Home_Office_96_87672eb2__q001_bbox",
+  "source_sample_id": "self_collection_Home_Office_96_87672eb2",
+  "status": "annotated",
+  "updated_at": "2026-04-25T14:59:52Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_96_87672eb2__q001_bbox",
+    "source_sample_id": "self_collection_Home_Office_96_87672eb2",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the keyboard in the image.",
+    "instruction": "Locate the keyboard in the image.",
+    "answer": "keyboard",
+    "rgb": "Home_Office/96.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Home_Office_96_87672eb2_obj_012",
+      "object_name": "keyboard",
+      "bbox_xyxy": [
+        575.7057495117188,
+        3452.336669921875,
+        1373.6038818359375,
+        3672.610107421875
+      ],
+      "bbox_xywh": [
+        575.7057495117188,
+        3452.336669921875,
+        797.8981323242188,
+        220.2734375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the keyboard in the image?",
+    "output_instruction": "What is the bounding box of the keyboard in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_96_87672eb2_obj_012",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

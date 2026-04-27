@@ -1,0 +1,128 @@
+{
+  "sample_id": "self_collection_messy_desk_94_78a898f3__q002_mask",
+  "source_sample_id": "self_collection_messy_desk_94_78a898f3",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:10:21Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_94_78a898f3__q002_mask",
+    "source_sample_id": "self_collection_messy_desk_94_78a898f3",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the calculator in the image.",
+    "instruction": "Locate the calculator in the image.",
+    "answer": "calculator",
+    "rgb": "messy_desk/94.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_desk_94_78a898f3_obj_000",
+      "object_name": "calculator",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            6000,
+            4000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "jlZYd0>kj59K5L4M",
+            "3L4M3N1N2N2N2O1N",
+            "2N2O0O2N1O2O1N1O",
+            "2O1N1O2O0O2N101N",
+            "101N1O101N101O0O",
+            "2O0O2N2O0O2O0O2O",
+            "1O0O2O1O0O2O1O1N",
+            "101O001N2O001O1N",
+            "101O1N101O0O2O1N",
+            "2O001N2O0O2O001N",
+            "2O0O2O000O2O0O2O",
+            "001N100O2O0O2O0O",
+            "2O1O001N2O001O1O",
+            "1O1O1O1N2O1O1O1O",
+            "1O1O1O1O1O1O2N1O",
+            "1O1O1O1O1N101O1O",
+            "0O2O001N101O001N",
+            "101O0O2O1O001N2O",
+            "001N2O1O1N2O1O1N",
+            "2O1O1N2O1O1N2O1N",
+            "2O001N2O1N2O1N2O",
+            "1O1N2O001N2O000O",
+            "10000O10001N1000",
+            "0O10000O100O101O",
+            "0O2O1O1N2O1N2O1O",
+            "2M2O1O1N2O1O2M2O",
+            "1O1N2O1O1N2O1N10",
+            "1O1N101O1N2O001N",
+            "2O001N2O001N2O1O",
+            "0O2O1O1O0O2O1O1N",
+            "2O001N2O1O0O2O1N",
+            "101N2O0O2O001N2O",
+            "0O2O001N2O0O2O00",
+            "1N101O1O001O001O",
+            "001N101O001O001O",
+            "001O1O001O1N2O1O",
+            "1O1O1N2O1O1N3N1O",
+            "1N2O1N2O2M2O2N2M",
+            "2O2M3N2M2O1N2O00",
+            "1N2O001N10000000",
+            "0O101O000O10001N",
+            "10001N10001N101O",
+            "1N101O1O1N2O1O1N",
+            "2O1O1N2O0O2O1O00",
+            "1N2O001N101O0O2O",
+            "0O2O000O2O0O101O",
+            "0O2O0O101N100O2O",
+            "0O2O0O101N1O2O0O",
+            "2O0O2N101N101N10",
+            "1N2N101N2O1N2O1N",
+            "2O0O2O1O1N2O001N",
+            "2O001O1O001N2O00",
+            "1O1N101O001O1N10",
+            "1O1N101O1N2O001N",
+            "2O1O1N2O2M2O1N3N",
+            "1O2M2N3N2M2O2M3N",
+            "2M21M2M4L3M4K4M2",
+            "000ZcN"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        3531.1083984375,
+        1405.7579345703125,
+        3992.805419921875,
+        1952.6439208984375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the calculator in the image?",
+    "output_instruction": "What is the segmentation mask of the calculator in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_94_78a898f3_obj_000",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "V": [
+          "small_scale",
+          "truncated_out_of_frame"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "V": [
+        "small_scale",
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

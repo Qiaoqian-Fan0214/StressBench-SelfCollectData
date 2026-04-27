@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_58_c1ef44cd__q001_bbox",
+  "source_sample_id": "self_collection_cabinet_occlusion_58_c1ef44cd",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:35:37Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_58_c1ef44cd__q001_bbox",
+    "source_sample_id": "self_collection_cabinet_occlusion_58_c1ef44cd",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the refrigerator in the image.",
+    "instruction": "Locate the refrigerator in the image.",
+    "answer": "refrigerator",
+    "rgb": "cabinet_occlusion/58.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_cabinet_occlusion_58_c1ef44cd_obj_000",
+      "object_name": "refrigerator",
+      "bbox_xyxy": [
+        4194.3017578125,
+        398.0860290527344,
+        5745.03515625,
+        3405.766845703125
+      ],
+      "bbox_xywh": [
+        4194.3017578125,
+        398.0860290527344,
+        1550.7333984375,
+        3007.6808166503906
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the refrigerator in the image?",
+    "output_instruction": "What is the bounding box of the refrigerator in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_58_c1ef44cd_obj_000",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

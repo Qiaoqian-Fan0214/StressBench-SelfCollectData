@@ -1,0 +1,85 @@
+{
+  "sample_id": "self_collection_Kitchen_97_1ecebd46__q001_mask",
+  "source_sample_id": "self_collection_Kitchen_97_1ecebd46",
+  "status": "annotated",
+  "updated_at": "2026-04-27T00:44:35Z",
+  "annotation": {
+    "sample_id": "self_collection_Kitchen_97_1ecebd46__q001_mask",
+    "source_sample_id": "self_collection_Kitchen_97_1ecebd46",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "Kitchen/97.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Kitchen_97_1ecebd46_obj_003",
+      "object_name": "cup",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2001,
+            3000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "`e``14Zn19H5K4M2",
+            "M4M2N2N1O2N1O1O2",
+            "N1O1O1O101N10001",
+            "O0O101O000000000",
+            "00O1000000000000",
+            "000O1000O100000O",
+            "1000000O1000000O",
+            "1000000000000000",
+            "00000O1000000000",
+            "0000O1000O10000O",
+            "1M3K5N3N1N2O1N2O",
+            "1O2O0N3M2M4KgjSQ",
+            "4"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        793.9716186523438,
+        1114.859619140625,
+        884.3745727539062,
+        1168.1256103515625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the cup in the image?",
+    "output_instruction": "What is the segmentation mask of the cup in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Kitchen_97_1ecebd46_obj_003",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Kitchen",
+      "split": "self_collected"
+    }
+  }
+}

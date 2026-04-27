@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Storage_Room_42_b8e38c59__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_42_b8e38c59",
+  "status": "annotated",
+  "updated_at": "2026-04-26T17:44:54Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_42_b8e38c59__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_42_b8e38c59",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bin in the image.",
+    "instruction": "Locate the bin in the image.",
+    "answer": "bin",
+    "rgb": "Storage_Room/42.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_42_b8e38c59_obj_005",
+      "object_name": "bin",
+      "bbox_xyxy": [
+        2927.11767578125,
+        2137.21923828125,
+        3013.004150390625,
+        2257.933349609375
+      ],
+      "bbox_xywh": [
+        2927.11767578125,
+        2137.21923828125,
+        85.886474609375,
+        120.714111328125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the bin in the image?",
+    "output_instruction": "What is the bounding box of the bin in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_42_b8e38c59_obj_005",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

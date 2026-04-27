@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Living_Room_52_f5051658__q001_bbox",
+  "source_sample_id": "self_collection_Living_Room_52_f5051658",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:14:52Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_52_f5051658__q001_bbox",
+    "source_sample_id": "self_collection_Living_Room_52_f5051658",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the mirror in the image.",
+    "instruction": "Locate the mirror in the image.",
+    "answer": "mirror",
+    "rgb": "Living_Room/52.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_52_f5051658_obj_001",
+      "object_name": "mirror",
+      "bbox_xyxy": [
+        3156.955078125,
+        484.56646728515625,
+        3705.482421875,
+        1208.4915771484375
+      ],
+      "bbox_xywh": [
+        3156.955078125,
+        484.56646728515625,
+        548.52734375,
+        723.9251098632812
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the mirror in the image?",
+    "output_instruction": "What is the bounding box of the mirror in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_52_f5051658_obj_001",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Living_Room_52_f5051658__q002_bbox",
+  "source_sample_id": "self_collection_Living_Room_52_f5051658",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:14:52Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_52_f5051658__q002_bbox",
+    "source_sample_id": "self_collection_Living_Room_52_f5051658",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the faucet in the image.",
+    "instruction": "Locate the faucet in the image.",
+    "answer": "faucet",
+    "rgb": "Living_Room/52.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_52_f5051658_obj_003",
+      "object_name": "faucet",
+      "bbox_xyxy": [
+        5125.4326171875,
+        981.1647338867188,
+        5305.31396484375,
+        1117.335205078125
+      ],
+      "bbox_xywh": [
+        5125.4326171875,
+        981.1647338867188,
+        179.88134765625,
+        136.17047119140625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the faucet in the image?",
+    "output_instruction": "What is the bounding box of the faucet in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_52_f5051658_obj_003",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

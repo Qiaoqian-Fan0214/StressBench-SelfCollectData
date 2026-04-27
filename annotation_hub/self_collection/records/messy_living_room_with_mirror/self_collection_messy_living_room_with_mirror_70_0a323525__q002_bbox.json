@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_70_0a323525__q002_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_70_0a323525",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:31Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_70_0a323525__q002_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_70_0a323525",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the sofa in the image.",
+    "instruction": "Locate the sofa in the image.",
+    "answer": "sofa",
+    "rgb": "messy_living_room_with_mirror/70.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_70_0a323525_obj_002",
+      "object_name": "sofa",
+      "bbox_xyxy": [
+        1.653940200805664,
+        1581.13720703125,
+        1017.0726928710938,
+        2037.28564453125
+      ],
+      "bbox_xywh": [
+        1.653940200805664,
+        1581.13720703125,
+        1015.4187526702881,
+        456.1484375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the sofa in the image?",
+    "output_instruction": "What is the bounding box of the sofa in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "M": [
+          "complex_texture"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_70_0a323525_obj_002",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "M": [
+        "complex_texture"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

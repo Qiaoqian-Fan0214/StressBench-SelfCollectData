@@ -1,0 +1,61 @@
+{
+  "sample_id": "self_collection_messy_desk_97_6d6f4016__q002_bbox",
+  "source_sample_id": "self_collection_messy_desk_97_6d6f4016",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:47:43Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_97_6d6f4016__q002_bbox",
+    "source_sample_id": "self_collection_messy_desk_97_6d6f4016",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the keyboard in the image.",
+    "instruction": "Locate the keyboard in the image.",
+    "answer": "keyboard",
+    "rgb": "messy_desk/97.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_desk_97_6d6f4016_obj_001",
+      "object_name": "keyboard",
+      "bbox_xyxy": [
+        3194.14404296875,
+        3442.2236328125,
+        4266.0068359375,
+        4150.49755859375
+      ],
+      "bbox_xywh": [
+        3194.14404296875,
+        3442.2236328125,
+        1071.86279296875,
+        708.27392578125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the keyboard in the image?",
+    "output_instruction": "What is the bounding box of the keyboard in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_97_6d6f4016_obj_001",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_44_6463a786__q001_bbox",
+  "source_sample_id": "self_collection_cabinet_occlusion_44_6463a786",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:24:10Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_44_6463a786__q001_bbox",
+    "source_sample_id": "self_collection_cabinet_occlusion_44_6463a786",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the sofa in the image.",
+    "instruction": "Locate the sofa in the image.",
+    "answer": "sofa",
+    "rgb": "cabinet_occlusion/44.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_cabinet_occlusion_44_6463a786_obj_007",
+      "object_name": "sofa",
+      "bbox_xyxy": [
+        2894.033203125,
+        1211.7655029296875,
+        3255.874267578125,
+        1876.8204345703125
+      ],
+      "bbox_xywh": [
+        2894.033203125,
+        1211.7655029296875,
+        361.841064453125,
+        665.054931640625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the sofa in the image?",
+    "output_instruction": "What is the bounding box of the sofa in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_44_6463a786_obj_007",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

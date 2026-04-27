@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_54_a02a8864__q001_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_54_a02a8864",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:23:57Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_54_a02a8864__q001_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_54_a02a8864",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the person in the image.",
+    "instruction": "Locate the person in the image.",
+    "answer": "person",
+    "rgb": "messy_living_room_with_mirror/54.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_54_a02a8864_obj_000",
+      "object_name": "person",
+      "bbox_xyxy": [
+        1628.1961669921875,
+        465.5260314941406,
+        2109.725341796875,
+        1751.860595703125
+      ],
+      "bbox_xywh": [
+        1628.1961669921875,
+        465.5260314941406,
+        481.5291748046875,
+        1286.3345642089844
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the person in the image?",
+    "output_instruction": "What is the bounding box of the person in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_54_a02a8864_obj_000",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_69_6c6a8ee4__q002_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_69_6c6a8ee4",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:31Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_69_6c6a8ee4__q002_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_69_6c6a8ee4",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bean bag in the image.",
+    "instruction": "Locate the bean bag in the image.",
+    "answer": "bean bag",
+    "rgb": "messy_living_room_with_mirror/69.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_69_6c6a8ee4_obj_003",
+      "object_name": "bean bag",
+      "bbox_xyxy": [
+        2829.532958984375,
+        4755.42236328125,
+        3600.682861328125,
+        5657.3759765625
+      ],
+      "bbox_xywh": [
+        2829.532958984375,
+        4755.42236328125,
+        771.14990234375,
+        901.95361328125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the bean bag in the image?",
+    "output_instruction": "What is the bounding box of the bean bag in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "complex_texture"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_69_6c6a8ee4_obj_003",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

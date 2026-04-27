@@ -1,0 +1,136 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_79_2c6cc092__q001_mask",
+  "source_sample_id": "self_collection_cabinet_occlusion_79_2c6cc092",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:56:15Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_79_2c6cc092__q001_mask",
+    "source_sample_id": "self_collection_cabinet_occlusion_79_2c6cc092",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bowl in the image.",
+    "instruction": "Locate the bowl in the image.",
+    "answer": "bowl",
+    "rgb": "cabinet_occlusion/79.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_cabinet_occlusion_79_2c6cc092_obj_013",
+      "object_name": "bowl",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4416,
+            2488
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "PoRa09o0Z1N_NnS4",
+            "=mkKh2ETMTT4b0Pl",
+            "K`2DRMZT4c0mkKQ3",
+            "QT4SMkkKP3ST4_10",
+            "cKlkKi12jMRT4=ok",
+            "Kc17lMjS4a0RlK]1",
+            ":oMdS4c0VlKX1:SN",
+            "aS4e0XlKS1:WN^S4",
+            "e0^lKm07]N[S4f0a",
+            "lKCWO8Q1UO^S4P1^",
+            "lK^OXO8n0UOaS4U1",
+            "ZlK[O[O7eU4>QkKX",
+            "O]O8cU4`0QkKVO_O",
+            "6bU4c0QkKUO_O6aU",
+            "4e0QkKSO@6`U4g0Q",
+            "kKQOA5`U4j0RkKmN",
+            "@7f0IVS4S1cmKQOV",
+            "OOVS4P1XoKSOgP4m",
+            "0XoKUOgP4k0WoKYO",
+            "gP4g0XoKZOhP4f0W",
+            "oK\\OhP4d0WoK]OiP",
+            "4c0VoK_OiP4a0VoK",
+            "@jP4`0UoKAkP4?To",
+            "KCkP4<UoKEkP4;To",
+            "KFlP4:SoKGmP49Ro",
+            "KHnP49PoKHPQ48on",
+            "KIQQ47nnKJRQ46mn",
+            "KKSQ45lnKLTQ45in",
+            "KMWQ43hnKNXQ43en",
+            "KO[Q41dnKO]Q41an",
+            "K1_Q40^nK2bQ4N\\n",
+            "K4dQ4LZnK6fQ4KXn",
+            "K6hQ4JVnK7kQ4ITn",
+            "K8lQ4HRnK:nQ4GPn",
+            "K:PR4FomK;QR4Eom",
+            "K;QR4FmmK:TR4Fkm",
+            "K;UR4EjmK<VR4Ehm",
+            "K<XR4DgmK=YR4Dem",
+            "K<\\R4DcmK=]R4Dam",
+            "K=_R4C_mK?aR4B]m",
+            "K?cR4BZmK`0fR4@X",
+            "mKa0iR4@TmKb0lR4",
+            "^OSmKc0mR4^OQmKc",
+            "0oR4^OnlKd0RS4]O",
+            "llKc0VS4]OglKe0Y",
+            "S4\\OdlKf0[S4]O_l",
+            "Kg0aS4\\OWlKh0jS4",
+            "\\OlkKj0TT4a2000O",
+            "100000000O100000",
+            "000O10000000000O",
+            "2O0000000000000O",
+            "100000000O100O10",
+            "000O100O100O100O",
+            "100O100O1O100O1O",
+            "100O1O1O1N2O1O1O",
+            "1O2N1O100O1O1O1O",
+            "100O1O1O1O1O1O1O",
+            "1N2N2I7J6M3M3O1N",
+            "2O1N2O1O1N2N2N2I",
+            "7H8N2N2O1O1O1N2O",
+            "1O1O1N2O1N3N1N2O",
+            "1N2N2N2M3M3L5K4M",
+            "3M4L4J5J7K8Ic\\\\S",
+            "9"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        116.67831420898438,
+        3616.0400390625,
+        328.52374267578125,
+        3797.927734375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the bowl in the image?",
+    "output_instruction": "What is the segmentation mask of the bowl in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_79_2c6cc092_obj_013",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

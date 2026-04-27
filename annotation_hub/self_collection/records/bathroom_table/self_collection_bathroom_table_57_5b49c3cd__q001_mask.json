@@ -1,0 +1,113 @@
+{
+  "sample_id": "self_collection_bathroom_table_57_5b49c3cd__q001_mask",
+  "source_sample_id": "self_collection_bathroom_table_57_5b49c3cd",
+  "status": "annotated",
+  "updated_at": "2026-04-27T11:44:02Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_57_5b49c3cd__q001_mask",
+    "source_sample_id": "self_collection_bathroom_table_57_5b49c3cd",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the straw in the image.",
+    "instruction": "Locate the straw in the image.",
+    "answer": "straw",
+    "rgb": "bathroom_table/57.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_bathroom_table_57_5b49c3cd_obj_004",
+      "object_name": "straw",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4080,
+            3060
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "ndTY99To37J4K4M3",
+            "M2M3M3N3M2O1N2N2",
+            "N2N2N2N3L3O1N2N2",
+            "O1N2M3M3WLoMPZLT",
+            "2le3XNiYLk1Vf3WN",
+            "fYLl1Xf3VNVYL\\2h",
+            "f3gMUYL[2if3hMTY",
+            "LZ2lf3fMQYL]2of3",
+            "bMnXLc2Pg3^MlXLf",
+            "2Tg3ZM\\XLV3dg3iL",
+            "ZXLZ3eg3gLZXLZ3e",
+            "g3gLYXL[3gg3dLYX",
+            "L]3fg3dLXXL_3gg3",
+            "`LYXLa3fg3`LYXLa",
+            "3gg3^LYXLc3fg3aL",
+            "ZWL]O8S4^h3[MXWL",
+            "h2gh3Q200O100O10",
+            "000O01000O100000",
+            "0O100O100O100O1O",
+            "100O2N100O100O10",
+            "0O100O100O100O10",
+            "000O10000O10000O",
+            "10000O100000000O",
+            "1000001N1000000O",
+            "10000O100O100O10",
+            "O0100O100O100O1O",
+            "1000000O10000000",
+            "0O10000O100O1O1O",
+            "100001O2M7J4L4fI",
+            "TXLh4Ph3lJbXLj4X",
+            "i3J6J4L2N2N2N1O2",
+            "N1O2N1N3N3N2M2N2",
+            "N1O2N1O2N2N2N3M3",
+            "M2N3M2N2M2O2N2N1",
+            "O2N1O1O2N1O2M2O2",
+            "N1O2N1O2N1O2N3M2",
+            "N2M3N1O2N1O2N1O1",
+            "O2M2O1O1O2N1O1N3",
+            "N1O1O1N3N1O1N3N1",
+            "O1N2N3N1N3M5K6J6",
+            "IhRcg1"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2396.84033203125,
+        1622.843017578125,
+        2615.895751953125,
+        2006.658935546875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the straw in the image?",
+    "output_instruction": "What is the segmentation mask of the straw in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_57_5b49c3cd_obj_004",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

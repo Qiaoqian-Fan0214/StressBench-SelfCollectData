@@ -1,0 +1,147 @@
+{
+  "sample_id": "self_collection_Storage_Room_18_df7e6b8e__q001_mask",
+  "source_sample_id": "self_collection_Storage_Room_18_df7e6b8e",
+  "status": "annotated",
+  "updated_at": "2026-04-26T10:35:15Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_18_df7e6b8e__q001_mask",
+    "source_sample_id": "self_collection_Storage_Room_18_df7e6b8e",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the ceiling light in the image.",
+    "instruction": "Locate the ceiling light in the image.",
+    "answer": "ceiling light",
+    "rgb": "Storage_Room/18.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Storage_Room_18_df7e6b8e_obj_004",
+      "object_name": "ceiling light",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3648,
+            5472
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "PdQR?9ga3001O1O1",
+            "O1O001O001O001O0",
+            "01O001O001O001O0",
+            "01O1O001O001O001",
+            "O1O001O001O1O001",
+            "O001O001O001O001",
+            "O1O001O001O001O0",
+            "01O001O1O001O1O0",
+            "01O1O001O001O001",
+            "O001O001O1O001O0",
+            "01O001O001O1O000",
+            "01O001O001O00001",
+            "O001O001O001O001",
+            "O1O001O001O1O001",
+            "O001O001O1O001O0",
+            "01O001O1O001O001",
+            "O001O001O001O001",
+            "O001O001O1O001O0",
+            "01O1O001O1O001O1",
+            "O001O1O001O1O001",
+            "O1O1O001O001O1O0",
+            "01O1O001O001O1O0",
+            "0001O001O00001O0",
+            "01O001O001O001O0",
+            "01O001O001O001O1",
+            "O001O1O001O1O001",
+            "O1O001O1O001O1O0",
+            "01O001O001O001O0",
+            "01O001O001O001O0",
+            "0001O001O001O001",
+            "O001O1O001O001O0",
+            "01O1O001O1O001O1",
+            "O001O17H10O001O0",
+            "10O001O010O001O0",
+            "10O1O010O010O010",
+            "0O010O100O010O10",
+            "0O10O0100O10O10O",
+            "1000O010O100O010",
+            "O1O010O01000O001",
+            "0O0100O01O010O01",
+            "O001O010O001O001",
+            "N2O001O0O2O0O2N2",
+            "N1M4M2N3M3N101O0",
+            "O2O001O010O001O0",
+            "010O01O001O001O1",
+            "O010O0010O0100O0",
+            "101N10O0100O2O1O",
+            "0O100O1000O01000",
+            "O010O010O010O001",
+            "0O0001O00TKccLU4",
+            "^\\3jKbcLW4]\\3hKe",
+            "cLW4[\\3iKfcLV4Z\\",
+            "3jKgcLV4Y\\3iKicL",
+            "U4W\\3jKjcLV4V\\3j",
+            "KjcLV4V\\3jKjcLW4",
+            "V\\3gKkcLY4U\\3gKk",
+            "cLY4V\\3eKkcL[4V\\",
+            "3cKkcL\\4V\\3cKkcL",
+            "]4V\\3_KlcLb4h\\31",
+            "O10O0100O0100000",
+            "0O1000O01000001N",
+            "101O0O101O1N101O",
+            "0O2O001N100O2O00",
+            "0O2O00000O2O0O2O",
+            "000O2O1N101N101N",
+            "101N2O0O2O0O2O1N",
+            "101N101N2O1N101N",
+            "2O0O2N2O0O2N2O0O",
+            "2O0O101N100O2O0O",
+            "2O1N1O2O1N101N2N",
+            "2N101N1O2O0O2N10",
+            "1N2O0O2N1O2N2N2L",
+            "4K5M4K4N2M4M2N2O",
+            "1N2N2N2N2N3M3GkW",
+            "[T2"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        4317.30712890625,
+        2.6597392559051514,
+        4871.93701171875,
+        248.63734436035156
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the ceiling light in the image?",
+    "output_instruction": "What is the segmentation mask of the ceiling light in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_18_df7e6b8e_obj_004",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

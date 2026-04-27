@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_messy_desk_4_4a7c53a4__q001_bbox",
+  "source_sample_id": "self_collection_messy_desk_4_4a7c53a4",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:46:14Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_4_4a7c53a4__q001_bbox",
+    "source_sample_id": "self_collection_messy_desk_4_4a7c53a4",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the laptop in the image.",
+    "instruction": "Locate the laptop in the image.",
+    "answer": "laptop",
+    "rgb": "messy_desk/4.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_desk_4_4a7c53a4_obj_000",
+      "object_name": "laptop",
+      "bbox_xyxy": [
+        794.4720458984375,
+        1553.9410400390625,
+        3545.697509765625,
+        4259.42529296875
+      ],
+      "bbox_xywh": [
+        794.4720458984375,
+        1553.9410400390625,
+        2751.2254638671875,
+        2705.4842529296875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the laptop in the image?",
+    "output_instruction": "What is the bounding box of the laptop in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_desk_4_4a7c53a4_obj_000",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

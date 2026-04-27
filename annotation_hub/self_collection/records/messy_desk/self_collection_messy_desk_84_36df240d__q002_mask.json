@@ -1,0 +1,172 @@
+{
+  "sample_id": "self_collection_messy_desk_84_36df240d__q002_mask",
+  "source_sample_id": "self_collection_messy_desk_84_36df240d",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:10:20Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_84_36df240d__q002_mask",
+    "source_sample_id": "self_collection_messy_desk_84_36df240d",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "messy_desk/84.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_desk_84_36df240d_obj_001",
+      "object_name": "cup",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            5785,
+            3857
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Rcl^54cd55L3M2N3",
+            "N1O1N2O1O1N101O0",
+            "01O00001N1000000",
+            "0000000000000000",
+            "O10000000000h\\JU",
+            "Obb5l0Y]J\\Ocb5d0",
+            "[]J@cb5`0Z]JEdb5",
+            ";[]JHbb5:\\]JJab5",
+            "6^]JN_b52`]J3\\b5",
+            "Nb]J8Yb5Hf]J=Vb5",
+            "U1N3L3N2N2N1O2N1",
+            "O2M3N1O2N1O2N2N1",
+            "O2N2N1O2N2N2N2N2",
+            "N2N1O2N1O2N1O1O2",
+            "N1O1O1O2N1O1O1O1",
+            "O1O1O0O2O1O1O002",
+            "N1O1O2N2N2N3M2N2",
+            "N2N2N1O1O2N2O0O2",
+            "O2N1O3M3M3M5K8Im",
+            "0SOd0[O`0B:YdJYH",
+            "eY5`9O1ngJbEcU5`",
+            ":hiJSFWV5P:PiJgF",
+            "PW5a;0O100O1O100",
+            "O1O1O1O1O001O1O1",
+            "O1O001O001O1O001",
+            "O001O00001O000O2",
+            "O00001O0000001O0",
+            "000001O0000001O0",
+            "0000000000000000",
+            "O100000O10000000",
+            "0O010000000O10O1",
+            "0000000000O10000",
+            "000000000001O00U",
+            "NkCRkJT<nT5oCPkJ",
+            "Q<oT5SDnjJm;QU5V",
+            "DmjJj;SU5XDkjJh;",
+            "TU5\\DijJd;WU5^Dg",
+            "jJb;XU5aDfjJ_;ZU",
+            "5bDejJ^;[U5cDdjJ",
+            "];\\U5dDcjJ\\;]U5f",
+            "DajJZ;_U5gD`jJY;",
+            "`U5gD_jJY;bU5hD]",
+            "jJX;cU5iD[jJX;eU",
+            "5iDZjJW;fU5jDXjJ",
+            "W;hU5jDVjJW;jU5j",
+            "DTjJW;kU5lDRjJU;",
+            "nU5mDniJU;RV5mDj",
+            "iJU;VV5nDeiJT;[V",
+            "5e10000000000000",
+            "0001O000000100O1",
+            "O001O1O1O3M3N1N2",
+            "N2N2N1O1O4L:G8G2",
+            "N2N2N101N1O00100",
+            "O1O001O001O0010O",
+            "000001O00000010O",
+            "00000000010O0000",
+            "00001O0001O0001O",
+            "00001O00001O0000",
+            "1O0O2O1O001N2O1O",
+            "1N2O1N3M4M6oMWCe",
+            "kJU=nS5UCikJ_=cS",
+            "5hBVlJi=2bAoQ5i0",
+            "kmJo=EbA^R5b0imJ",
+            "o>UR5TAhmJo>UR5U",
+            "AfmJn>YR5UAbmJo>",
+            "\\R5h1N101O1O001O",
+            "001O001O001O0O2O",
+            "00001O001O1O1O00",
+            "1O1O100O1O1O1O00",
+            "1O1O1O1O010O1O1O",
+            "001O1O001O001O1O",
+            "001O001O1O1O0010",
+            "0O1O001O1O1O1O1O",
+            "1O1O1O1O2N1O2N2N",
+            "4L7I9G;E?B5J2N2N",
+            "2N1O1O1O001O0000",
+            "1O00000000000000",
+            "0001O00000000000",
+            "0000000000000000",
+            "00000001O0000000",
+            "00000000000001O0",
+            "000000O100000000",
+            "00000001O0000000",
+            "00000000000000O1",
+            "00000001O00000O1",
+            "0000O2O000O100O2",
+            "O0O100O1O101N1O1",
+            "O1O1O2N1O1O2N1O2",
+            "N1O1O2N1O1O2N1O1",
+            "N2V_ORPKh<oo4QC[",
+            "PKk<fo4oBbPKm<ao",
+            "4mBgPKi4\\OIno4ZK",
+            "lPKc4CLco4]KQQK`",
+            "3d0l0^n4_KWQKT3m",
+            "0V1nm4bK_QKX2b1k",
+            "1Vm4jKQZKk3Tf4RL",
+            "VZK\\NXEU25WNcP5T",
+            "1Ya0M3L5SOb]JTOh",
+            "b5h0g0L3N3N2M3M3",
+            "M3M3M7Hlljm03RSU",
+            "RO6J3L5M2M4L3N2N",
+            "3M2M4M2N2N2N2M2O",
+            "20O4J5K5J7H8HkjV",
+            "g;"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        978.713134765625,
+        3716.98974609375,
+        1734.877685546875,
+        4436.80078125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the cup in the image?",
+    "output_instruction": "What is the segmentation mask of the cup in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_84_36df240d_obj_001",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "M": [
+          "specular_confusion"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "M": [
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

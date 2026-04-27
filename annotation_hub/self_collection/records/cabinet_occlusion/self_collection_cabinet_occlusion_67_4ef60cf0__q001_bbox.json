@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_67_4ef60cf0__q001_bbox",
+  "source_sample_id": "self_collection_cabinet_occlusion_67_4ef60cf0",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:42:01Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_67_4ef60cf0__q001_bbox",
+    "source_sample_id": "self_collection_cabinet_occlusion_67_4ef60cf0",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the refrigerator in the image.",
+    "instruction": "Locate the refrigerator in the image.",
+    "answer": "refrigerator",
+    "rgb": "cabinet_occlusion/67.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_cabinet_occlusion_67_4ef60cf0_obj_000",
+      "object_name": "refrigerator",
+      "bbox_xyxy": [
+        5466.71923828125,
+        580.86279296875,
+        5857.9453125,
+        3915.6064453125
+      ],
+      "bbox_xywh": [
+        5466.71923828125,
+        580.86279296875,
+        391.22607421875,
+        3334.74365234375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the refrigerator in the image?",
+    "output_instruction": "What is the bounding box of the refrigerator in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_67_4ef60cf0_obj_000",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

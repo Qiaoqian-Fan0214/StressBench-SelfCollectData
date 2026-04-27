@@ -1,0 +1,12 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_14_db79c8af__discard",
+  "source_sample_id": "self_collection_cabinet_occlusion_14_db79c8af",
+  "status": "discarded",
+  "updated_at": "2026-04-27T12:50:25Z",
+  "annotation": null,
+  "provenance": {
+    "dataset": "Self-Collection",
+    "subcategory": "cabinet_occlusion",
+    "split": "self_collected"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_Home_Office_78_cdfa2305__q001_bbox",
+  "source_sample_id": "self_collection_Home_Office_78_cdfa2305",
+  "status": "annotated",
+  "updated_at": "2026-04-25T14:46:21Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_78_cdfa2305__q001_bbox",
+    "source_sample_id": "self_collection_Home_Office_78_cdfa2305",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the mouse in the image.",
+    "instruction": "Locate the mouse in the image.",
+    "answer": "mouse",
+    "rgb": "Home_Office/78.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Home_Office_78_cdfa2305_obj_001",
+      "object_name": "mouse",
+      "bbox_xyxy": [
+        1900.1104736328125,
+        3789.91796875,
+        2093.81494140625,
+        3911.5380859375
+      ],
+      "bbox_xywh": [
+        1900.1104736328125,
+        3789.91796875,
+        193.7044677734375,
+        121.6201171875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the mouse in the image?",
+    "output_instruction": "What is the bounding box of the mouse in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_78_cdfa2305_obj_001",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

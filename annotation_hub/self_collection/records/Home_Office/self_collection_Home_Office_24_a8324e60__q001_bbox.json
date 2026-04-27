@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Home_Office_24_a8324e60__q001_bbox",
+  "source_sample_id": "self_collection_Home_Office_24_a8324e60",
+  "status": "annotated",
+  "updated_at": "2026-04-25T13:25:35Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_24_a8324e60__q001_bbox",
+    "source_sample_id": "self_collection_Home_Office_24_a8324e60",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the camera in the image.",
+    "instruction": "Locate the camera in the image.",
+    "answer": "camera",
+    "rgb": "Home_Office/24.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Home_Office_24_a8324e60_obj_001",
+      "object_name": "camera",
+      "bbox_xyxy": [
+        1305.6719970703125,
+        2609.11474609375,
+        1613.1895751953125,
+        2821.023681640625
+      ],
+      "bbox_xywh": [
+        1305.6719970703125,
+        2609.11474609375,
+        307.517578125,
+        211.908935546875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the camera in the image?",
+    "output_instruction": "What is the bounding box of the camera in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_24_a8324e60_obj_001",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

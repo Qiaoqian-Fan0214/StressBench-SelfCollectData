@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Living_Room_19_8dd49833__q001_bbox",
+  "source_sample_id": "self_collection_Living_Room_19_8dd49833",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:28:23Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_19_8dd49833__q001_bbox",
+    "source_sample_id": "self_collection_Living_Room_19_8dd49833",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the flower in the image.",
+    "instruction": "Locate the flower in the image.",
+    "answer": "flower",
+    "rgb": "Living_Room/19.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_19_8dd49833_obj_006",
+      "object_name": "flower",
+      "bbox_xyxy": [
+        2510.50927734375,
+        2027.60595703125,
+        2592.9658203125,
+        2122.017333984375
+      ],
+      "bbox_xywh": [
+        2510.50927734375,
+        2027.60595703125,
+        82.45654296875,
+        94.411376953125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the flower in the image?",
+    "output_instruction": "What is the bounding box of the flower in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_19_8dd49833_obj_006",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

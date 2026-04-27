@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Storage_Room_3_1d5d12a6__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_3_1d5d12a6",
+  "status": "annotated",
+  "updated_at": "2026-04-26T07:20:20Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_3_1d5d12a6__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_3_1d5d12a6",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the painting in the image.",
+    "instruction": "Locate the painting in the image.",
+    "answer": "painting",
+    "rgb": "Storage_Room/3.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_3_1d5d12a6_obj_007",
+      "object_name": "painting",
+      "bbox_xyxy": [
+        4.547283172607422,
+        541.0512084960938,
+        796.14794921875,
+        1747.3240966796875
+      ],
+      "bbox_xywh": [
+        4.547283172607422,
+        541.0512084960938,
+        791.6006660461426,
+        1206.2728881835938
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the painting in the image?",
+    "output_instruction": "What is the bounding box of the painting in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_3_1d5d12a6_obj_007",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

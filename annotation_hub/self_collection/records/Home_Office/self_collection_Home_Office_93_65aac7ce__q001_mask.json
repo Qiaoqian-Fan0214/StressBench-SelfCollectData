@@ -1,0 +1,155 @@
+{
+  "sample_id": "self_collection_Home_Office_93_65aac7ce__q001_mask",
+  "source_sample_id": "self_collection_Home_Office_93_65aac7ce",
+  "status": "annotated",
+  "updated_at": "2026-04-25T14:58:04Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_93_65aac7ce__q001_mask",
+    "source_sample_id": "self_collection_Home_Office_93_65aac7ce",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the chair in the image.",
+    "instruction": "Locate the chair in the image.",
+    "answer": "chair",
+    "rgb": "Home_Office/93.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Home_Office_93_65aac7ce_obj_010",
+      "object_name": "chair",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2668,
+            4000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "^Q\\e3g0Wb2c0^O>G",
+            "9F9^Oc0G8J6J6I7J",
+            "6K5J6J6L4K5K5L4M",
+            "3M3M3M3K5K4J7J6J",
+            "6M3N2M3L3M4L4L4N",
+            "2M3M3N2N2O1O1N2O",
+            "1O1N2O1N2O1O1O1O",
+            "1O1O1O100O001O1O",
+            "1O1O001O1O1O100O",
+            "001O100O100O1O01",
+            "0O100O1O100O010O",
+            "10000O10O010000O",
+            "100O100O010O100O",
+            "10000O100O10O10O",
+            "100O10000O10000O",
+            "10001O0O101O0O10",
+            "001N10000O2O0O10",
+            "000O2O000O10000O",
+            "2O000O101O000O2O",
+            "00000O2O00001N10",
+            "000O2O000O101O0O",
+            "1000001N1000000O",
+            "2O0000000O2O0000",
+            "1O0O101O000O2O00",
+            "001N10001N10001O",
+            "0O10001O00000O2O",
+            "00001O0O10001O00",
+            "001N10001O00001O",
+            "0O101O0000000000",
+            "1O000O1000000000",
+            "000000001O0O1000",
+            "0000000000000000",
+            "0000000O101O0000",
+            "0000000000000O10",
+            "1O00000000000000",
+            "1O0000000O101O00",
+            "0000001O00000000",
+            "000O100000000000",
+            "000000001O00001O",
+            "1O1O001O2N100O2N",
+            "2N1O2N1O1O001O00",
+            "0000001O01O00000",
+            "00001O0000001O00",
+            "0010O01O001O1O1O",
+            "1O1O1O1O1O1O1O1O",
+            "1O001O1O001O0001",
+            "0O00001O00000000",
+            "1O00000001O0001O",
+            "00000001O000001O",
+            "01O0000000001O01",
+            "O000000000000000",
+            "0010O000000001O0",
+            "0000000001O00000",
+            "000010O000000000",
+            "01O000000001O000",
+            "0001O000000001O0",
+            "01O00001O001O000",
+            "01O0000001O00001",
+            "N10001O00001O0O1",
+            "01O00001N10001O0",
+            "000001O010O00001",
+            "O0001O01O00001O0",
+            "0000010O0001O000",
+            "0001O00001O00001",
+            "O00000010O000001",
+            "O00001O001O001O0",
+            "01O1O1O100O001O1",
+            "O001O1O001O1O001",
+            "O1O1O1O1O1O1O2N1",
+            "O1O1O100O1O1O2N1",
+            "O2N2N2N2N2N1O2N2",
+            "N3M:F<D7I4L4L7Ia",
+            "0_O8H5K6J7I9G;D7",
+            "J6J5K4L9G<Dd0\\O6",
+            "I8dLRaMl1b`2E5J7",
+            "J6I;F8G;F4K4L3L5",
+            "L3Jceco4"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1431.57666015625,
+        1303.50341796875,
+        2038.9539794921875,
+        1710.52587890625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the chair in the image?",
+    "output_instruction": "What is the segmentation mask of the chair in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_93_65aac7ce_obj_010",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

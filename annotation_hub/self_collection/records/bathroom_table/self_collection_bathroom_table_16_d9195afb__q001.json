@@ -1,0 +1,60 @@
+{
+  "sample_id": "self_collection_bathroom_table_16_d9195afb__q001",
+  "source_sample_id": "self_collection_bathroom_table_16_d9195afb",
+  "status": "annotated",
+  "updated_at": "2026-04-27T10:01:07Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_16_d9195afb__q001",
+    "source_sample_id": "self_collection_bathroom_table_16_d9195afb",
+    "entry_id": "q001",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a chair in the image?",
+    "instruction": "Is there any vacant space to place a chair in the image?",
+    "answer": "yes",
+    "rgb": "bathroom_table/16.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a chair in the image?",
+    "output_instruction": "Is there any vacant space to place a chair in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "M": [
+          "low_contrast_blend",
+          "specular_confusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_16_d9195afb_obj_000",
+      "placementItem": "chair",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend",
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

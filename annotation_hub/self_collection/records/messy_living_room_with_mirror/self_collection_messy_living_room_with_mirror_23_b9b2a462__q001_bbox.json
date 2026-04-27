@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_23_b9b2a462__q001_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_23_b9b2a462",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:26Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_23_b9b2a462__q001_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_23_b9b2a462",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the mirror in the image.",
+    "instruction": "Locate the mirror in the image.",
+    "answer": "mirror",
+    "rgb": "messy_living_room_with_mirror/23.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_23_b9b2a462_obj_000",
+      "object_name": "mirror",
+      "bbox_xyxy": [
+        293.0134582519531,
+        107.0995864868164,
+        2451.857666015625,
+        2466.81201171875
+      ],
+      "bbox_xywh": [
+        293.0134582519531,
+        107.0995864868164,
+        2158.844207763672,
+        2359.7124252319336
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the mirror in the image?",
+    "output_instruction": "What is the bounding box of the mirror in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_23_b9b2a462_obj_000",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

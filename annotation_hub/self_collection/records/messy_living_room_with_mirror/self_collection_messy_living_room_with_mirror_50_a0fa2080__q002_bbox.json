@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_50_a0fa2080__q002_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_50_a0fa2080",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:29Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_50_a0fa2080__q002_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_50_a0fa2080",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "messy_living_room_with_mirror/50.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_50_a0fa2080_obj_001",
+      "object_name": "cup",
+      "bbox_xyxy": [
+        1581.0377197265625,
+        1745.01953125,
+        1749.673095703125,
+        1886.7994384765625
+      ],
+      "bbox_xywh": [
+        1581.0377197265625,
+        1745.01953125,
+        168.6353759765625,
+        141.7799072265625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cup in the image?",
+    "output_instruction": "What is the bounding box of the cup in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_50_a0fa2080_obj_001",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_bathroom_table_81_65137120__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_81_65137120",
+  "status": "annotated",
+  "updated_at": "2026-04-27T12:18:18Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_81_65137120__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_81_65137120",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the door in the image.",
+    "instruction": "Locate the door in the image.",
+    "answer": "door",
+    "rgb": "bathroom_table/81.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_81_65137120_obj_014",
+      "object_name": "door",
+      "bbox_xyxy": [
+        3401.42041015625,
+        502.71795654296875,
+        3991.013671875,
+        5634.77685546875
+      ],
+      "bbox_xywh": [
+        3401.42041015625,
+        502.71795654296875,
+        589.59326171875,
+        5132.058898925781
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the door in the image?",
+    "output_instruction": "What is the bounding box of the door in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_81_65137120_obj_014",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

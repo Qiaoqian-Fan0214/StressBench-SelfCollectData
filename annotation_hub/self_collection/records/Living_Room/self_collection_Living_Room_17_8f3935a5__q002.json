@@ -1,0 +1,70 @@
+{
+  "sample_id": "self_collection_Living_Room_17_8f3935a5__q002",
+  "source_sample_id": "self_collection_Living_Room_17_8f3935a5",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:26:39Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_17_8f3935a5__q002",
+    "source_sample_id": "self_collection_Living_Room_17_8f3935a5",
+    "entry_id": "q002",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the faucet relative to the pillow in the image?",
+    "instruction": "What is the spatial relation of the faucet relative to the pillow in the image?",
+    "answer": "up",
+    "rgb": "Living_Room/17.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 0
+      },
+      "subject_a": {
+        "object_id": "self_collection_Living_Room_17_8f3935a5_obj_000",
+        "label": "faucet"
+      },
+      "subject_b": {
+        "object_id": "self_collection_Living_Room_17_8f3935a5_obj_001",
+        "label": "pillow"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the faucet relative to the pillow in the image?",
+    "output_instruction": "What is the spatial relation of the faucet relative to the pillow in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_17_8f3935a5_obj_000",
+      "placementItem": "toy",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "self_collection_Living_Room_17_8f3935a5_obj_000",
+      "spatialRelationALabel": "faucet",
+      "spatialRelationBObjectId": "self_collection_Living_Room_17_8f3935a5_obj_001",
+      "spatialRelationBLabel": "pillow",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

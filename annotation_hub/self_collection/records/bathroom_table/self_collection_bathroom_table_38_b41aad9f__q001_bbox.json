@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_bathroom_table_38_b41aad9f__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_38_b41aad9f",
+  "status": "annotated",
+  "updated_at": "2026-04-27T10:23:01Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_38_b41aad9f__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_38_b41aad9f",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the toilet in the image.",
+    "instruction": "Locate the toilet in the image.",
+    "answer": "toilet",
+    "rgb": "bathroom_table/38.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_38_b41aad9f_obj_000",
+      "object_name": "toilet",
+      "bbox_xyxy": [
+        0.8075904846191406,
+        1848.98974609375,
+        175.34481811523438,
+        2170.57958984375
+      ],
+      "bbox_xywh": [
+        0.8075904846191406,
+        1848.98974609375,
+        174.53722763061523,
+        321.58984375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the toilet in the image?",
+    "output_instruction": "What is the bounding box of the toilet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_38_b41aad9f_obj_000",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

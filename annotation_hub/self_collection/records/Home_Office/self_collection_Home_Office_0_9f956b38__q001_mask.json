@@ -1,0 +1,121 @@
+{
+  "sample_id": "self_collection_Home_Office_0_9f956b38__q001_mask",
+  "source_sample_id": "self_collection_Home_Office_0_9f956b38",
+  "status": "annotated",
+  "updated_at": "2026-04-25T12:55:02Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_0_9f956b38__q001_mask",
+    "source_sample_id": "self_collection_Home_Office_0_9f956b38",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the keyboard in the image.",
+    "instruction": "Locate the keyboard in the image.",
+    "answer": "keyboard",
+    "rgb": "Home_Office/0.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Home_Office_0_9f956b38_obj_000",
+      "object_name": "keyboard",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4609,
+            6914
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "`Zo_`0g0R^4`1_L^",
+            "3VOk0Cn0WO3N2M3N",
+            "2N2O1N100O2O0O10",
+            "000O10000000000O",
+            "100000O10000000O",
+            "1000000000O10000",
+            "00000O10000000O1",
+            "0000000000000000",
+            "00000000000000O1",
+            "0000000001N10000",
+            "00O10001O0O10001",
+            "O0O1000001O0O100",
+            "0001O000O100O2O0",
+            "00O10000O100O2O0",
+            "O10000O100O10000",
+            "00O2O00000O10000",
+            "000001N100000000",
+            "01O0000000000001",
+            "N1000000000001O0",
+            "000000001O00001O",
+            "010O001O1O1O1O00",
+            "1O1O1O1O1O1O1O2N",
+            "1O2N2N3M3M2N2N10",
+            "0O1O001O0000O100",
+            "O10000O2O00000O1",
+            "000000O100000001",
+            "O00000O100000000",
+            "10O0000000000000",
+            "01O00000001O0000",
+            "0001O00000000000",
+            "01O00000000001O0",
+            "000000O1000001O0",
+            "0000000000000000",
+            "01O0000000000000",
+            "0000001O0001O000",
+            "00001O0000000000",
+            "0010O0001O00010O",
+            "0010O00010O0010O",
+            "01O0010O01O00100",
+            "O001O1O1O101N2N3",
+            "M3N2M4L5K6K4K4L4",
+            "L3N3L3M4L3N5J5K4",
+            "L5L3L5K5K4L5L3L5",
+            "K5K5K5K4L4L4K6K4",
+            "L4K6K4L4K4M4K4M4",
+            "K4M3L5L3L4L4L3M4",
+            "L4L3L5J6J8FUPQY<"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        3744.949462890625,
+        3046.93212890625,
+        4118.44091796875,
+        3344.56689453125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the keyboard in the image?",
+    "output_instruction": "What is the segmentation mask of the keyboard in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_0_9f956b38_obj_000",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "self_collection_Home_Office_0_9f956b38_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_Home_Office_0_9f956b38_obj_001",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

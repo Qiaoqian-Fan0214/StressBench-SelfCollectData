@@ -1,0 +1,152 @@
+{
+  "sample_id": "self_collection_Home_Office_35_e995068c__q001_mask",
+  "source_sample_id": "self_collection_Home_Office_35_e995068c",
+  "status": "annotated",
+  "updated_at": "2026-04-25T13:36:07Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_35_e995068c__q001_mask",
+    "source_sample_id": "self_collection_Home_Office_35_e995068c",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the clock in the image.",
+    "instruction": "Locate the clock in the image.",
+    "answer": "clock",
+    "rgb": "Home_Office/35.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Home_Office_35_e995068c_obj_000",
+      "object_name": "clock",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            5601,
+            3734
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "XdVc:d0T^5a0D7K4",
+            "L3N3L4L4L4L4K5J7",
+            "J5J7J5M3lNlLTfJY",
+            "3eY5QMTfJS3gY5TM",
+            "SfJP3jY5VMneJn2o",
+            "Y5U1M2N3M2M4M3M4",
+            "K4M2M4M2N2M3N1O2",
+            "N1O2N101N1O2N101",
+            "N100O2N101N100O2",
+            "N100O1O2N1N2\\ObI",
+            "chJa6[W5c0O1O1O1",
+            "O101N100000PIhhJ",
+            "W6XW5hIjhJW6VW5h",
+            "ImhJV6RW5jIPiJU6",
+            "PW5jIRiJU6nV5kIR",
+            "iJU6nV5jITiJU6kV",
+            "5lIUiJT6kV5kIViJ",
+            "U6jV5kIWiJT6hV5m",
+            "IXiJS6hV5lIZiJS6",
+            "fV5mIZiJT6dV5mI\\",
+            "iJS6dV5lI^iJS6bV",
+            "5mI^iJS6aV5nI_iJ",
+            "R6aV5nI`iJQ6`V5o",
+            "I`iJQ6`V5oI`iJQ6",
+            "`V5nIbiJQ6]V5PJc",
+            "iJP6]V5PJciJP6]V",
+            "5PJciJP6]V5PJdiJ",
+            "o5\\V5QJdiJo5\\V5Q",
+            "JdiJo5\\V5QJeiJn5",
+            "ZV5RJgiJn5YV5RJg",
+            "iJn5YV5RJhiJm5XV",
+            "5SJhiJm5XV5SJhiJ",
+            "m5WV5TJjiJk5VV5U",
+            "JjiJl5UV5TJkiJl5",
+            "UV5TJkiJl5UV5TJl",
+            "iJk5TV5UJliJk5TV",
+            "5UJliJk5TV5UJliJ",
+            "j5VV5UJjiJk5VV5U",
+            "JjiJk5VV5VJiiJj5",
+            "WV5VJiiJj5WV5VJi",
+            "iJj5XV5UJhiJk5XV",
+            "5UJgiJl5YV5UJfiJ",
+            "k5ZV5UJfiJk5ZV5U",
+            "JfiJk5ZV5UJfiJk5",
+            "ZV5UJfiJk5ZV5VJe",
+            "iJj5[V5VJeiJj5\\V",
+            "5UJdiJk5\\V5UJdiJ",
+            "k5\\V5UJciJl5]V5T",
+            "JciJl5^V5SJbiJm5",
+            "^V5SJaiJn5_V5RJa",
+            "iJn5`V5QJ_iJo5bV",
+            "5QJ^iJo5cV5PJ\\iJ",
+            "Q6dV5nI]iJR6dV5m",
+            "I[iJT6eV5lI[iJT6",
+            "fV5jI[iJV6eV5jIZ",
+            "iJW6gV5hIYiJX6gV",
+            "5gIYiJZ6hV5eIXiJ",
+            "[6iV5cIXiJ]6iV5a",
+            "IWiJ`6jV5^IWiJb6",
+            "jV5\\IWiJd6jV5ZIW",
+            "iJf6aW5010000000",
+            "0000000000000000",
+            "1O0001O00000001O",
+            "00001O001O1O1O1O",
+            "1O1O1O1O1O1O1O00",
+            "1O1O1O1O1O1O1O1O",
+            "1O1O001QKVgJe3kX",
+            "5XLYgJf3gX5YL\\gJ",
+            "e3eX5YL_gJc3bX5[",
+            "LbgJc3_X5[LegJb3",
+            "[X5]LigJ`3XX5^Ll",
+            "gJ^3UX5aLngJj2kN",
+            "UMXY5OPhJf2UOQMm",
+            "X57RhJb2YOQMfX5<",
+            "ThJ`2fX5_M\\gJ]2g",
+            "X5aM\\gJ[2fX5dM]g",
+            "JX2fX5fM]gJV2fX5",
+            "hM^gJR2fX5jM_gJR",
+            "2mZ5I7G9E;F=UOPl",
+            "SV8"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1979.0557861328125,
+        2596.742919921875,
+        2200.925537109375,
+        2865.687255859375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the clock in the image?",
+    "output_instruction": "What is the segmentation mask of the clock in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_35_e995068c_obj_000",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

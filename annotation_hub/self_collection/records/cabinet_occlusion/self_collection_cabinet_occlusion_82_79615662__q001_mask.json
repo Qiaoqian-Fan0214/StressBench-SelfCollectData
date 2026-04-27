@@ -1,0 +1,109 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_82_79615662__q001_mask",
+  "source_sample_id": "self_collection_cabinet_occlusion_82_79615662",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:59:04Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_82_79615662__q001_mask",
+    "source_sample_id": "self_collection_cabinet_occlusion_82_79615662",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the faucet in the image.",
+    "instruction": "Locate the faucet in the image.",
+    "answer": "faucet",
+    "rgb": "cabinet_occlusion/82.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_cabinet_occlusion_82_79615662_obj_003",
+      "object_name": "faucet",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3200,
+            4800
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "c^\\Y56gS35J4K5N3",
+            "M2eJGmVM;ch2>RWM",
+            "Dch2j0YWMWOig2i1",
+            "SXMYN]g2Y2_XMiMX",
+            "g2c2cXM`MQg2m2kX",
+            "MUMgf2[3VYMfLef2",
+            "c3UYM_Lff2W4hXMj",
+            "KSg2^4iXMcKTg2a4",
+            "jXM`KSg2d4kXM]KR",
+            "g2g4lXMZKRg2j4lX",
+            "MVKRg2m4lXMTKSg2",
+            "n4kXMSKTg2o4kXMP",
+            "KTg2T5iXMmJVg2U5",
+            "iXMkJUg2Y5hXMhJW",
+            "g2[5gXMeJXg2]5fX",
+            "MdJYg2_5dXMaJ\\g2",
+            "a5bXM`J]g2b5aXM_",
+            "J^g2c5`XM^J_g2d5",
+            "_XM\\Jbg2e5\\XM\\Jc",
+            "g2f5ZXM[Jfg2g5XX",
+            "M[Jgg2f5WXM[Jhg2",
+            "g5VXMZJjg2g5TXMZ",
+            "Jkg2g5TXM[Jkg2g5",
+            "RXMZJng2g5oWM[JQ",
+            "h2g5lWM[JSh2g5iW",
+            "M[JWh2h5dWM[JZh2",
+            "k5_WMWJah2P6SWMU",
+            "Jmh2`8O00000O2O0",
+            "001O01O0001O1O01",
+            "0O1O1O001O2N100O",
+            "3M4L3M2N2N3M3M4L",
+            "4L5J6K6J8H9F:G:X",
+            "HhTMT6Xm2YO>C<C<",
+            "E<C>C8G<D9H5I8HQ",
+            "1SNT\\iQ9"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1726.4151611328125,
+        1390.8209228515625,
+        1848.5030517578125,
+        1744.976806640625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the faucet in the image?",
+    "output_instruction": "What is the segmentation mask of the faucet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_82_79615662_obj_003",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

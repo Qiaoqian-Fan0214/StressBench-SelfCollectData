@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_bathroom_table_15_62080779__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_15_62080779",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:59:36Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_15_62080779__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_15_62080779",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the sink in the image.",
+    "instruction": "Locate the sink in the image.",
+    "answer": "sink",
+    "rgb": "bathroom_table/15.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_15_62080779_obj_008",
+      "object_name": "sink",
+      "bbox_xyxy": [
+        9.53648567199707,
+        4722.72314453125,
+        4145.12255859375,
+        6221.77392578125
+      ],
+      "bbox_xywh": [
+        9.53648567199707,
+        4722.72314453125,
+        4135.586072921753,
+        1499.05078125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the sink in the image?",
+    "output_instruction": "What is the bounding box of the sink in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_15_62080779_obj_008",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

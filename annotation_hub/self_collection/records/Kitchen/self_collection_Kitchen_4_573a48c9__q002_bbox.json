@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_Kitchen_4_573a48c9__q002_bbox",
+  "source_sample_id": "self_collection_Kitchen_4_573a48c9",
+  "status": "annotated",
+  "updated_at": "2026-04-25T15:09:10Z",
+  "annotation": {
+    "sample_id": "self_collection_Kitchen_4_573a48c9__q002_bbox",
+    "source_sample_id": "self_collection_Kitchen_4_573a48c9",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the sink in the image.",
+    "instruction": "Locate the sink in the image.",
+    "answer": "sink",
+    "rgb": "Kitchen/4.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Kitchen_4_573a48c9_obj_004",
+      "object_name": "sink",
+      "bbox_xyxy": [
+        1557.72021484375,
+        2316.70849609375,
+        2004.1531982421875,
+        2411.365234375
+      ],
+      "bbox_xywh": [
+        1557.72021484375,
+        2316.70849609375,
+        446.4329833984375,
+        94.65673828125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the sink in the image?",
+    "output_instruction": "What is the bounding box of the sink in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_Kitchen_4_573a48c9_obj_004",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Kitchen",
+      "split": "self_collected"
+    }
+  }
+}

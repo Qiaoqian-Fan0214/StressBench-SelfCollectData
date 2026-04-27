@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_Home_Office_93_65aac7ce__q001_bbox",
+  "source_sample_id": "self_collection_Home_Office_93_65aac7ce",
+  "status": "annotated",
+  "updated_at": "2026-04-25T14:58:04Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_93_65aac7ce__q001_bbox",
+    "source_sample_id": "self_collection_Home_Office_93_65aac7ce",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the chair in the image.",
+    "instruction": "Locate the chair in the image.",
+    "answer": "chair",
+    "rgb": "Home_Office/93.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Home_Office_93_65aac7ce_obj_010",
+      "object_name": "chair",
+      "bbox_xyxy": [
+        1431.57666015625,
+        1303.50341796875,
+        2038.9539794921875,
+        1710.52587890625
+      ],
+      "bbox_xywh": [
+        1431.57666015625,
+        1303.50341796875,
+        607.3773193359375,
+        407.0224609375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the chair in the image?",
+    "output_instruction": "What is the bounding box of the chair in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_93_65aac7ce_obj_010",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

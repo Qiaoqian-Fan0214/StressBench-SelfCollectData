@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_bathroom_table_5_407cce73__q001",
+  "source_sample_id": "self_collection_bathroom_table_5_407cce73",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:45:22Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_5_407cce73__q001",
+    "source_sample_id": "self_collection_bathroom_table_5_407cce73",
+    "entry_id": "q001",
+    "task": "spatial_mcq",
+    "template_id": "nearest",
+    "question": "Which object is closest to us in the image?",
+    "instruction": "Which object is closest to us in the image?",
+    "answer": "sink",
+    "rgb": "bathroom_table/5.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "faucet",
+          "photo",
+          "sink",
+          "mirror",
+          "medicine bottle"
+        ],
+        "answer_index": 2
+      }
+    },
+    "output_variant": null,
+    "output_question": "Which object is closest to us in the image?",
+    "output_instruction": "Which object is closest to us in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "spatial_mcq",
+      "template_id": "nearest",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_5_407cce73_obj_000",
+      "placementItem": "toy",
+      "answerIndex": 2,
+      "spatialRelationAObjectId": "self_collection_bathroom_table_5_407cce73_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_bathroom_table_5_407cce73_obj_001",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": [
+        "faucet",
+        "photo",
+        "sink",
+        "mirror",
+        "medicine bottle"
+      ]
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "sample_id": "self_collection_Living_Room_58_88bfdfc2__q001_mask",
+  "source_sample_id": "self_collection_Living_Room_58_88bfdfc2",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:18:51Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_58_88bfdfc2__q001_mask",
+    "source_sample_id": "self_collection_Living_Room_58_88bfdfc2",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the vase in the image.",
+    "instruction": "Locate the vase in the image.",
+    "answer": "vase",
+    "rgb": "Living_Room/58.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_58_88bfdfc2_obj_001",
+      "object_name": "vase",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            6720,
+            4480
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "PSijk0c0Qa6c0^O?",
+            "E:D;E:E<F9J6K6K4",
+            "L4L4L4L4L4M3M3M3",
+            "M3N2M3M3N2N2M3N2",
+            "M3N2N2N2N1O2O1N2",
+            "N2O1N2N1O2O1N1O2",
+            "N2O0O2N101N101N1",
+            "01N101N100O2O001",
+            "N100O2O001N100O2",
+            "O0O2O0O2O1N1O2O1",
+            "N2N1YNjHchIW7\\W6",
+            "lHahIV7\\W6nH`hIT",
+            "7_W6PI\\hIS7aW6RI",
+            "ZhIP7eW6UImgIV7Q",
+            "X6TI]gIU7cX6T1O1",
+            "O1N3N1O1O2N1O1N3",
+            "N1O1N3N1N2O2N1N3",
+            "N2N2N2N3M2N2O1O2",
+            "M2O2N2M3N2ZiIYEo",
+            "U6^;M3N2N1O0O2O1",
+            "O1N101O001O00N3M",
+            "2N3K4XOi0J5O1000",
+            "\\RL"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        4339.796875,
+        4024.249267578125,
+        4475.5546875,
+        4362.74755859375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the vase in the image?",
+    "output_instruction": "What is the segmentation mask of the vase in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_58_88bfdfc2_obj_001",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

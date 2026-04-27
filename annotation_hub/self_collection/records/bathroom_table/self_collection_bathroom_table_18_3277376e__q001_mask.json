@@ -1,0 +1,85 @@
+{
+  "sample_id": "self_collection_bathroom_table_18_3277376e__q001_mask",
+  "source_sample_id": "self_collection_bathroom_table_18_3277376e",
+  "status": "annotated",
+  "updated_at": "2026-04-27T10:03:53Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_18_3277376e__q001_mask",
+    "source_sample_id": "self_collection_bathroom_table_18_3277376e",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the power outlet in the image.",
+    "instruction": "Locate the power outlet in the image.",
+    "answer": "power outlet",
+    "rgb": "bathroom_table/18.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_bathroom_table_18_3277376e_obj_014",
+      "object_name": "power outlet",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4032,
+            3024
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "neRb8>ml3f0oNR1L",
+            "3M2O1O1N2O1N2O1O",
+            "1N2O1O1O1O100O1O",
+            "1O100O1O1O1O1N2O",
+            "1O1N2O1O1O100O10",
+            "00000000000000O1",
+            "0000000001O00000",
+            "0001O000000001O0",
+            "00000000O2O00000",
+            "00000000000001O0",
+            "0000O1000001N100",
+            "O2nNkULTNXj3i1Q1",
+            "N3L6J`0]O<CTRjf2"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2227.89306640625,
+        1826.228515625,
+        2315.890869140625,
+        1937.422607421875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the power outlet in the image?",
+    "output_instruction": "What is the segmentation mask of the power outlet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_18_3277376e_obj_014",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

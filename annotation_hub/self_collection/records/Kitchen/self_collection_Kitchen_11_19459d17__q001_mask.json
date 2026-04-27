@@ -1,0 +1,90 @@
+{
+  "sample_id": "self_collection_Kitchen_11_19459d17__q001_mask",
+  "source_sample_id": "self_collection_Kitchen_11_19459d17",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:48:57Z",
+  "annotation": {
+    "sample_id": "self_collection_Kitchen_11_19459d17__q001_mask",
+    "source_sample_id": "self_collection_Kitchen_11_19459d17",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the faucet in the image.",
+    "instruction": "Locate the faucet in the image.",
+    "answer": "faucet",
+    "rgb": "Kitchen/11.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Kitchen_11_19459d17_obj_000",
+      "object_name": "faucet",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3456,
+            5184
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "mn_m0g0P[3<F:J6J",
+            "6L5J7I5K4L4K5L3L",
+            "4M3K4K6RNVM_jLo2",
+            "gS3b3E<L3M3N2L4L",
+            "4K5J6J6L4M3O1O1N",
+            "2O100O100O1000O1",
+            "0O10O10000PKXmLg",
+            "0iR3UOemLa0[R3[O",
+            "TnL9mQ3E_nL0aQ3N",
+            "fnLNZQ30knLLVQ32",
+            "nnLKSQ34QoLHoP38",
+            "ToLDPQ39ToLCoP3:",
+            "VoL_OPQ3>UoLXOSQ",
+            "3d0SoLlNZQ3R1inL",
+            "]NiQ3^1\\nLlMYR3Q",
+            "2mmL^MaR3_2c3M3M",
+            "3L4M3M3M2M4M2N3L",
+            "8I<C9F:DhQ[m?"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        268.8415222167969,
+        2169.38330078125,
+        360.7807922363281,
+        2453.4697265625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the faucet in the image?",
+    "output_instruction": "What is the segmentation mask of the faucet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Kitchen_11_19459d17_obj_000",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Kitchen",
+      "split": "self_collected"
+    }
+  }
+}

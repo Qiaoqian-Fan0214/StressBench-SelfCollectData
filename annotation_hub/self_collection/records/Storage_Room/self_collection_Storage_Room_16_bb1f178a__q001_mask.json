@@ -1,0 +1,144 @@
+{
+  "sample_id": "self_collection_Storage_Room_16_bb1f178a__q001_mask",
+  "source_sample_id": "self_collection_Storage_Room_16_bb1f178a",
+  "status": "annotated",
+  "updated_at": "2026-04-26T10:31:14Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_16_bb1f178a__q001_mask",
+    "source_sample_id": "self_collection_Storage_Room_16_bb1f178a",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the chest storage in the image.",
+    "instruction": "Locate the chest storage in the image.",
+    "answer": "chest storage",
+    "rgb": "Storage_Room/16.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Storage_Room_16_bb1f178a_obj_007",
+      "object_name": "chest storage",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4016,
+            6016
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "_Pam7c0fl3R1kNg0",
+            "[ULPNUh3V4G7J7I6",
+            "K5M3M3N3M2N2N2O1",
+            "N3N2M3N2M2O2N1N2",
+            "O1N2O0O2O1O0O2O1",
+            "N101O1O1N2O1O1O1",
+            "O3M2N3M3M3M2N2N3",
+            "L3N2N2N1O2N1O1O1",
+            "O1O001O00001O000",
+            "0000000000000000",
+            "000000000000001O",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "00000O1000000000",
+            "00O100000O100000",
+            "00000000000O1000",
+            "000000000O010000",
+            "000O100000000O10",
+            "O10O1000000O1000",
+            "0O10O10000000O10",
+            "0000000000000000",
+            "00000O1000O10000",
+            "0000000000000000",
+            "0000000000O10000",
+            "0000000000000000",
+            "O100000000000000",
+            "00O10O1000000000",
+            "00O100000000000O",
+            "010000000O100O01",
+            "000O100O100O10O0",
+            "100O1O100O100O01",
+            "0O10000O10000000",
+            "O1000000000O1000",
+            "000000O100000000",
+            "00000000O1000000",
+            "00000000O0100000",
+            "0000000000O10000",
+            "0000000000O10000",
+            "0O1000O100000000",
+            "00O10000000O1000",
+            "000O10000O10000O",
+            "01000O10000O1000",
+            "000O10000O100000",
+            "0O10000O10000O10",
+            "0O010O100O100O10",
+            "0O1O10O0100O1000",
+            "0O100000000000O1",
+            "0000000000000000",
+            "00000000O1000000",
+            "000000O010000000",
+            "00O100000O100000",
+            "O100000O1000O100",
+            "0O1000O1000O1000",
+            "00O010000000O100",
+            "0O100000O1000000",
+            "0O1000O10000000O",
+            "10O10000000O10O1",
+            "00000O100O1000O0",
+            "100O100O100O100O",
+            "1O10O01O100O1O10",
+            "0O1O100O1O1O2N1N",
+            "2N3L3E;C>C=POo0F",
+            ";F:G:E:UNjUL1bj3",
+            "EUVLVOdj3`0_1DYW",
+            "\\V="
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2067.737060546875,
+        2503.607421875,
+        2584.1259765625,
+        2826.709228515625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the chest storage in the image?",
+    "output_instruction": "What is the segmentation mask of the chest storage in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_16_bb1f178a_obj_007",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

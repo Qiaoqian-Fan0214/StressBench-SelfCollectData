@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_Storage_Room_0_d05782c0__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_0_d05782c0",
+  "status": "annotated",
+  "updated_at": "2026-04-26T06:19:10Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_0_d05782c0__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_0_d05782c0",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cabinet in the image.",
+    "instruction": "Locate the cabinet in the image.",
+    "answer": "cabinet",
+    "rgb": "Storage_Room/0.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_0_d05782c0_obj_000",
+      "object_name": "cabinet",
+      "bbox_xyxy": [
+        3458.710205078125,
+        85.67271423339844,
+        4155.0869140625,
+        6104.298828125
+      ],
+      "bbox_xywh": [
+        3458.710205078125,
+        85.67271423339844,
+        696.376708984375,
+        6018.626113891602
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cabinet in the image?",
+    "output_instruction": "What is the bounding box of the cabinet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_0_d05782c0_obj_000",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

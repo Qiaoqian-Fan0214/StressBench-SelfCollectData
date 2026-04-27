@@ -1,0 +1,95 @@
+{
+  "sample_id": "self_collection_Storage_Room_45_a57fc5cb__q001_mask",
+  "source_sample_id": "self_collection_Storage_Room_45_a57fc5cb",
+  "status": "annotated",
+  "updated_at": "2026-04-26T17:55:01Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_45_a57fc5cb__q001_mask",
+    "source_sample_id": "self_collection_Storage_Room_45_a57fc5cb",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the power outlet in the image.",
+    "instruction": "Locate the power outlet in the image.",
+    "answer": "power outlet",
+    "rgb": "Storage_Room/45.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Storage_Room_45_a57fc5cb_obj_002",
+      "object_name": "power outlet",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4160,
+            6240
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "QUkV9V1bo3_1oNm0",
+            "oMo1E;J6M2N3M200",
+            "O100O10000O10000",
+            "0O01000000O10000",
+            "0000O10O10000000",
+            "0000000O2O000000",
+            "000O1000000O1kM^",
+            "TLlMbk3m1QULfMPk",
+            "3U2\\ULdMdj3`0bTL",
+            "AS1J\\j3d0jTLWOn0",
+            "4Xj3c0[ULfNc0d0S",
+            "j3e0bWLYO_h3f0dW",
+            "LWO]h3i0dWLUO]h3",
+            "k0eWLRO\\h3n0eWLP",
+            "O\\h3o0fWLoN[h3Q1",
+            "eWLnN\\h3R1eWLkN]",
+            "h3U1dWLiN]h3W1eW",
+            "LeN\\h3\\1eWLbN\\h3",
+            "^1S4000000000000",
+            "0O10000000000000",
+            "00O101O000O10001",
+            "N100O2O0O2N101N2",
+            "M3N2M5K:E[e`T?"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2320.215576171875,
+        1922.0748291015625,
+        2429.9208984375,
+        2133.560546875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the power outlet in the image?",
+    "output_instruction": "What is the segmentation mask of the power outlet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_45_a57fc5cb_obj_002",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

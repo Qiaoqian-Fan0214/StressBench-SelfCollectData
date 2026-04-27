@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_messy_desk_59_92e554c5__q001_bbox",
+  "source_sample_id": "self_collection_messy_desk_59_92e554c5",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:47:41Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_59_92e554c5__q001_bbox",
+    "source_sample_id": "self_collection_messy_desk_59_92e554c5",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the speaker in the image.",
+    "instruction": "Locate the speaker in the image.",
+    "answer": "speaker",
+    "rgb": "messy_desk/59.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_desk_59_92e554c5_obj_003",
+      "object_name": "speaker",
+      "bbox_xyxy": [
+        82.14326477050781,
+        170.64430236816406,
+        294.4627990722656,
+        468.04547119140625
+      ],
+      "bbox_xywh": [
+        82.14326477050781,
+        170.64430236816406,
+        212.3195343017578,
+        297.4011688232422
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the speaker in the image?",
+    "output_instruction": "What is the bounding box of the speaker in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_59_92e554c5_obj_003",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "V": [
+          "small_scale"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

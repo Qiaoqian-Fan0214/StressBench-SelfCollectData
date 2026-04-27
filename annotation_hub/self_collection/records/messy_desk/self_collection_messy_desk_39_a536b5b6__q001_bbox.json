@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_messy_desk_39_a536b5b6__q001_bbox",
+  "source_sample_id": "self_collection_messy_desk_39_a536b5b6",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:47:39Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_39_a536b5b6__q001_bbox",
+    "source_sample_id": "self_collection_messy_desk_39_a536b5b6",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the tape dispenser in the image.",
+    "instruction": "Locate the tape dispenser in the image.",
+    "answer": "tape dispenser",
+    "rgb": "messy_desk/39.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_desk_39_a536b5b6_obj_003",
+      "object_name": "tape dispenser",
+      "bbox_xyxy": [
+        5.364867210388184,
+        5.123321533203125,
+        754.1070556640625,
+        1396.61328125
+      ],
+      "bbox_xywh": [
+        5.364867210388184,
+        5.123321533203125,
+        748.7421884536743,
+        1391.4899597167969
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the tape dispenser in the image?",
+    "output_instruction": "What is the bounding box of the tape dispenser in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_39_a536b5b6_obj_003",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "sample_id": "self_collection_Storage_Room_15_e865d354__q001_mask",
+  "source_sample_id": "self_collection_Storage_Room_15_e865d354",
+  "status": "annotated",
+  "updated_at": "2026-04-26T10:16:13Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_15_e865d354__q001_mask",
+    "source_sample_id": "self_collection_Storage_Room_15_e865d354",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the plastic bin in the image.",
+    "instruction": "Locate the plastic bin in the image.",
+    "answer": "plastic bin",
+    "rgb": "Storage_Room/15.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Storage_Room_15_e865d354_obj_003",
+      "object_name": "plastic bin",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2688,
+            1512
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "`Qgk0>^c2:G7J4M2",
+            "N2N101O1N2O2M3M3",
+            "M3N1N3N2O001N100",
+            "O100O1N1N3M3M3M4",
+            "Lc0i^MTMW`2e3E7I",
+            ":F<De0\\Of0YOo0QO",
+            "=C1O1O1O100O1O10",
+            "0O1O100O1O100O10",
+            "0O10000O10000O10",
+            "000O10000O100000",
+            "000O10000000000O",
+            "1000000O1000000O",
+            "10000000000O1000",
+            "0000000O10000000",
+            "0000000000000000",
+            "0O10000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "01O00001O1O2N8mH",
+            "SdMc5g_2cJa`M^O5",
+            ">Y_[8;aRgGg1X_M[",
+            "Mh\\2e6SbMcInZ2i7",
+            "N2O1O1O1O100O100",
+            "O1O100O10000O100",
+            "0000000000000000",
+            "0000O10000000000",
+            "0000000000000000",
+            "0000000000001O00",
+            "000000000000001O",
+            "0000000000001O00",
+            "00001O00000000O1",
+            "0000000000000000",
+            "0000000000000000",
+            "00001O0000000000",
+            "001O000000000000",
+            "1O00000000001O00",
+            "00001O000000001O",
+            "000000000000001O",
+            "000000001O000000",
+            "001O000000001O00",
+            "0000001O00000000",
+            "1O0000001O00001O",
+            "0000001O0000001O",
+            "000000001O000000",
+            "0000000000000000",
+            "001O000000000000",
+            "0000001O00000000",
+            "00001O0000001O00",
+            "001O00001O001O00",
+            "1O001O1O1O1O1O1O",
+            "1hNY1oMibMhKNi0_",
+            "]2Z3Q2I6C=G9D<C=",
+            "VOj0K4N2N3M3N2N1",
+            "N2O1O1O1O0O10000",
+            "00O010000O100000",
+            "O1O2N3L4K5K8CejW",
+            "e1"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        331.816162109375,
+        2399.28125,
+        868.44287109375,
+        2683.43212890625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the plastic bin in the image?",
+    "output_instruction": "What is the segmentation mask of the plastic bin in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_15_e865d354_obj_003",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

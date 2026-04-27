@@ -1,0 +1,129 @@
+{
+  "sample_id": "self_collection_desk_77_82af77ec__q002_mask",
+  "source_sample_id": "self_collection_desk_77_82af77ec",
+  "status": "annotated",
+  "updated_at": "2026-04-27T05:43:15Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_77_82af77ec__q002_mask",
+    "source_sample_id": "self_collection_desk_77_82af77ec",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the vase in the image.",
+    "instruction": "Locate the vase in the image.",
+    "answer": "vase",
+    "rgb": "desk/77.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_desk_77_82af77ec_obj_001",
+      "object_name": "vase",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            7952,
+            5304
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "eQRd`06og7e0@<E;",
+            "Q^HdN]\\7c1WcHnN\\",
+            "\\7X1^cHUOU\\7P1fc",
+            "HWOS\\7n0gcHXOU\\7",
+            "k0fcHZOV\\7j0dcH\\",
+            "OX\\7h0bcH]O[\\7g0",
+            "_cH^O^\\7f0ZcHAc\\",
+            "7d0dbH3W]73^bH7^",
+            "]7M]bH8]]7O^bH4\\",
+            "]74_bH0Y]7:abHIW",
+            "]7a0dbHCS]7h0hbH",
+            "ZOS]7P1ebHSOY]7T",
+            "1`bHoN]]7Y1ZbHjN",
+            "d]7R6N3O0O1O1O1O",
+            "1O1O2O0O100O100O",
+            "1O100O1O100O1O1O",
+            "1O1O1O1N2O1N2N2N",
+            "2N2N2N2O1O1N2O1N",
+            "2O1O1O100O1O1O2N",
+            "1O1O1N2N2M3M3J6K",
+            "6K4M3M3N2M3N3M2V",
+            "MjBWjHY=gU7nBRjH",
+            "T=mU7nBPjHT=PV7m",
+            "BniHT=QV7oBliHS=",
+            "RV7oBliHR=TV7oBj",
+            "iHR=VV7oBiiHQ=VV",
+            "7QChiHP=YV7nBhiH",
+            "R=YV7jBkiHU=VV7g",
+            "BniHY=SV7bBPjH^=",
+            "RV7\\BSjHc=]X7000",
+            "1O0000001O0001O0",
+            "000000001O000000",
+            "000000001O000001",
+            "O01O00001O00001O",
+            "00001O001O00001O",
+            "00001O001O00001O",
+            "01O01O00001O0000",
+            "001O000010O01O00",
+            "001O000010O01O00",
+            "1O001O0PIjdHf0W[",
+            "7ROReHm0mZ7iN^eH",
+            "V1cZ7]NkeHa1VZ7Y",
+            "NPfHf1QZ7TNUfHk1",
+            "lY7fJhdHf1b1d3gY",
+            "7^JSeHd1\\1m3bY7Z",
+            "J\\eH`1U1V4`Y7VJc",
+            "eH^1o0\\4^Y7RJkeH",
+            "\\1h0b4_Y7lIQfH]1",
+            "b0f4_Y7gIWfH^1;k",
+            "4g[7RK[dHm4h[7oJ",
+            "YdHQ5i[7lJXdHT5i",
+            "[7kJXdHT5j[7iJWd",
+            "HW5k[7fJWdHY5j[7",
+            "fJVdH[5j[7cJXdH\\",
+            "5j[7aJWdH_5j[7_J",
+            "ibHRO8^6P]7^JgbH",
+            "[O4W6V]7\\JfbH_O4",
+            "T6W]7[JebHC4Q6X]",
+            "7ZJdbHG4n5Y]7YJd",
+            "bHJ3l5Z]7XJcbHN3",
+            "i5Z]7XJdbHO3h5Z]",
+            "7WJcbH33e5[]7UJd",
+            "bH62e5[]7QJebH;1",
+            "b5\\]7PJcbH?3_5[]",
+            "7oIdbHc02R2oN4m_",
+            "7gMZaH`1B`0U_7mM",
+            "baHP1Oh0a^7VNmaH",
+            "97Y1n]7[NZeH`1gZ",
+            "7^N^eH^1cZ7`NbeH",
+            "\\1l`7L5L5J8I9F8H",
+            "6J5KdaWle0"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2185.988525390625,
+        3587.305419921875,
+        2423.938232421875,
+        4143.71728515625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the vase in the image?",
+    "output_instruction": "What is the segmentation mask of the vase in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_77_82af77ec_obj_001"
+    },
+    "stress": {
+      "G": [
+        "occlusion",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

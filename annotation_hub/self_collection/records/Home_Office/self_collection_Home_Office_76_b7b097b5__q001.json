@@ -1,0 +1,76 @@
+{
+  "sample_id": "self_collection_Home_Office_76_b7b097b5__q001",
+  "source_sample_id": "self_collection_Home_Office_76_b7b097b5",
+  "status": "annotated",
+  "updated_at": "2026-04-25T14:45:24Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_76_b7b097b5__q001",
+    "source_sample_id": "self_collection_Home_Office_76_b7b097b5",
+    "entry_id": "q001",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the battery relative to the glasses in the image?",
+    "instruction": "What is the spatial relation of the battery relative to the glasses in the image?",
+    "answer": "connect",
+    "rgb": "Home_Office/76.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 4
+      },
+      "subject_a": {
+        "object_id": "self_collection_Home_Office_76_b7b097b5_obj_000",
+        "label": "battery"
+      },
+      "subject_b": {
+        "object_id": "self_collection_Home_Office_76_b7b097b5_obj_001",
+        "label": "glasses"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the battery relative to the glasses in the image?",
+    "output_instruction": "What is the spatial relation of the battery relative to the glasses in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "M": [
+          "transparent"
+        ],
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_76_b7b097b5_obj_000",
+      "placementItem": "plate",
+      "answerIndex": 4,
+      "spatialRelationAObjectId": "self_collection_Home_Office_76_b7b097b5_obj_000",
+      "spatialRelationALabel": "battery",
+      "spatialRelationBObjectId": "self_collection_Home_Office_76_b7b097b5_obj_001",
+      "spatialRelationBLabel": "glasses",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ],
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

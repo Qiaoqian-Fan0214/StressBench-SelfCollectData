@@ -1,0 +1,50 @@
+{
+  "sample_id": "self_collection_desk_73_d69aba62__q001_bbox",
+  "source_sample_id": "self_collection_desk_73_d69aba62",
+  "status": "annotated",
+  "updated_at": "2026-04-27T04:36:28Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_73_d69aba62__q001_bbox",
+    "source_sample_id": "self_collection_desk_73_d69aba62",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the flower in the image.",
+    "instruction": "Locate the flower in the image.",
+    "answer": "flower",
+    "rgb": "desk/73.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_desk_73_d69aba62_obj_002",
+      "object_name": "flower",
+      "bbox_xyxy": [
+        3279.4052734375,
+        2428.748291015625,
+        5396.73876953125,
+        3703.50048828125
+      ],
+      "bbox_xywh": [
+        3279.4052734375,
+        2428.748291015625,
+        2117.33349609375,
+        1274.752197265625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the flower in the image?",
+    "output_instruction": "What is the bounding box of the flower in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_73_d69aba62_obj_002"
+    },
+    "stress": {
+      "V": [
+        "extreme_viewpoint"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

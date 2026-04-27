@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Living_Room_96_aaadb42e__q002_bbox",
+  "source_sample_id": "self_collection_Living_Room_96_aaadb42e",
+  "status": "annotated",
+  "updated_at": "2026-04-27T10:01:02Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_96_aaadb42e__q002_bbox",
+    "source_sample_id": "self_collection_Living_Room_96_aaadb42e",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the power outlet in the image.",
+    "instruction": "Locate the power outlet in the image.",
+    "answer": "power outlet",
+    "rgb": "Living_Room/96.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_96_aaadb42e_obj_003",
+      "object_name": "power outlet",
+      "bbox_xyxy": [
+        1810.915283203125,
+        2682.23388671875,
+        1905.1243896484375,
+        2822.22607421875
+      ],
+      "bbox_xywh": [
+        1810.915283203125,
+        2682.23388671875,
+        94.2091064453125,
+        139.9921875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the power outlet in the image?",
+    "output_instruction": "What is the bounding box of the power outlet in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_96_aaadb42e_obj_003",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

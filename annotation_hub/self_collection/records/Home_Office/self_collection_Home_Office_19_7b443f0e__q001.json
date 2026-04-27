@@ -1,0 +1,78 @@
+{
+  "sample_id": "self_collection_Home_Office_19_7b443f0e__q001",
+  "source_sample_id": "self_collection_Home_Office_19_7b443f0e",
+  "status": "annotated",
+  "updated_at": "2026-04-25T13:22:21Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_19_7b443f0e__q001",
+    "source_sample_id": "self_collection_Home_Office_19_7b443f0e",
+    "entry_id": "q001",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the laptop relative to the keyboard in the image?",
+    "instruction": "What is the spatial relation of the laptop relative to the keyboard in the image?",
+    "answer": "up",
+    "rgb": "Home_Office/19.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 0
+      },
+      "subject_a": {
+        "object_id": "self_collection_Home_Office_19_7b443f0e_obj_005",
+        "label": "laptop"
+      },
+      "subject_b": {
+        "object_id": "self_collection_Home_Office_19_7b443f0e_obj_007",
+        "label": "keyboard"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the laptop relative to the keyboard in the image?",
+    "output_instruction": "What is the spatial relation of the laptop relative to the keyboard in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_19_7b443f0e_obj_000",
+      "placementItem": "speaker",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "self_collection_Home_Office_19_7b443f0e_obj_005",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_Home_Office_19_7b443f0e_obj_007",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

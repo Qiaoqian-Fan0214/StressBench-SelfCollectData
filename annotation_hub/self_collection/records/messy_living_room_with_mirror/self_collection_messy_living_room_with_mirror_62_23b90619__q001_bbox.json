@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_62_23b90619__q001_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_62_23b90619",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:23:11Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_62_23b90619__q001_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_62_23b90619",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the sofa in the image.",
+    "instruction": "Locate the sofa in the image.",
+    "answer": "sofa",
+    "rgb": "messy_living_room_with_mirror/62.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_62_23b90619_obj_001",
+      "object_name": "sofa",
+      "bbox_xyxy": [
+        4.545297622680664,
+        3744.31640625,
+        2080.86376953125,
+        5116.13037109375
+      ],
+      "bbox_xywh": [
+        4.545297622680664,
+        3744.31640625,
+        2076.3184719085693,
+        1371.81396484375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the sofa in the image?",
+    "output_instruction": "What is the bounding box of the sofa in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "complex_texture"
+        ],
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_62_23b90619_obj_001",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ],
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_3_bb1c8635__q001_mask",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_3_bb1c8635",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:24Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_3_bb1c8635__q001_mask",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_3_bb1c8635",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the vase in the image.",
+    "instruction": "Locate the vase in the image.",
+    "answer": "vase",
+    "rgb": "messy_living_room_with_mirror/3.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_living_room_with_mirror_3_bb1c8635_obj_001",
+      "object_name": "vase",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4480,
+            6720
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "fSUVc0i2^1eM\\U4]",
+            "3kiKoLjU4i4H8H7K",
+            "6J5M2O2M2N2O2M2O",
+            "1O2N1N2O1O1N2N3N",
+            "1N2O1N2N2O1N2N3N",
+            "1N2N2N2O1O1N2N2N",
+            "2M3L4M3M3M3M3M3L",
+            "4I7G9D<XOh0M3N2N",
+            "2N2O1N2O1O1N101O",
+            "100O1O100O101O0O",
+            "100000000000000O",
+            "1000000000000000",
+            "00000000001O0O10",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "00000000000001O0",
+            "0000000000000000",
+            "000000000001O000",
+            "00000001O00001O0",
+            "01O1O00101N2N2nE",
+            "hoKX8[P4]GVPLZ8P",
+            "P4YG\\PLb8dQ4M3M3",
+            "M3M2N2N3M2N3M2N2",
+            "N2N1O2N2M3N2N1O2",
+            "N1O2N1N3N1O2N3L3",
+            "N2N3L4M4K5K:Ec0[",
+            "OR1lLbhKE]gZf8"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        4487.20458984375,
+        429.0284423828125,
+        4690.98681640625,
+        804.2380981445312
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the vase in the image?",
+    "output_instruction": "What is the segmentation mask of the vase in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "M": [
+          "complex_texture"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_3_bb1c8635_obj_001",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "M": [
+        "complex_texture"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Living_Room_53_f5417df8__q001_bbox",
+  "source_sample_id": "self_collection_Living_Room_53_f5417df8",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:15:18Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_53_f5417df8__q001_bbox",
+    "source_sample_id": "self_collection_Living_Room_53_f5417df8",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the chandelier in the image.",
+    "instruction": "Locate the chandelier in the image.",
+    "answer": "chandelier",
+    "rgb": "Living_Room/53.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_53_f5417df8_obj_001",
+      "object_name": "chandelier",
+      "bbox_xyxy": [
+        2711.84716796875,
+        268.0975341796875,
+        3118.969482421875,
+        604.2907104492188
+      ],
+      "bbox_xywh": [
+        2711.84716796875,
+        268.0975341796875,
+        407.122314453125,
+        336.19317626953125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the chandelier in the image?",
+    "output_instruction": "What is the bounding box of the chandelier in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_53_f5417df8_obj_001",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

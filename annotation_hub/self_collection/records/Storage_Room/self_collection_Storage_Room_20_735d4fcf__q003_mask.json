@@ -1,0 +1,108 @@
+{
+  "sample_id": "self_collection_Storage_Room_20_735d4fcf__q003_mask",
+  "source_sample_id": "self_collection_Storage_Room_20_735d4fcf",
+  "status": "annotated",
+  "updated_at": "2026-04-26T10:39:14Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_20_735d4fcf__q003_mask",
+    "source_sample_id": "self_collection_Storage_Room_20_735d4fcf",
+    "entry_id": "q003",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the window in the image.",
+    "instruction": "Locate the window in the image.",
+    "answer": "window",
+    "rgb": "Storage_Room/20.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Storage_Room_20_735d4fcf_obj_007",
+      "object_name": "window",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4000,
+            6000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "hkg_:i2Si3g1SOl0",
+            "YOZ1hN5K4M3N2M2O",
+            "1O2N1O100O100O2O",
+            "0O100O100O10000O",
+            "1000000000000000",
+            "00000000000000O1",
+            "0000000000000000",
+            "000000O101O00000",
+            "01O000000001O000",
+            "00000001O0000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "000O100000000O10",
+            "0000000O10000000",
+            "0000000O10000000",
+            "000000000001O000",
+            "00000000000001O0",
+            "0000000001O00000",
+            "01O00001O0000001",
+            "O01O000001O00000",
+            "00000001O0001O00",
+            "00000001O0000000",
+            "000001O00000001O",
+            "01O000000001O000",
+            "0000O2O000000000",
+            "0001N10000000001",
+            "N10000O1O2N1O2N1",
+            "O2L4L4J6kJWZLMP1",
+            "NQe3Bd5AneZa;"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2732.611328125,
+        1632.4327392578125,
+        2978.534423828125,
+        1908.274169921875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the window in the image?",
+    "output_instruction": "What is the segmentation mask of the window in the image?",
+    "editor_state": {
+      "entry_id": "q003",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_20_735d4fcf_obj_007",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

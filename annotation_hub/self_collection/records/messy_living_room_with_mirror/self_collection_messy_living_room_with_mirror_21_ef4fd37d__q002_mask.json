@@ -1,0 +1,116 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_21_ef4fd37d__q002_mask",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_21_ef4fd37d",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:26Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_21_ef4fd37d__q002_mask",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_21_ef4fd37d",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bean bag in the image.",
+    "instruction": "Locate the bean bag in the image.",
+    "answer": "bean bag",
+    "rgb": "messy_living_room_with_mirror/21.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_living_room_with_mirror_21_ef4fd37d_obj_000",
+      "object_name": "bean bag",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4446,
+            2964
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "mQ[g8h0lY4Q1ROa0",
+            "\\Ob0UOh0TOk0D=F9",
+            "F:F:G9F9F;C?ZOf0",
+            "Bb0B`0[nKbGoo3m9",
+            "H7I6J5L4K4L5L3L4",
+            "K5L4L4L4L4L4L4M2",
+            "N3N2M3M3M3L4N2M4",
+            "L3M4M3M3L5L4L4L3",
+            "N3L4M3L4M5K4L5K5",
+            "K6I7J2N2N2M2O2N1",
+            "O2O0000001O01O00",
+            "0001O00O0100O100",
+            "O10O01O0010O0000",
+            "01O000000001O0O1",
+            "0001O001O1O1O2N2",
+            "O1N1O2N1O1O1O1O1",
+            "O1O001O0010O0001",
+            "O0001O000O2O0000",
+            "00001O0000000000",
+            "0000000000000000",
+            "00000000000001O0",
+            "00000001N10000O2",
+            "lNV_ORXLj`0lg3^_",
+            "OmWLc`0Rh3d_OgWL",
+            "^`0Wh3n_O]WLS`0b",
+            "h3U101O0O1000000",
+            "000000000O10000O",
+            "10000O10000O100O",
+            "1000000O2O000O2O",
+            "000O2O001O0O2O00",
+            "001O0O2O001O1O00",
+            "1N2O001O001N101O",
+            "001N101O1O1O0O3N",
+            "1O1O2N2N3M2N1N3N",
+            "1O1O2N1N4M2M3N2M",
+            "4L4L3L4L5K5K4L5K",
+            "4K6J6H8E;H8J5L5K",
+            "4L4K6J5L5J6J6J5L",
+            "5J5L4K5J6J6I8I7G",
+            "8G:F:F:G:G:G8H8G",
+            "8G:F:F:H8H;E;E;o",
+            "NT1_Oa0jLdiKQ1mV",
+            "4VNliK[1QX4I7H8G",
+            ":G:F9EPhja2"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2050.7890625,
+        3462.281982421875,
+        2370.434326171875,
+        4065.606689453125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the bean bag in the image?",
+    "output_instruction": "What is the segmentation mask of the bean bag in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "complex_texture"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_21_ef4fd37d_obj_000",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

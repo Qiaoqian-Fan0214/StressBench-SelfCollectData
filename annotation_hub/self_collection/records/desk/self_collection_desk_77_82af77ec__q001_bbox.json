@@ -1,0 +1,52 @@
+{
+  "sample_id": "self_collection_desk_77_82af77ec__q001_bbox",
+  "source_sample_id": "self_collection_desk_77_82af77ec",
+  "status": "annotated",
+  "updated_at": "2026-04-27T05:43:15Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_77_82af77ec__q001_bbox",
+    "source_sample_id": "self_collection_desk_77_82af77ec",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the clock in the image.",
+    "instruction": "Locate the clock in the image.",
+    "answer": "clock",
+    "rgb": "desk/77.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_desk_77_82af77ec_obj_000",
+      "object_name": "clock",
+      "bbox_xyxy": [
+        4192.61083984375,
+        1003.9534912109375,
+        5292.59619140625,
+        2480.073486328125
+      ],
+      "bbox_xywh": [
+        4192.61083984375,
+        1003.9534912109375,
+        1099.9853515625,
+        1476.1199951171875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the clock in the image?",
+    "output_instruction": "What is the bounding box of the clock in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_77_82af77ec_obj_000"
+    },
+    "stress": {
+      "G": [
+        "occlusion",
+        "stacked_layout",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

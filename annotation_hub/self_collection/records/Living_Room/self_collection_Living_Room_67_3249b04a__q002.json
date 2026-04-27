@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_Living_Room_67_3249b04a__q002",
+  "source_sample_id": "self_collection_Living_Room_67_3249b04a",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:36:48Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_67_3249b04a__q002",
+    "source_sample_id": "self_collection_Living_Room_67_3249b04a",
+    "entry_id": "q002",
+    "task": "spatial_mcq",
+    "template_id": "farthest",
+    "question": "Which object is farthest from us in the image?",
+    "instruction": "Which object is farthest from us in the image?",
+    "answer": "clock",
+    "rgb": "Living_Room/67.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "television",
+          "vase",
+          "lamp",
+          "clock",
+          "plant"
+        ],
+        "answer_index": 3
+      }
+    },
+    "output_variant": null,
+    "output_question": "Which object is farthest from us in the image?",
+    "output_instruction": "Which object is farthest from us in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "spatial_mcq",
+      "template_id": "farthest",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_67_3249b04a_obj_000",
+      "placementItem": "speaker",
+      "answerIndex": 3,
+      "spatialRelationAObjectId": "self_collection_Living_Room_67_3249b04a_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_Living_Room_67_3249b04a_obj_001",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": [
+        "television",
+        "vase",
+        "lamp",
+        "clock",
+        "plant"
+      ]
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

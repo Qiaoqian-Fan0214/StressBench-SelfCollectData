@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_cabinet_occlusion_34_9b2d6be7__q001_bbox",
+  "source_sample_id": "self_collection_cabinet_occlusion_34_9b2d6be7",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:15:55Z",
+  "annotation": {
+    "sample_id": "self_collection_cabinet_occlusion_34_9b2d6be7__q001_bbox",
+    "source_sample_id": "self_collection_cabinet_occlusion_34_9b2d6be7",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the plastic bin in the image.",
+    "instruction": "Locate the plastic bin in the image.",
+    "answer": "plastic bin",
+    "rgb": "cabinet_occlusion/34.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_cabinet_occlusion_34_9b2d6be7_obj_003",
+      "object_name": "plastic bin",
+      "bbox_xyxy": [
+        2233.495849609375,
+        1853.606689453125,
+        2484.450927734375,
+        2217.171142578125
+      ],
+      "bbox_xywh": [
+        2233.495849609375,
+        1853.606689453125,
+        250.955078125,
+        363.564453125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the plastic bin in the image?",
+    "output_instruction": "What is the bounding box of the plastic bin in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_cabinet_occlusion_34_9b2d6be7_obj_003",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "cabinet_occlusion",
+      "split": "self_collected"
+    }
+  }
+}

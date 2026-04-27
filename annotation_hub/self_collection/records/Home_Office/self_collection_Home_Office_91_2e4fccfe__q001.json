@@ -1,0 +1,69 @@
+{
+  "sample_id": "self_collection_Home_Office_91_2e4fccfe__q001",
+  "source_sample_id": "self_collection_Home_Office_91_2e4fccfe",
+  "status": "annotated",
+  "updated_at": "2026-04-25T14:55:38Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_91_2e4fccfe__q001",
+    "source_sample_id": "self_collection_Home_Office_91_2e4fccfe",
+    "entry_id": "q001",
+    "task": "spatial_mcq",
+    "template_id": "nearest",
+    "question": "Which object is closest to us in the image?",
+    "instruction": "Which object is closest to us in the image?",
+    "answer": "chair",
+    "rgb": "Home_Office/91.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "chair",
+          "speakers",
+          "monitor",
+          "keyboard",
+          "cellphone"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Which object is closest to us in the image?",
+    "output_instruction": "Which object is closest to us in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "spatial_mcq",
+      "template_id": "nearest",
+      "stress": {
+        "G": [
+          "occlusion",
+          "stacked_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_91_2e4fccfe_obj_000",
+      "placementItem": "mug",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "self_collection_Home_Office_91_2e4fccfe_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_Home_Office_91_2e4fccfe_obj_001",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": [
+        "chair",
+        "speakers",
+        "monitor",
+        "keyboard",
+        "cellphone"
+      ]
+    },
+    "stress": {
+      "G": [
+        "occlusion",
+        "stacked_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

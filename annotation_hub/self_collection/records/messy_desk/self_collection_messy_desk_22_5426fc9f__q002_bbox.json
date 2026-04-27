@@ -1,0 +1,55 @@
+{
+  "sample_id": "self_collection_messy_desk_22_5426fc9f__q002_bbox",
+  "source_sample_id": "self_collection_messy_desk_22_5426fc9f",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:10:19Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_22_5426fc9f__q002_bbox",
+    "source_sample_id": "self_collection_messy_desk_22_5426fc9f",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the clock in the image.",
+    "instruction": "Locate the clock in the image.",
+    "answer": "clock",
+    "rgb": "messy_desk/22.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_desk_22_5426fc9f_obj_004",
+      "object_name": "clock",
+      "bbox_xyxy": [
+        4179.4736328125,
+        1625.9656982421875,
+        5245.34228515625,
+        2463.706298828125
+      ],
+      "bbox_xywh": [
+        4179.4736328125,
+        1625.9656982421875,
+        1065.86865234375,
+        837.7406005859375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the clock in the image?",
+    "output_instruction": "What is the bounding box of the clock in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_22_5426fc9f_obj_004",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "sample_id": "self_collection_messy_desk_30_8df5fb2f__q001_mask",
+  "source_sample_id": "self_collection_messy_desk_30_8df5fb2f",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:10:19Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_30_8df5fb2f__q001_mask",
+    "source_sample_id": "self_collection_messy_desk_30_8df5fb2f",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "messy_desk/30.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_desk_30_8df5fb2f_obj_000",
+      "object_name": "cup",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4160,
+            6240
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "lbXn31dQ4n0UO<F9",
+            "K6I6L5J6J5K4K5K5",
+            "K4K6J5L4L5K4L4L4",
+            "L5L3M3L5M2M3M4L3",
+            "M3N2M3M3M3M3N2M3",
+            "N2N2M3O0O2N2O0O2",
+            "N2N2O0O2O0O2N2N2",
+            "M3M3M4L3L5L3L5L3",
+            "M4L4L4K5M2M4L3M4",
+            "L4L4M2N1O2M5L4L9",
+            "F8I5J4L5L4K5K6J6",
+            "J5K6K5J6K4L4M3L4",
+            "L4L3M3N1N3N2M3N2",
+            "M4L3M4M2M4L3M3M4",
+            "L4L4M3L4L4L3M3M4",
+            "M2M4L4L3N3L4L4M3",
+            "L4L5K4L6J5K4M4K4",
+            "L5J5L5K4L3M3N2M2",
+            "N3M3N2M2N3N2M3N2",
+            "M4M2M4M2M4M2M3N3",
+            "L3N3L4M5J7J5J4M3",
+            "M3L3N2M3N3L3N4K5",
+            "L4K5L4K5L3L4M2M4",
+            "L3N3L4L4L4M3L4M3",
+            "L4M3M3L3N3M3L4M3",
+            "M4L3M3L2O2N1O1N2",
+            "O1O1O0O2O00001O0",
+            "O1000001O0000000",
+            "00O1000000000000",
+            "00000000O1000000",
+            "00O100000O10O100",
+            "0000O0100000000O",
+            "0100000000000O10",
+            "O100000O100000O1",
+            "000O10000000O10O",
+            "10000000O10O1000",
+            "000000000O100000",
+            "00000O1000001O00",
+            "000O10000000001N",
+            "10000000001O0000",
+            "000O10001O000000",
+            "000000001O000000",
+            "000O100000000000",
+            "00000O1000000000",
+            "000O100000000000",
+            "0O1000000000001O",
+            "0O1000001O000000",
+            "001O0O100000001O",
+            "0000001O0O10001O",
+            "00001O0000001N10",
+            "00001O0000001O0O",
+            "101O001O00001O00",
+            "1N101O1O001O001O",
+            "1O001N101O001O00",
+            "001O001O1O001N10",
+            "1O001O1O001O001O",
+            "1O001O001N2O1O00",
+            "1O1O1O1O1O1O1O1N",
+            "3N1O1O2N1O1O2M2O",
+            "1O1O1O2N1O1O1N2O",
+            "1O1O001O1O001O0O",
+            "2O001O00001O001O",
+            "0O101O0000001O00",
+            "0O2O00001O001N2O",
+            "001N2O1O1N2O1N2O",
+            "2M2O1N2O2M2N2O1N",
+            "2N2M2O2M4H7G9E;E",
+            ";G9VMk2[Ne1]Nc1c",
+            "N]1hKZXLhJP1;jg3",
+            "e4\\3J5L5K4L5L3M3",
+            "M3M3M3N2M3N2M4M2",
+            "M3M4M2M4L3M4K5L4",
+            "K5L3M4K5L3M5K4K5",
+            "L6I7H7I7H8I8Ff_i",
+            "`b0"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        987.0999145507812,
+        2248.614990234375,
+        1577.1053466796875,
+        3036.200927734375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the cup in the image?",
+    "output_instruction": "What is the segmentation mask of the cup in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_30_8df5fb2f_obj_000",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "M": [
+          "specular_confusion"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "M": [
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "sample_id": "self_collection_bathroom_table_78_74de5609__q002",
+  "source_sample_id": "self_collection_bathroom_table_78_74de5609",
+  "status": "annotated",
+  "updated_at": "2026-04-27T12:10:50Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_78_74de5609__q002",
+    "source_sample_id": "self_collection_bathroom_table_78_74de5609",
+    "entry_id": "q002",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a mug in the image?",
+    "instruction": "Is there any vacant space to place a mug in the image?",
+    "answer": "yes",
+    "rgb": "bathroom_table/78.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a mug in the image?",
+    "output_instruction": "Is there any vacant space to place a mug in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_78_74de5609_obj_000",
+      "placementItem": "mug",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

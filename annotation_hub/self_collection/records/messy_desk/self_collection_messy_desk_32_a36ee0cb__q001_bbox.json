@@ -1,0 +1,61 @@
+{
+  "sample_id": "self_collection_messy_desk_32_a36ee0cb__q001_bbox",
+  "source_sample_id": "self_collection_messy_desk_32_a36ee0cb",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:47:39Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_32_a36ee0cb__q001_bbox",
+    "source_sample_id": "self_collection_messy_desk_32_a36ee0cb",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the tissue box in the image.",
+    "instruction": "Locate the tissue box in the image.",
+    "answer": "tissue box",
+    "rgb": "messy_desk/32.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_desk_32_a36ee0cb_obj_001",
+      "object_name": "tissue box",
+      "bbox_xyxy": [
+        2548.113037109375,
+        2789.343994140625,
+        3257.89892578125,
+        4738.0693359375
+      ],
+      "bbox_xywh": [
+        2548.113037109375,
+        2789.343994140625,
+        709.785888671875,
+        1948.725341796875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the tissue box in the image?",
+    "output_instruction": "What is the bounding box of the tissue box in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_32_a36ee0cb_obj_001",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

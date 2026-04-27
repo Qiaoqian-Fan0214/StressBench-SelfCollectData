@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_messy_desk_15_a17ebd96__q001_bbox",
+  "source_sample_id": "self_collection_messy_desk_15_a17ebd96",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:44:09Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_15_a17ebd96__q001_bbox",
+    "source_sample_id": "self_collection_messy_desk_15_a17ebd96",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the book in the image.",
+    "instruction": "Locate the book in the image.",
+    "answer": "book",
+    "rgb": "messy_desk/15.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_desk_15_a17ebd96_obj_004",
+      "object_name": "book",
+      "bbox_xyxy": [
+        5.076473236083984,
+        3806.995361328125,
+        1944.26025390625,
+        5010.26953125
+      ],
+      "bbox_xywh": [
+        5.076473236083984,
+        3806.995361328125,
+        1939.183780670166,
+        1203.274169921875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the book in the image?",
+    "output_instruction": "What is the bounding box of the book in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_desk_15_a17ebd96_obj_004",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

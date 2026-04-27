@@ -1,0 +1,101 @@
+{
+  "sample_id": "self_collection_Living_Room_96_aaadb42e__q001_mask",
+  "source_sample_id": "self_collection_Living_Room_96_aaadb42e",
+  "status": "annotated",
+  "updated_at": "2026-04-27T10:01:02Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_96_aaadb42e__q001_mask",
+    "source_sample_id": "self_collection_Living_Room_96_aaadb42e",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the shower curtain in the image.",
+    "instruction": "Locate the shower curtain in the image.",
+    "answer": "shower curtain",
+    "rgb": "Living_Room/96.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_96_aaadb42e_obj_011",
+      "object_name": "shower curtain",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4320,
+            7680
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "[]PYb0a0V1a0dR4<",
+            "_lK[1_Q4f2_Na1lN",
+            "T1@c0@f0ZOb0^O>@",
+            "`0]Ob0\\Oe0]Oc0@b",
+            "0UJZCV_L^OnMh=Vb",
+            "3bC[]L`1FY;eb3l5",
+            "H9G8H8I7I6K5K6J5",
+            "K5K4K5L4L4L5K3M2",
+            "N3M2N1N3N2N1O2N2",
+            "N1O2N2N2N1N2O2N1",
+            "O1O1O1N2O001O1O0",
+            "O2O1O001N2O1O1O1",
+            "O1N2O2N1O2M4M2N3",
+            "M4K5L3M2N2N1N3N1",
+            "O1O001O0O101O000",
+            "000001O0O1000000",
+            "01O00000000000O1",
+            "000000000O01000O",
+            "10O01O1O001N2O0b",
+            "NnbLnXOT]3mf0YcL",
+            "iXOi\\3Sg0bcL_XOd",
+            "\\3_g0`1N1N3N101O",
+            "1N101O1O001O100O",
+            "100O2O0O100O2O2M",
+            "4M4K7J;D?Aa0_OT1",
+            "lNf0ZO^1bNd0[OW1",
+            "hNf0ZOa0[Ob0XBPX",
+            "L\\2E1b0cMYOn0fm3",
+            "\\OQl\\f<"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        4428.1064453125,
+        1458.990234375,
+        4602.42626953125,
+        2284.680908203125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the shower curtain in the image?",
+    "output_instruction": "What is the segmentation mask of the shower curtain in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_96_aaadb42e_obj_011",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

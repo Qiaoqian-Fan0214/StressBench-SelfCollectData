@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_Storage_Room_81_28c2204f__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_81_28c2204f",
+  "status": "annotated",
+  "updated_at": "2026-04-26T18:27:34Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_81_28c2204f__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_81_28c2204f",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the pants in the image.",
+    "instruction": "Locate the pants in the image.",
+    "answer": "pants",
+    "rgb": "Storage_Room/81.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_81_28c2204f_obj_004",
+      "object_name": "pants",
+      "bbox_xyxy": [
+        958.5050048828125,
+        2445.91552734375,
+        1613.8173828125,
+        3428.338134765625
+      ],
+      "bbox_xywh": [
+        958.5050048828125,
+        2445.91552734375,
+        655.3123779296875,
+        982.422607421875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the pants in the image?",
+    "output_instruction": "What is the bounding box of the pants in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_81_28c2204f_obj_004",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

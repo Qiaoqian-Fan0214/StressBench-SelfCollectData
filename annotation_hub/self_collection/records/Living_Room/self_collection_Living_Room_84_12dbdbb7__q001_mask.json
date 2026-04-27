@@ -1,0 +1,141 @@
+{
+  "sample_id": "self_collection_Living_Room_84_12dbdbb7__q001_mask",
+  "source_sample_id": "self_collection_Living_Room_84_12dbdbb7",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:55:37Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_84_12dbdbb7__q001_mask",
+    "source_sample_id": "self_collection_Living_Room_84_12dbdbb7",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the refrigerator in the image.",
+    "instruction": "Locate the refrigerator in the image.",
+    "answer": "refrigerator",
+    "rgb": "Living_Room/84.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_84_12dbdbb7_obj_006",
+      "object_name": "refrigerator",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4002,
+            6000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "mW[]<1gj3\\1hULYO",
+            "ji3W2kN^M^WLi2\\h",
+            "3cMSWLg2jh3l0L3M",
+            "4L4L6J7J7H6K3M1N",
+            "2O2N1O2N101N2N4L",
+            "8I8a[LbIha3e6X]L",
+            "ZJbb3]6U\\LXJhc3c",
+            "7O1N1O1O1O100O1O",
+            "1O0010O000000000",
+            "0001O000000000O2",
+            "O00000O101N100O1",
+            "00O100O100O100O1",
+            "1N101O0O101O0O10",
+            "1O0O101N10001N10",
+            "0OdLg\\LQMYc3m2k\\",
+            "LRMSc3n2o\\LQMQc3",
+            "n2Q]LQMnb3o2T]LP",
+            "Mlb3o2V]LQMhb3Q3",
+            "U]LQMjb3P3T]LRMk",
+            "b3Q3P]LSMnb3P3o\\",
+            "LQMPc3a6O2M2O1N2",
+            "OTJc]LU1[b3hNS^L",
+            "o0la3mN^^Ln0aa3o",
+            "Nf^Ln0Za3nNl^LQ1",
+            "Ra3mNR_LR1m`3mNW",
+            "_LQ1i`3mNZ_LR1e`",
+            "3nN]_LQ1c`3PO[_L",
+            "Q1e`3oN[_LQ1d`3P",
+            "O\\_LP1d`3PO[_LR1",
+            "d`3nN\\_LR1d`3oNZ",
+            "_LR1e`3POY_LQ1g`",
+            "3POV_LR1j`3POQ_L",
+            "S1o`3nNm^LV1Ra3l",
+            "Ng^LY1Ya3jN`^LZ1",
+            "`a3jNX^LZ1ha3kNo",
+            "]LY1Qb3kNh]LY1Wb",
+            "3i4O10000000001O",
+            "00000000001O0O10",
+            "00000000001O0000",
+            "00000000001O0000",
+            "000000000000000O",
+            "100000000O100000",
+            "000O10000000000O",
+            "1000000000000O10",
+            "0000000000000O10",
+            "00000000000O1000",
+            "000000000O100000",
+            "00000000000O1000",
+            "00000000000O1000",
+            "000000000000001O",
+            "0000000000000000",
+            "00001O0000000000",
+            "000000000000000O",
+            "1000O10000000000",
+            "000O1000O1000000",
+            "0000000000000000",
+            "000O100000000000",
+            "0000000000000000",
+            "0000000000000001",
+            "O000000000000000",
+            "00001O0000000000",
+            "0000000O10000000",
+            "0O100000000O1000",
+            "0000000000000000",
+            "00O2O001O001N101",
+            "O1N2O3M3L5K6J9jF",
+            "_]LZ7ob3nGm]LCIk",
+            "0XOi4]g3dLaXL`0Z",
+            "j3UOi0dNk_gR9"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        3249.741943359375,
+        1750.396240234375,
+        3619.58349609375,
+        2110.712890625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the refrigerator in the image?",
+    "output_instruction": "What is the segmentation mask of the refrigerator in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_84_12dbdbb7_obj_006",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "sample_id": "self_collection_Storage_Room_20_735d4fcf__q001_mask",
+  "source_sample_id": "self_collection_Storage_Room_20_735d4fcf",
+  "status": "annotated",
+  "updated_at": "2026-04-26T10:39:14Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_20_735d4fcf__q001_mask",
+    "source_sample_id": "self_collection_Storage_Room_20_735d4fcf",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the plastic bin in the image.",
+    "instruction": "Locate the plastic bin in the image.",
+    "answer": "plastic bin",
+    "rgb": "Storage_Room/20.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Storage_Room_20_735d4fcf_obj_002",
+      "object_name": "plastic bin",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4000,
+            6000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Peig41ml3e0ZO:H6",
+            "J8H8G9H6J5K4hVLd",
+            "Meg3U4F7I7I7I6K5",
+            "J7I7I5L3L3M3M3N1",
+            "O2M2O1N2O1O1N101",
+            "N101O0O10001O0O1",
+            "00000000O1000000",
+            "00O100000000O100",
+            "0000000000O10000",
+            "0000000000000000",
+            "O100000000000000",
+            "0000O100000O1000",
+            "00000000O1000000",
+            "0000000000000000",
+            "000000000O100000",
+            "0000000000000O2O",
+            "0000000000000000",
+            "0O2O000000001O00",
+            "00001O0O10001O00",
+            "0000001O0000000O",
+            "2O0000001N100O2O",
+            "1N1O2N1O2N2M2N4L",
+            "4G9POP1E;TMk2A`0",
+            "H9I6JZ[T_a0"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1234.8560791015625,
+        2195.14794921875,
+        1423.395751953125,
+        2424.0498046875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the plastic bin in the image?",
+    "output_instruction": "What is the segmentation mask of the plastic bin in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_20_735d4fcf_obj_002",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

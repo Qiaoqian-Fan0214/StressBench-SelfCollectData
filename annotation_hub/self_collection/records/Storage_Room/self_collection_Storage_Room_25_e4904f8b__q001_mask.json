@@ -1,0 +1,112 @@
+{
+  "sample_id": "self_collection_Storage_Room_25_e4904f8b__q001_mask",
+  "source_sample_id": "self_collection_Storage_Room_25_e4904f8b",
+  "status": "annotated",
+  "updated_at": "2026-04-26T10:45:23Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_25_e4904f8b__q001_mask",
+    "source_sample_id": "self_collection_Storage_Room_25_e4904f8b",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the broom in the image.",
+    "instruction": "Locate the broom in the image.",
+    "answer": "broom",
+    "rgb": "Storage_Room/25.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Storage_Room_25_e4904f8b_obj_013",
+      "object_name": "broom",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2337,
+            3531
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "PSf_13lX24L4M2N2",
+            "N101N101N101N100",
+            "01N100O1000000O1",
+            "0000O10000O100O1",
+            "O1O1O1N2N2N2M3M3",
+            "K5K5L4L4M3K5K5L4",
+            "M3N2M3M3L4N1N3Mh",
+            "NXjM]OdU2=ijM@RU",
+            "2c0QkM\\OlT2d0WkM",
+            "\\OfT2e0\\kM[O`T2g",
+            "0ckMWO\\T2g0hkMYO",
+            "VT2c0okM^OnS2>Yl",
+            "MBdS2=`lMC]S2=fl",
+            "MBXS2>klMBSS2>ol",
+            "MBmR2`0TmMAgR2b0",
+            "[mM^O_R2e0dmMZOZ",
+            "R2g0hmMYOVR2h0km",
+            "MXORR2i0PnMWOmQ2",
+            "j0UnMVOfQ2m0\\nMS",
+            "O^Q2Q1enMnNWQ2S1",
+            "lnMmNoP2U1ToMkNf",
+            "P2X1^oMfN]P2[1ho",
+            "MeNRP2Y1WPNfNdo1",
+            "Z1aPNfN[o1Z1jPNe",
+            "NRo1\\1QQNdNkn1]1",
+            "YQNbNdn1]1aQNbN\\",
+            "n1]1iQNbNTn1^1PR",
+            "N`Nom1]1WRNbNfm1",
+            "\\1`RNcN^m1\\1fRNb",
+            "NXm1_1jRNaNSm1_1",
+            "QSN_Nml1a1WSN^Nf",
+            "l1a1^SN_N_l1a1eS",
+            "N]NYl1c1jSN\\NSl1",
+            "e1RTNXNlk1f1^TNT",
+            "Nak1i1k5000000O2",
+            "OO010O200N1OJ34O",
+            "001O1001M0101O2N",
+            "0N201002M3N3K4N3",
+            "L4K6I6L5L3L5J6K7",
+            "J6Jb\\^R6"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        673.0424194335938,
+        1257.821533203125,
+        810.6318969726562,
+        1617.5655517578125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the broom in the image?",
+    "output_instruction": "What is the segmentation mask of the broom in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "stacked_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_25_e4904f8b_obj_013",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "stacked_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_bathroom_table_57_5b49c3cd__q003_bbox",
+  "source_sample_id": "self_collection_bathroom_table_57_5b49c3cd",
+  "status": "annotated",
+  "updated_at": "2026-04-27T11:44:02Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_57_5b49c3cd__q003_bbox",
+    "source_sample_id": "self_collection_bathroom_table_57_5b49c3cd",
+    "entry_id": "q003",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the laundry basket in the image.",
+    "instruction": "Locate the laundry basket in the image.",
+    "answer": "laundry basket",
+    "rgb": "bathroom_table/57.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_57_5b49c3cd_obj_005",
+      "object_name": "laundry basket",
+      "bbox_xyxy": [
+        2199.170654296875,
+        1720.4345703125,
+        2765.333984375,
+        2491.40380859375
+      ],
+      "bbox_xywh": [
+        2199.170654296875,
+        1720.4345703125,
+        566.163330078125,
+        770.96923828125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the laundry basket in the image?",
+    "output_instruction": "What is the bounding box of the laundry basket in the image?",
+    "editor_state": {
+      "entry_id": "q003",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_57_5b49c3cd_obj_005",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

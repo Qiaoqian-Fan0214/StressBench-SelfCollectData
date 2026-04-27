@@ -1,0 +1,129 @@
+{
+  "sample_id": "self_collection_desk_43_5af01f30__q001_mask",
+  "source_sample_id": "self_collection_desk_43_5af01f30",
+  "status": "annotated",
+  "updated_at": "2026-04-27T05:43:14Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_43_5af01f30__q001_mask",
+    "source_sample_id": "self_collection_desk_43_5af01f30",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the mouse in the image.",
+    "instruction": "Locate the mouse in the image.",
+    "answer": "mouse",
+    "rgb": "desk/43.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_desk_43_5af01f30_obj_001",
+      "object_name": "mouse",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3268,
+            4895
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Ri^S72nU38H6K4L4",
+            "M4L3M3N2M3N2N2M3",
+            "N2N2M2O2N2N1O2N2",
+            "N1O2N101N1O2N2N1",
+            "O2N2N2N2N2N2M4M2",
+            "M3N3L3M3N2N2N2N2",
+            "N2N1N3N2N2N1O2N2",
+            "M3N2N2N2N2N2N2N2",
+            "O1N2N2N2N2N1O2N1",
+            "O2M2O1O2N1N3N1O2",
+            "N1O101N1O1O2N100",
+            "O1O1O1O2N1O1O1O1",
+            "O1O2N1O1O1O1O101",
+            "N1O1O1O101N1O1O1",
+            "N2O1O2N1N2O1O1O1",
+            "O2N1O1O1O1O1O1N3",
+            "N1O1O1O1O1O1N2O2",
+            "N1O1O100O1O1O2N1",
+            "00O1O1O100O1O1O1",
+            "O1O100O1O2N100O1",
+            "00O10000O10000O2",
+            "O00000O1000000O1",
+            "01O000O100000000",
+            "0000000O10O10000",
+            "0000000000000000",
+            "0000000000001O00",
+            "000000000000001O",
+            "000000000000001N",
+            "1000000000000000",
+            "1O0000000000001O",
+            "00000000001O0000",
+            "0000001O00000000",
+            "001O000000000000",
+            "1O000O100000001O",
+            "0000001O00001N10",
+            "001O001O001O001O",
+            "001O001O001O0O2O",
+            "001O001O001O001O",
+            "00001O001O000O2O",
+            "00001O001O001O00",
+            "1O1O001O1O001O1N",
+            "2O001O001O001O00",
+            "1O00001O000O2O00",
+            "00001O00001O0000",
+            "1O0O101O1O001N10",
+            "1O001O001N101O1O",
+            "001O1O1N101O001O",
+            "1O0O2O001O0O2O00",
+            "001O0O101O001O0O",
+            "2O001O1O001O002N",
+            "1O1O001O1O1O1O00",
+            "1O000O1000000000",
+            "00000O10O1000000",
+            "0O10001O00001O00",
+            "1O00001O001O0000",
+            "001O0000001O0O2O",
+            "001O001O1O1O2N2N",
+            "1N2O1O1O1O1O001O",
+            "0O2O2N1O1O2N2N2M",
+            "3N1O2N1O1O1N101O",
+            "1O001N101O1N101N",
+            "101N2O1N1O2N101N",
+            "2N101N1O101N101N",
+            "1O2O0O2N101N2N1O",
+            "2N1O2N2O0O2N2N1O",
+            "2O0O2N2O0O2N1O2O",
+            "1N2N2N2N2N101N2N",
+            "2M3N101M3N2M3M4M",
+            "2M6K7GRQ_^6"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2274.535400390625,
+        2238.81494140625,
+        2827.30126953125,
+        2528.867431640625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the mouse in the image?",
+    "output_instruction": "What is the segmentation mask of the mouse in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_43_5af01f30_obj_001"
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

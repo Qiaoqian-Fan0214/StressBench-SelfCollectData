@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_bathroom_table_69_ada04593__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_69_ada04593",
+  "status": "annotated",
+  "updated_at": "2026-04-27T11:58:33Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_69_ada04593__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_69_ada04593",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the power outlet in the image.",
+    "instruction": "Locate the power outlet in the image.",
+    "answer": "power outlet",
+    "rgb": "bathroom_table/69.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_69_ada04593_obj_008",
+      "object_name": "power outlet",
+      "bbox_xyxy": [
+        2731.0869140625,
+        3399.75,
+        2901.69775390625,
+        3528.4501953125
+      ],
+      "bbox_xywh": [
+        2731.0869140625,
+        3399.75,
+        170.61083984375,
+        128.7001953125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the power outlet in the image?",
+    "output_instruction": "What is the bounding box of the power outlet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_69_ada04593_obj_008",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

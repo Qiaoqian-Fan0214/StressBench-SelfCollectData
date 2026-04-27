@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_Storage_Room_97_be50b745__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_97_be50b745",
+  "status": "annotated",
+  "updated_at": "2026-04-26T18:41:00Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_97_be50b745__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_97_be50b745",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the power outlet in the image.",
+    "instruction": "Locate the power outlet in the image.",
+    "answer": "power outlet",
+    "rgb": "Storage_Room/97.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_97_be50b745_obj_004",
+      "object_name": "power outlet",
+      "bbox_xyxy": [
+        1518.91357421875,
+        4927.6123046875,
+        1704.1976318359375,
+        5124.2451171875
+      ],
+      "bbox_xywh": [
+        1518.91357421875,
+        4927.6123046875,
+        185.2840576171875,
+        196.6328125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the power outlet in the image?",
+    "output_instruction": "What is the bounding box of the power outlet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_97_be50b745_obj_004",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

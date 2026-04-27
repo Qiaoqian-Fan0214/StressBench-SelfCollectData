@@ -1,0 +1,76 @@
+{
+  "sample_id": "self_collection_Home_Office_61_c6f444b2__q001",
+  "source_sample_id": "self_collection_Home_Office_61_c6f444b2",
+  "status": "annotated",
+  "updated_at": "2026-04-25T14:27:12Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_61_c6f444b2__q001",
+    "source_sample_id": "self_collection_Home_Office_61_c6f444b2",
+    "entry_id": "q001",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the potted plant relative to the monitor in the image?",
+    "instruction": "What is the spatial relation of the potted plant relative to the monitor in the image?",
+    "answer": "right",
+    "rgb": "Home_Office/61.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 3
+      },
+      "subject_a": {
+        "object_id": "self_collection_Home_Office_61_c6f444b2_obj_000",
+        "label": "potted plant"
+      },
+      "subject_b": {
+        "object_id": "self_collection_Home_Office_61_c6f444b2_obj_002",
+        "label": "monitor"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the potted plant relative to the monitor in the image?",
+    "output_instruction": "What is the spatial relation of the potted plant relative to the monitor in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_61_c6f444b2_obj_000",
+      "placementItem": "lamp",
+      "answerIndex": 3,
+      "spatialRelationAObjectId": "self_collection_Home_Office_61_c6f444b2_obj_000",
+      "spatialRelationALabel": "potted plant",
+      "spatialRelationBObjectId": "self_collection_Home_Office_61_c6f444b2_obj_002",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

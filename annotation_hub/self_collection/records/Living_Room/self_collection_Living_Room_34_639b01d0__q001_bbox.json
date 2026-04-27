@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Living_Room_34_639b01d0__q001_bbox",
+  "source_sample_id": "self_collection_Living_Room_34_639b01d0",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:45:18Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_34_639b01d0__q001_bbox",
+    "source_sample_id": "self_collection_Living_Room_34_639b01d0",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the table in the image.",
+    "instruction": "Locate the table in the image.",
+    "answer": "table",
+    "rgb": "Living_Room/34.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_34_639b01d0_obj_005",
+      "object_name": "table",
+      "bbox_xyxy": [
+        901.988037109375,
+        2031.3572998046875,
+        1723.81787109375,
+        3014.553466796875
+      ],
+      "bbox_xywh": [
+        901.988037109375,
+        2031.3572998046875,
+        821.829833984375,
+        983.1961669921875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the table in the image?",
+    "output_instruction": "What is the bounding box of the table in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_34_639b01d0_obj_005",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

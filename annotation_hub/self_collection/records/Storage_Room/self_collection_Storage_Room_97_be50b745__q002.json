@@ -1,0 +1,76 @@
+{
+  "sample_id": "self_collection_Storage_Room_97_be50b745__q002",
+  "source_sample_id": "self_collection_Storage_Room_97_be50b745",
+  "status": "annotated",
+  "updated_at": "2026-04-26T18:41:00Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_97_be50b745__q002",
+    "source_sample_id": "self_collection_Storage_Room_97_be50b745",
+    "entry_id": "q002",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the faucet relative to the power outlet in the image?",
+    "instruction": "What is the spatial relation of the faucet relative to the power outlet in the image?",
+    "answer": "right",
+    "rgb": "Storage_Room/97.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 3
+      },
+      "subject_a": {
+        "object_id": "self_collection_Storage_Room_97_be50b745_obj_000",
+        "label": "faucet"
+      },
+      "subject_b": {
+        "object_id": "self_collection_Storage_Room_97_be50b745_obj_004",
+        "label": "power outlet"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the faucet relative to the power outlet in the image?",
+    "output_instruction": "What is the spatial relation of the faucet relative to the power outlet in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_97_be50b745_obj_000",
+      "placementItem": "plate",
+      "answerIndex": 3,
+      "spatialRelationAObjectId": "self_collection_Storage_Room_97_be50b745_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_Storage_Room_97_be50b745_obj_004",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

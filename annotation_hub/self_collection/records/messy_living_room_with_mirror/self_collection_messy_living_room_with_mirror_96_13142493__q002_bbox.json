@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_96_13142493__q002_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_96_13142493",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:17:58Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_96_13142493__q002_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_96_13142493",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cabinet in the image.",
+    "instruction": "Locate the cabinet in the image.",
+    "answer": "cabinet",
+    "rgb": "messy_living_room_with_mirror/96.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_96_13142493_obj_003",
+      "object_name": "cabinet",
+      "bbox_xyxy": [
+        618.240234375,
+        1329.3599853515625,
+        1880.6939697265625,
+        3781.740966796875
+      ],
+      "bbox_xywh": [
+        618.240234375,
+        1329.3599853515625,
+        1262.4537353515625,
+        2452.3809814453125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cabinet in the image?",
+    "output_instruction": "What is the bounding box of the cabinet in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "large_scale"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_96_13142493_obj_003",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "large_scale"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

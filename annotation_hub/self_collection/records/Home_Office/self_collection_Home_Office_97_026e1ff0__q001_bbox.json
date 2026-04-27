@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_Home_Office_97_026e1ff0__q001_bbox",
+  "source_sample_id": "self_collection_Home_Office_97_026e1ff0",
+  "status": "annotated",
+  "updated_at": "2026-04-25T15:00:22Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_97_026e1ff0__q001_bbox",
+    "source_sample_id": "self_collection_Home_Office_97_026e1ff0",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the umbrella in the image.",
+    "instruction": "Locate the umbrella in the image.",
+    "answer": "umbrella",
+    "rgb": "Home_Office/97.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Home_Office_97_026e1ff0_obj_003",
+      "object_name": "umbrella",
+      "bbox_xyxy": [
+        29.232412338256836,
+        139.22679138183594,
+        2071.336181640625,
+        3954.89697265625
+      ],
+      "bbox_xywh": [
+        29.232412338256836,
+        139.22679138183594,
+        2042.1037693023682,
+        3815.670181274414
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the umbrella in the image?",
+    "output_instruction": "What is the bounding box of the umbrella in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_97_026e1ff0_obj_003",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

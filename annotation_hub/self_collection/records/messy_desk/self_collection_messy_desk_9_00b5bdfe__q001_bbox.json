@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_messy_desk_9_00b5bdfe__q001_bbox",
+  "source_sample_id": "self_collection_messy_desk_9_00b5bdfe",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:45:20Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_9_00b5bdfe__q001_bbox",
+    "source_sample_id": "self_collection_messy_desk_9_00b5bdfe",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "messy_desk/9.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_desk_9_00b5bdfe_obj_000",
+      "object_name": "cup",
+      "bbox_xyxy": [
+        890.692138671875,
+        1583.970947265625,
+        1725.1834716796875,
+        2700.751953125
+      ],
+      "bbox_xywh": [
+        890.692138671875,
+        1583.970947265625,
+        834.4913330078125,
+        1116.781005859375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cup in the image?",
+    "output_instruction": "What is the bounding box of the cup in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_desk_9_00b5bdfe_obj_000",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

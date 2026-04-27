@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_35_79cd0864__q001_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_35_79cd0864",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:26:15Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_35_79cd0864__q001_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_35_79cd0864",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the pillow in the image.",
+    "instruction": "Locate the pillow in the image.",
+    "answer": "pillow",
+    "rgb": "messy_living_room_with_mirror/35.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_35_79cd0864_obj_000",
+      "object_name": "pillow",
+      "bbox_xyxy": [
+        2387.784423828125,
+        3986.40673828125,
+        3600.72412109375,
+        5289.41259765625
+      ],
+      "bbox_xywh": [
+        2387.784423828125,
+        3986.40673828125,
+        1212.939697265625,
+        1303.005859375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the pillow in the image?",
+    "output_instruction": "What is the bounding box of the pillow in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_35_79cd0864_obj_000",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "sample_id": "self_collection_messy_desk_67_e36df974__q002_bbox",
+  "source_sample_id": "self_collection_messy_desk_67_e36df974",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:10:20Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_67_e36df974__q002_bbox",
+    "source_sample_id": "self_collection_messy_desk_67_e36df974",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the phone in the image.",
+    "instruction": "Locate the phone in the image.",
+    "answer": "phone",
+    "rgb": "messy_desk/67.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_desk_67_e36df974_obj_002",
+      "object_name": "phone",
+      "bbox_xyxy": [
+        1529.40185546875,
+        4379.5625,
+        2356.845703125,
+        5463.24169921875
+      ],
+      "bbox_xywh": [
+        1529.40185546875,
+        4379.5625,
+        827.44384765625,
+        1083.67919921875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the phone in the image?",
+    "output_instruction": "What is the bounding box of the phone in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_67_e36df974_obj_002",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

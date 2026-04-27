@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Storage_Room_55_3249429a__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_55_3249429a",
+  "status": "annotated",
+  "updated_at": "2026-04-26T18:05:59Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_55_3249429a__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_55_3249429a",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the stool in the image.",
+    "instruction": "Locate the stool in the image.",
+    "answer": "stool",
+    "rgb": "Storage_Room/55.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_55_3249429a_obj_005",
+      "object_name": "stool",
+      "bbox_xyxy": [
+        1678.672119140625,
+        3095.406005859375,
+        2176.029052734375,
+        3774.481201171875
+      ],
+      "bbox_xywh": [
+        1678.672119140625,
+        3095.406005859375,
+        497.35693359375,
+        679.0751953125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the stool in the image?",
+    "output_instruction": "What is the bounding box of the stool in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_55_3249429a_obj_005",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

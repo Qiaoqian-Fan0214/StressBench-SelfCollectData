@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_Home_Office_79_8849faae__q001_bbox",
+  "source_sample_id": "self_collection_Home_Office_79_8849faae",
+  "status": "annotated",
+  "updated_at": "2026-04-25T14:47:28Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_79_8849faae__q001_bbox",
+    "source_sample_id": "self_collection_Home_Office_79_8849faae",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the phone in the image.",
+    "instruction": "Locate the phone in the image.",
+    "answer": "phone",
+    "rgb": "Home_Office/79.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Home_Office_79_8849faae_obj_007",
+      "object_name": "phone",
+      "bbox_xyxy": [
+        1626.8460693359375,
+        3811.1494140625,
+        2297.600830078125,
+        4031.5439453125
+      ],
+      "bbox_xywh": [
+        1626.8460693359375,
+        3811.1494140625,
+        670.7547607421875,
+        220.39453125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the phone in the image?",
+    "output_instruction": "What is the bounding box of the phone in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "specular_confusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_79_8849faae_obj_007",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

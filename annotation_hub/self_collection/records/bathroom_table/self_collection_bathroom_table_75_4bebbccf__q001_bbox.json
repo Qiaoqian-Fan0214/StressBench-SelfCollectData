@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_bathroom_table_75_4bebbccf__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_75_4bebbccf",
+  "status": "annotated",
+  "updated_at": "2026-04-27T12:07:03Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_75_4bebbccf__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_75_4bebbccf",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the toilet in the image.",
+    "instruction": "Locate the toilet in the image.",
+    "answer": "toilet",
+    "rgb": "bathroom_table/75.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_75_4bebbccf_obj_001",
+      "object_name": "toilet",
+      "bbox_xyxy": [
+        2286.0341796875,
+        2193.69775390625,
+        3834.364013671875,
+        4579.5556640625
+      ],
+      "bbox_xywh": [
+        2286.0341796875,
+        2193.69775390625,
+        1548.329833984375,
+        2385.85791015625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the toilet in the image?",
+    "output_instruction": "What is the bounding box of the toilet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_75_4bebbccf_obj_001",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

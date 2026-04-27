@@ -1,0 +1,137 @@
+{
+  "sample_id": "self_collection_messy_desk_2_892cbf3b__q002_mask",
+  "source_sample_id": "self_collection_messy_desk_2_892cbf3b",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:47:37Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_2_892cbf3b__q002_mask",
+    "source_sample_id": "self_collection_messy_desk_2_892cbf3b",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the calculator in the image.",
+    "instruction": "Locate the calculator in the image.",
+    "answer": "calculator",
+    "rgb": "messy_desk/2.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_desk_2_892cbf3b_obj_000",
+      "object_name": "calculator",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4480,
+            6720
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "idTUa0:c[4<D;E;F",
+            ":E<E9G8H9H:F9G8H",
+            "9H5J5K6K4K5L4K6K",
+            "6J7H7J7I6I7J8G8I",
+            "6J7H7J5J7J6I6K6J",
+            "5J5L4K6K5K5J7J4L",
+            "4K5L4L5J7J5K7H8I",
+            "5K4K5L4L4K6K6I6K",
+            "7I6I6K3L4M2M4M3M",
+            "3L4M1N4M3M4K7J7H",
+            "8I4L3L4M3L5L4K6K",
+            "5J6K5K5J6K4L3L5L",
+            "3M4K5L4K4M3M4K4M",
+            "4L4K6K3M4K3N3M3L",
+            "5L3L5L4L4K5L5K5J",
+            "4M4L3L4M3M3L4M2N",
+            "3M3L5L3M4K4M4L4K",
+            "5L3M3L4M3M2M4M3L",
+            "4M4L2M2O2N2N2M2O",
+            "2N1O1N2O1O2N1N2O",
+            "2N1O2M3N1O1N2O1O",
+            "1N2O1O1N2O001O1N",
+            "101O1O0O2O001O0O",
+            "2O1O001N2O001O1N",
+            "2O001O1N2O1O1O0O",
+            "2O001O0O2O001O0O",
+            "10001N10001O0O10",
+            "000O2O00000O101O",
+            "000O1000001N1000",
+            "00000O101O000O10",
+            "00000O2O0000000O",
+            "10001O0000000O10",
+            "0000000000001O0O",
+            "100000000000000O",
+            "10001O000000000O",
+            "100000000000000O",
+            "1000O10000000O10",
+            "000000000000000O",
+            "10000000O1000000",
+            "0O100000000000O1",
+            "00000O1000000000",
+            "00O10O100000O100",
+            "0O10O100000O0100",
+            "0000O10O1000O10O",
+            "1000O100000O0100",
+            "000000O1000O10O1",
+            "000000O100000O01",
+            "000000O100000000",
+            "O0100000O1000000",
+            "O100000000O1000O",
+            "10O1000000O10000",
+            "00O1000000O10000",
+            "O1000000O2O000O1",
+            "0000O10000O10000",
+            "O101O0O101O0O101",
+            "O0O2O1O1N101N2O1",
+            "N2O1N2O1O1N3N1N3",
+            "N2M3N2N3L3N3L4M2",
+            "M4M3L5L6I6J6K4K5",
+            "L3L4L4M3L4M3L4M4",
+            "K6K5J5K4M3L4M5K5",
+            "J6K5J6K4K7J6J5J6",
+            "K4K4M4K4M3L4L4L5",
+            "L3L4L4L4M3L4L4L5",
+            "K8I>A9H5J5L4K4M4",
+            "K5L4K5L3M4K4M3L4",
+            "M3L4L5L5J5K5L4K5",
+            "K5K5K5K5K4L5K5K6",
+            "J8H<D8H7I7I8G:G;",
+            "E:F7I5J7J6I6K7H<",
+            "D:F7I5K5K4M5J5L4",
+            "L5J5L5K9G<D>B=B;",
+            "F;E:E9H5J7I5J7G9",
+            "F:E=@c0^Oa0@S_cQ",
+            "9"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        4002.455810546875,
+        2583.049560546875,
+        4615.0546875,
+        3436.028076171875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the calculator in the image?",
+    "output_instruction": "What is the segmentation mask of the calculator in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_2_892cbf3b_obj_000",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

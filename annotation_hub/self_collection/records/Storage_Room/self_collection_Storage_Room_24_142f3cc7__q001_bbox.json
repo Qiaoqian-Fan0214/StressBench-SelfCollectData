@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Storage_Room_24_142f3cc7__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_24_142f3cc7",
+  "status": "annotated",
+  "updated_at": "2026-04-26T10:44:18Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_24_142f3cc7__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_24_142f3cc7",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the chest of drawers in the image.",
+    "instruction": "Locate the chest of drawers in the image.",
+    "answer": "chest of drawers",
+    "rgb": "Storage_Room/24.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_24_142f3cc7_obj_006",
+      "object_name": "chest of drawers",
+      "bbox_xyxy": [
+        776.52001953125,
+        3438.375,
+        1962.0587158203125,
+        4892.375
+      ],
+      "bbox_xywh": [
+        776.52001953125,
+        3438.375,
+        1185.5386962890625,
+        1454
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the chest of drawers in the image?",
+    "output_instruction": "What is the bounding box of the chest of drawers in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_24_142f3cc7_obj_006",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

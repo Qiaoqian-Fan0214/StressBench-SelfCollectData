@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Storage_Room_4_ed1867fe__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_4_ed1867fe",
+  "status": "annotated",
+  "updated_at": "2026-04-26T07:24:53Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_4_ed1867fe__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_4_ed1867fe",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the door in the image.",
+    "instruction": "Locate the door in the image.",
+    "answer": "door",
+    "rgb": "Storage_Room/4.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_4_ed1867fe_obj_001",
+      "object_name": "door",
+      "bbox_xyxy": [
+        370.0140075683594,
+        1557.3759765625,
+        836.5097045898438,
+        2713.118896484375
+      ],
+      "bbox_xywh": [
+        370.0140075683594,
+        1557.3759765625,
+        466.4956970214844,
+        1155.742919921875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the door in the image?",
+    "output_instruction": "What is the bounding box of the door in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_4_ed1867fe_obj_001",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

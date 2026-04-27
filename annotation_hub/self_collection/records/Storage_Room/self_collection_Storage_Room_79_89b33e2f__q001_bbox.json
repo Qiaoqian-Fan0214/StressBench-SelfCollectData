@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Storage_Room_79_89b33e2f__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_79_89b33e2f",
+  "status": "annotated",
+  "updated_at": "2026-04-26T18:25:42Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_79_89b33e2f__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_79_89b33e2f",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the espresso machine in the image.",
+    "instruction": "Locate the espresso machine in the image.",
+    "answer": "espresso machine",
+    "rgb": "Storage_Room/79.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_79_89b33e2f_obj_004",
+      "object_name": "espresso machine",
+      "bbox_xyxy": [
+        3.966033458709717,
+        33.07363510131836,
+        1031.0843505859375,
+        3509.867431640625
+      ],
+      "bbox_xywh": [
+        3.966033458709717,
+        33.07363510131836,
+        1027.1183171272278,
+        3476.7937965393066
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the espresso machine in the image?",
+    "output_instruction": "What is the bounding box of the espresso machine in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_79_89b33e2f_obj_004",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

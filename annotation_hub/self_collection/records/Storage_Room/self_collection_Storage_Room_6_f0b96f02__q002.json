@@ -1,0 +1,58 @@
+{
+  "sample_id": "self_collection_Storage_Room_6_f0b96f02__q002",
+  "source_sample_id": "self_collection_Storage_Room_6_f0b96f02",
+  "status": "annotated",
+  "updated_at": "2026-04-26T07:29:46Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_6_f0b96f02__q002",
+    "source_sample_id": "self_collection_Storage_Room_6_f0b96f02",
+    "entry_id": "q002",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a lamp in the image?",
+    "instruction": "Is there any vacant space to place a lamp in the image?",
+    "answer": "no",
+    "rgb": "Storage_Room/6.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 1
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a lamp in the image?",
+    "output_instruction": "Is there any vacant space to place a lamp in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_6_f0b96f02_obj_000",
+      "placementItem": "lamp",
+      "answerIndex": 1,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

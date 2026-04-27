@@ -1,0 +1,55 @@
+{
+  "sample_id": "self_collection_messy_desk_62_2cc69403__q001_bbox",
+  "source_sample_id": "self_collection_messy_desk_62_2cc69403",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:10:19Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_62_2cc69403__q001_bbox",
+    "source_sample_id": "self_collection_messy_desk_62_2cc69403",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the laptop in the image.",
+    "instruction": "Locate the laptop in the image.",
+    "answer": "laptop",
+    "rgb": "messy_desk/62.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_desk_62_2cc69403_obj_001",
+      "object_name": "laptop",
+      "bbox_xyxy": [
+        1305.0400390625,
+        1122.6439208984375,
+        4558.10693359375,
+        3498.086181640625
+      ],
+      "bbox_xywh": [
+        1305.0400390625,
+        1122.6439208984375,
+        3253.06689453125,
+        2375.4422607421875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the laptop in the image?",
+    "output_instruction": "What is the bounding box of the laptop in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_62_2cc69403_obj_001",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

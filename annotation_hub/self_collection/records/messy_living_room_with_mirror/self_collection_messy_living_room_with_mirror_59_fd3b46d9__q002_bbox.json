@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_59_fd3b46d9__q002_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_59_fd3b46d9",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:30Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_59_fd3b46d9__q002_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_59_fd3b46d9",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "messy_living_room_with_mirror/59.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_59_fd3b46d9_obj_000",
+      "object_name": "cup",
+      "bbox_xyxy": [
+        157.32757568359375,
+        1557.5882568359375,
+        276.7340393066406,
+        1722.625
+      ],
+      "bbox_xywh": [
+        157.32757568359375,
+        1557.5882568359375,
+        119.40646362304688,
+        165.0367431640625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cup in the image?",
+    "output_instruction": "What is the bounding box of the cup in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_59_fd3b46d9_obj_000",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

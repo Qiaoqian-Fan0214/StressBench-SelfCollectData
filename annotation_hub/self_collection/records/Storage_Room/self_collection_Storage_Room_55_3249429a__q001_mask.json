@@ -1,0 +1,136 @@
+{
+  "sample_id": "self_collection_Storage_Room_55_3249429a__q001_mask",
+  "source_sample_id": "self_collection_Storage_Room_55_3249429a",
+  "status": "annotated",
+  "updated_at": "2026-04-26T18:05:59Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_55_3249429a__q001_mask",
+    "source_sample_id": "self_collection_Storage_Room_55_3249429a",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the stool in the image.",
+    "instruction": "Locate the stool in the image.",
+    "answer": "stool",
+    "rgb": "Storage_Room/55.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Storage_Room_55_3249429a_obj_005",
+      "object_name": "stool",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3784,
+            5687
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "eRPR63ge3h0nNP1@",
+            ">E8H7TO\\Mi]Lm2Rb",
+            "3g0N2M3N2O0O2N10",
+            "1N103L1O1O1O1O10",
+            "0O1N2O1O1O1O1N2O",
+            "1N2O1M3N2M3N2M3N",
+            "2N2N2M3M3N2M3N2K",
+            "5K5K5L4L4L4M3M3L",
+            "4L4L4L4L4K5K5L4L",
+            "4M3M3N2N2N2N2M3N",
+            "2M3M3M3L4L4M3L4M",
+            "3M3M3M3M3N2N2M3N",
+            "2N2M3M3M3L4L4M3L",
+            "4J6I7I7K5L4M3N2M",
+            "3N2N2N2N2M3L4I7H",
+            "8I7J6H8K5L4M3M3M",
+            "3M3L4L4L4L4L4M3M",
+            "3M3M3M3L4M3L4K5J",
+            "6F:J6L4L4L4L4L4M",
+            "3L4L4M3M3M3M3N2N",
+            "2M3N2N2M3N2M3L4H",
+            "8H8K5M3N2M3N2M3N",
+            "2N2M3L4J6J6K5M3N",
+            "2N2O1O1O1O100000",
+            "000O100000000000",
+            "000000000O100000",
+            "0000000000000000",
+            "000O100000000000",
+            "0000000000000O10",
+            "0000000000000000",
+            "000O100000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "000000000001O000",
+            "0000000000000000",
+            "0000000000000000",
+            "01O0000000000000",
+            "000000000001O000",
+            "00000000000001O0",
+            "00000000000001O0",
+            "00000001O0000000",
+            "01O00000000001O0",
+            "0000000001O00000",
+            "000001O000000000",
+            "01O0000001O00000",
+            "0001O0000001O000",
+            "0001O0000001O000",
+            "01O0000001O00001",
+            "O0000001O001O000",
+            "01O001O001O00001",
+            "O001O001O1O001O0",
+            "01O1O001O1O001O1",
+            "O1O001O1O001O1O0",
+            "01O00001O001O1O0",
+            "01O001O1O001O1O0",
+            "01O1O1O001O1O1O1",
+            "O1O1O1O1O2N1O2N2",
+            "N1O2N2N2N2N2N3M7",
+            "I:Ff0ZO7I3M2N3M2",
+            "N3M5H9J6I7J9U@Pj",
+            "Ll>PW3E9G=CQ1oNS",
+            "1mN=C=Bo1QN<C;D;",
+            "C;F;Bd0kIm`Ln0DQ",
+            "1[d3ZNT]nf<"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1678.672119140625,
+        3095.406005859375,
+        2176.029052734375,
+        3774.481201171875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the stool in the image?",
+    "output_instruction": "What is the segmentation mask of the stool in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_55_3249429a_obj_005",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

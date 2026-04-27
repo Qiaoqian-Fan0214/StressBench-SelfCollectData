@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_6_cb5faddd__q001_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_6_cb5faddd",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:04:24Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_6_cb5faddd__q001_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_6_cb5faddd",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the laundry basket in the image.",
+    "instruction": "Locate the laundry basket in the image.",
+    "answer": "laundry basket",
+    "rgb": "messy_living_room_with_mirror/6.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_6_cb5faddd_obj_004",
+      "object_name": "laundry basket",
+      "bbox_xyxy": [
+        336.6057434082031,
+        2385.39697265625,
+        934.0734252929688,
+        3393.351806640625
+      ],
+      "bbox_xywh": [
+        336.6057434082031,
+        2385.39697265625,
+        597.4676818847656,
+        1007.954833984375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the laundry basket in the image?",
+    "output_instruction": "What is the bounding box of the laundry basket in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_6_cb5faddd_obj_004",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

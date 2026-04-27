@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_bathroom_table_38_b41aad9f__q002_bbox",
+  "source_sample_id": "self_collection_bathroom_table_38_b41aad9f",
+  "status": "annotated",
+  "updated_at": "2026-04-27T10:23:01Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_38_b41aad9f__q002_bbox",
+    "source_sample_id": "self_collection_bathroom_table_38_b41aad9f",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the plant in the image.",
+    "instruction": "Locate the plant in the image.",
+    "answer": "plant",
+    "rgb": "bathroom_table/38.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_38_b41aad9f_obj_014",
+      "object_name": "plant",
+      "bbox_xyxy": [
+        2414.846435546875,
+        1456.8154296875,
+        2558.449951171875,
+        1777.89892578125
+      ],
+      "bbox_xywh": [
+        2414.846435546875,
+        1456.8154296875,
+        143.603515625,
+        321.08349609375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the plant in the image?",
+    "output_instruction": "What is the bounding box of the plant in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_38_b41aad9f_obj_014",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

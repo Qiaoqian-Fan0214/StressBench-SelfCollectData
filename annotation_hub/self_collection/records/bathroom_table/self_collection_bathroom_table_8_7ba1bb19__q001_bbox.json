@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_bathroom_table_8_7ba1bb19__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_8_7ba1bb19",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:49:56Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_8_7ba1bb19__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_8_7ba1bb19",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the mirror in the image.",
+    "instruction": "Locate the mirror in the image.",
+    "answer": "mirror",
+    "rgb": "bathroom_table/8.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_8_7ba1bb19_obj_008",
+      "object_name": "mirror",
+      "bbox_xyxy": [
+        3956.84619140625,
+        2.976036310195923,
+        4888.4560546875,
+        412.3823547363281
+      ],
+      "bbox_xywh": [
+        3956.84619140625,
+        2.976036310195923,
+        931.60986328125,
+        409.4063184261322
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the mirror in the image?",
+    "output_instruction": "What is the bounding box of the mirror in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ],
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_8_7ba1bb19_obj_008",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ],
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

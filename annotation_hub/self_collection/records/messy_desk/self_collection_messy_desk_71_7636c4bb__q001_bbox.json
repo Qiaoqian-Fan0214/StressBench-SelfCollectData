@@ -1,0 +1,61 @@
+{
+  "sample_id": "self_collection_messy_desk_71_7636c4bb__q001_bbox",
+  "source_sample_id": "self_collection_messy_desk_71_7636c4bb",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:10:20Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_71_7636c4bb__q001_bbox",
+    "source_sample_id": "self_collection_messy_desk_71_7636c4bb",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "messy_desk/71.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_desk_71_7636c4bb_obj_001",
+      "object_name": "cup",
+      "bbox_xyxy": [
+        150.74583435058594,
+        1739.16162109375,
+        1090.009521484375,
+        2584.367919921875
+      ],
+      "bbox_xywh": [
+        150.74583435058594,
+        1739.16162109375,
+        939.2636871337891,
+        845.206298828125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cup in the image?",
+    "output_instruction": "What is the bounding box of the cup in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_71_7636c4bb_obj_001",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "M": [
+          "specular_confusion"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "M": [
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "sample_id": "self_collection_bathroom_table_56_5a96003e__q001",
+  "source_sample_id": "self_collection_bathroom_table_56_5a96003e",
+  "status": "annotated",
+  "updated_at": "2026-04-27T11:42:21Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_56_5a96003e__q001",
+    "source_sample_id": "self_collection_bathroom_table_56_5a96003e",
+    "entry_id": "q001",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a bathroom stool in the image?",
+    "instruction": "Is there any vacant space to place a bathroom stool in the image?",
+    "answer": "no",
+    "rgb": "bathroom_table/56.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 1
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a bathroom stool in the image?",
+    "output_instruction": "Is there any vacant space to place a bathroom stool in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_56_5a96003e_obj_000",
+      "placementItem": "bathroom stool",
+      "answerIndex": 1,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

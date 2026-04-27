@@ -1,0 +1,70 @@
+{
+  "sample_id": "self_collection_Storage_Room_36_a1e9e3bd__q003",
+  "source_sample_id": "self_collection_Storage_Room_36_a1e9e3bd",
+  "status": "annotated",
+  "updated_at": "2026-04-26T17:34:40Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_36_a1e9e3bd__q003",
+    "source_sample_id": "self_collection_Storage_Room_36_a1e9e3bd",
+    "entry_id": "q003",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a footstool in the image?",
+    "instruction": "Is there any vacant space to place a footstool in the image?",
+    "answer": "yes",
+    "rgb": "Storage_Room/36.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a footstool in the image?",
+    "output_instruction": "Is there any vacant space to place a footstool in the image?",
+    "editor_state": {
+      "entry_id": "q003",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_36_a1e9e3bd_obj_000",
+      "placementItem": "footstool",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

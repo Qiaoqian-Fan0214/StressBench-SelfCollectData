@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_bathroom_table_67_4779d5fd__q003_bbox",
+  "source_sample_id": "self_collection_bathroom_table_67_4779d5fd",
+  "status": "annotated",
+  "updated_at": "2026-04-27T11:59:33Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_67_4779d5fd__q003_bbox",
+    "source_sample_id": "self_collection_bathroom_table_67_4779d5fd",
+    "entry_id": "q003",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the towel rack in the image.",
+    "instruction": "Locate the towel rack in the image.",
+    "answer": "towel rack",
+    "rgb": "bathroom_table/67.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_67_4779d5fd_obj_006",
+      "object_name": "towel rack",
+      "bbox_xyxy": [
+        3592.276611328125,
+        3361.029541015625,
+        3834.072021484375,
+        4669.501953125
+      ],
+      "bbox_xywh": [
+        3592.276611328125,
+        3361.029541015625,
+        241.79541015625,
+        1308.472412109375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the towel rack in the image?",
+    "output_instruction": "What is the bounding box of the towel rack in the image?",
+    "editor_state": {
+      "entry_id": "q003",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_67_4779d5fd_obj_006",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

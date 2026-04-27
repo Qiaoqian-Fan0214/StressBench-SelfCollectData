@@ -1,0 +1,56 @@
+{
+  "sample_id": "self_collection_desk_66_31e85b18__q001_bbox",
+  "source_sample_id": "self_collection_desk_66_31e85b18",
+  "status": "annotated",
+  "updated_at": "2026-04-27T05:43:14Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_66_31e85b18__q001_bbox",
+    "source_sample_id": "self_collection_desk_66_31e85b18",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the medicine bottle in the image.",
+    "instruction": "Locate the medicine bottle in the image.",
+    "answer": "medicine bottle",
+    "rgb": "desk/66.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_desk_66_31e85b18_obj_000",
+      "object_name": "medicine bottle",
+      "bbox_xyxy": [
+        1592.2703857421875,
+        2939.89208984375,
+        1966.2882080078125,
+        3836.39404296875
+      ],
+      "bbox_xywh": [
+        1592.2703857421875,
+        2939.89208984375,
+        374.017822265625,
+        896.501953125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the medicine bottle in the image?",
+    "output_instruction": "What is the bounding box of the medicine bottle in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_66_31e85b18_obj_000"
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "L": [
+        "local_underexposure"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_bathroom_table_7_b72382a0__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_7_b72382a0",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:48:23Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_7_b72382a0__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_7_b72382a0",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the candle in the image.",
+    "instruction": "Locate the candle in the image.",
+    "answer": "candle",
+    "rgb": "bathroom_table/7.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_7_b72382a0_obj_012",
+      "object_name": "candle",
+      "bbox_xyxy": [
+        438.4041442871094,
+        3152.292236328125,
+        652.4537963867188,
+        3372.96728515625
+      ],
+      "bbox_xywh": [
+        438.4041442871094,
+        3152.292236328125,
+        214.04965209960938,
+        220.675048828125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the candle in the image?",
+    "output_instruction": "What is the bounding box of the candle in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_7_b72382a0_obj_012",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

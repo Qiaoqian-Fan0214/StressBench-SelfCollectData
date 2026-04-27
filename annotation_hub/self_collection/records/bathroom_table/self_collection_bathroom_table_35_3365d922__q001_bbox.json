@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_bathroom_table_35_3365d922__q001_bbox",
+  "source_sample_id": "self_collection_bathroom_table_35_3365d922",
+  "status": "annotated",
+  "updated_at": "2026-04-27T10:19:18Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_35_3365d922__q001_bbox",
+    "source_sample_id": "self_collection_bathroom_table_35_3365d922",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the candle in the image.",
+    "instruction": "Locate the candle in the image.",
+    "answer": "candle",
+    "rgb": "bathroom_table/35.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_bathroom_table_35_3365d922_obj_004",
+      "object_name": "candle",
+      "bbox_xyxy": [
+        2.5632762908935547,
+        4778.39306640625,
+        546.6719970703125,
+        5379.7294921875
+      ],
+      "bbox_xywh": [
+        2.5632762908935547,
+        4778.39306640625,
+        544.108720779419,
+        601.33642578125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the candle in the image?",
+    "output_instruction": "What is the bounding box of the candle in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_35_3365d922_obj_004",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

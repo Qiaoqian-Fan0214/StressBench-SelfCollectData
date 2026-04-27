@@ -1,0 +1,58 @@
+{
+  "sample_id": "self_collection_messy_desk_83_d30bb527__q002",
+  "source_sample_id": "self_collection_messy_desk_83_d30bb527",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:10:20Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_83_d30bb527__q002",
+    "source_sample_id": "self_collection_messy_desk_83_d30bb527",
+    "entry_id": "q002",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a plate in the image?",
+    "instruction": "Is there any vacant space to place a plate in the image?",
+    "answer": "no",
+    "rgb": "messy_desk/83.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 1
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a plate in the image?",
+    "output_instruction": "Is there any vacant space to place a plate in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "placementItem": "plate",
+      "answerIndex": 1,
+      "stress": {
+        "L": [
+          "local_underexposure"
+        ],
+        "G": [
+          "stacked_layout"
+        ]
+      }
+    },
+    "stress": {
+      "L": [
+        "local_underexposure"
+      ],
+      "G": [
+        "stacked_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "sample_id": "self_collection_Home_Office_35_e995068c__q003",
+  "source_sample_id": "self_collection_Home_Office_35_e995068c",
+  "status": "annotated",
+  "updated_at": "2026-04-25T13:36:07Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_35_e995068c__q003",
+    "source_sample_id": "self_collection_Home_Office_35_e995068c",
+    "entry_id": "q003",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a monitor in the image?",
+    "instruction": "Is there any vacant space to place a monitor in the image?",
+    "answer": "no",
+    "rgb": "Home_Office/35.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 1
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a monitor in the image?",
+    "output_instruction": "Is there any vacant space to place a monitor in the image?",
+    "editor_state": {
+      "entry_id": "q003",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_35_e995068c_obj_000",
+      "placementItem": "monitor",
+      "answerIndex": 1,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

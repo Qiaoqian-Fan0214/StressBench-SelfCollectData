@@ -1,0 +1,64 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_10_8f0603da__q003",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_10_8f0603da",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:29:19Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_10_8f0603da__q003",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_10_8f0603da",
+    "entry_id": "q003",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a lamp in the image?",
+    "instruction": "Is there any vacant space to place a lamp in the image?",
+    "answer": "no",
+    "rgb": "messy_living_room_with_mirror/10.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 1
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a lamp in the image?",
+    "output_instruction": "Is there any vacant space to place a lamp in the image?",
+    "editor_state": {
+      "entry_id": "q003",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "",
+      "placementItem": "lamp",
+      "answerIndex": 1,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

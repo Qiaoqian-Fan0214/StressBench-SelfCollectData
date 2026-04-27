@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_bathroom_table_23_936e7064__q001",
+  "source_sample_id": "self_collection_bathroom_table_23_936e7064",
+  "status": "annotated",
+  "updated_at": "2026-04-27T10:08:54Z",
+  "annotation": {
+    "sample_id": "self_collection_bathroom_table_23_936e7064__q001",
+    "source_sample_id": "self_collection_bathroom_table_23_936e7064",
+    "entry_id": "q001",
+    "task": "spatial_mcq",
+    "template_id": "nearest",
+    "question": "Which object is closest to us in the image?",
+    "instruction": "Which object is closest to us in the image?",
+    "answer": "toilet",
+    "rgb": "bathroom_table/23.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "mirror",
+          "toilet",
+          "pet bowl",
+          "bean bag",
+          "saucer"
+        ],
+        "answer_index": 1
+      }
+    },
+    "output_variant": null,
+    "output_question": "Which object is closest to us in the image?",
+    "output_instruction": "Which object is closest to us in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "spatial_mcq",
+      "template_id": "nearest",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ]
+      },
+      "selectedObjectId": "self_collection_bathroom_table_23_936e7064_obj_000",
+      "placementItem": "plate",
+      "answerIndex": 1,
+      "spatialRelationAObjectId": "self_collection_bathroom_table_23_936e7064_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_bathroom_table_23_936e7064_obj_001",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": [
+        "mirror",
+        "toilet",
+        "pet bowl",
+        "bean bag",
+        "saucer"
+      ]
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "bathroom_table",
+      "split": "self_collected"
+    }
+  }
+}

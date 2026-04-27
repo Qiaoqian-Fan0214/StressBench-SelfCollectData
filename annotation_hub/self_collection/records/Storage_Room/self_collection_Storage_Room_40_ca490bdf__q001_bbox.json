@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Storage_Room_40_ca490bdf__q001_bbox",
+  "source_sample_id": "self_collection_Storage_Room_40_ca490bdf",
+  "status": "annotated",
+  "updated_at": "2026-04-26T17:42:51Z",
+  "annotation": {
+    "sample_id": "self_collection_Storage_Room_40_ca490bdf__q001_bbox",
+    "source_sample_id": "self_collection_Storage_Room_40_ca490bdf",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the window in the image.",
+    "instruction": "Locate the window in the image.",
+    "answer": "window",
+    "rgb": "Storage_Room/40.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Storage_Room_40_ca490bdf_obj_003",
+      "object_name": "window",
+      "bbox_xyxy": [
+        310.6682434082031,
+        630.6473999023438,
+        1299.5302734375,
+        963.7228393554688
+      ],
+      "bbox_xywh": [
+        310.6682434082031,
+        630.6473999023438,
+        988.8620300292969,
+        333.075439453125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the window in the image?",
+    "output_instruction": "What is the bounding box of the window in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Storage_Room_40_ca490bdf_obj_003",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Storage_Room",
+      "split": "self_collected"
+    }
+  }
+}

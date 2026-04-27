@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_messy_living_room_with_mirror_54_a02a8864__q002_bbox",
+  "source_sample_id": "self_collection_messy_living_room_with_mirror_54_a02a8864",
+  "status": "annotated",
+  "updated_at": "2026-04-27T15:23:57Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_living_room_with_mirror_54_a02a8864__q002_bbox",
+    "source_sample_id": "self_collection_messy_living_room_with_mirror_54_a02a8864",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the vase in the image.",
+    "instruction": "Locate the vase in the image.",
+    "answer": "vase",
+    "rgb": "messy_living_room_with_mirror/54.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_living_room_with_mirror_54_a02a8864_obj_003",
+      "object_name": "vase",
+      "bbox_xyxy": [
+        1169.384765625,
+        1259.851318359375,
+        1299.9227294921875,
+        1495.9815673828125
+      ],
+      "bbox_xywh": [
+        1169.384765625,
+        1259.851318359375,
+        130.5379638671875,
+        236.1302490234375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the vase in the image?",
+    "output_instruction": "What is the bounding box of the vase in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_living_room_with_mirror_54_a02a8864_obj_003",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_living_room_with_mirror",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "sample_id": "self_collection_messy_desk_93_53073c4d__q002_mask",
+  "source_sample_id": "self_collection_messy_desk_93_53073c4d",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:10:21Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_93_53073c4d__q002_mask",
+    "source_sample_id": "self_collection_messy_desk_93_53073c4d",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the calculator in the image.",
+    "instruction": "Locate the calculator in the image.",
+    "answer": "calculator",
+    "rgb": "messy_desk/93.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_desk_93_53073c4d_obj_004",
+      "object_name": "calculator",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4000,
+            6000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "RZ]f<i0Ql39H8I7H",
+            "7H8I7I7J5K5J5I8F",
+            ":I6J7J6I7G8F:E<G",
+            "8I8H7H9G9F9H9G8G",
+            ":G8G:F9I8G8H9E:F",
+            ":I8I6K6J5K5J7H7D",
+            "=^Oa0J7J5J7H8I7J",
+            "5K6J6J5H9H7H8I8H",
+            "7H9@?G9L4N2L4L4K",
+            "5K6J5K5J6I7J6I7I",
+            "7H8G9I8K4K5K5K5I",
+            "7H9G8H8J6J7I6I7J",
+            "6I8G8I7H9G8I7J6I",
+            "8J5L4M4M2N2N2N2O",
+            "1O2N1O1O1O1O1N2O",
+            "1N2N2N2M3nNZWOgm",
+            "Lih0TR3fWO^mL_h0",
+            "]R3T1M3L4M3M3M3M",
+            "3M4L3N2N2N3M2N2N",
+            "3N1N2O2M2O2M2O1O",
+            "2M2N3N1N2O2N1O1O",
+            "1N3M2O1O1L4L4M3M",
+            "3M3N2O2M2O1N2O1N",
+            "2O1M3N2M3N2N3N10",
+            "000O11O000001O00",
+            "000000001O000000",
+            "00001O00000O101O",
+            "000O10000O101O00",
+            "0O1000000O101O00",
+            "0000000O10000000",
+            "0000000001O00000",
+            "0000000000000000",
+            "0000001O000001O0",
+            "0000001O00000001",
+            "0O000000001O0000",
+            "01O01O000000001O",
+            "01O0001O0000001O",
+            "01O0001O00001O00",
+            "01O0001O00000000",
+            "000001O000000000",
+            "001O000000000000",
+            "01O000000000001O",
+            "000001O0001O0000",
+            "001O000001O00000",
+            "1O0000000001O000",
+            "00000000010O0000",
+            "00000001O0000000",
+            "0001O00000000001",
+            "O000000001O000O1",
+            "000001O000000000",
+            "00O2O000O100O1O1",
+            "00O100O2O0O100O1",
+            "0000O10000O10001",
+            "N10000O100O100O1",
+            "01N1O1O100O1N2O1",
+            "N2O2L3M3M3M3M3L4",
+            "M3L4M3N2M3N3M2O1",
+            "O1O1N2O1O1O1O1M3",
+            "M3M3N2M3N3L3L4M3",
+            "M3M3L4L5F9E;F:F:",
+            "G9H9H7K5L4M3M3M4",
+            "L3M3M3M3N2I7I8I6",
+            "J6L4L4J6K5K5J6I7",
+            "K5J6I7K5K5J7\\Oc0",
+            "N2N2N2O1O1N2M3N2",
+            "M3L4M3K6J5K5L4K5",
+            "TOm0J5L4L4M3L4_O",
+            "b0H7M3N2N2O1N2L4",
+            "M3K5K5J7J5H8D<hN",
+            "kaLWCc^3e<n0L4L4",
+            "L4J6D<I7L4N2N2N2",
+            "O1N102M2N2M3N2N2",
+            "M3L4K5L4K5K5K5K5",
+            "L5kNU]LmGQc3n7S1",
+            "L4K5M3M3M3M3N2M4",
+            "J5K6cNQZLaKUf3U4",
+            "]ZL[Kke3^4eZLQKd",
+            "e3g4_1^MUXLHQh3H",
+            "cXLNcg3KhXLL]g3N",
+            "lXLIZg31oXLEYg34",
+            "m2J7G;Djm_n7"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        3320.212158203125,
+        558.9531860351562,
+        3926.653076171875,
+        1571.4320068359375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the calculator in the image?",
+    "output_instruction": "What is the segmentation mask of the calculator in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_93_53073c4d_obj_004",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

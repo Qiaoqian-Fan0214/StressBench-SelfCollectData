@@ -1,0 +1,106 @@
+{
+  "sample_id": "self_collection_messy_desk_46_a2a95600__q002_mask",
+  "source_sample_id": "self_collection_messy_desk_46_a2a95600",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:47:40Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_46_a2a95600__q002_mask",
+    "source_sample_id": "self_collection_messy_desk_46_a2a95600",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bottle in the image.",
+    "instruction": "Locate the bottle in the image.",
+    "answer": "bottle",
+    "rgb": "messy_desk/46.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_desk_46_a2a95600_obj_001",
+      "object_name": "bottle",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4608,
+            3072
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Ta_^:6f_46H7C>E9",
+            "I8eNUOXcKS1i[4Q2",
+            "J7K4YOg0QOWK_fKQ",
+            "5XY4Q1_NTJfhKR6U",
+            "W4_1L4L5L3M3O1N3",
+            "N1O2N2N1O2N2N2O0",
+            "O2N2O0O2N2O0O2N1",
+            "N3eN[GUkKi8eT4]1",
+            "J5M3L5K4M4M2N2O2",
+            "N1O1O2N1O2O0O1O2",
+            "O0O2O0O101O0O100",
+            "01N10000O10001O0",
+            "O10001N100000000",
+            "O100000001O00000",
+            "0000000000000000",
+            "0000000000000000",
+            "01O0000000000000",
+            "001O000000001O00",
+            "001N1000001O0000",
+            "0O2O001N10001N10",
+            "1N101N1O2N101M2O",
+            "2N1N3M2N3J5K6I6Z",
+            "Og0[NQkKjG\\U4\\7R",
+            "2bN^1D<@a0iNW1kM",
+            "VeKZNd[4;gcKKX^4",
+            "ATZlZ2"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2377.85107421875,
+        2237.7197265625,
+        2538.7138671875,
+        2637.40771484375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the bottle in the image?",
+    "output_instruction": "What is the segmentation mask of the bottle in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_46_a2a95600_obj_001",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "V": [
+          "small_scale"
+        ],
+        "L": [
+          "local_underexposure"
+        ],
+        "M": [
+          "transparent"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "local_underexposure"
+      ],
+      "M": [
+        "transparent"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}
