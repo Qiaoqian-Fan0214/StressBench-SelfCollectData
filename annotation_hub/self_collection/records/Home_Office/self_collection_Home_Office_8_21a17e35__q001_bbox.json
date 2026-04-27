@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_Home_Office_8_21a17e35__q001_bbox",
+  "source_sample_id": "self_collection_Home_Office_8_21a17e35",
+  "status": "annotated",
+  "updated_at": "2026-04-25T13:08:11Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_8_21a17e35__q001_bbox",
+    "source_sample_id": "self_collection_Home_Office_8_21a17e35",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the mouse in the image.",
+    "instruction": "Locate the mouse in the image.",
+    "answer": "mouse",
+    "rgb": "Home_Office/8.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Home_Office_8_21a17e35_obj_004",
+      "object_name": "mouse",
+      "bbox_xyxy": [
+        6385.68359375,
+        3853.22998046875,
+        6661.1123046875,
+        4100.8701171875
+      ],
+      "bbox_xywh": [
+        6385.68359375,
+        3853.22998046875,
+        275.4287109375,
+        247.64013671875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the mouse in the image?",
+    "output_instruction": "What is the bounding box of the mouse in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_8_21a17e35_obj_004",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

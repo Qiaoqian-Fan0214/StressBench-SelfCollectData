@@ -1,0 +1,48 @@
+{
+  "sample_id": "self_collection_desk_92_d79244a5__q002",
+  "source_sample_id": "self_collection_desk_92_d79244a5",
+  "status": "annotated",
+  "updated_at": "2026-04-27T05:43:15Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_92_d79244a5__q002",
+    "source_sample_id": "self_collection_desk_92_d79244a5",
+    "entry_id": "q002",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a lamp in the image?",
+    "instruction": "Is there any vacant space to place a lamp in the image?",
+    "answer": "no",
+    "rgb": "desk/92.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 1
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a lamp in the image?",
+    "output_instruction": "Is there any vacant space to place a lamp in the image?",
+    "editor_state": {
+      "placementItem": "lamp",
+      "answerIndex": 1
+    },
+    "stress": {
+      "L": [
+        "global_underexposure"
+      ],
+      "G": [
+        "occlusion",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_70_73dfb320__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_70_73dfb320",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:27:25Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_70_73dfb320__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_70_73dfb320",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the wall in the image.",
+    "instruction": "Locate the wall in the image.",
+    "answer": "wall",
+    "rgb": "dark_messy_kitchen/70.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_70_73dfb320_obj_011",
+      "object_name": "wall",
+      "bbox_xyxy": [
+        928.2301025390625,
+        1890.5108642578125,
+        1285.05712890625,
+        2901.904052734375
+      ],
+      "bbox_xywh": [
+        928.2301025390625,
+        1890.5108642578125,
+        356.8270263671875,
+        1011.3931884765625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the wall in the image?",
+    "output_instruction": "What is the bounding box of the wall in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_70_73dfb320_obj_011",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

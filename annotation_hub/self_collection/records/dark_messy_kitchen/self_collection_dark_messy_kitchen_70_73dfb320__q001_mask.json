@@ -1,0 +1,178 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_70_73dfb320__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_70_73dfb320",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:27:25Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_70_73dfb320__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_70_73dfb320",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the wall in the image.",
+    "instruction": "Locate the wall in the image.",
+    "answer": "wall",
+    "rgb": "dark_messy_kitchen/70.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_70_73dfb320_obj_011",
+      "object_name": "wall",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4289,
+            3214
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "YiUj3c0YU4;G9H7I",
+            "6J5K5L9G<D3M2N3i",
+            "bLjM_f2W2PYMaNgf",
+            "2a1XXMAeg2`0kVMQ",
+            "1Ti2POWUM[M\\_OZ4",
+            "Z[3]NYTMd3fk2^LX",
+            "RMXMWB:JY6g[3VLT",
+            "PM\\NUD_7g[3WJPoL",
+            "XMXEg:h[3RHSnL`9",
+            "lQ3bFhmLh9YR3YFb",
+            "kLk;]T3WDjiL`=VV",
+            "3bB`hLg>mLl]OVY3",
+            "^3WiL[?aM\\]OTY3[",
+            "3TiL_?gMX]OTY3Z3",
+            "RiL_?jMY]ORY3Z3R",
+            "iL^?kMZ]ORY3Y3Qi",
+            "L^?lMZ]ORY3Y3QiL",
+            "^?lMZ]OSY3Y3ohL_",
+            "?lMY]OTY3Z3ohL]?",
+            "kM[]OVY3Y3nhL]?i",
+            "M\\]OYY3X3lhL_?dM",
+            "^]O_Y3V3khL^?^Mb",
+            "]OgY3Q3jhLb?SMc]",
+            "OSZ3m2hhLi`0XW3X",
+            "_OghLh`0XW3[_Ofh",
+            "Le`0YW3^_OehLb`0",
+            "[W3`_ObhLa`0]W3b",
+            "_OahL^`0_W3d_O_h",
+            "L[`0aW3g_O^hLY`0",
+            "aW3j_O\\hLW`0cW3k",
+            "_O\\hLU`0dW3l_OZh",
+            "LU`0eW3n_O]fL]KW",
+            "1ed0[X3R@TfLbK^1",
+            "]d0]X3i@_gLX?aX3",
+            "j@\\gLW?cX3l@ZgLU",
+            "?fX3m@VgLT?jX3o@",
+            "nfLW?RY3k@gfLZ?X",
+            "Y3h600O100O100O0",
+            "1gKWfLZ\\OhY3ec0]",
+            "fLX\\OcY3gc0_fLX\\",
+            "O`Y3hc0afLX\\O^Y3",
+            "kc0_fLU\\ObY3Uh0O",
+            "001O1O00100O1O01",
+            "0O1O10O10O100000",
+            "O10O10O100000O01",
+            "00000O100O10O02O",
+            "0O101N101N101N10",
+            "1O1N3N1N3N2N2M2O",
+            "1O2M2O1O1N2O001N",
+            "2O001N101O0O2O1O",
+            "001N2O001O1N2O00",
+            "1O1N101O1O001N10",
+            "1O001O001O001O00",
+            "1O1O0O2O001O0000",
+            "1O00001O000O1000",
+            "1O00000000001O0O",
+            "1000000000000000",
+            "000000000000000O",
+            "101O000000000000",
+            "0O100000001O0000",
+            "0000000000000000",
+            "0001O00000000001",
+            "O000000000000000",
+            "001O000000000000",
+            "0000000000000000",
+            "1O00000000000000",
+            "0000000000000O10",
+            "0000000000000000",
+            "0O1000000000O101",
+            "O000000001O0O101",
+            "O001N101O1O3M4L6",
+            "J4L3N0O1O100O000",
+            "10O0001O00000000",
+            "PXOogLPb0QX3n]OR",
+            "hLPb0oW3o]OShLoa",
+            "0mW3R^OThLla0mW3",
+            "T^OThLja0mW3U^OT",
+            "hLkJOoe0oW3V_OSh",
+            "LgJ5ac05d]OeW3S4",
+            "ShLeJ9U1_O_`0f0^",
+            "_OaW3Z4RhLbJ<n0F",
+            "_`0c0l^OPX3U5\\gL",
+            "_Ja0f0La`0`0g^OP",
+            "X3b5UgL^Jc0`0b0k",
+            "?cY3WEYeL\\Jg09d1",
+            "R>\\Y3YG[dLWJb4Q<",
+            "RKYE_\\3^4hiL^3dJ",
+            "cGb]3n4jiLX1[X3g",
+            "NUhLTKaGU3`a3e1b",
+            "hLdKXF]OWb3n4igL",
+            "SKSZ3k4b;N3N1O2N",
+            "2M2O2N1N3M3M2N3L",
+            "4L4L4K5J7\\Oe0D<m",
+            "MZmK?VVUl7"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        928.2301025390625,
+        1890.5108642578125,
+        1285.05712890625,
+        2901.904052734375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the wall in the image?",
+    "output_instruction": "What is the segmentation mask of the wall in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_70_73dfb320_obj_011",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

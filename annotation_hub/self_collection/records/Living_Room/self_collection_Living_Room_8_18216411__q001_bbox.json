@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Living_Room_8_18216411__q001_bbox",
+  "source_sample_id": "self_collection_Living_Room_8_18216411",
+  "status": "annotated",
+  "updated_at": "2026-04-27T00:49:46Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_8_18216411__q001_bbox",
+    "source_sample_id": "self_collection_Living_Room_8_18216411",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the lamp in the image.",
+    "instruction": "Locate the lamp in the image.",
+    "answer": "lamp",
+    "rgb": "Living_Room/8.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_8_18216411_obj_012",
+      "object_name": "lamp",
+      "bbox_xyxy": [
+        1024.179931640625,
+        2279.462158203125,
+        1135.54833984375,
+        2391.23388671875
+      ],
+      "bbox_xywh": [
+        1024.179931640625,
+        2279.462158203125,
+        111.368408203125,
+        111.771728515625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the lamp in the image?",
+    "output_instruction": "What is the bounding box of the lamp in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_8_18216411_obj_012",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Kitchen_56_c0e2db4c__q001_bbox",
+  "source_sample_id": "self_collection_Kitchen_56_c0e2db4c",
+  "status": "annotated",
+  "updated_at": "2026-04-26T22:54:32Z",
+  "annotation": {
+    "sample_id": "self_collection_Kitchen_56_c0e2db4c__q001_bbox",
+    "source_sample_id": "self_collection_Kitchen_56_c0e2db4c",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the paper towel in the image.",
+    "instruction": "Locate the paper towel in the image.",
+    "answer": "paper towel",
+    "rgb": "Kitchen/56.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Kitchen_56_c0e2db4c_obj_000",
+      "object_name": "paper towel",
+      "bbox_xyxy": [
+        1739.2271728515625,
+        2503.868408203125,
+        2025.0687255859375,
+        3138.943603515625
+      ],
+      "bbox_xywh": [
+        1739.2271728515625,
+        2503.868408203125,
+        285.841552734375,
+        635.0751953125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the paper towel in the image?",
+    "output_instruction": "What is the bounding box of the paper towel in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Kitchen_56_c0e2db4c_obj_000",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Kitchen",
+      "split": "self_collected"
+    }
+  }
+}

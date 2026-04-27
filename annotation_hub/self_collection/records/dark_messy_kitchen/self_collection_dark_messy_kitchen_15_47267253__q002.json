@@ -1,0 +1,72 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_15_47267253__q002",
+  "source_sample_id": "self_collection_dark_messy_kitchen_15_47267253",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:51:21Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_15_47267253__q002",
+    "source_sample_id": "self_collection_dark_messy_kitchen_15_47267253",
+    "entry_id": "q002",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the faucet relative to the standing desk in the image?",
+    "instruction": "What is the spatial relation of the faucet relative to the standing desk in the image?",
+    "answer": "left",
+    "rgb": "dark_messy_kitchen/15.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 2
+      },
+      "subject_a": {
+        "object_id": "self_collection_dark_messy_kitchen_15_47267253_obj_000",
+        "label": "faucet"
+      },
+      "subject_b": {
+        "object_id": "self_collection_dark_messy_kitchen_15_47267253_obj_004",
+        "label": "standing desk"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the faucet relative to the standing desk in the image?",
+    "output_instruction": "What is the spatial relation of the faucet relative to the standing desk in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_15_47267253_obj_000",
+      "placementItem": "book",
+      "answerIndex": 2,
+      "spatialRelationAObjectId": "self_collection_dark_messy_kitchen_15_47267253_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_dark_messy_kitchen_15_47267253_obj_004",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

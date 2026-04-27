@@ -1,0 +1,136 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_94_a1430275__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_94_a1430275",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:28:30Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_94_a1430275__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_94_a1430275",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the computer in the image.",
+    "instruction": "Locate the computer in the image.",
+    "answer": "computer",
+    "rgb": "dark_messy_desk/94.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_94_a1430275_obj_006",
+      "object_name": "computer",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            1632,
+            2464
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "bSXc08fb18G6L4L4",
+            "L4L5K6K4K7I6J2O2",
+            "M1O2O0O2N100O2O0",
+            "O2O0O100O100O100",
+            "00O100O1O100O1O0",
+            "10O1O01000O010O0",
+            "100O0010O00010O0",
+            "010O0010O010O000",
+            "10O0100O010O010O",
+            "0100O010O010O001",
+            "0O010O10O010O010",
+            "O00010O00010O01O",
+            "0010O01O0010O010",
+            "O010O01000O010O0",
+            "10O001O10O01O010",
+            "O10O010O10O010O0",
+            "10O010O0010O0010",
+            "O01O001O00010O10",
+            "O0100O010O0010O0",
+            "10O010O01O010O00",
+            "10O010O1O010O001",
+            "0O010O001O010O00",
+            "10O0010O01000O01",
+            "0O10O010O01O01O0",
+            "1O01O01O01O01O01",
+            "0O10O10O0010O001",
+            "0O1O010O010O0001",
+            "0O010O010O10O01O",
+            "010O0010O01O010O",
+            "0010O010O00010O0",
+            "10O00100O010O010",
+            "O010O010O010O000",
+            "10O01O001O010O10",
+            "O010O100O100O100",
+            "O1O100O2O0O2O1N2",
+            "N3N1N2O1O1N2O1N3",
+            "N3L6J;F>A7J5J3M4",
+            "M2M4M2M3N2N;D4M3",
+            "L5L4K6K6I7J4Ka0@",
+            "2M4M3L4L6K6I;F4K",
+            "5L7H7J4K5L2M3N2M",
+            "2O2M3M5L5J5K4M3L",
+            "3N001N10000O100O",
+            "01O0O2O010O010O0",
+            "100O10O0100O010O",
+            "010O1000O0100O10",
+            "O10O1O10O010000O",
+            "0100O0100000O100",
+            "0001O1O1O1O2N2N2",
+            "N3M3M3M5K5K5K5K4",
+            "L3M4L3M5L3L5L4L3",
+            "L5L3M3M3M3M4L4L4",
+            "L4M1N2O1O1N3M4L5",
+            "J4L5K4L4L5K3M4J5",
+            "L8E8J7I7G9kNU1TO",
+            "o0TOP1bNf]fa2"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        382.080078125,
+        738.486572265625,
+        831.5331420898438,
+        1147.1451416015625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the computer in the image?",
+    "output_instruction": "What is the segmentation mask of the computer in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_94_a1430275_obj_006",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

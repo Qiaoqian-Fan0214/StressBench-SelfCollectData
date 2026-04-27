@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_Living_Room_94_7c88188d__q001_bbox",
+  "source_sample_id": "self_collection_Living_Room_94_7c88188d",
+  "status": "annotated",
+  "updated_at": "2026-04-27T10:00:07Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_94_7c88188d__q001_bbox",
+    "source_sample_id": "self_collection_Living_Room_94_7c88188d",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the vase in the image.",
+    "instruction": "Locate the vase in the image.",
+    "answer": "vase",
+    "rgb": "Living_Room/94.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_94_7c88188d_obj_000",
+      "object_name": "vase",
+      "bbox_xyxy": [
+        1380.8818359375,
+        2030.48681640625,
+        1462.2940673828125,
+        2173.04248046875
+      ],
+      "bbox_xywh": [
+        1380.8818359375,
+        2030.48681640625,
+        81.4122314453125,
+        142.5556640625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the vase in the image?",
+    "output_instruction": "What is the bounding box of the vase in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_94_7c88188d_obj_000",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

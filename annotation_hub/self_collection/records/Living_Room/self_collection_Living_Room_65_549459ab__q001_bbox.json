@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_Living_Room_65_549459ab__q001_bbox",
+  "source_sample_id": "self_collection_Living_Room_65_549459ab",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:34:28Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_65_549459ab__q001_bbox",
+    "source_sample_id": "self_collection_Living_Room_65_549459ab",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cabinet in the image.",
+    "instruction": "Locate the cabinet in the image.",
+    "answer": "cabinet",
+    "rgb": "Living_Room/65.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_65_549459ab_obj_011",
+      "object_name": "cabinet",
+      "bbox_xyxy": [
+        2774.159912109375,
+        1757.4249267578125,
+        3072.392333984375,
+        2603.64794921875
+      ],
+      "bbox_xywh": [
+        2774.159912109375,
+        1757.4249267578125,
+        298.232421875,
+        846.2230224609375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cabinet in the image?",
+    "output_instruction": "What is the bounding box of the cabinet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent",
+          "specular_confusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_65_549459ab_obj_011",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent",
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

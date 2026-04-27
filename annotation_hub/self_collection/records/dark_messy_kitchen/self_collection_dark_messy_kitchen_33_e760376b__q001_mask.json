@@ -1,0 +1,152 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_33_e760376b__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_33_e760376b",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:58:24Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_33_e760376b__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_33_e760376b",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the plant in the image.",
+    "instruction": "Locate the plant in the image.",
+    "answer": "plant",
+    "rgb": "dark_messy_kitchen/33.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_33_e760376b_obj_004",
+      "object_name": "plant",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2700,
+            2160
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "bViR1X1na2k1SOf0",
+            "oNm0_L[KffMQ5nX2",
+            "SKnfMQ5nX2SKofMP",
+            "5mX2QKRgMU5iX2lJ",
+            "UgMY5fX2hJXgM_5b",
+            "X2cJ[gMf5]X2[Jbg",
+            "Mk5WX2WJhgMm5SX2",
+            "UJlgMQ6lW2RJThMT",
+            "6eW2nIYhMX6aW2iI",
+            "_hM[6]W2eIbhM`6Y",
+            "W2bIfhMb6VW2^Iih",
+            "Mg6RW2ZInhMj6nV2",
+            "WIPiMn6lV2RISiMS",
+            "7hV2nHXiMW7cV2jH",
+            "[iM[7`V2fH`iM^7\\",
+            "V2bHciMb7ZV2_Hbh",
+            "MSOKb8^W2\\HfhMUO",
+            "Ja8^W2ZHghMWOIc8",
+            "\\W2XHhhMWOLd8XW2",
+            "VHkhMXOLe8`V2jHa",
+            "iMdNNe8]V2hHdiMd",
+            "NOf8YV2iHeiMdN1f",
+            "8VV2hHfiMdN4f8SV",
+            "2iHfiMcN6h8PV2gH",
+            "fiMcN9k8lU2fHfiM",
+            "aN>l8hU2hHciM`Nd",
+            "0l8dU2gI[jM\\6`U2",
+            "fI`jM_6ZU2dIcjMa",
+            "6WU2cIfjMb6UU2aI",
+            "hjMd6RU2`IjjMf6Q",
+            "U2_4K4L6J6J3M2O1",
+            "N2M2O2L3N3M2N3N1",
+            "N2O2N1O1O2N10001",
+            "N10001O00000O101",
+            "O0O10001N1O101N1",
+            "O1O2N1O1O2O0O100",
+            "O2O0O1O101N1O1O1",
+            "0001O0O100000000",
+            "01N100O1O100N2O1",
+            "N2N2O10000O11O00",
+            "00001O0000000000",
+            "1O000000001O0000",
+            "0000000000O10000",
+            "0000O10000000000",
+            "0000000000O11O00",
+            "0000000000001O00",
+            "0000000000000O10",
+            "1O00000000O10000",
+            "0O1000O10000000O",
+            "101O00001N101O1O",
+            "3M2M4M1O2N1O001O",
+            "001O001N101O001O",
+            "0O101O0O2O001O1N",
+            "2O001O1O0O2O001O",
+            "0O2O0O2N100O2O0O",
+            "101N101N1O2O0O2N",
+            "1O2M2N3L3L5L3L4L",
+            "5J5K6L3XFdjMfN9]",
+            "LHg4_U24cjMnM6UM",
+            "j0S2QOJ`U2o2`jM]",
+            "L1]O_27`MXO5^1dU",
+            "2W3YjMXL=UOQ3HkL",
+            "L1b0F4jU2W4YjMUL",
+            "d0POY4:WK2hU2]4V",
+            "jMTLX6QOUJ4`U2d4",
+            "WjMULb]2f3dbMVL_",
+            "]2a3mbMZLU]2`3Xc",
+            "MULl\\2Z3\\2N2M3L5",
+            "@U_MWMQa2_2d0B>K",
+            "5M4K4M2N3L3N3M2L",
+            "4M4K5J5K6J7Dnjif",
+            "3"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        413.3929748535156,
+        226.50588989257812,
+        721.0887451171875,
+        818.7977905273438
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the plant in the image?",
+    "output_instruction": "What is the segmentation mask of the plant in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_33_e760376b_obj_004",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

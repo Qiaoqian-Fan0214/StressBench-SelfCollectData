@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_80_c4dbc4a0__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_80_c4dbc4a0",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:18:54Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_80_c4dbc4a0__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_80_c4dbc4a0",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the tape in the image.",
+    "instruction": "Locate the tape in the image.",
+    "answer": "tape",
+    "rgb": "dark_messy_desk/80.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_80_c4dbc4a0_obj_011",
+      "object_name": "tape",
+      "bbox_xyxy": [
+        5154.89599609375,
+        1444.997314453125,
+        5379.55517578125,
+        1725.579833984375
+      ],
+      "bbox_xywh": [
+        5154.89599609375,
+        1444.997314453125,
+        224.6591796875,
+        280.58251953125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the tape in the image?",
+    "output_instruction": "What is the bounding box of the tape in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_80_c4dbc4a0_obj_011",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

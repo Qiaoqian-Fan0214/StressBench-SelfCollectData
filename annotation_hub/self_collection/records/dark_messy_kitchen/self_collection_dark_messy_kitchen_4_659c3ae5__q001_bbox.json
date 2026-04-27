@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_4_659c3ae5__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_4_659c3ae5",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:45:00Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_4_659c3ae5__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_4_659c3ae5",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the decorative bowl in the image.",
+    "instruction": "Locate the decorative bowl in the image.",
+    "answer": "decorative bowl",
+    "rgb": "dark_messy_kitchen/4.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_4_659c3ae5_obj_000",
+      "object_name": "decorative bowl",
+      "bbox_xyxy": [
+        1521.31298828125,
+        1745.454833984375,
+        3080.00732421875,
+        3248.053955078125
+      ],
+      "bbox_xywh": [
+        1521.31298828125,
+        1745.454833984375,
+        1558.6943359375,
+        1502.59912109375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the decorative bowl in the image?",
+    "output_instruction": "What is the bounding box of the decorative bowl in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ],
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_4_659c3ae5_obj_000",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ],
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

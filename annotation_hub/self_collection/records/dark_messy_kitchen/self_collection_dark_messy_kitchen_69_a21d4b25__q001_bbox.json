@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_69_a21d4b25__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_69_a21d4b25",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:27:09Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_69_a21d4b25__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_69_a21d4b25",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the wine glass in the image.",
+    "instruction": "Locate the wine glass in the image.",
+    "answer": "wine glass",
+    "rgb": "dark_messy_kitchen/69.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_69_a21d4b25_obj_010",
+      "object_name": "wine glass",
+      "bbox_xyxy": [
+        3785.236328125,
+        1189.406982421875,
+        3938.3955078125,
+        1710.322265625
+      ],
+      "bbox_xywh": [
+        3785.236328125,
+        1189.406982421875,
+        153.1591796875,
+        520.915283203125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the wine glass in the image?",
+    "output_instruction": "What is the bounding box of the wine glass in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend",
+          "transparent"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_69_a21d4b25_obj_010",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend",
+        "transparent"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

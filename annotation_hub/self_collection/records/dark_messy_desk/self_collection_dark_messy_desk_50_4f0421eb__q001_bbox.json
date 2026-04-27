@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_50_4f0421eb__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_50_4f0421eb",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:56:08Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_50_4f0421eb__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_50_4f0421eb",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the handbag in the image.",
+    "instruction": "Locate the handbag in the image.",
+    "answer": "handbag",
+    "rgb": "dark_messy_desk/50.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_50_4f0421eb_obj_000",
+      "object_name": "handbag",
+      "bbox_xyxy": [
+        1685.261962890625,
+        1106.307373046875,
+        2857.26708984375,
+        2758.67626953125
+      ],
+      "bbox_xywh": [
+        1685.261962890625,
+        1106.307373046875,
+        1172.005126953125,
+        1652.368896484375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the handbag in the image?",
+    "output_instruction": "What is the bounding box of the handbag in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_50_4f0421eb_obj_000",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

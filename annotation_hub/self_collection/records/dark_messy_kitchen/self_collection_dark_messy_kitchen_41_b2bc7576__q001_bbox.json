@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_41_b2bc7576__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_41_b2bc7576",
+  "status": "annotated",
+  "updated_at": "2026-04-26T15:47:03Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_41_b2bc7576__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_41_b2bc7576",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the jar in the image.",
+    "instruction": "Locate the jar in the image.",
+    "answer": "jar",
+    "rgb": "dark_messy_kitchen/41.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_41_b2bc7576_obj_001",
+      "object_name": "jar",
+      "bbox_xyxy": [
+        1881.177734375,
+        1925.393798828125,
+        2303.99853515625,
+        2991.180908203125
+      ],
+      "bbox_xywh": [
+        1881.177734375,
+        1925.393798828125,
+        422.82080078125,
+        1065.787109375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the jar in the image?",
+    "output_instruction": "What is the bounding box of the jar in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_41_b2bc7576_obj_001",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

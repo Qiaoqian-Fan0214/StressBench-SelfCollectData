@@ -1,0 +1,121 @@
+{
+  "sample_id": "self_collection_Home_Office_28_bb5d6e50__q001_mask",
+  "source_sample_id": "self_collection_Home_Office_28_bb5d6e50",
+  "status": "annotated",
+  "updated_at": "2026-04-25T13:31:43Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_28_bb5d6e50__q001_mask",
+    "source_sample_id": "self_collection_Home_Office_28_bb5d6e50",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the mouse in the image.",
+    "instruction": "Locate the mouse in the image.",
+    "answer": "mouse",
+    "rgb": "Home_Office/28.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Home_Office_28_bb5d6e50_obj_003",
+      "object_name": "mouse",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3637,
+            2736
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "RUT`53`a34K4L4L4",
+            "M3M3N2N3M2N2N2N2",
+            "O0O2N1O2N100O2N1",
+            "O1O2N101N1O2O0O2",
+            "O0O101N1O2O0O1O2",
+            "N101N1O2O1N100O2",
+            "O0O2O0O2N100O2O0",
+            "O2N100O2O000O100",
+            "01N100O101O0O100",
+            "O2O0O10000O2O0O1",
+            "00O101N1O1O2O0N2",
+            "O2N1O1N3TNeLZeL]",
+            "3_Z3SMTeLQ3cZ3^M",
+            "odLj2gZ3eMmdLb2i",
+            "Z3Z2M4M2O1O1O1O1",
+            "O2N1O1N2N2N2M3O2",
+            "M2O1O1O100O10000",
+            "0000O10001O00000",
+            "000000000000O100",
+            "0000000000O2O000",
+            "0000000000000000",
+            "00000O1000000000",
+            "000001O000000000",
+            "0001O00000000000",
+            "00000010O0000000",
+            "0001O01O00001O01",
+            "O01O001O0010O000",
+            "1O001O00001O0001",
+            "0O00001O00001O00",
+            "001O001O00001O00",
+            "001O0001O01O0000",
+            "1O00001O00001O00",
+            "10O01O00001O0000",
+            "1O001O001O001O00",
+            "1O001O00001O001O",
+            "001N10001O001O0O",
+            "101O001O1O001O1O",
+            "001O1O1O1O001O1N",
+            "101O001N2O0O2O0O",
+            "2O1N101N1O2O1N10",
+            "1O001O1N101O001O",
+            "001O001O001O100O",
+            "010O100O10O01O10",
+            "0O1N2O1O2M2O1N3N",
+            "1O2M3N3M5dK[dL]2",
+            "g]3H6J5J>C7H8H7I",
+            "5J6J5K9F\\]mh2"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1582.56884765625,
+        2941.313720703125,
+        1938.0570068359375,
+        3212.937744140625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the mouse in the image?",
+    "output_instruction": "What is the segmentation mask of the mouse in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_28_bb5d6e50_obj_003",
+      "placementItem": "keyboard",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

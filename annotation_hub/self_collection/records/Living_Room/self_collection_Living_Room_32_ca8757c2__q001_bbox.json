@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Living_Room_32_ca8757c2__q001_bbox",
+  "source_sample_id": "self_collection_Living_Room_32_ca8757c2",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:42:40Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_32_ca8757c2__q001_bbox",
+    "source_sample_id": "self_collection_Living_Room_32_ca8757c2",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the fan in the image.",
+    "instruction": "Locate the fan in the image.",
+    "answer": "fan",
+    "rgb": "Living_Room/32.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_32_ca8757c2_obj_003",
+      "object_name": "fan",
+      "bbox_xyxy": [
+        2599.638916015625,
+        5.714017868041992,
+        4543.3662109375,
+        888.5142211914062
+      ],
+      "bbox_xywh": [
+        2599.638916015625,
+        5.714017868041992,
+        1943.727294921875,
+        882.8002033233643
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the fan in the image?",
+    "output_instruction": "What is the bounding box of the fan in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_32_ca8757c2_obj_003",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

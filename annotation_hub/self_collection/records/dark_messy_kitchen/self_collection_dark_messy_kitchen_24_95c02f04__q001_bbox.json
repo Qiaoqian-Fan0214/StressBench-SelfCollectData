@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_24_95c02f04__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_24_95c02f04",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:55:25Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_24_95c02f04__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_24_95c02f04",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the whisk in the image.",
+    "instruction": "Locate the whisk in the image.",
+    "answer": "whisk",
+    "rgb": "dark_messy_kitchen/24.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_24_95c02f04_obj_007",
+      "object_name": "whisk",
+      "bbox_xyxy": [
+        399.7187194824219,
+        2622.3154296875,
+        822.40771484375,
+        3574.423828125
+      ],
+      "bbox_xywh": [
+        399.7187194824219,
+        2622.3154296875,
+        422.6889953613281,
+        952.1083984375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the whisk in the image?",
+    "output_instruction": "What is the bounding box of the whisk in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_24_95c02f04_obj_007",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "sample_id": "self_collection_desk_63_58593fca__q001_bbox",
+  "source_sample_id": "self_collection_desk_63_58593fca",
+  "status": "annotated",
+  "updated_at": "2026-04-27T04:18:19Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_63_58593fca__q001_bbox",
+    "source_sample_id": "self_collection_desk_63_58593fca",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the chopsticks in the image.",
+    "instruction": "Locate the chopsticks in the image.",
+    "answer": "chopsticks",
+    "rgb": "desk/63.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_desk_63_58593fca_obj_003",
+      "object_name": "chopsticks",
+      "bbox_xyxy": [
+        4.385500907897949,
+        2053.527587890625,
+        1480.64697265625,
+        3453.939697265625
+      ],
+      "bbox_xywh": [
+        4.385500907897949,
+        2053.527587890625,
+        1476.261471748352,
+        1400.412109375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the chopsticks in the image?",
+    "output_instruction": "What is the bounding box of the chopsticks in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_63_58593fca_obj_003"
+    },
+    "stress": {
+      "V": [
+        "extreme_viewpoint"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

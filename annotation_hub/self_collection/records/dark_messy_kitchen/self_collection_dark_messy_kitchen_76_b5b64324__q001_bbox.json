@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_76_b5b64324__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_76_b5b64324",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:30:42Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_76_b5b64324__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_76_b5b64324",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the toilet paper holder in the image.",
+    "instruction": "Locate the toilet paper holder in the image.",
+    "answer": "toilet paper holder",
+    "rgb": "dark_messy_kitchen/76.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_76_b5b64324_obj_004",
+      "object_name": "toilet paper holder",
+      "bbox_xyxy": [
+        1548.0272216796875,
+        2658.003662109375,
+        1795.6556396484375,
+        2864.6767578125
+      ],
+      "bbox_xywh": [
+        1548.0272216796875,
+        2658.003662109375,
+        247.62841796875,
+        206.673095703125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the toilet paper holder in the image?",
+    "output_instruction": "What is the bounding box of the toilet paper holder in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "stacked_layout",
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_76_b5b64324_obj_004",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "stacked_layout",
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "sample_id": "self_collection_desk_80_394076c0__q001_bbox",
+  "source_sample_id": "self_collection_desk_80_394076c0",
+  "status": "annotated",
+  "updated_at": "2026-04-27T04:36:28Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_80_394076c0__q001_bbox",
+    "source_sample_id": "self_collection_desk_80_394076c0",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the camera in the image.",
+    "instruction": "Locate the camera in the image.",
+    "answer": "camera",
+    "rgb": "desk/80.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_desk_80_394076c0_obj_001",
+      "object_name": "camera",
+      "bbox_xyxy": [
+        1788.7271728515625,
+        1987.19189453125,
+        2031.748291015625,
+        2153.176513671875
+      ],
+      "bbox_xywh": [
+        1788.7271728515625,
+        1987.19189453125,
+        243.0211181640625,
+        165.984619140625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the camera in the image?",
+    "output_instruction": "What is the bounding box of the camera in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_80_394076c0_obj_001"
+    },
+    "stress": {
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

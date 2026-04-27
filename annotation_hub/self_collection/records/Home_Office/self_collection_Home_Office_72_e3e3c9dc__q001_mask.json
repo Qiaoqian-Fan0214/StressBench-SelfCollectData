@@ -1,0 +1,171 @@
+{
+  "sample_id": "self_collection_Home_Office_72_e3e3c9dc__q001_mask",
+  "source_sample_id": "self_collection_Home_Office_72_e3e3c9dc",
+  "status": "annotated",
+  "updated_at": "2026-04-25T14:33:28Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_72_e3e3c9dc__q001_mask",
+    "source_sample_id": "self_collection_Home_Office_72_e3e3c9dc",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the keyboard in the image.",
+    "instruction": "Locate the keyboard in the image.",
+    "answer": "keyboard",
+    "rgb": "Home_Office/72.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Home_Office_72_e3e3c9dc_obj_001",
+      "object_name": "keyboard",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            5594,
+            3729
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "ZRY\\86a^55M3M2N2",
+            "N2M3N1O2N1O2N1O1",
+            "O1O1O1O2N1O1O1O1",
+            "O1O1O100O1O100O1",
+            "O100O100000000O1",
+            "0000001O00000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0001O00000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000O10000000",
+            "0000000000000000",
+            "0001O000O1000000",
+            "0000000000000000",
+            "0000000000000000",
+            "000O100000000000",
+            "00000000O1000000",
+            "000001O0O1000000",
+            "000000O100000000",
+            "0000000000000000",
+            "0000000O101O0000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "O100000000000000",
+            "000000000000000O",
+            "10000000000001O0",
+            "0000000000000000",
+            "0000000000000000",
+            "00O1000000000000",
+            "00000000000O1000",
+            "O100000000000000",
+            "00000000000001O0",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000O10",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000001O00000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "00000000000O1000",
+            "00000000000001O0",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "000000000000001O",
+            "0000000000000000",
+            "0000000000000000",
+            "000000000000001O",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "00000000000000O1",
+            "0000000000000000",
+            "0000000000000000",
+            "00001O0000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "00001O0000000000",
+            "0000000000000000",
+            "0000O10000000000",
+            "0000000000000001",
+            "O000000000000000",
+            "000000000O100000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "1O00000000000000",
+            "000O100000000000",
+            "0000000000000001",
+            "O000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "00000000000001O0",
+            "1O001N10001O1O00",
+            "1O1O1O1O1N3N1O2N",
+            "2M3N2M3M4L3L6HoV",
+            "[c7"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1562.48583984375,
+        2891.536376953125,
+        2313.232666015625,
+        2961.430908203125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the keyboard in the image?",
+    "output_instruction": "What is the segmentation mask of the keyboard in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "extreme_viewpoint"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_72_e3e3c9dc_obj_001",
+      "placementItem": "monitor",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "extreme_viewpoint"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

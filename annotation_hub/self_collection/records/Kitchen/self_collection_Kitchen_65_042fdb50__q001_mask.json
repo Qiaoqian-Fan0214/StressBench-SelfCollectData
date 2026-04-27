@@ -1,0 +1,137 @@
+{
+  "sample_id": "self_collection_Kitchen_65_042fdb50__q001_mask",
+  "source_sample_id": "self_collection_Kitchen_65_042fdb50",
+  "status": "annotated",
+  "updated_at": "2026-04-26T22:58:43Z",
+  "annotation": {
+    "sample_id": "self_collection_Kitchen_65_042fdb50__q001_mask",
+    "source_sample_id": "self_collection_Kitchen_65_042fdb50",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the sink in the image.",
+    "instruction": "Locate the sink in the image.",
+    "answer": "sink",
+    "rgb": "Kitchen/65.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Kitchen_65_042fdb50_obj_008",
+      "object_name": "sink",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3447,
+            5171
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "om1Y3^X300000000",
+            "0000000O10000000",
+            "0000000000O10000",
+            "00000O1000000000",
+            "0000000000000000",
+            "O100000000000000",
+            "0000O10000000000",
+            "0000000000O10000",
+            "0000000000000000",
+            "0000000000000000",
+            "O100000000000000",
+            "0000000000000O10",
+            "000000000000000O",
+            "10000000000O0100",
+            "0000000000000000",
+            "0001O00000000000",
+            "0000000000000000",
+            "0000000O10000000",
+            "O10O100000000O10",
+            "0000000000000000",
+            "0000000000000001",
+            "O000O10000000000",
+            "00000O0100000000",
+            "O100000000000O01",
+            "0000000001O00000",
+            "00000001O0000000",
+            "00000000000001O0",
+            "0000000O01000000",
+            "00000000000000O1",
+            "0000000000000000",
+            "0000000O10000000",
+            "0000000000000000",
+            "0000O10000000000",
+            "000000O100000000",
+            "00000000000000O1",
+            "00000000000001O0",
+            "000000000000O100",
+            "00000000000O0100",
+            "000000000000O100",
+            "00000000000000O1",
+            "0000000000000000",
+            "00000000000000O1",
+            "00000O1000000000",
+            "0000O10000000000",
+            "0O10O10000000000",
+            "00000000O1000000",
+            "00000000000000O1",
+            "000000000000000O",
+            "10O1000000000000",
+            "000000000000O100",
+            "000000000001O000",
+            "00000000000001O0",
+            "0001O001O001O001",
+            "O001O0O101O001O0",
+            "0001O00001O00001",
+            "O001O001O1N101O1",
+            "O001O1O001O1O1O0",
+            "01O1O001O1O001O1",
+            "O001O1O001N101O1",
+            "O001O001O1O001O1",
+            "O1N2O1O1N2O1O2M2",
+            "O1O2M2O2N2M3N3L5",
+            "L3K5L4Kbec[?"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        3.8929367065429688,
+        1954.4427490234375,
+        502.61175537109375,
+        2092.374755859375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the sink in the image?",
+    "output_instruction": "What is the segmentation mask of the sink in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "extreme_viewpoint",
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_Kitchen_65_042fdb50_obj_008",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "extreme_viewpoint",
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Kitchen",
+      "split": "self_collected"
+    }
+  }
+}

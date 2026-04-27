@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_25_5503ee38__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_25_5503ee38",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:25:44Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_25_5503ee38__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_25_5503ee38",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the medicine bottle in the image.",
+    "instruction": "Locate the medicine bottle in the image.",
+    "answer": "medicine bottle",
+    "rgb": "dark_messy_desk/25.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_25_5503ee38_obj_000",
+      "object_name": "medicine bottle",
+      "bbox_xyxy": [
+        1262.4228515625,
+        3812.06494140625,
+        1853.7061767578125,
+        4428.56591796875
+      ],
+      "bbox_xywh": [
+        1262.4228515625,
+        3812.06494140625,
+        591.2833251953125,
+        616.5009765625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the medicine bottle in the image?",
+    "output_instruction": "What is the bounding box of the medicine bottle in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "stacked_layout"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_25_5503ee38_obj_000",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "stacked_layout"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

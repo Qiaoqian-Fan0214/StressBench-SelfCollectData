@@ -1,0 +1,155 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_25_5503ee38__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_25_5503ee38",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:25:44Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_25_5503ee38__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_25_5503ee38",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the medicine bottle in the image.",
+    "instruction": "Locate the medicine bottle in the image.",
+    "answer": "medicine bottle",
+    "rgb": "dark_messy_desk/25.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_25_5503ee38_obj_000",
+      "object_name": "medicine bottle",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            6000,
+            4000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "iSi[7Q1Vj5>UNjNi",
+            "XJd1lf5h1H7I6J7J",
+            "5J7J6J5L4K4L5J5J",
+            "7J5J5K5J7K4J6K6I",
+            "6POP1G:E:H9F9G:J",
+            "7J6K6J6J4L3M3L5L",
+            "3M3L3N2M4L4L3M4L",
+            "4L4M2N3N3L3N3L3N",
+            "3M3L3N2N2M3N2N2M",
+            "3N1O2N1N3N1O2M2O",
+            "2N2N1N3N2M3N2M3N",
+            "2M4M2N2N2N2N2N2N",
+            "2O1N1O2O0O2N2N10",
+            "1N1O2N101N2N1O2N",
+            "2O1N1O2O0O2N1O2N",
+            "101N1O2O0O2N1O2O",
+            "0O2N2N101N1O101N",
+            "1O2N101N101N101N",
+            "100O2O0O101N100O",
+            "2N101N1O101N101N",
+            "101N10001N101N10",
+            "0O101O0O10001O0O",
+            "10001N10000O2O0O",
+            "10001O0O10001N10",
+            "000O1000000O101O",
+            "0O10000O100O1000",
+            "000O10000O100000",
+            "0000000O1000O100",
+            "000O100000000O10",
+            "O100000O10000000",
+            "0O100000O1000O10",
+            "0000000O10000000",
+            "00O10O1000000000",
+            "00000000000000O1",
+            "0O10000000000000",
+            "00O100000000O100",
+            "0000O2O0000000O1",
+            "000000O1000000O2",
+            "O000O1000000O2O0",
+            "00O10001N10000O1",
+            "0001N10000O101O0",
+            "O10001O0O101O000",
+            "O101O000O101O000",
+            "00O101O0O101O0O1",
+            "01O0O101O0O2O000",
+            "01N10001O0O2O000",
+            "01O000O2O00001O0",
+            "O101O001N10001O1",
+            "N101O0O2O001O0O2",
+            "O001O1N101O1O0O2",
+            "O1O0O2O1O1N2O001",
+            "N2O1O0O2O1O1N2O0",
+            "O2O1O1N2O1O1N2O1",
+            "N2O1N2O1N3M2O1N2",
+            "O1N2O1N3N1N2O1N3",
+            "N1O2M3M4L3N2M3M3",
+            "M4M3L3M4L4L3L5L3",
+            "M3M3L4M4L4K6K5K4",
+            "L5L3L3M4L3M3M2N3",
+            "N1N2N2N2N2N2N2N2",
+            "N1O2M3N1O2O0O1O2",
+            "N1O2O1N1O2N2N1O2",
+            "N2N2N3M2M3M4M2M3",
+            "M3M3N2N2M3N2N2O1",
+            "N2N2N2N2N2N2N2M3",
+            "N2N2M3M3L4M3N2M4",
+            "M2M3N2N2N2N2N2N2",
+            "M4M3L3M4M3L4K6J5",
+            "L5J5J6J7I6J7J5K6",
+            "J5L4K6K4K7I6K7G:",
+            "E:Da0\\Oh0WOf[V[<"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1262.4228515625,
+        3812.06494140625,
+        1853.7061767578125,
+        4428.56591796875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the medicine bottle in the image?",
+    "output_instruction": "What is the segmentation mask of the medicine bottle in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "stacked_layout"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_25_5503ee38_obj_000",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "stacked_layout"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

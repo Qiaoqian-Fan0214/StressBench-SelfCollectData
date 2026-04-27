@@ -1,0 +1,82 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_34_5ff4dfa4__q002",
+  "source_sample_id": "self_collection_dark_messy_kitchen_34_5ff4dfa4",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:59:07Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_34_5ff4dfa4__q002",
+    "source_sample_id": "self_collection_dark_messy_kitchen_34_5ff4dfa4",
+    "entry_id": "q002",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the teapot relative to the oven in the image?",
+    "instruction": "What is the spatial relation of the teapot relative to the oven in the image?",
+    "answer": "up",
+    "rgb": "dark_messy_kitchen/34.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 0
+      },
+      "subject_a": {
+        "object_id": "self_collection_dark_messy_kitchen_34_5ff4dfa4_obj_000",
+        "label": "teapot"
+      },
+      "subject_b": {
+        "object_id": "self_collection_dark_messy_kitchen_34_5ff4dfa4_obj_003",
+        "label": "oven"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the teapot relative to the oven in the image?",
+    "output_instruction": "What is the spatial relation of the teapot relative to the oven in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "stacked_layout"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_34_5ff4dfa4_obj_000",
+      "placementItem": "lamp",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "self_collection_dark_messy_kitchen_34_5ff4dfa4_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_dark_messy_kitchen_34_5ff4dfa4_obj_003",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "stacked_layout"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

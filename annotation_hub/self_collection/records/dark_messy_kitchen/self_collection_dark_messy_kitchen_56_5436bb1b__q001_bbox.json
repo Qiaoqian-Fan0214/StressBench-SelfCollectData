@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_56_5436bb1b__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_56_5436bb1b",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:21:31Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_56_5436bb1b__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_56_5436bb1b",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bookshelf in the image.",
+    "instruction": "Locate the bookshelf in the image.",
+    "answer": "bookshelf",
+    "rgb": "dark_messy_kitchen/56.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_56_5436bb1b_obj_007",
+      "object_name": "bookshelf",
+      "bbox_xyxy": [
+        1485.2935791015625,
+        2725.631103515625,
+        2138.9306640625,
+        4334.4775390625
+      ],
+      "bbox_xywh": [
+        1485.2935791015625,
+        2725.631103515625,
+        653.6370849609375,
+        1608.846435546875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the bookshelf in the image?",
+    "output_instruction": "What is the bounding box of the bookshelf in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_56_5436bb1b_obj_007",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_Living_Room_21_30c049f4__q001_bbox",
+  "source_sample_id": "self_collection_Living_Room_21_30c049f4",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:29:13Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_21_30c049f4__q001_bbox",
+    "source_sample_id": "self_collection_Living_Room_21_30c049f4",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the mirror in the image.",
+    "instruction": "Locate the mirror in the image.",
+    "answer": "mirror",
+    "rgb": "Living_Room/21.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_21_30c049f4_obj_000",
+      "object_name": "mirror",
+      "bbox_xyxy": [
+        962.703125,
+        563.9495849609375,
+        2160.48388671875,
+        1529.6368408203125
+      ],
+      "bbox_xywh": [
+        962.703125,
+        563.9495849609375,
+        1197.78076171875,
+        965.687255859375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the mirror in the image?",
+    "output_instruction": "What is the bounding box of the mirror in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ],
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_21_30c049f4_obj_000",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ],
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

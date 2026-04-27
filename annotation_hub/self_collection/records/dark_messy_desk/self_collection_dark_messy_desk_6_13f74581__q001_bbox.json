@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_6_13f74581__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_6_13f74581",
+  "status": "annotated",
+  "updated_at": "2026-04-25T17:39:07Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_6_13f74581__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_6_13f74581",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the sticky note in the image.",
+    "instruction": "Locate the sticky note in the image.",
+    "answer": "sticky note",
+    "rgb": "dark_messy_desk/6.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_6_13f74581_obj_007",
+      "object_name": "sticky note",
+      "bbox_xyxy": [
+        4839.63916015625,
+        1411.1348876953125,
+        5484.50537109375,
+        2303.741455078125
+      ],
+      "bbox_xywh": [
+        4839.63916015625,
+        1411.1348876953125,
+        644.8662109375,
+        892.6065673828125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the sticky note in the image?",
+    "output_instruction": "What is the bounding box of the sticky note in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "G": [
+          "stacked_layout",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_6_13f74581_obj_007",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "G": [
+        "stacked_layout",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_Living_Room_31_d6400827__q001_bbox",
+  "source_sample_id": "self_collection_Living_Room_31_d6400827",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:41:27Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_31_d6400827__q001_bbox",
+    "source_sample_id": "self_collection_Living_Room_31_d6400827",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the plate in the image.",
+    "instruction": "Locate the plate in the image.",
+    "answer": "plate",
+    "rgb": "Living_Room/31.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_31_d6400827_obj_005",
+      "object_name": "plate",
+      "bbox_xyxy": [
+        3675.488037109375,
+        2037.8443603515625,
+        3989.446533203125,
+        2094.1337890625
+      ],
+      "bbox_xywh": [
+        3675.488037109375,
+        2037.8443603515625,
+        313.95849609375,
+        56.2894287109375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the plate in the image?",
+    "output_instruction": "What is the bounding box of the plate in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "extreme_viewpoint",
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_31_d6400827_obj_005",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "extreme_viewpoint",
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

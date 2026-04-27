@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_83_0a8311e7__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_83_0a8311e7",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:31:54Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_83_0a8311e7__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_83_0a8311e7",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cutting board in the image.",
+    "instruction": "Locate the cutting board in the image.",
+    "answer": "cutting board",
+    "rgb": "dark_messy_kitchen/83.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_83_0a8311e7_obj_002",
+      "object_name": "cutting board",
+      "bbox_xyxy": [
+        2428.551513671875,
+        3628.845947265625,
+        4148.73046875,
+        5804.3466796875
+      ],
+      "bbox_xywh": [
+        2428.551513671875,
+        3628.845947265625,
+        1720.178955078125,
+        2175.500732421875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cutting board in the image?",
+    "output_instruction": "What is the bounding box of the cutting board in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "G": [
+          "occlusion"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_83_0a8311e7_obj_002",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "G": [
+        "occlusion"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

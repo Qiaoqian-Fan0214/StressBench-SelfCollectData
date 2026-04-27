@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Kitchen_97_1ecebd46__q001_bbox",
+  "source_sample_id": "self_collection_Kitchen_97_1ecebd46",
+  "status": "annotated",
+  "updated_at": "2026-04-27T00:44:35Z",
+  "annotation": {
+    "sample_id": "self_collection_Kitchen_97_1ecebd46__q001_bbox",
+    "source_sample_id": "self_collection_Kitchen_97_1ecebd46",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "Kitchen/97.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Kitchen_97_1ecebd46_obj_003",
+      "object_name": "cup",
+      "bbox_xyxy": [
+        793.9716186523438,
+        1114.859619140625,
+        884.3745727539062,
+        1168.1256103515625
+      ],
+      "bbox_xywh": [
+        793.9716186523438,
+        1114.859619140625,
+        90.4029541015625,
+        53.2659912109375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cup in the image?",
+    "output_instruction": "What is the bounding box of the cup in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Kitchen_97_1ecebd46_obj_003",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Kitchen",
+      "split": "self_collected"
+    }
+  }
+}

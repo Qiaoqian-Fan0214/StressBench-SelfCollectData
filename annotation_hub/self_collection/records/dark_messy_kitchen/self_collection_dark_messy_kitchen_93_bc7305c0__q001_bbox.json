@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_93_bc7305c0__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_93_bc7305c0",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:33:44Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_93_bc7305c0__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_93_bc7305c0",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the refrigerator in the image.",
+    "instruction": "Locate the refrigerator in the image.",
+    "answer": "refrigerator",
+    "rgb": "dark_messy_kitchen/93.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_93_bc7305c0_obj_001",
+      "object_name": "refrigerator",
+      "bbox_xyxy": [
+        2450.6103515625,
+        2042.3851318359375,
+        3316.725830078125,
+        4689.6640625
+      ],
+      "bbox_xywh": [
+        2450.6103515625,
+        2042.3851318359375,
+        866.115478515625,
+        2647.2789306640625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the refrigerator in the image?",
+    "output_instruction": "What is the bounding box of the refrigerator in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_93_bc7305c0_obj_001",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

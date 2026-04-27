@@ -1,0 +1,109 @@
+{
+  "sample_id": "self_collection_Living_Room_26_6bbd98b3__q001_mask",
+  "source_sample_id": "self_collection_Living_Room_26_6bbd98b3",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:32:17Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_26_6bbd98b3__q001_mask",
+    "source_sample_id": "self_collection_Living_Room_26_6bbd98b3",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the picture in the image.",
+    "instruction": "Locate the picture in the image.",
+    "answer": "picture",
+    "rgb": "Living_Room/26.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_26_6bbd98b3_obj_014",
+      "object_name": "picture",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2668,
+            4000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "_RcW4h2P_2dM[aMY",
+            "4c]2d2ebMhHjZ2c9",
+            "ZNT1kN?B<Db0^O6J",
+            "4L3N1N2O0O10000O",
+            "2OO100000O100000",
+            "000000000O100000",
+            "0000000000000000",
+            "000O10000000000O",
+            "1000000O1000000O",
+            "1000000O10000000",
+            "0000O10000000O10",
+            "00000000001O000O",
+            "100000000O100000",
+            "1O000O1000000000",
+            "000000000O100000",
+            "0000000000000000",
+            "000O10O100000000",
+            "0000000000000000",
+            "000O100000000000",
+            "00000O1000000000",
+            "0O10001O0000000O",
+            "1000000000000000",
+            "000000000000000O",
+            "1000000000000000",
+            "0000000000000000",
+            "00000000000O1000",
+            "00000O1000000000",
+            "0O10000000000000",
+            "000O10000000001O",
+            "000O100000000O10",
+            "0000000O10000000",
+            "000O100000001O00",
+            "0000000000000000",
+            "000001O0O2O001N2",
+            "O2N3Li0TDokMm6PZ",
+            "2WNk0QJlbMQ4U_2S",
+            "Le`Mm1Xb2RNaQ`X5"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1659.1824951171875,
+        895.00634765625,
+        1937.46826171875,
+        1343.802734375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the picture in the image?",
+    "output_instruction": "What is the segmentation mask of the picture in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_26_6bbd98b3_obj_014",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

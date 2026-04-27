@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_7_7525ea1a__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_7_7525ea1a",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:46:48Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_7_7525ea1a__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_7_7525ea1a",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cutting board in the image.",
+    "instruction": "Locate the cutting board in the image.",
+    "answer": "cutting board",
+    "rgb": "dark_messy_kitchen/7.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_7_7525ea1a_obj_007",
+      "object_name": "cutting board",
+      "bbox_xyxy": [
+        1454.3675537109375,
+        10.991692543029785,
+        5983.5361328125,
+        2712.4189453125
+      ],
+      "bbox_xywh": [
+        1454.3675537109375,
+        10.991692543029785,
+        4529.1685791015625,
+        2701.42725276947
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cutting board in the image?",
+    "output_instruction": "What is the bounding box of the cutting board in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "large_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_7_7525ea1a_obj_007",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "large_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

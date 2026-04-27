@@ -1,0 +1,72 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_21_450b8cc4__q002",
+  "source_sample_id": "self_collection_dark_messy_desk_21_450b8cc4",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:22:38Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_21_450b8cc4__q002",
+    "source_sample_id": "self_collection_dark_messy_desk_21_450b8cc4",
+    "entry_id": "q002",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the desktop computer relative to the envelope in the image?",
+    "instruction": "What is the spatial relation of the desktop computer relative to the envelope in the image?",
+    "answer": "right",
+    "rgb": "dark_messy_desk/21.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 3
+      },
+      "subject_a": {
+        "object_id": "self_collection_dark_messy_desk_21_450b8cc4_obj_008",
+        "label": "desktop computer"
+      },
+      "subject_b": {
+        "object_id": "self_collection_dark_messy_desk_21_450b8cc4_obj_007",
+        "label": "envelope"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the desktop computer relative to the envelope in the image?",
+    "output_instruction": "What is the spatial relation of the desktop computer relative to the envelope in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "L": [
+          "local_overexposure",
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_21_450b8cc4_obj_000",
+      "placementItem": "speaker",
+      "answerIndex": 3,
+      "spatialRelationAObjectId": "self_collection_dark_messy_desk_21_450b8cc4_obj_008",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_dark_messy_desk_21_450b8cc4_obj_007",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "L": [
+        "local_overexposure",
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

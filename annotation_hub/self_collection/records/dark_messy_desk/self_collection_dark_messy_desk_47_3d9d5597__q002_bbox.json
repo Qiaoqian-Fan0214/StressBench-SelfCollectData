@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_47_3d9d5597__q002_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_47_3d9d5597",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:39:28Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_47_3d9d5597__q002_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_47_3d9d5597",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the phone in the image.",
+    "instruction": "Locate the phone in the image.",
+    "answer": "phone",
+    "rgb": "dark_messy_desk/47.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_47_3d9d5597_obj_007",
+      "object_name": "phone",
+      "bbox_xyxy": [
+        2306.896728515625,
+        1870.2008056640625,
+        4238.1318359375,
+        2698.15673828125
+      ],
+      "bbox_xywh": [
+        2306.896728515625,
+        1870.2008056640625,
+        1931.235107421875,
+        827.9559326171875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the phone in the image?",
+    "output_instruction": "What is the bounding box of the phone in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "extreme_viewpoint"
+        ],
+        "L": [
+          "local_overexposure",
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_47_3d9d5597_obj_007",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "extreme_viewpoint"
+      ],
+      "L": [
+        "local_overexposure",
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

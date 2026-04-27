@@ -1,0 +1,69 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_0_e745b1a1__q002_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_0_e745b1a1",
+  "status": "annotated",
+  "updated_at": "2026-04-25T17:23:15Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_0_e745b1a1__q002_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_0_e745b1a1",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the pen in the image.",
+    "instruction": "Locate the pen in the image.",
+    "answer": "pen",
+    "rgb": "dark_messy_desk/0.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_0_e745b1a1_obj_000",
+      "object_name": "pen",
+      "bbox_xyxy": [
+        892.8305053710938,
+        3835.634521484375,
+        1297.6597900390625,
+        4065.079833984375
+      ],
+      "bbox_xywh": [
+        892.8305053710938,
+        3835.634521484375,
+        404.82928466796875,
+        229.4453125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the pen in the image?",
+    "output_instruction": "What is the bounding box of the pen in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion",
+          "stacked_layout",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_0_e745b1a1_obj_000",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion",
+        "stacked_layout",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

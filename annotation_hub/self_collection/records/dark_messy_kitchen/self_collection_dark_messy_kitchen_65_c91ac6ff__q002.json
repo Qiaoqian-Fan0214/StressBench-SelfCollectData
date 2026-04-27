@@ -1,0 +1,66 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_65_c91ac6ff__q002",
+  "source_sample_id": "self_collection_dark_messy_kitchen_65_c91ac6ff",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:25:13Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_65_c91ac6ff__q002",
+    "source_sample_id": "self_collection_dark_messy_kitchen_65_c91ac6ff",
+    "entry_id": "q002",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a pillow in the image?",
+    "instruction": "Is there any vacant space to place a pillow in the image?",
+    "answer": "no",
+    "rgb": "dark_messy_kitchen/65.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 1
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a pillow in the image?",
+    "output_instruction": "Is there any vacant space to place a pillow in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "M": [
+          "low_contrast_blend",
+          "complex_texture"
+        ],
+        "G": [
+          "stacked_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_65_c91ac6ff_obj_000",
+      "placementItem": "pillow",
+      "answerIndex": 1,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend",
+        "complex_texture"
+      ],
+      "G": [
+        "stacked_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

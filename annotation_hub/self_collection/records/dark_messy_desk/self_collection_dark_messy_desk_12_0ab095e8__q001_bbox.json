@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_12_0ab095e8__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_12_0ab095e8",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:11:56Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_12_0ab095e8__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_12_0ab095e8",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the range hood in the image.",
+    "instruction": "Locate the range hood in the image.",
+    "answer": "range hood",
+    "rgb": "dark_messy_desk/12.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_12_0ab095e8_obj_004",
+      "object_name": "range hood",
+      "bbox_xyxy": [
+        6.166721343994141,
+        135.09066772460938,
+        1120.771484375,
+        798.5516967773438
+      ],
+      "bbox_xywh": [
+        6.166721343994141,
+        135.09066772460938,
+        1114.6047630310059,
+        663.4610290527344
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the range hood in the image?",
+    "output_instruction": "What is the bounding box of the range hood in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "occlusion",
+          "stacked_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_12_0ab095e8_obj_004",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "occlusion",
+        "stacked_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

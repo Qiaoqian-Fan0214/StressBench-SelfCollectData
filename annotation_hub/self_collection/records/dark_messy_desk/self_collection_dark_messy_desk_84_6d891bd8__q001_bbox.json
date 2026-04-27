@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_84_6d891bd8__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_84_6d891bd8",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:21:34Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_84_6d891bd8__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_84_6d891bd8",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the clock in the image.",
+    "instruction": "Locate the clock in the image.",
+    "answer": "clock",
+    "rgb": "dark_messy_desk/84.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_84_6d891bd8_obj_009",
+      "object_name": "clock",
+      "bbox_xyxy": [
+        1070.907470703125,
+        679.4058227539062,
+        1500.276611328125,
+        1125.634033203125
+      ],
+      "bbox_xywh": [
+        1070.907470703125,
+        679.4058227539062,
+        429.369140625,
+        446.22821044921875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the clock in the image?",
+    "output_instruction": "What is the bounding box of the clock in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_84_6d891bd8_obj_009",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

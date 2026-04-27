@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_9_bdd62e31__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_9_bdd62e31",
+  "status": "annotated",
+  "updated_at": "2026-04-25T17:44:03Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_9_bdd62e31__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_9_bdd62e31",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cloth in the image.",
+    "instruction": "Locate the cloth in the image.",
+    "answer": "cloth",
+    "rgb": "dark_messy_desk/9.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_9_bdd62e31_obj_012",
+      "object_name": "cloth",
+      "bbox_xyxy": [
+        393.02490234375,
+        582.9765625,
+        1419.463134765625,
+        1068.28466796875
+      ],
+      "bbox_xywh": [
+        393.02490234375,
+        582.9765625,
+        1026.438232421875,
+        485.30810546875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cloth in the image?",
+    "output_instruction": "What is the bounding box of the cloth in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_9_bdd62e31_obj_012",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

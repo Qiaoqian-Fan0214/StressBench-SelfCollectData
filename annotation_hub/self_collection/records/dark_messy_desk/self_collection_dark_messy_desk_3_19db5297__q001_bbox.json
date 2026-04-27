@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_3_19db5297__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_3_19db5297",
+  "status": "annotated",
+  "updated_at": "2026-04-25T17:34:15Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_3_19db5297__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_3_19db5297",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the hand in the image.",
+    "instruction": "Locate the hand in the image.",
+    "answer": "hand",
+    "rgb": "dark_messy_desk/3.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_3_19db5297_obj_010",
+      "object_name": "hand",
+      "bbox_xyxy": [
+        655.7838134765625,
+        3076.5166015625,
+        1198.7545166015625,
+        3722.43994140625
+      ],
+      "bbox_xywh": [
+        655.7838134765625,
+        3076.5166015625,
+        542.970703125,
+        645.92333984375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the hand in the image?",
+    "output_instruction": "What is the bounding box of the hand in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "complex_texture"
+        ],
+        "V": [
+          "small_scale"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_3_19db5297_obj_010",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ],
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

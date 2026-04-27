@@ -1,0 +1,132 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_84_6d891bd8__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_84_6d891bd8",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:21:34Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_84_6d891bd8__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_84_6d891bd8",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the clock in the image.",
+    "instruction": "Locate the clock in the image.",
+    "answer": "clock",
+    "rgb": "dark_messy_desk/84.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_84_6d891bd8_obj_009",
+      "object_name": "clock",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2981,
+            4468
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "dk[S3>al2`0A<F:G",
+            "9G8G7J5I7I7H8H8I",
+            "7I7J4K6K4L4L5K4K",
+            "5L4J6M3L3N3M3M3M",
+            "3M3N3K4M7H8G8G7K",
+            "4L5K4L4L5K4K5I7I",
+            "8I6D<J6L4M3M3L4L",
+            "4L4L4L4L3M4K4M4L",
+            "3M4M2N3M2N3M200O",
+            "2N1O101N100O2O00",
+            "0O2O0O101O0O2O0O",
+            "2O001O1O1O101N1O",
+            "1O100O1O100O0010",
+            "0O1O1O100O1O010O",
+            "001O010O001O01O0",
+            "1O0000010O000010",
+            "O000010O00010O00",
+            "010O0010O0001O00",
+            "000O10001N100O10",
+            "0O1O2O0O1O100O10",
+            "000O10000000O100",
+            "00000000O1000001",
+            "O1O1O1N6K3M2N1O1",
+            "N2O1O001O00001N1",
+            "0001O001O1O001O1",
+            "O001O001O001O001",
+            "O00001O0O101O000",
+            "01N10001O000O101",
+            "O0000001N10000O2",
+            "O0O101N100O2O0O2",
+            "O0O101N101O001N1",
+            "01O001O001O001O0",
+            "0001N1000001O000",
+            "000000000000000O",
+            "1000000O01000O10",
+            "0O1O1O100O1O1O10",
+            "001O0O1000000O10",
+            "0001O001O1O3L5L3",
+            "M3M3M2N2M2O1O1O1",
+            "O1O001N101O00000",
+            "01N100000001N100",
+            "0000O10001N100O2",
+            "N1O2N1O2N1N3M3M3",
+            "L3L5L4L4L3M4L4L4",
+            "M3L4M3L4L3L5K5K5",
+            "L4M3L4L4M3L4L4K5",
+            "J7I6K5L4L4K5L4K5",
+            "K6K4K5L4M3L3N3M2",
+            "M4M3M2M4M3L4L3L5",
+            "L4K4L5K4M4M2N3L4",
+            "M2L5L4L4M4K4M5J5",
+            "K4K6K4J8GZ`l]8"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1070.907470703125,
+        679.4058227539062,
+        1500.276611328125,
+        1125.634033203125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the clock in the image?",
+    "output_instruction": "What is the segmentation mask of the clock in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_84_6d891bd8_obj_009",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

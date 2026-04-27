@@ -1,0 +1,53 @@
+{
+  "sample_id": "self_collection_desk_28_208eae6c__q002_bbox",
+  "source_sample_id": "self_collection_desk_28_208eae6c",
+  "status": "annotated",
+  "updated_at": "2026-04-27T05:38:27Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_28_208eae6c__q002_bbox",
+    "source_sample_id": "self_collection_desk_28_208eae6c",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the mouse in the image.",
+    "instruction": "Locate the mouse in the image.",
+    "answer": "mouse",
+    "rgb": "desk/28.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_desk_28_208eae6c_obj_002",
+      "object_name": "mouse",
+      "bbox_xyxy": [
+        1250.836181640625,
+        3196.196044921875,
+        1547.78369140625,
+        3389.6005859375
+      ],
+      "bbox_xywh": [
+        1250.836181640625,
+        3196.196044921875,
+        296.947509765625,
+        193.404541015625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the mouse in the image?",
+    "output_instruction": "What is the bounding box of the mouse in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_28_208eae6c_obj_002"
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

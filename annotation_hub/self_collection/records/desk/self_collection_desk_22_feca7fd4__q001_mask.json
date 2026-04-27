@@ -1,0 +1,135 @@
+{
+  "sample_id": "self_collection_desk_22_feca7fd4__q001_mask",
+  "source_sample_id": "self_collection_desk_22_feca7fd4",
+  "status": "annotated",
+  "updated_at": "2026-04-27T05:43:14Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_22_feca7fd4__q001_mask",
+    "source_sample_id": "self_collection_desk_22_feca7fd4",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the vase in the image.",
+    "instruction": "Locate the vase in the image.",
+    "answer": "vase",
+    "rgb": "desk/22.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_desk_22_feca7fd4_obj_000",
+      "object_name": "vase",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3024,
+            4032
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "UWg[9>gl2e1lNQ1Q",
+            "Ol0UOj0iMW2iMW2b",
+            "N]1E:H9I6H9F9I8K",
+            "5L3M4M2N3M2N2O1O",
+            "1O1O1O1O1O100O1O",
+            "1O1O100O001O010O",
+            "10O10001N2O1O001",
+            "O0000000000001N1",
+            "00O10000O1000O01",
+            "00000O1000O0100O",
+            "10O010O010O01000",
+            "O01000000O100O10",
+            "00O0100O1000O010",
+            "0O0100O010O0100O",
+            "010O1O010O10O010",
+            "0O1O010O10O0100O",
+            "010O010O1O010O1O",
+            "010O1O010O010O1O",
+            "01O0010O0010O001",
+            "0O0010O01O01O01O",
+            "010O000010O0001O",
+            "0010O01O01O01O01",
+            "O000010O0001O01O",
+            "01O0001O01O01O00",
+            "1O0010O0001O0001",
+            "0O001O010O000001",
+            "O01O0001O01O0000",
+            "0010O000001O01O0",
+            "00010O0001O01O00",
+            "01O01O01O00010O0",
+            "0001O00010O00001",
+            "0O000001O01O0000",
+            "0000000001O0001O",
+            "000000000001O000",
+            "00001O01O0000000",
+            "01O0001O00000000",
+            "001O0001O0001O00",
+            "0000000000000000",
+            "00000001O0000000",
+            "0000000000000000",
+            "000000O100000000",
+            "0001O0000001O000",
+            "0001O00000O101O0",
+            "0000000001O00001",
+            "O00001O00001O000",
+            "000001OO1000O100",
+            "00000O1000000O10",
+            "000000O010000000",
+            "00O10O1000O10000",
+            "0000O1000001O000",
+            "00000001O0O10000",
+            "0001O000O1000000",
+            "O1000000O1000000",
+            "O2O00O10O1000000",
+            "00O10000000000O1",
+            "0000O10001N100O1",
+            "0000O2O0O10000O1",
+            "01O0O100O10000O1",
+            "00O10000O2O000O1",
+            "00O2O001N101N2O0",
+            "01N2O1O1N2O1N100",
+            "00O100O10000O100",
+            "O010O1000O0100O1",
+            "00O101N1O100O101",
+            "N100O100O101N100",
+            "O2O0O2O1N1O2N1O2",
+            "N1O2O0O2M2O2N1O1",
+            "O2M2N2N2M3N2N2N2",
+            "M3N2M3M3N2M3M3M3",
+            "M3L4L3M4M3M3L3M4",
+            "@`0L4L4J5J7G9K5M",
+            "3L4K4J7H8C=I7I7I",
+            "7G8K6K5L4M3J6J6I",
+            "7J6I8E:G9F;F9I7J",
+            "7I6I8H8J7HS`Vb0"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        3237.83251953125,
+        2106.105224609375,
+        3841.80126953125,
+        2677.782958984375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the vase in the image?",
+    "output_instruction": "What is the segmentation mask of the vase in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_22_feca7fd4_obj_000"
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

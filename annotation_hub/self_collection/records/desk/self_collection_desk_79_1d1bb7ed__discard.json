@@ -1,0 +1,12 @@
+{
+  "sample_id": "self_collection_desk_79_1d1bb7ed__discard",
+  "source_sample_id": "self_collection_desk_79_1d1bb7ed",
+  "status": "discarded",
+  "updated_at": "2026-04-27T04:36:28Z",
+  "annotation": null,
+  "provenance": {
+    "dataset": "Self-Collection",
+    "subcategory": "desk",
+    "split": "self_collected"
+  }
+}

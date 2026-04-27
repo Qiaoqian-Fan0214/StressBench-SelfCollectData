@@ -1,0 +1,51 @@
+{
+  "sample_id": "self_collection_desk_52_f891d191__q001_bbox",
+  "source_sample_id": "self_collection_desk_52_f891d191",
+  "status": "annotated",
+  "updated_at": "2026-04-27T05:43:14Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_52_f891d191__q001_bbox",
+    "source_sample_id": "self_collection_desk_52_f891d191",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the pen in the image.",
+    "instruction": "Locate the pen in the image.",
+    "answer": "pen",
+    "rgb": "desk/52.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_desk_52_f891d191_obj_001",
+      "object_name": "pen",
+      "bbox_xyxy": [
+        3124.7490234375,
+        2696.495361328125,
+        3669.37158203125,
+        2958.929443359375
+      ],
+      "bbox_xywh": [
+        3124.7490234375,
+        2696.495361328125,
+        544.62255859375,
+        262.43408203125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the pen in the image?",
+    "output_instruction": "What is the bounding box of the pen in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_52_f891d191_obj_001"
+    },
+    "stress": {
+      "G": [
+        "stacked_layout",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

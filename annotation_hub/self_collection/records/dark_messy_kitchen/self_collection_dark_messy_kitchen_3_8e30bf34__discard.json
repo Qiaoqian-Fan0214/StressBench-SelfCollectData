@@ -1,0 +1,12 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_3_8e30bf34__discard",
+  "source_sample_id": "self_collection_dark_messy_kitchen_3_8e30bf34",
+  "status": "discarded",
+  "updated_at": "2026-04-26T13:44:20Z",
+  "annotation": null,
+  "provenance": {
+    "dataset": "Self-Collection",
+    "subcategory": "dark_messy_kitchen",
+    "split": "self_collected"
+  }
+}

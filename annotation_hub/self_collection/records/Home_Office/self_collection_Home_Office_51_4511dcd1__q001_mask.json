@@ -1,0 +1,146 @@
+{
+  "sample_id": "self_collection_Home_Office_51_4511dcd1__q001_mask",
+  "source_sample_id": "self_collection_Home_Office_51_4511dcd1",
+  "status": "annotated",
+  "updated_at": "2026-04-25T13:56:04Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_51_4511dcd1__q001_mask",
+    "source_sample_id": "self_collection_Home_Office_51_4511dcd1",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the laptop in the image.",
+    "instruction": "Locate the laptop in the image.",
+    "answer": "laptop",
+    "rgb": "Home_Office/51.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Home_Office_51_4511dcd1_obj_004",
+      "object_name": "laptop",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4551,
+            6827
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "cagc65m]4=G=B8I5",
+            "K4L2N2O1N2O1N2O1",
+            "N10000O10000O100",
+            "0000O2O000000000",
+            "O1000000000001O0",
+            "00000001O0000000",
+            "01O000000001O000",
+            "000001O0001O00Xh",
+            "KnM[S4R2dlKTNWS4",
+            "m1glKWNUS4j1jlKZ",
+            "NSS4f1llK\\NSS4d1",
+            "llK_NRS4a1mlKaNR",
+            "S4_1mlKbNSS4_1ll",
+            "K`NUS4`1jlK`NWS4",
+            "`1ilK_NXS4a1hlK_",
+            "NXS4a1glK`NYS4a1",
+            "flK^N[S4b1dlK_N\\",
+            "S4a1^jKhM>g0TU4a",
+            "1ZjKoM>`0XU4c1Vj",
+            "KSN?:[U4c1UjKWN<",
+            "7_U4b1SjK\\N:3cU4",
+            "a1RjK_N90eU4b1oi",
+            "KbN9MhU4a1niKdN9",
+            "KiU4a1miKgN7HmU4",
+            "b1iiKiN8FoU4b1gi",
+            "KkN7DRV4a1fiKnN6",
+            "ATV4c1biKoN8_OVV",
+            "4d1_iKoN9^OXV4f1",
+            "ZiKoN=[OYV4j1TiK",
+            "nNa0YO[V4n1jhKoN",
+            "j0SO\\V4Q4aiKPL_V",
+            "4R4^iKoKbV4Q4^iK",
+            "nKbV4T4\\iKmKdV4S",
+            "4[iKnKeV4S4ZiKmK",
+            "fV4T4XiKmKhV4T4V",
+            "iKmKjV4U4SiKlKmV",
+            "4V4ohKlKQW4W4jhK",
+            "jKWW4c5000000000",
+            "0000O1000000000O",
+            "10O1000000000O01",
+            "00000000O0100000",
+            "0O1000O10O100000",
+            "00O10O1000000000",
+            "O2O0000000O10000",
+            "O2O00000O1000000",
+            "00O101O00000O100",
+            "000O010000O10000",
+            "00O10000O0100000",
+            "00O1000000000O10",
+            "00O1000000000000",
+            "000000O100000000",
+            "00000000000000O1",
+            "0000000000000000",
+            "0000000000000000",
+            "00O10O1000000000",
+            "0000000000000000",
+            "00000O0100000000",
+            "000O1000000000O1",
+            "0O1000000000000O",
+            "100000O100000O10",
+            "00000000000O1000",
+            "00000000000O1000",
+            "0000000000000000",
+            "0000000000000001",
+            "O000000000000000",
+            "000000010O000001",
+            "O01O01O010O1O100",
+            "O1O2O1N3M3N2M4L5",
+            "K4L3N2M3M4L2N3M3",
+            "N2M3M4L3M3M2N3L3",
+            "N3M3M3M4L3M5K5K6",
+            "J5J6K3M3M3M3M2N2",
+            "N3L4M4K6K5J6J5K6",
+            "J5J6I8H9D]coYe0"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1512.9451904296875,
+        2394.142578125,
+        1920.283935546875,
+        2643.565185546875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the laptop in the image?",
+    "output_instruction": "What is the segmentation mask of the laptop in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_51_4511dcd1_obj_004",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

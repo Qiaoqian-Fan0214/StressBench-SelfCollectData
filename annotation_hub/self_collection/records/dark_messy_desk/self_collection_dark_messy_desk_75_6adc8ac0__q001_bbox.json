@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_75_6adc8ac0__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_75_6adc8ac0",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:15:17Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_75_6adc8ac0__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_75_6adc8ac0",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the door handle in the image.",
+    "instruction": "Locate the door handle in the image.",
+    "answer": "door handle",
+    "rgb": "dark_messy_desk/75.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_75_6adc8ac0_obj_006",
+      "object_name": "door handle",
+      "bbox_xyxy": [
+        5644.00244140625,
+        2037.8226318359375,
+        5810.99853515625,
+        2192.697509765625
+      ],
+      "bbox_xywh": [
+        5644.00244140625,
+        2037.8226318359375,
+        166.99609375,
+        154.8748779296875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the door handle in the image?",
+    "output_instruction": "What is the bounding box of the door handle in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "small_scale"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_75_6adc8ac0_obj_006",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

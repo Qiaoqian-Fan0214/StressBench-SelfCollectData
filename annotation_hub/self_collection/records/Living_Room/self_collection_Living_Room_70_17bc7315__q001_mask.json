@@ -1,0 +1,142 @@
+{
+  "sample_id": "self_collection_Living_Room_70_17bc7315__q001_mask",
+  "source_sample_id": "self_collection_Living_Room_70_17bc7315",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:38:49Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_70_17bc7315__q001_mask",
+    "source_sample_id": "self_collection_Living_Room_70_17bc7315",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cabinet in the image.",
+    "instruction": "Locate the cabinet in the image.",
+    "answer": "cabinet",
+    "rgb": "Living_Room/70.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_70_17bc7315_obj_011",
+      "object_name": "cabinet",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4016,
+            6016
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "WiTe::Xa38]aLBN?",
+            "F1O<d6TOcl2b3okL",
+            "ZM>\\1bNJ<L`0SNT5",
+            "5an2ka0QQMY^Ohn2",
+            "Vb0kPMo]OPo2fb0\\",
+            "PM]]Oao2Uc0moLo\\",
+            "OPP3Wd0hnLm[OUQ3",
+            "\\d0anLh[O]Q3_d0a",
+            "lLW[O7?VS3ad0UlL",
+            "_]OjS3Uf0O1N101O",
+            "0O2O001O0O101O00",
+            "000000001N100000",
+            "0000000000001O00",
+            "000000000000001O",
+            "000000000000O100",
+            "0000000000000000",
+            "000000O100000000",
+            "000000000001O000",
+            "000000000001O000",
+            "00O1000000000000",
+            "01O0000000000000",
+            "O100000000000000",
+            "00O1000000000000",
+            "O100000000O10000",
+            "O101O0O10000O100",
+            "00O10001N10000O1",
+            "0000O10000O10000",
+            "00O0100000O10000",
+            "00O100000000O100",
+            "000000000001O000",
+            "0000000001O00000",
+            "000000UOakLeXO_T",
+            "3Xg0fkLeXO[T3Yg0",
+            "hkLfXOYT3Xg0ikLg",
+            "XOWT3Xg0kkLgXOUT",
+            "3Ze0akLn[O:hNUT3",
+            "Ve0okLg[ONROST3W",
+            "e0okLf[OOSORT3Xe",
+            "0mkLg[OOROTT3We0",
+            "lkLh[OOSOTT3Ve0k",
+            "kLh[O0SOUT3Ue0jk",
+            "Lj[OOROWT3Te0ikL",
+            "k[OOROXT3Te0fkLm",
+            "[O0POZT3Se0ekLo[",
+            "OOoN\\T3Se0ckLo\\O",
+            "]T3Qc0bkLP]O^T3P",
+            "c0akLQ]O_T3ob0`k",
+            "LR]O`T3oe0000000",
+            "00001O0001O00000",
+            "0000001O01O00000",
+            "0000001O000001O0",
+            "00000O1000000O10",
+            "0O100O100O010O1O",
+            "100O1]NXkL]ZOiT3",
+            "Sd0nkLdZONS1UT3S",
+            "d0SmLk[OmR3mc0\\m",
+            "LQ\\OeR3ic0bmLV\\O",
+            "^R3fc0gmLW\\O[R3d",
+            "c0kmLZ\\OVR3bc0Pn",
+            "LZ\\ORR3ac0UnL[\\O",
+            "mQ3ac0YnL[\\OiQ3b",
+            "c0[nL[\\OgQ3[3[kL",
+            "h;S3j@cQ3k2lnLX9",
+            "FjCaQ3b2oQMT5bI^",
+            "HZ3FXQ3R1ijLCS9R",
+            "3]GQMd[35cnLWOWV",
+            "3g0[;M2N3M2O2M3N",
+            "2M3N2M4M2JT_oY;"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2774.159912109375,
+        1757.4249267578125,
+        3072.392333984375,
+        2603.64794921875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the cabinet in the image?",
+    "output_instruction": "What is the segmentation mask of the cabinet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent",
+          "specular_confusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_70_17bc7315_obj_011",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent",
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

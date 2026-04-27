@@ -1,0 +1,125 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_82_1118bdcb__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_82_1118bdcb",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:19:54Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_82_1118bdcb__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_82_1118bdcb",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the mouse in the image.",
+    "instruction": "Locate the mouse in the image.",
+    "answer": "mouse",
+    "rgb": "dark_messy_desk/82.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_82_1118bdcb_obj_000",
+      "object_name": "mouse",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            6000,
+            4000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "gVela0f0fj5:H8H7",
+            "J7TVJoNlh5n1K4M4",
+            "L3M4L3L4M3M3M2N3",
+            "M2N3M2O2M3M3M3N1",
+            "N3M4M3L9G<kYJRKR",
+            "e5g5N101N101N100",
+            "O101N100O100O101",
+            "N10000O100O10000",
+            "00O101O0O1000000",
+            "O10000O10000O100",
+            "00O1000000O10000",
+            "01O0000000000000",
+            "00000000000000O1",
+            "01O000001O000000",
+            "01O0000000000001",
+            "O000000000001OO1",
+            "01O0000000000000",
+            "0000O10000000000",
+            "0000O10000000000",
+            "00O1000000000000",
+            "00000000000000O1",
+            "00000001O0000000",
+            "0000000000000000",
+            "000000000001O000",
+            "0000000000000000",
+            "0000000000000000",
+            "01O0000000000000",
+            "0000000000000000",
+            "000010O00000001O",
+            "000000001O000000",
+            "000010O000001O00",
+            "001O00001O001O00",
+            "001O001O00001O00",
+            "000010O000001O00",
+            "0000001O00000000",
+            "001O0000000001O0",
+            "001O000000001O00",
+            "001N10001O001O00",
+            "001O0O2O00001O0O",
+            "101O0O2O0O2N1O2N",
+            "1M4L3J7F:I6K6I7F",
+            ":C<F;G9J6K4L5K5L",
+            "4L4M3L4M3M3L4M4L",
+            "4J6K6I8F;F:EPjkQ",
+            "3"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        3119.904052734375,
+        2949.443115234375,
+        3462.163818359375,
+        3190.607421875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the mouse in the image?",
+    "output_instruction": "What is the segmentation mask of the mouse in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_82_1118bdcb_obj_000",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

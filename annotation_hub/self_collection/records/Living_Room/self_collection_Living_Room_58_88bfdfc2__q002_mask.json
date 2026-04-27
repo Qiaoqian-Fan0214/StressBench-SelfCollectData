@@ -1,0 +1,117 @@
+{
+  "sample_id": "self_collection_Living_Room_58_88bfdfc2__q002_mask",
+  "source_sample_id": "self_collection_Living_Room_58_88bfdfc2",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:18:51Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_58_88bfdfc2__q002_mask",
+    "source_sample_id": "self_collection_Living_Room_58_88bfdfc2",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the flower in the image.",
+    "instruction": "Locate the flower in the image.",
+    "answer": "flower",
+    "rgb": "Living_Room/58.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_58_88bfdfc2_obj_000",
+      "object_name": "flower",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            6720,
+            4480
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Tficj09aa6g0\\O7J",
+            "5K4L5K5J5L5K4M3L",
+            "3N2M4M2M3N2N2N2N",
+            "2M3N2N2N2N2M3N3M",
+            "2M3O1N2N2N2N2O1N",
+            "2O1N2O1N2O1N2O1N",
+            "3N1N3N1N3N2N2M3N",
+            "3L3N3L3N2N2M3N2N",
+            "2M3N2N2N2M3N2N1O",
+            "2N1O2M2O1O1O1O1O",
+            "1N101O1O1O1O001O",
+            "001N101O001O0000",
+            "1O001O00001O10O0",
+            "1O1O1O1^fIWIkW6j",
+            "6PhI]ImW6e6mgIbI",
+            "PX6c6fgIeIWX6a6_",
+            "gIfI^X6R8L1N3N2N",
+            "3M2M3M2N2N1O2M3L",
+            "3WOj0L4L4M4L3M4M",
+            "3L4L4L3M4L4L3M4M",
+            "2M4M3L4M4L4K6L2M",
+            "3M3M3M2N3M2N2N3M",
+            "2N2N3N1N3M2N3M2N",
+            "2N3N1N2O1N2N2O1N",
+            "2O1N101N2O1N2O00",
+            "1N2O1N101O1N2O00",
+            "1N2O1O0O2O1O001O",
+            "0O2O00001O00001O",
+            "00001O001O00001O",
+            "001O00001O000000",
+            "00001O000O100000",
+            "O10O1000000O100O",
+            "10O01O1O1N2N2N2N",
+            "1O2O1O1O1O1N1010",
+            "0O1O1O001O1O1O1O",
+            "001O1O0O2O1O1O01",
+            "0O001O1O010O0010",
+            "O010O001O010O001",
+            "O001O001O001O001",
+            "O0O2O0O2O001O001",
+            "N2O001O10O10O100",
+            "0O10O10O10O10O10",
+            "0O10O10O100O10O1",
+            "O2O0O1O2N1O10000",
+            "0WcL"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        4148.3681640625,
+        3476.47509765625,
+        4476.92626953125,
+        4063.740478515625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the flower in the image?",
+    "output_instruction": "What is the segmentation mask of the flower in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_58_88bfdfc2_obj_000",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

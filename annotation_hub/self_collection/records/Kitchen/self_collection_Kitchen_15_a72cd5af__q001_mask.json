@@ -1,0 +1,146 @@
+{
+  "sample_id": "self_collection_Kitchen_15_a72cd5af__q001_mask",
+  "source_sample_id": "self_collection_Kitchen_15_a72cd5af",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:50:47Z",
+  "annotation": {
+    "sample_id": "self_collection_Kitchen_15_a72cd5af__q001_mask",
+    "source_sample_id": "self_collection_Kitchen_15_a72cd5af",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the refrigerator in the image.",
+    "instruction": "Locate the refrigerator in the image.",
+    "answer": "refrigerator",
+    "rgb": "Kitchen/15.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Kitchen_15_a72cd5af_obj_002",
+      "object_name": "refrigerator",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4000,
+            6000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "oSQR<;T10ci3j3cU",
+            "LlLb0SOkd3U9lZLX",
+            "Gla3l;Q^LSDf0Il\\",
+            "3T`0PcLU@kY3Pc0n",
+            "eLT]OQW3dg0edMQX",
+            "OX[1kh0jPNTWOn9m",
+            "0cd1jh0moM^WOjJY",
+            "OY<3UBT1[V2Xh0bo",
+            "MmZOlK`KZ3DXM2@Z",
+            "3ZT2if0^oMh@^J^J",
+            "1\\OPV2ae0[oMPLcP",
+            "2S4QnMkUO_LWf0^U",
+            "2P4QlM[VO`NLIle0",
+            "dU2P4mkMUXOWNoc0",
+            "kU2m3hkM_OWT2b0d",
+            "kMCZT2?bkME]T2<`",
+            "kMF`T2;]kMHbT2:Z",
+            "kMHfT29WkMIiT28T",
+            "kMKkT27QkMKnT28n",
+            "jMKQU28ijMKWU28b",
+            "jML^U2lk0O000000",
+            "1N1000001O000000",
+            "00001O000000001O",
+            "00000000010O0000",
+            "0000000000001O00",
+            "0000000001O00000",
+            "0000001O000001O0",
+            "000000000O100000",
+            "00000O010O10000O",
+            "10O0100O10O010O0",
+            "0010N2M3N1O2N2N2",
+            "M3M4K4L4L4M4L3L4",
+            "K5@`0N3M2N2O100O",
+            "2N1O1O1O1N2O2N1O",
+            "1N2O1O2M2O1O1O1O",
+            "2M2O1O1O1O2N1O10",
+            "0O1O2N1O1O101N1O",
+            "1O2N1O1N2O2N1O1O",
+            "2N1O1O2N1O101N1O",
+            "100O2N1O101N1O1O",
+            "101N1O1O1O2N1O1N",
+            "2O2N1O1O1N3N1O1O",
+            "2N101N1O2N1O2N2N",
+            "2N1O2N2N2M3N2N2M",
+            "2O2N2N2N1O2O1N1O",
+            "2N2O0O2N101N1O1O",
+            "2N101N1O1O2N1O1N",
+            "3N1O2M2O1O2M2O2N",
+            "2N1O2N1O2N2N1N3N",
+            "2N1O2M2N3N2M2O2N",
+            "1N2O2N1O2N1O2N1O",
+            "2N1O1O2N1O2M3N1N",
+            "3N1N3M3N2M2N3N2M",
+            "2O2M3N1O2M3N1N3N",
+            "1O2M2O2N1N3N2M2O",
+            "2N1N3N2M2O2M3M3N",
+            "2L4L3N3L5L3M4L3M",
+            "4M5K3M4K4M4L3M6j",
+            "eN`^MaX1Sc2K5L5J",
+            "7I8H7H7I7G9@`0B>",
+            "C=gNkXMXlNbg27iX",
+            "MKk0do0gg2QPO]ZM",
+            "[o0mi2E<D:\\TOURM",
+            "`g0Vn2oWObRM]g0m",
+            "m2ZWO`SMUh0ml2[W",
+            "OdSMZh0hP3I7YWOT",
+            "mLmf0YU3QYOPkLa3",
+            "mNc<WX3R@YhL4JM;",
+            "m05P<R\\3VCfdLV3Z",
+            "NU5m_3^HY`L82@D`",
+            "2c1TMQOEj_37h`La",
+            "0^OGI9FKeg3WOWYL",
+            "=F60Cmh3K]WL9_k3",
+            "Hojh^9"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        3156.724609375,
+        1519.562255859375,
+        3542.05224609375,
+        3323.365234375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the refrigerator in the image?",
+    "output_instruction": "What is the segmentation mask of the refrigerator in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Kitchen_15_a72cd5af_obj_002",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Kitchen",
+      "split": "self_collected"
+    }
+  }
+}

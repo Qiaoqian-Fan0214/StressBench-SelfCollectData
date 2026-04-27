@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_49_63c52a6d__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_49_63c52a6d",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:55:32Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_49_63c52a6d__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_49_63c52a6d",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the floor in the image.",
+    "instruction": "Locate the floor in the image.",
+    "answer": "floor",
+    "rgb": "dark_messy_desk/49.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_49_63c52a6d_obj_007",
+      "object_name": "floor",
+      "bbox_xyxy": [
+        25.683937072753906,
+        3630.29833984375,
+        3268.526123046875,
+        5286.0732421875
+      ],
+      "bbox_xywh": [
+        25.683937072753906,
+        3630.29833984375,
+        3242.842185974121,
+        1655.77490234375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the floor in the image?",
+    "output_instruction": "What is the bounding box of the floor in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_49_63c52a6d_obj_007",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

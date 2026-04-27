@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_66_5d75d256__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_66_5d75d256",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:25:52Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_66_5d75d256__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_66_5d75d256",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the water bottle in the image.",
+    "instruction": "Locate the water bottle in the image.",
+    "answer": "water bottle",
+    "rgb": "dark_messy_kitchen/66.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_66_5d75d256_obj_011",
+      "object_name": "water bottle",
+      "bbox_xyxy": [
+        1994.49853515625,
+        3337.977294921875,
+        2680.231201171875,
+        4651.16015625
+      ],
+      "bbox_xywh": [
+        1994.49853515625,
+        3337.977294921875,
+        685.732666015625,
+        1313.182861328125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the water bottle in the image?",
+    "output_instruction": "What is the bounding box of the water bottle in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "stacked_layout"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_66_5d75d256_obj_011",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "stacked_layout"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

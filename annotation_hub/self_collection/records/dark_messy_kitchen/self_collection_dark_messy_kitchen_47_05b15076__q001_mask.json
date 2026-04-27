@@ -1,0 +1,112 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_47_05b15076__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_47_05b15076",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:18:41Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_47_05b15076__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_47_05b15076",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the orange in the image.",
+    "instruction": "Locate the orange in the image.",
+    "answer": "orange",
+    "rgb": "dark_messy_kitchen/47.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_47_05b15076_obj_005",
+      "object_name": "orange",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2289,
+            3000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "eRkm0;UW24K4L4K5",
+            "L4L4M3M2M3N3M2N2",
+            "N2N2N2N3N1N2N3M2",
+            "O2M2O1N3M2O1N2N2",
+            "O1N2N2N3M2N2O1N3",
+            "M2O2M2N3M2N3M2M4",
+            "M3M2O2M2O2M3N3L3",
+            "N3M2M3M3N1N2O1N2",
+            "N2N1O2N1O2N1O1O2",
+            "N1O2N1O101N1O2N1",
+            "O1O1O2N1O100O1O1",
+            "00O100O100O100O1",
+            "00O100O10001N100",
+            "0000O10000000000",
+            "0000000O2O000000",
+            "0O10000O2N100O10",
+            "0O2N100O1O101N1O",
+            "1O100O101N100O2O",
+            "0O2O0O2O001N101O",
+            "0O101O0O2O001N10",
+            "1O1N101O1N101O1O",
+            "0O2O1O1O001N2O1O",
+            "001N2O1N2O0O2O1N",
+            "2N2N2N1N3M3M3M2O",
+            "2M3M3L4M3L4N2M3N",
+            "2M4M2N2N2M4M3L4L",
+            "5K8H8H6H9G;D<CZR",
+            "mT5"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        425.8458251953125,
+        516.7445678710938,
+        635.4564208984375,
+        713.7621459960938
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the orange in the image?",
+    "output_instruction": "What is the segmentation mask of the orange in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "small_scale"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_47_05b15076_obj_005",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_71_b77a54af__q002",
+  "source_sample_id": "self_collection_dark_messy_kitchen_71_b77a54af",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:28:13Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_71_b77a54af__q002",
+    "source_sample_id": "self_collection_dark_messy_kitchen_71_b77a54af",
+    "entry_id": "q002",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the cloth relative to the floor in the image?",
+    "instruction": "What is the spatial relation of the cloth relative to the floor in the image?",
+    "answer": "up",
+    "rgb": "dark_messy_kitchen/71.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 0
+      },
+      "subject_a": {
+        "object_id": "self_collection_dark_messy_kitchen_71_b77a54af_obj_002",
+        "label": "cloth"
+      },
+      "subject_b": {
+        "object_id": "self_collection_dark_messy_kitchen_71_b77a54af_obj_007",
+        "label": "floor"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the cloth relative to the floor in the image?",
+    "output_instruction": "What is the spatial relation of the cloth relative to the floor in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_71_b77a54af_obj_000",
+      "placementItem": "toy",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "self_collection_dark_messy_kitchen_71_b77a54af_obj_002",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_dark_messy_kitchen_71_b77a54af_obj_007",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

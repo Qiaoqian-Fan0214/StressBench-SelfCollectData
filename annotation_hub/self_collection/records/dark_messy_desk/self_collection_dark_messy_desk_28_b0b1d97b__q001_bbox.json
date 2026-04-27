@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_28_b0b1d97b__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_28_b0b1d97b",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:27:09Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_28_b0b1d97b__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_28_b0b1d97b",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the painting in the image.",
+    "instruction": "Locate the painting in the image.",
+    "answer": "painting",
+    "rgb": "dark_messy_desk/28.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_28_b0b1d97b_obj_004",
+      "object_name": "painting",
+      "bbox_xyxy": [
+        4.798094749450684,
+        1047.074951171875,
+        1216.7332763671875,
+        3366.44580078125
+      ],
+      "bbox_xywh": [
+        4.798094749450684,
+        1047.074951171875,
+        1211.9351816177368,
+        2319.370849609375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the painting in the image?",
+    "output_instruction": "What is the bounding box of the painting in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "stacked_layout"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_28_b0b1d97b_obj_004",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "stacked_layout"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

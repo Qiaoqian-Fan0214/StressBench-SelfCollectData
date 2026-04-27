@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_96_0e40d4e4__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_96_0e40d4e4",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:29:29Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_96_0e40d4e4__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_96_0e40d4e4",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the headphone in the image.",
+    "instruction": "Locate the headphone in the image.",
+    "answer": "headphone",
+    "rgb": "dark_messy_desk/96.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_96_0e40d4e4_obj_006",
+      "object_name": "headphone",
+      "bbox_xyxy": [
+        456.32891845703125,
+        4314.48876953125,
+        1263.4307861328125,
+        4624.6689453125
+      ],
+      "bbox_xywh": [
+        456.32891845703125,
+        4314.48876953125,
+        807.1018676757812,
+        310.18017578125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the headphone in the image?",
+    "output_instruction": "What is the bounding box of the headphone in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_96_0e40d4e4_obj_006",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

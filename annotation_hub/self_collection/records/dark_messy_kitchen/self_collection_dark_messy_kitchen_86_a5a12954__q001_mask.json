@@ -1,0 +1,103 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_86_a5a12954__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_86_a5a12954",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:32:58Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_86_a5a12954__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_86_a5a12954",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the plant in the image.",
+    "instruction": "Locate the plant in the image.",
+    "answer": "plant",
+    "rgb": "dark_messy_kitchen/86.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_86_a5a12954_obj_004",
+      "object_name": "plant",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2700,
+            2160
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "eg`n3W1Rc2>eN]NW",
+            "_Mk1X`2bNc_Mg1Q`",
+            "2_Nl_Mj1h_2]NS`M",
+            "j1e_2bNo_Mf1j_2d",
+            "1H8I7I6K5K5K4L4L",
+            "3L5L5K4L4L3M3M4M",
+            "3L3N3L3M3M2N2M3N",
+            "1O2N1O1O101N1O1O",
+            "1O100O1O10000O10",
+            "1O000O1000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "000000000O100000",
+            "0000000000000000",
+            "0000000000000000",
+            "01O00001O00001O0",
+            "01O001O001O0010O",
+            "01O001O1O001O0O2",
+            "O2N1N3M3M3M3M2M4",
+            "L2N3L4L4K5L5K8H9",
+            "E8G8VLl`MU2X_2eM",
+            "n`MW2W_2cMn`MX2X",
+            "_2cMl`Mo1c_2jMb`",
+            "MQ2j_2_M``M\\2l`2",
+            "G:Da0\\O`c]W1"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1529.643310546875,
+        1306.2841796875,
+        1684.800048828125,
+        1571.20068359375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the plant in the image?",
+    "output_instruction": "What is the segmentation mask of the plant in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_86_a5a12954_obj_004",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

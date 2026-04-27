@@ -1,0 +1,139 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_16_b349c192__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_16_b349c192",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:51:36Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_16_b349c192__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_16_b349c192",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the plate in the image.",
+    "instruction": "Locate the plate in the image.",
+    "answer": "plate",
+    "rgb": "dark_messy_kitchen/16.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_16_b349c192_obj_000",
+      "object_name": "plate",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            6830,
+            5464
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "c\\igP17Se6:m[I4U",
+            "b68Y]I6_b6e1F8I5",
+            "K4L4M3N1O2N2M2O2",
+            "M3M3M3M3L4_Oa0H7",
+            "M4L3N3M2M4M2N3M2",
+            "N3M2N2N3M2N3M2M3",
+            "N1O2M3N3L3N2N2M2",
+            "O3M2N2N2N2N3M2N3",
+            "M2N3N1N3M2O1N2N2",
+            "N2O1N2N1O2N2N1O2",
+            "O1N1O2N2N2N1O2N2",
+            "N2N2O1N3M2O1N2O1",
+            "N2N3N1N2O1O1N2O1",
+            "N2O1N2O1N2O0O2O1",
+            "N2N2O0O2N2O1N2N1",
+            "01O0O2O0O2O1O0O1",
+            "01N101O0O2O1N101",
+            "N101O1N2O001N2O1",
+            "N101O1N101N2O0O2",
+            "O1N101N2O0O2O0O2",
+            "O1N2O0O2O1N2N101",
+            "N2N2O1N1O2O1O0O2",
+            "O0O2O0O2O00001O0",
+            "O2O001O0O101O000",
+            "O2O001N10001N101",
+            "O001N101O001N101",
+            "O001O0O2O001O1N1",
+            "01O1O001N2O1O001",
+            "O1N101O001N101O0",
+            "00O2O001O0O101O0",
+            "O101O000O101O000",
+            "O2O00000O2O00001",
+            "N101O00001N10001",
+            "O001N10001O001N1",
+            "0001O0O2O00001N1",
+            "0001O000O101O000",
+            "00000000O2O00000",
+            "000001O0000000O2",
+            "O0000001O001O1N2",
+            "O1O1O1O:E1000000",
+            "O1000000O10000O1",
+            "0000O100000000O1",
+            "0000000000O10000",
+            "0000000000000000",
+            "0000000000O10000",
+            "0000000000001O00",
+            "000000000000001O",
+            "0000000000000000",
+            "00001O0000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "1O1O1O2N1O2QGoiI",
+            "o1`V6bL_iI]L4n6^",
+            "V6eL^iI]L4n6^V6e",
+            "L^iI]L4n69"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        5013.5283203125,
+        6314.45458984375,
+        5461.59912109375,
+        6826.26611328125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the plate in the image?",
+    "output_instruction": "What is the segmentation mask of the plate in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame",
+          "small_scale"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_16_b349c192_obj_000",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame",
+        "small_scale"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

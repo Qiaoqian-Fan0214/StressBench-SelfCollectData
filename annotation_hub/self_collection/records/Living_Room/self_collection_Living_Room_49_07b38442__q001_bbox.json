@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Living_Room_49_07b38442__q001_bbox",
+  "source_sample_id": "self_collection_Living_Room_49_07b38442",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:12:48Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_49_07b38442__q001_bbox",
+    "source_sample_id": "self_collection_Living_Room_49_07b38442",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the chandelier in the image.",
+    "instruction": "Locate the chandelier in the image.",
+    "answer": "chandelier",
+    "rgb": "Living_Room/49.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_49_07b38442_obj_004",
+      "object_name": "chandelier",
+      "bbox_xyxy": [
+        2750.021484375,
+        411.12371826171875,
+        3253.52978515625,
+        742.4868774414062
+      ],
+      "bbox_xywh": [
+        2750.021484375,
+        411.12371826171875,
+        503.50830078125,
+        331.3631591796875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the chandelier in the image?",
+    "output_instruction": "What is the bounding box of the chandelier in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_49_07b38442_obj_004",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

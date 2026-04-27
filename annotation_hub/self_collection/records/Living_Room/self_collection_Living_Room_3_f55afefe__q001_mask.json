@@ -1,0 +1,107 @@
+{
+  "sample_id": "self_collection_Living_Room_3_f55afefe__q001_mask",
+  "source_sample_id": "self_collection_Living_Room_3_f55afefe",
+  "status": "annotated",
+  "updated_at": "2026-04-27T00:47:15Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_3_f55afefe__q001_mask",
+    "source_sample_id": "self_collection_Living_Room_3_f55afefe",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bowl in the image.",
+    "instruction": "Locate the bowl in the image.",
+    "answer": "bowl",
+    "rgb": "Living_Room/3.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_3_f55afefe_obj_000",
+      "object_name": "bowl",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3780,
+            2990
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "oVho81oe35K6L3N2",
+            "O1O1N2O1O1O1O1O1",
+            "O001O1O1O1O1O1O1",
+            "O1O1O1O1O1O1O1O1",
+            "O1O2N1O1O1O1O1O1",
+            "O1O1O1N2O001O1O1",
+            "O2N1O3M2N1O1O2N0",
+            "01O1N101O00001O0",
+            "000001O000000000",
+            "01O0000000O10000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "00O1000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "00000000000000O1",
+            "0000000000000000",
+            "0001O0000000000O",
+            "1000000000000000",
+            "000000000O100000",
+            "0O100O100O100O1O",
+            "1O1O1O1N2N2N2O1N",
+            "2O1O1O2N1O1O1O1O",
+            "100O1O1O100O1O1O",
+            "1O1O100O1O1O1O1O",
+            "1O1O1O1N2O1O1O1N",
+            "2O1O1O1N3N1O1O1O",
+            "1N2O1O1N3M2N3M3N",
+            "2M^]Pj0"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2487.666748046875,
+        1876.4669189453125,
+        2771.3955078125,
+        1955.251220703125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the bowl in the image?",
+    "output_instruction": "What is the segmentation mask of the bowl in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_3_f55afefe_obj_000",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

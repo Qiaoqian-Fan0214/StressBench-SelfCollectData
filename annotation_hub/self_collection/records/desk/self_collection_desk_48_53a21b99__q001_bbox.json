@@ -1,0 +1,56 @@
+{
+  "sample_id": "self_collection_desk_48_53a21b99__q001_bbox",
+  "source_sample_id": "self_collection_desk_48_53a21b99",
+  "status": "annotated",
+  "updated_at": "2026-04-27T05:43:14Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_48_53a21b99__q001_bbox",
+    "source_sample_id": "self_collection_desk_48_53a21b99",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the keyboard in the image.",
+    "instruction": "Locate the keyboard in the image.",
+    "answer": "keyboard",
+    "rgb": "desk/48.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_desk_48_53a21b99_obj_000",
+      "object_name": "keyboard",
+      "bbox_xyxy": [
+        1994.94384765625,
+        2403.302490234375,
+        3008.266357421875,
+        2650.280517578125
+      ],
+      "bbox_xywh": [
+        1994.94384765625,
+        2403.302490234375,
+        1013.322509765625,
+        246.97802734375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the keyboard in the image?",
+    "output_instruction": "What is the bounding box of the keyboard in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_48_53a21b99_obj_000"
+    },
+    "stress": {
+      "L": [
+        "local_underexposure"
+      ],
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

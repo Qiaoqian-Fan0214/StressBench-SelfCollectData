@@ -1,0 +1,102 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_75_6adc8ac0__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_75_6adc8ac0",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:15:17Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_75_6adc8ac0__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_75_6adc8ac0",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the door handle in the image.",
+    "instruction": "Locate the door handle in the image.",
+    "answer": "door handle",
+    "rgb": "dark_messy_desk/75.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_75_6adc8ac0_obj_006",
+      "object_name": "door handle",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4024,
+            6048
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Thgge0c0kl3<H9H7",
+            "G8[Of0H7M3M3N2N2",
+            "O1N2O0O101O00000",
+            "00000000001O0O10",
+            "001O00001N10000O",
+            "2O001N101O0O2O00",
+            "0O2O0O2O001N2O1O",
+            "1N101O1N101O0O2O",
+            "001O1N101O0O2O00",
+            "1O0O2O001N101O0O",
+            "2O000O2O001N101O",
+            "0O101O0000000000",
+            "0001O00001O00001",
+            "N101O00001O00000",
+            "01O00000000O1000",
+            "1N1O1O2M2O1N3N1N",
+            "3M3M3N3K5L5J7IoT",
+            "Po0"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        5644.00244140625,
+        2037.8226318359375,
+        5810.99853515625,
+        2192.697509765625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the door handle in the image?",
+    "output_instruction": "What is the segmentation mask of the door handle in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "small_scale"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_75_6adc8ac0_obj_006",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

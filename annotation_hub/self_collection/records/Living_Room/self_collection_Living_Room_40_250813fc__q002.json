@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_Living_Room_40_250813fc__q002",
+  "source_sample_id": "self_collection_Living_Room_40_250813fc",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:49:54Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_40_250813fc__q002",
+    "source_sample_id": "self_collection_Living_Room_40_250813fc",
+    "entry_id": "q002",
+    "task": "spatial_mcq",
+    "template_id": "farthest",
+    "question": "Which object is farthest from us in the image?",
+    "instruction": "Which object is farthest from us in the image?",
+    "answer": "luggage rack",
+    "rgb": "Living_Room/40.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "luggage rack",
+          "table",
+          "controller",
+          "sofa",
+          "pillow"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Which object is farthest from us in the image?",
+    "output_instruction": "Which object is farthest from us in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "spatial_mcq",
+      "template_id": "farthest",
+      "stress": {
+        "M": [
+          "transparent"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_40_250813fc_obj_000",
+      "placementItem": "mug",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "self_collection_Living_Room_40_250813fc_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_Living_Room_40_250813fc_obj_001",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": [
+        "luggage rack",
+        "table",
+        "controller",
+        "sofa",
+        "pillow"
+      ]
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

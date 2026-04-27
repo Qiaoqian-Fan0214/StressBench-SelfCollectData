@@ -1,0 +1,163 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_66_5d75d256__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_66_5d75d256",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:25:52Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_66_5d75d256__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_66_5d75d256",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the water bottle in the image.",
+    "instruction": "Locate the water bottle in the image.",
+    "answer": "water bottle",
+    "rgb": "dark_messy_kitchen/66.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_66_5d75d256_obj_011",
+      "object_name": "water bottle",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            5672,
+            3781
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "gd`];Q1g_5S1TOh0",
+            "YOe0\\Od0]Ob1_Ne0",
+            "\\Oo0POf0bfJ^IQW5",
+            "[9SiJWF5XO]S5f=W",
+            "OZ2coJo@Qj4h?mTK",
+            "i@mj4o?TTK^@4\\NS",
+            "j4\\d0_UKY\\OSj4de",
+            "0H8I6I5L4L4K4M3M",
+            "3M3M3M4K4M3M3M4L",
+            "4L3N3L4M3L5K4M3L",
+            "5L2N3L4M2N3M2N2N",
+            "3M2N2N2N2N3L3N2N",
+            "2N2N2M2O2M3N2N2M",
+            "2O2N2N1O2N2N2N1O",
+            "2O1N1O2O1N1O2O1N",
+            "2M2O2N2N1N3N1O2N",
+            "2N1O2O0O2O0O2O00",
+            "1N2O001N101O0O2O",
+            "000O2O0O2O0O2N10",
+            "0O2N100O2N101N1l",
+            "MkROU`KVm0c_4VSO",
+            "W`Kkl0c_4_SOY`Ka",
+            "l0b_4hSOY`KZl0b_",
+            "4mSOY`KUl0b_4TTO",
+            "Y`Knk0c_4iTOh_KX",
+            "k0T`4Q3L3M3M4M2O",
+            "2N1O1O2N100O2O00",
+            "1N10001N10001O0O",
+            "2O00001N10001O00",
+            "0O2O0000000O2O00",
+            "00000O100000001O",
+            "0O100000000O101O",
+            "000000001O000000",
+            "1O0000001O000000",
+            "1O000O10001O0000",
+            "0000000000000000",
+            "0000000000000000",
+            "00000001O0000000",
+            "000000O2O0000000",
+            "0001O000000000O2",
+            "O0000001O0000001",
+            "O00001O00001O000",
+            "0001O0000001O000",
+            "01O0001O01O001O0",
+            "00010O01O0010O00",
+            "01O010O1O001O10O",
+            "01O1O1ePOVaKVl0j",
+            "^4hSOZaKVl0g^4gS",
+            "O]aKVl0e^4hSO]aK",
+            "Wl0d^4gSO^aKXl0c",
+            "^4fSO^aKZl0c^4dS",
+            "O_aK[l0b^4cSO_aK",
+            "\\l0b^4cSO`aK\\l0a",
+            "^4bSO`aK^l0a^4`S",
+            "O`aK_l0b^4_SO`aK",
+            "`l0a^4^SO`aKbl0a",
+            "^4\\SO`aKcl0c^4YS",
+            "O_aKgl0b^4WSO`aK",
+            "hl0c^4TSO^aKkl0j",
+            "^4lROXaKTm0Q_4_R",
+            "OTaK`m0Za4O101O0",
+            "O101O0O2O0O101N1",
+            "01O0O100O2O000O1",
+            "01O0O2O0O2O001N2",
+            "O1O1N2O1O1N2O1N2",
+            "O1O1N2O1N2O1N101",
+            "O1N2O1O0O2O1O1O1",
+            "N2O1O1O1O2M2O1O1",
+            "O1N2O1O1O1N2O1N3",
+            "M2O1N2N3M3M3M3N2",
+            "M3M3M2O2M2N3N1N2",
+            "N3N1N2O2M2N3M3M2",
+            "N3N3K4M4L4K6I7H7",
+            "J6J6J6K5K5K5H7H9",
+            "F9I8K4K8H;D=kNhT",
+            "K`[OQl4]c0R2^Ne1",
+            "f_OkRKd9fU5mLW1R",
+            "MjgJdJfYYe0Lnng[",
+            "5"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1994.49853515625,
+        3337.977294921875,
+        2680.231201171875,
+        4651.16015625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the water bottle in the image?",
+    "output_instruction": "What is the segmentation mask of the water bottle in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "stacked_layout"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_66_5d75d256_obj_011",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "stacked_layout"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

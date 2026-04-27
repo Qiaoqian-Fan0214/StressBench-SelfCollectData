@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_Home_Office_53_7ad722fa__q003",
+  "source_sample_id": "self_collection_Home_Office_53_7ad722fa",
+  "status": "annotated",
+  "updated_at": "2026-04-25T14:00:54Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_53_7ad722fa__q003",
+    "source_sample_id": "self_collection_Home_Office_53_7ad722fa",
+    "entry_id": "q003",
+    "task": "spatial_mcq",
+    "template_id": "nearest",
+    "question": "Which object is closest to us in the image?",
+    "instruction": "Which object is closest to us in the image?",
+    "answer": "lamp",
+    "rgb": "Home_Office/53.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "curtain",
+          "scissors",
+          "lamp",
+          "laptop",
+          "pen"
+        ],
+        "answer_index": 2
+      }
+    },
+    "output_variant": null,
+    "output_question": "Which object is closest to us in the image?",
+    "output_instruction": "Which object is closest to us in the image?",
+    "editor_state": {
+      "entry_id": "q003",
+      "task": "spatial_mcq",
+      "template_id": "nearest",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_53_7ad722fa_obj_000",
+      "placementItem": "monitor",
+      "answerIndex": 2,
+      "spatialRelationAObjectId": "self_collection_Home_Office_53_7ad722fa_obj_000",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_Home_Office_53_7ad722fa_obj_001",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": [
+        "curtain",
+        "scissors",
+        "lamp",
+        "laptop",
+        "pen"
+      ]
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

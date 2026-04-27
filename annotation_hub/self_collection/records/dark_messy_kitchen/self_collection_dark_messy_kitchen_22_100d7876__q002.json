@@ -1,0 +1,64 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_22_100d7876__q002",
+  "source_sample_id": "self_collection_dark_messy_kitchen_22_100d7876",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:54:41Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_22_100d7876__q002",
+    "source_sample_id": "self_collection_dark_messy_kitchen_22_100d7876",
+    "entry_id": "q002",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a plate in the image?",
+    "instruction": "Is there any vacant space to place a plate in the image?",
+    "answer": "yes",
+    "rgb": "dark_messy_kitchen/22.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a plate in the image?",
+    "output_instruction": "Is there any vacant space to place a plate in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_22_100d7876_obj_000",
+      "placementItem": "plate",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

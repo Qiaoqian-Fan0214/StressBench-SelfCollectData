@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Kitchen_13_307e37c8__q001_bbox",
+  "source_sample_id": "self_collection_Kitchen_13_307e37c8",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:50:12Z",
+  "annotation": {
+    "sample_id": "self_collection_Kitchen_13_307e37c8__q001_bbox",
+    "source_sample_id": "self_collection_Kitchen_13_307e37c8",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bottle in the image.",
+    "instruction": "Locate the bottle in the image.",
+    "answer": "bottle",
+    "rgb": "Kitchen/13.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Kitchen_13_307e37c8_obj_004",
+      "object_name": "bottle",
+      "bbox_xyxy": [
+        4245.7607421875,
+        1387.50244140625,
+        4343.01416015625,
+        1626.7828369140625
+      ],
+      "bbox_xywh": [
+        4245.7607421875,
+        1387.50244140625,
+        97.25341796875,
+        239.2803955078125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the bottle in the image?",
+    "output_instruction": "What is the bounding box of the bottle in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "transparent"
+        ]
+      },
+      "selectedObjectId": "self_collection_Kitchen_13_307e37c8_obj_004",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Kitchen",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_81_8978cbd1__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_81_8978cbd1",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:19:21Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_81_8978cbd1__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_81_8978cbd1",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the laptop in the image.",
+    "instruction": "Locate the laptop in the image.",
+    "answer": "laptop",
+    "rgb": "dark_messy_desk/81.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_81_8978cbd1_obj_000",
+      "object_name": "laptop",
+      "bbox_xyxy": [
+        1507.478759765625,
+        1531.8284912109375,
+        3257.447265625,
+        2962.11181640625
+      ],
+      "bbox_xywh": [
+        1507.478759765625,
+        1531.8284912109375,
+        1749.968505859375,
+        1430.2833251953125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the laptop in the image?",
+    "output_instruction": "What is the bounding box of the laptop in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_81_8978cbd1_obj_000",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

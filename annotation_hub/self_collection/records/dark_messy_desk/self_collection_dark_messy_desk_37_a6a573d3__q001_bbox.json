@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_37_a6a573d3__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_37_a6a573d3",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:32:33Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_37_a6a573d3__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_37_a6a573d3",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the envelope in the image.",
+    "instruction": "Locate the envelope in the image.",
+    "answer": "envelope",
+    "rgb": "dark_messy_desk/37.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_37_a6a573d3_obj_006",
+      "object_name": "envelope",
+      "bbox_xyxy": [
+        205.2418975830078,
+        1334.164306640625,
+        548.4819946289062,
+        1679.318115234375
+      ],
+      "bbox_xywh": [
+        205.2418975830078,
+        1334.164306640625,
+        343.24009704589844,
+        345.15380859375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the envelope in the image?",
+    "output_instruction": "What is the bounding box of the envelope in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "stacked_layout",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_37_a6a573d3_obj_006",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "stacked_layout",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

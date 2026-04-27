@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Kitchen_80_3231cb6b__q002_bbox",
+  "source_sample_id": "self_collection_Kitchen_80_3231cb6b",
+  "status": "annotated",
+  "updated_at": "2026-04-27T00:36:46Z",
+  "annotation": {
+    "sample_id": "self_collection_Kitchen_80_3231cb6b__q002_bbox",
+    "source_sample_id": "self_collection_Kitchen_80_3231cb6b",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the plant in the image.",
+    "instruction": "Locate the plant in the image.",
+    "answer": "plant",
+    "rgb": "Kitchen/80.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Kitchen_80_3231cb6b_obj_009",
+      "object_name": "plant",
+      "bbox_xyxy": [
+        1060.077880859375,
+        2318.6572265625,
+        1333.6016845703125,
+        2578.8896484375
+      ],
+      "bbox_xywh": [
+        1060.077880859375,
+        2318.6572265625,
+        273.5238037109375,
+        260.232421875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the plant in the image?",
+    "output_instruction": "What is the bounding box of the plant in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ]
+      },
+      "selectedObjectId": "self_collection_Kitchen_80_3231cb6b_obj_009",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Kitchen",
+      "split": "self_collected"
+    }
+  }
+}

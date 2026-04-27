@@ -1,0 +1,54 @@
+{
+  "sample_id": "self_collection_desk_76_7d3fba78__q001_bbox",
+  "source_sample_id": "self_collection_desk_76_7d3fba78",
+  "status": "annotated",
+  "updated_at": "2026-04-27T05:43:15Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_76_7d3fba78__q001_bbox",
+    "source_sample_id": "self_collection_desk_76_7d3fba78",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the hand in the image.",
+    "instruction": "Locate the hand in the image.",
+    "answer": "hand",
+    "rgb": "desk/76.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_desk_76_7d3fba78_obj_003",
+      "object_name": "hand",
+      "bbox_xyxy": [
+        738.6416015625,
+        2530.835693359375,
+        1971.399169921875,
+        3260.497314453125
+      ],
+      "bbox_xywh": [
+        738.6416015625,
+        2530.835693359375,
+        1232.757568359375,
+        729.66162109375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the hand in the image?",
+    "output_instruction": "What is the bounding box of the hand in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_76_7d3fba78_obj_003"
+    },
+    "stress": {
+      "V": [
+        "extreme_viewpoint",
+        "truncated_out_of_frame"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

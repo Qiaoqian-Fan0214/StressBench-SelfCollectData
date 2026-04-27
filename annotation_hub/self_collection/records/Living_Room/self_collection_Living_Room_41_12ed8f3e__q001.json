@@ -1,0 +1,70 @@
+{
+  "sample_id": "self_collection_Living_Room_41_12ed8f3e__q001",
+  "source_sample_id": "self_collection_Living_Room_41_12ed8f3e",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:50:47Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_41_12ed8f3e__q001",
+    "source_sample_id": "self_collection_Living_Room_41_12ed8f3e",
+    "entry_id": "q001",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the orange relative to the wine in the image?",
+    "instruction": "What is the spatial relation of the orange relative to the wine in the image?",
+    "answer": "connect",
+    "rgb": "Living_Room/41.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 4
+      },
+      "subject_a": {
+        "object_id": "self_collection_Living_Room_41_12ed8f3e_obj_000",
+        "label": "orange"
+      },
+      "subject_b": {
+        "object_id": "self_collection_Living_Room_41_12ed8f3e_obj_001",
+        "label": "wine"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the orange relative to the wine in the image?",
+    "output_instruction": "What is the spatial relation of the orange relative to the wine in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_41_12ed8f3e_obj_000",
+      "placementItem": "plate",
+      "answerIndex": 4,
+      "spatialRelationAObjectId": "self_collection_Living_Room_41_12ed8f3e_obj_000",
+      "spatialRelationALabel": "orange",
+      "spatialRelationBObjectId": "self_collection_Living_Room_41_12ed8f3e_obj_001",
+      "spatialRelationBLabel": "wine",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

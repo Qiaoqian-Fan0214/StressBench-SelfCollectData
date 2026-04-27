@@ -1,0 +1,134 @@
+{
+  "sample_id": "self_collection_Kitchen_56_c0e2db4c__q001_mask",
+  "source_sample_id": "self_collection_Kitchen_56_c0e2db4c",
+  "status": "annotated",
+  "updated_at": "2026-04-26T22:54:32Z",
+  "annotation": {
+    "sample_id": "self_collection_Kitchen_56_c0e2db4c__q001_mask",
+    "source_sample_id": "self_collection_Kitchen_56_c0e2db4c",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the paper towel in the image.",
+    "instruction": "Locate the paper towel in the image.",
+    "answer": "paper towel",
+    "rgb": "Kitchen/56.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Kitchen_56_c0e2db4c_obj_000",
+      "object_name": "paper towel",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            5940,
+            3952
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "[f_m9o0Vh5m0XOk0",
+            "\\Ok0VOS1nN?A`0Ab",
+            "0]Oa0_Oj0WOf0YOk",
+            "0VO;Di0XOm1SN<Cj",
+            "1WNQ1oNc0\\OW1jN4",
+            "L3M3M2M3N2N1O1O1",
+            "O001O000O2O00001",
+            "O001O00001O00001",
+            "N10001O0000001O0",
+            "00000001N1000000",
+            "01O000000001O0O1",
+            "00000001O00000O1",
+            "000000000000O100",
+            "00000000O1000000",
+            "0000O10000000000",
+            "0001N1000000YOc]",
+            "OWjJ]b0iU5d]OUjJ",
+            "]b0jU5e]OUjJ[b0j",
+            "U5g]OUjJZb0iU5h]",
+            "OVjJXb0iU5j]OUjJ",
+            "Wb0jU5k]OUjJUb0j",
+            "U5m]OUjJSb0kU5m]",
+            "OUjJSb0kU5m]OUjJ",
+            "Sb0kU5n]OTjJRb0l",
+            "U5n]OTjJRb0kU5o]",
+            "OUjJQb0kU5P^OSjJ",
+            "Rb0lU5m]OVjJRb0j",
+            "U5n]OVjJRb0kU5l]",
+            "OVjJTb0jU5l]OVjJ",
+            "Tb0jU5l]OVjJTb0j",
+            "U5k]OWjJUb0iU5k]",
+            "OWjJUb0iU5j]OYjJ",
+            "Ub0gU5k]OYjJUb0h",
+            "U5j]OXjJVb0hU5i]",
+            "OYjJWb0gU5i]OYjJ",
+            "Wb0hU5g]OYjJYb0g",
+            "U5g]OYjJYb0hU5e]",
+            "OZjJZb0fU5f]OZjJ",
+            "Zb0gU5e]OYjJ[b0h",
+            "U5c]OYjJ]b0gU5b]",
+            "OZjJ^b0gU5a]OYjJ",
+            "_b0^V501O0000000",
+            "000000O100000000",
+            "0000000000O10000",
+            "0001O00000000010",
+            "O000000001O00000",
+            "000000010O000000",
+            "0000000000O10000",
+            "00000000000O1000",
+            "0000000000000000",
+            "00000000O101O000",
+            "0000000001O000O1",
+            "00000001O000O2O0",
+            "00O2O001N2N2O1N2",
+            "O1O1N3N2QIZhJkKi",
+            "W5j3dhJRLaW5\\3Pi",
+            "J_LWW5TLjgJR4b1F",
+            "jV5_KijJ:?T4oT5R",
+            "KPRKc3`n4eK]RKf3",
+            "UZ5D7H7I6K6SNlYJ",
+            "Mdf5ZOkYJa0gg5L6",
+            "@P`bo:"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1739.2271728515625,
+        2503.868408203125,
+        2025.0687255859375,
+        3138.943603515625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the paper towel in the image?",
+    "output_instruction": "What is the segmentation mask of the paper towel in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Kitchen_56_c0e2db4c_obj_000",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Kitchen",
+      "split": "self_collected"
+    }
+  }
+}

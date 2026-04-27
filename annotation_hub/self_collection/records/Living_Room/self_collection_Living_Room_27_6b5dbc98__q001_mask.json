@@ -1,0 +1,81 @@
+{
+  "sample_id": "self_collection_Living_Room_27_6b5dbc98__q001_mask",
+  "source_sample_id": "self_collection_Living_Room_27_6b5dbc98",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:38:35Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_27_6b5dbc98__q001_mask",
+    "source_sample_id": "self_collection_Living_Room_27_6b5dbc98",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the vase in the image.",
+    "instruction": "Locate the vase in the image.",
+    "answer": "vase",
+    "rgb": "Living_Room/27.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_27_6b5dbc98_obj_004",
+      "object_name": "vase",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2856,
+            4000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "\\PlQ1>gh2b0@:ZXM",
+            "nNcf2o1L3N4K7J3M",
+            "2N1N2O1O001O0000",
+            "0001O00000000000",
+            "000O10000000O010",
+            "0000O10O1000O100",
+            "O100O011N100O2N1",
+            "N3TOUZMWNne2b0Q2",
+            "J7Gd]Tf9"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        382.7490234375,
+        1882.3057861328125,
+        442.41876220703125,
+        1986.764892578125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the vase in the image?",
+    "output_instruction": "What is the segmentation mask of the vase in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_27_6b5dbc98_obj_004",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

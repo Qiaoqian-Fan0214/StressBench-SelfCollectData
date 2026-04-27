@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_13_5164246f__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_13_5164246f",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:49:36Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_13_5164246f__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_13_5164246f",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the clock in the image.",
+    "instruction": "Locate the clock in the image.",
+    "answer": "clock",
+    "rgb": "dark_messy_kitchen/13.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_13_5164246f_obj_012",
+      "object_name": "clock",
+      "bbox_xyxy": [
+        2890.1796875,
+        927.131591796875,
+        3114.197509765625,
+        1137.95263671875
+      ],
+      "bbox_xywh": [
+        2890.1796875,
+        927.131591796875,
+        224.017822265625,
+        210.821044921875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the clock in the image?",
+    "output_instruction": "What is the bounding box of the clock in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "small_scale"
+        ],
+        "G": [
+          "stacked_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_13_5164246f_obj_012",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "stacked_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

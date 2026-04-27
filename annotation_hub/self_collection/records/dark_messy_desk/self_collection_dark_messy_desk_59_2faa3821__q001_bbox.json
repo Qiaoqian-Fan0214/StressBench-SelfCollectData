@@ -1,0 +1,69 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_59_2faa3821__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_59_2faa3821",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:01:48Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_59_2faa3821__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_59_2faa3821",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the stool in the image.",
+    "instruction": "Locate the stool in the image.",
+    "answer": "stool",
+    "rgb": "dark_messy_desk/59.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_59_2faa3821_obj_002",
+      "object_name": "stool",
+      "bbox_xyxy": [
+        683.69482421875,
+        1244.72412109375,
+        1302.9197998046875,
+        1940.2364501953125
+      ],
+      "bbox_xywh": [
+        683.69482421875,
+        1244.72412109375,
+        619.2249755859375,
+        695.5123291015625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the stool in the image?",
+    "output_instruction": "What is the bounding box of the stool in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "occlusion",
+          "non_rigid_deform",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_59_2faa3821_obj_002",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "occlusion",
+        "non_rigid_deform",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

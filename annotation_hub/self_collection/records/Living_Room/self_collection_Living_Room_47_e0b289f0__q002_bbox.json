@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Living_Room_47_e0b289f0__q002_bbox",
+  "source_sample_id": "self_collection_Living_Room_47_e0b289f0",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:10:53Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_47_e0b289f0__q002_bbox",
+    "source_sample_id": "self_collection_Living_Room_47_e0b289f0",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the child in the image.",
+    "instruction": "Locate the child in the image.",
+    "answer": "child",
+    "rgb": "Living_Room/47.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_47_e0b289f0_obj_000",
+      "object_name": "child",
+      "bbox_xyxy": [
+        5711.580078125,
+        3678.871337890625,
+        6294.83349609375,
+        4116.1728515625
+      ],
+      "bbox_xywh": [
+        5711.580078125,
+        3678.871337890625,
+        583.25341796875,
+        437.301513671875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the child in the image?",
+    "output_instruction": "What is the bounding box of the child in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_47_e0b289f0_obj_000",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

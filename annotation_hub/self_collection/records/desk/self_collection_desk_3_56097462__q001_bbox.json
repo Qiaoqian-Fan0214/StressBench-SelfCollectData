@@ -1,0 +1,50 @@
+{
+  "sample_id": "self_collection_desk_3_56097462__q001_bbox",
+  "source_sample_id": "self_collection_desk_3_56097462",
+  "status": "annotated",
+  "updated_at": "2026-04-26T17:40:00Z",
+  "annotation": {
+    "sample_id": "self_collection_desk_3_56097462__q001_bbox",
+    "source_sample_id": "self_collection_desk_3_56097462",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the plant in the image.",
+    "instruction": "Locate the plant in the image.",
+    "answer": "plant",
+    "rgb": "desk/3.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_desk_3_56097462_obj_002",
+      "object_name": "plant",
+      "bbox_xyxy": [
+        1403.155517578125,
+        23.64107894897461,
+        2490.62646484375,
+        1582.3199462890625
+      ],
+      "bbox_xywh": [
+        1403.155517578125,
+        23.64107894897461,
+        1087.470947265625,
+        1558.678867340088
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the plant in the image?",
+    "output_instruction": "What is the bounding box of the plant in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_desk_3_56097462_obj_002"
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "desk",
+      "split": "self_collected"
+    }
+  }
+}

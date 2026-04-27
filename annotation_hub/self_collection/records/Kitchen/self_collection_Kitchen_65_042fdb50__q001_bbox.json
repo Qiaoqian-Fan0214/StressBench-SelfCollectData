@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_Kitchen_65_042fdb50__q001_bbox",
+  "source_sample_id": "self_collection_Kitchen_65_042fdb50",
+  "status": "annotated",
+  "updated_at": "2026-04-26T22:58:43Z",
+  "annotation": {
+    "sample_id": "self_collection_Kitchen_65_042fdb50__q001_bbox",
+    "source_sample_id": "self_collection_Kitchen_65_042fdb50",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the sink in the image.",
+    "instruction": "Locate the sink in the image.",
+    "answer": "sink",
+    "rgb": "Kitchen/65.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Kitchen_65_042fdb50_obj_008",
+      "object_name": "sink",
+      "bbox_xyxy": [
+        3.8929367065429688,
+        1954.4427490234375,
+        502.61175537109375,
+        2092.374755859375
+      ],
+      "bbox_xywh": [
+        3.8929367065429688,
+        1954.4427490234375,
+        498.7188186645508,
+        137.9320068359375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the sink in the image?",
+    "output_instruction": "What is the bounding box of the sink in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "extreme_viewpoint",
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_Kitchen_65_042fdb50_obj_008",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "extreme_viewpoint",
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Kitchen",
+      "split": "self_collected"
+    }
+  }
+}

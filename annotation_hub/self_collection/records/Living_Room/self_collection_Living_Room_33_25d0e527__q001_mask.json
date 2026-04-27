@@ -1,0 +1,114 @@
+{
+  "sample_id": "self_collection_Living_Room_33_25d0e527__q001_mask",
+  "source_sample_id": "self_collection_Living_Room_33_25d0e527",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:43:11Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_33_25d0e527__q001_mask",
+    "source_sample_id": "self_collection_Living_Room_33_25d0e527",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the side table in the image.",
+    "instruction": "Locate the side table in the image.",
+    "answer": "side table",
+    "rgb": "Living_Room/33.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_33_25d0e527_obj_005",
+      "object_name": "side table",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4846,
+            3877
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "bPTm4<of49H8hYKb",
+            "0Z3kNe\\4j2S`KRO4",
+            "\\Nf_4d6L2N2O1O1N",
+            "101O00000000001O",
+            "0O10000000000000",
+            "000000O100O1N3N1",
+            "M3L4J6K5L5L3N2N2",
+            "N3N1O1O2N1O1O1O1",
+            "O1O010O1O1O010O1",
+            "O100O001O10000O1",
+            "0O10000000000O10",
+            "1O00000O10000O10",
+            "001O00000001O000",
+            "01O000010O0001O0",
+            "0001O001O1O1O1O1",
+            "O1O1N2O1O1O0O2O1",
+            "O1N2O0O2^N_^KSMd",
+            "a4d2m^KkL[a4Q3c1",
+            "M3M4L3L3N3N101O0",
+            "10O01O00100O1O1N",
+            "101O1O1O1O1O2N1O",
+            "10001N10001O001O",
+            "001N2O1O1O1O001O",
+            "001O00000O100000",
+            "O100000000000000",
+            "00001N10001O1O00",
+            "1O00001O0000001O",
+            "0000000000000000",
+            "O10000O2N1O1N2N2",
+            "J6H8Kn]K[Me_4b2[",
+            "`KcMc_4Z2]`KjMb_",
+            "4S2_`KQN__4k1g`K",
+            "QN\\_4l1i`KoMY_4o",
+            "1m`KgMY_4W2Q3N8H",
+            "<C5L4K4L5K6J7GdY",
+            "en;"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1051.5343017578125,
+        2210.5966796875,
+        1290.1942138671875,
+        2458.79638671875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the side table in the image?",
+    "output_instruction": "What is the segmentation mask of the side table in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_33_25d0e527_obj_005",
+      "placementItem": "book",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

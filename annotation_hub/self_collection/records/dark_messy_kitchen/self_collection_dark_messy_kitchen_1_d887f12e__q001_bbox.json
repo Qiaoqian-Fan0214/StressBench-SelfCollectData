@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_1_d887f12e__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_1_d887f12e",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:43:27Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_1_d887f12e__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_1_d887f12e",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the faucet in the image.",
+    "instruction": "Locate the faucet in the image.",
+    "answer": "faucet",
+    "rgb": "dark_messy_kitchen/1.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_1_d887f12e_obj_000",
+      "object_name": "faucet",
+      "bbox_xyxy": [
+        2624.221923828125,
+        547.696044921875,
+        3019.802734375,
+        1357.7156982421875
+      ],
+      "bbox_xywh": [
+        2624.221923828125,
+        547.696044921875,
+        395.580810546875,
+        810.0196533203125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the faucet in the image?",
+    "output_instruction": "What is the bounding box of the faucet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ],
+        "L": [
+          "local_overexposure",
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_1_d887f12e_obj_000",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ],
+      "L": [
+        "local_overexposure",
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

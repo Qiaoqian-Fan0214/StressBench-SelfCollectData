@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_57_67c3c634__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_57_67c3c634",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:22:15Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_57_67c3c634__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_57_67c3c634",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the heater in the image.",
+    "instruction": "Locate the heater in the image.",
+    "answer": "heater",
+    "rgb": "dark_messy_kitchen/57.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_57_67c3c634_obj_001",
+      "object_name": "heater",
+      "bbox_xyxy": [
+        1400.7467041015625,
+        1.5002787113189697,
+        2347.719482421875,
+        475.22412109375
+      ],
+      "bbox_xywh": [
+        1400.7467041015625,
+        1.5002787113189697,
+        946.9727783203125,
+        473.72384238243103
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the heater in the image?",
+    "output_instruction": "What is the bounding box of the heater in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_57_67c3c634_obj_001",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

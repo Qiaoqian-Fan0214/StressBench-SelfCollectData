@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_Living_Room_40_250813fc__q001_bbox",
+  "source_sample_id": "self_collection_Living_Room_40_250813fc",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:49:54Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_40_250813fc__q001_bbox",
+    "source_sample_id": "self_collection_Living_Room_40_250813fc",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the monitor in the image.",
+    "instruction": "Locate the monitor in the image.",
+    "answer": "monitor",
+    "rgb": "Living_Room/40.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Living_Room_40_250813fc_obj_000",
+      "object_name": "monitor",
+      "bbox_xyxy": [
+        1663.8267822265625,
+        1470.984130859375,
+        1965.1195068359375,
+        1692.35205078125
+      ],
+      "bbox_xywh": [
+        1663.8267822265625,
+        1470.984130859375,
+        301.292724609375,
+        221.367919921875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the monitor in the image?",
+    "output_instruction": "What is the bounding box of the monitor in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "specular_confusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_40_250813fc_obj_000",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

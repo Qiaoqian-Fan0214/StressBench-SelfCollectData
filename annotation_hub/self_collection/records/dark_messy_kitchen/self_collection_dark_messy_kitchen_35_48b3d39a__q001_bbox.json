@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_35_48b3d39a__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_35_48b3d39a",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:59:24Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_35_48b3d39a__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_35_48b3d39a",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the clock in the image.",
+    "instruction": "Locate the clock in the image.",
+    "answer": "clock",
+    "rgb": "dark_messy_kitchen/35.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_35_48b3d39a_obj_000",
+      "object_name": "clock",
+      "bbox_xyxy": [
+        55.196922302246094,
+        1615.27685546875,
+        238.90838623046875,
+        1819.515625
+      ],
+      "bbox_xywh": [
+        55.196922302246094,
+        1615.27685546875,
+        183.71146392822266,
+        204.23876953125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the clock in the image?",
+    "output_instruction": "What is the bounding box of the clock in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "small_scale"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_35_48b3d39a_obj_000",
+      "placementItem": "speaker",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_6_7f6d3ffb__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_6_7f6d3ffb",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:46:10Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_6_7f6d3ffb__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_6_7f6d3ffb",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the pan in the image.",
+    "instruction": "Locate the pan in the image.",
+    "answer": "pan",
+    "rgb": "dark_messy_kitchen/6.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_6_7f6d3ffb_obj_003",
+      "object_name": "pan",
+      "bbox_xyxy": [
+        1516.1160888671875,
+        3110.2001953125,
+        2754.413818359375,
+        3758.23095703125
+      ],
+      "bbox_xywh": [
+        1516.1160888671875,
+        3110.2001953125,
+        1238.2977294921875,
+        648.03076171875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the pan in the image?",
+    "output_instruction": "What is the bounding box of the pan in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "stacked_layout"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_6_7f6d3ffb_obj_003",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "stacked_layout"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

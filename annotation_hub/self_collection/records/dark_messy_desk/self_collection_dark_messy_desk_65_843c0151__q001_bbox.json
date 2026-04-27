@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_65_843c0151__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_65_843c0151",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:06:20Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_65_843c0151__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_65_843c0151",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the sock in the image.",
+    "instruction": "Locate the sock in the image.",
+    "answer": "sock",
+    "rgb": "dark_messy_desk/65.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_65_843c0151_obj_014",
+      "object_name": "sock",
+      "bbox_xyxy": [
+        388.73291015625,
+        4463.05078125,
+        1431.7486572265625,
+        5202.05859375
+      ],
+      "bbox_xywh": [
+        388.73291015625,
+        4463.05078125,
+        1043.0157470703125,
+        739.0078125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the sock in the image?",
+    "output_instruction": "What is the bounding box of the sock in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "stacked_layout"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_65_843c0151_obj_014",
+      "placementItem": "toy",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "stacked_layout"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

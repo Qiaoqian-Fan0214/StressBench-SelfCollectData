@@ -1,0 +1,12 @@
+{
+  "sample_id": "self_collection_Kitchen_10_61dda6e0__discard",
+  "source_sample_id": "self_collection_Kitchen_10_61dda6e0",
+  "status": "discarded",
+  "updated_at": "2026-04-25T15:15:16Z",
+  "annotation": null,
+  "provenance": {
+    "dataset": "Self-Collection",
+    "subcategory": "Kitchen",
+    "split": "self_collected"
+  }
+}

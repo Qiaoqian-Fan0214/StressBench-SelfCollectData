@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_95_5098ca9e__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_95_5098ca9e",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:28:44Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_95_5098ca9e__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_95_5098ca9e",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the monitor in the image.",
+    "instruction": "Locate the monitor in the image.",
+    "answer": "monitor",
+    "rgb": "dark_messy_desk/95.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_95_5098ca9e_obj_003",
+      "object_name": "monitor",
+      "bbox_xyxy": [
+        6.835753440856934,
+        2.1364617347717285,
+        1444.3660888671875,
+        909.1832275390625
+      ],
+      "bbox_xywh": [
+        6.835753440856934,
+        2.1364617347717285,
+        1437.5303354263306,
+        907.0467658042908
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the monitor in the image?",
+    "output_instruction": "What is the bounding box of the monitor in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "V": [
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_95_5098ca9e_obj_003",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "V": [
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "sample_id": "self_collection_Living_Room_19_8dd49833__q001_mask",
+  "source_sample_id": "self_collection_Living_Room_19_8dd49833",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:28:23Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_19_8dd49833__q001_mask",
+    "source_sample_id": "self_collection_Living_Room_19_8dd49833",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the flower in the image.",
+    "instruction": "Locate the flower in the image.",
+    "answer": "flower",
+    "rgb": "Living_Room/19.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_19_8dd49833_obj_006",
+      "object_name": "flower",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4000,
+            6000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "QiZb98el39H7J5K5",
+            "J7K5J5K8lTLcNWj3",
+            "U2M2O1N2O1O0O100",
+            "01O0O1000000O101",
+            "O000O1000000O100",
+            "0000000000000000",
+            "0000000000000000",
+            "1O0000000000000O",
+            "10001O00001O0000",
+            "1O0O2O001O1O001Q",
+            "OnULmNTj3o0QVLoN",
+            "oi3P1UVLmNli3P1X",
+            "VLnNii3P1YVLnNii",
+            "3o0[VLoNgi3m0]VL",
+            "oNfi3n0Y1L5J`0^O",
+            "e_no<"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2510.50927734375,
+        2027.60595703125,
+        2592.9658203125,
+        2122.017333984375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the flower in the image?",
+    "output_instruction": "What is the segmentation mask of the flower in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_19_8dd49833_obj_006",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_83_53edc730__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_83_53edc730",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:20:32Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_83_53edc730__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_83_53edc730",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the computer mouse in the image.",
+    "instruction": "Locate the computer mouse in the image.",
+    "answer": "computer mouse",
+    "rgb": "dark_messy_desk/83.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_83_53edc730_obj_005",
+      "object_name": "computer mouse",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3330,
+            2665
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "WbdY2`0`W35L3M3M",
+            "2O1O1N2O001N2O0O",
+            "2N2O0O2N2O0O2N2O",
+            "0O2N100O2O001O00",
+            "001O0O101O00001O",
+            "000O2O0O1O2N1O2N",
+            "1N3N1O2O00001O00",
+            "001O00jM^jLl1bU3",
+            "QNbjLo1]U3PNdjLP",
+            "2hU3O10O010O001O",
+            "01O01O0010O01O01",
+            "O01O010O01O01\\Oo",
+            "MVkLP2jT3PNVkLP2",
+            "iT3QNXkLo1gT3QNZ",
+            "kLn1eT3SN\\kLl1dT",
+            "3UN\\kLk1bT3VN^kL",
+            "k1aT3UN`kLj1`T3V",
+            "N`kLk1_T3UNakLk1",
+            "_T3UNbkLk1]T3UNc",
+            "kLl1\\T3TNekLk1\\T",
+            "3SNekLm1[T3SNekL",
+            "n1[T3QNekLo1[T3Q",
+            "NekLP2[T3oMekLQ2",
+            "WU3O01O00001O01O",
+            "01O0000001O01O00",
+            "01O00O1000O01O1O",
+            "001N2N1O2N2N2M3L",
+            "4L4L5J6I7I8H9Iik",
+            "^g5"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        719.0070190429688,
+        2169.069091796875,
+        865.5302734375,
+        2274.389892578125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the computer mouse in the image?",
+    "output_instruction": "What is the segmentation mask of the computer mouse in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_83_53edc730_obj_005",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

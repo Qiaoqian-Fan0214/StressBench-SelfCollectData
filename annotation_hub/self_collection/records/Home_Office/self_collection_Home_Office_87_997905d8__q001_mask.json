@@ -1,0 +1,120 @@
+{
+  "sample_id": "self_collection_Home_Office_87_997905d8__q001_mask",
+  "source_sample_id": "self_collection_Home_Office_87_997905d8",
+  "status": "annotated",
+  "updated_at": "2026-04-25T14:52:43Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_87_997905d8__q001_mask",
+    "source_sample_id": "self_collection_Home_Office_87_997905d8",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the phone in the image.",
+    "instruction": "Locate the phone in the image.",
+    "answer": "phone",
+    "rgb": "Home_Office/87.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Home_Office_87_997905d8_obj_004",
+      "object_name": "phone",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            5412,
+            3608
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Si`o58jX53M4M2M3",
+            "N2N2N2N2O0O2N2O0",
+            "01O0O2O00001O000",
+            "01N101O001O00001",
+            "O001N101O001N100",
+            "01N10001N101N100",
+            "01O0O2O001N2O001",
+            "O0O2O001O0O101O0",
+            "O10000O10000O101",
+            "O0O10000O1000000",
+            "O10001O000O01000",
+            "0000000000O10000",
+            "000000O1000000O1",
+            "0000O001O1O100O1",
+            "O001O1O1O1O10O01",
+            "000000O01000000O",
+            "1000000O10001O00",
+            "0O10000000000O10",
+            "O100000000000000",
+            "O0100000000000O0",
+            "1000000000O01000",
+            "0000O100000000O0",
+            "10000000O1000000",
+            "0000O10O1000000O",
+            "0100000O01000O10",
+            "O1000O0100O0100O",
+            "010O100O010O10O1",
+            "0O10000O0100000O",
+            "10O10000O010000O",
+            "010000O01000O010",
+            "0O10O10O100O10O1",
+            "000O100000000000",
+            "000000O100000000",
+            "0000000000000000",
+            "000O101N10000O2O",
+            "0O100O2O0O2O001N",
+            "2O001N2O1O1O1N2O",
+            "001O1O001O0O2O00",
+            "001O000O101O0000",
+            "000O101O00000O10",
+            "1O000O101O0O101O",
+            "001N100O2O0O1O2O",
+            "0O1O1O1N3M2O1M3N",
+            "2O2M2O1O1O1O2N10",
+            "0O2N101N1N3Mkkgi",
+            ":"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1154.2613525390625,
+        3292.23681640625,
+        1495.268798828125,
+        3406.6142578125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the phone in the image?",
+    "output_instruction": "What is the segmentation mask of the phone in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_87_997905d8_obj_004",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

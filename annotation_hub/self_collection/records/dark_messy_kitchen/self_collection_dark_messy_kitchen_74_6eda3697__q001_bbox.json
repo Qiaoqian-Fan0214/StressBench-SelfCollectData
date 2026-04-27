@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_74_6eda3697__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_74_6eda3697",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:29:50Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_74_6eda3697__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_74_6eda3697",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the desk lamp in the image.",
+    "instruction": "Locate the desk lamp in the image.",
+    "answer": "desk lamp",
+    "rgb": "dark_messy_kitchen/74.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_74_6eda3697_obj_008",
+      "object_name": "desk lamp",
+      "bbox_xyxy": [
+        1870.10302734375,
+        4572.447265625,
+        2731.871337890625,
+        5791.6484375
+      ],
+      "bbox_xywh": [
+        1870.10302734375,
+        4572.447265625,
+        861.768310546875,
+        1219.201171875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the desk lamp in the image?",
+    "output_instruction": "What is the bounding box of the desk lamp in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "small_scale"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_74_6eda3697_obj_008",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

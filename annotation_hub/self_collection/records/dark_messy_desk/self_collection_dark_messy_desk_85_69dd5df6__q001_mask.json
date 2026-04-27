@@ -1,0 +1,125 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_85_69dd5df6__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_85_69dd5df6",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:22:29Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_85_69dd5df6__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_85_69dd5df6",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the straw in the image.",
+    "instruction": "Locate the straw in the image.",
+    "answer": "straw",
+    "rgb": "dark_messy_desk/85.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_85_69dd5df6_obj_006",
+      "object_name": "straw",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4000,
+            6000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "YWkP:h0j0Dli3_3^",
+            "VLWLff3g5[OU1kNi",
+            "1WNj0VOm0o\\LbFh`",
+            "3W<d_L`C`]3]?jbL",
+            "V@]Z3jb0[eLj]OBM",
+            "<13VO?>WQ3kh0dmL",
+            "hXOU1ZN[n2[m0AW1",
+            "jN=VRMdQOWl2iP1h",
+            "Na0WUM^nNUi2RS1C",
+            "X1gWM_kNee2\\V1lY",
+            "MiiNg0Aab2bY1A\\1",
+            "g]MYeNc_2^\\1CX1P",
+            "aMQbNa\\2e_1AT1[K",
+            "T`NQjMda1kS2^_N]",
+            "kMPa1nNV]NQT2a2`",
+            "lMfb1kQ2o]NbmMib",
+            "1ob0XZNdj0gl1RRO",
+            "WTNfm0Vl1aQO]TNW",
+            "n0Rn1SoN^RNeP1Un",
+            "1`mNRPNVEa2m\\1[o",
+            "1gkNTRNoS1^n1YkN",
+            "kQNgT1bP2ehNdoM_",
+            "W1_P2UhNfoMoW1PS",
+            "2QeNUmMT[1kS2`cN",
+            "]lMd\\1PZ23J5K6J8",
+            "H8H7I5K3M3M2fcM]",
+            "aNSZ2e^1jeMgaNkY",
+            "2[^1RfMfaNnY2[^1",
+            "PfMgaNoY2]^1jeMh",
+            "aNTZ2\\^1eeMiaNYZ",
+            "2^^1]eMfaNbZ2`^1",
+            "TeMeaNkZ2a^1jdMe",
+            "aNU[2S`101O1O1O0",
+            "01O001O001O00001",
+            "O0000001O00001O1",
+            "O1O1O001O2N1O1O1",
+            "O2N1O2N2N2N3M3M4",
+            "LQ1oNX2hMj0VOa0_",
+            "OY2gM^1bNi1WNU2k",
+            "MR1VRNiPNgk1oQ2Y",
+            "Nc1]N`1`N[1eNh1X",
+            "NQ2oMP2PNT2lMn0d",
+            "bNY`Mc[1Tb2^N?Ae",
+            "2[M`1`iNSYMmS1^h",
+            "2BW1iN`1`Ne1ToN^",
+            "SMPn0[o2^No0QOd1",
+            "\\NP1POe1[NR1nNj1",
+            "SNV1lNn1RNX1hN\\1",
+            "dNa0_Oo2_LV3VM`1",
+            "eHfZLZ4Xh3gN:E:G",
+            ";WMiVLV1PQaZ<"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2607.602783203125,
+        1395.9173583984375,
+        2779.791748046875,
+        3990.1123046875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the straw in the image?",
+    "output_instruction": "What is the segmentation mask of the straw in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "extreme_viewpoint",
+          "truncated_out_of_frame"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_85_69dd5df6_obj_006",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "extreme_viewpoint",
+        "truncated_out_of_frame"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "sample_id": "self_collection_Living_Room_96_aaadb42e__q002_mask",
+  "source_sample_id": "self_collection_Living_Room_96_aaadb42e",
+  "status": "annotated",
+  "updated_at": "2026-04-27T10:01:02Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_96_aaadb42e__q002_mask",
+    "source_sample_id": "self_collection_Living_Room_96_aaadb42e",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the power outlet in the image.",
+    "instruction": "Locate the power outlet in the image.",
+    "answer": "power outlet",
+    "rgb": "Living_Room/96.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_96_aaadb42e_obj_003",
+      "object_name": "power outlet",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4320,
+            7680
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "`^b^79bV48H7fM2[",
+            "mK2`R4`0olKCmR4k",
+            "0elKYOZS4X2M2N2O",
+            "1O0001O001O00100",
+            "O001O1O010O1O010",
+            "O100O10O10O100O1",
+            "0O10O1000O1000O0",
+            "10000O10000O100O",
+            "100O100O1000000O",
+            "10000O100000000O",
+            "10000000000001O0",
+            "0000010O01O0oLll",
+            "KV2US4]MamKY2iS4",
+            "J6J5K4M2M4M3L4M2",
+            "N3M3M5L8F4M1O1OO",
+            "0100O001O1O0O2O0",
+            "02N2N2M2OX_]gg0"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1810.915283203125,
+        2682.23388671875,
+        1905.1243896484375,
+        2822.22607421875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the power outlet in the image?",
+    "output_instruction": "What is the segmentation mask of the power outlet in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_96_aaadb42e_obj_003",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

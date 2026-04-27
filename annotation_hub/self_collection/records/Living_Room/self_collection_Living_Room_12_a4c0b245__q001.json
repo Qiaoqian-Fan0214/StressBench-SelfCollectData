@@ -1,0 +1,70 @@
+{
+  "sample_id": "self_collection_Living_Room_12_a4c0b245__q001",
+  "source_sample_id": "self_collection_Living_Room_12_a4c0b245",
+  "status": "annotated",
+  "updated_at": "2026-04-27T08:22:52Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_12_a4c0b245__q001",
+    "source_sample_id": "self_collection_Living_Room_12_a4c0b245",
+    "entry_id": "q001",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the sculpture relative to the vase in the image?",
+    "instruction": "What is the spatial relation of the sculpture relative to the vase in the image?",
+    "answer": "left",
+    "rgb": "Living_Room/12.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 2
+      },
+      "subject_a": {
+        "object_id": "self_collection_Living_Room_12_a4c0b245_obj_000",
+        "label": "sculpture"
+      },
+      "subject_b": {
+        "object_id": "self_collection_Living_Room_12_a4c0b245_obj_001",
+        "label": "vase"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the sculpture relative to the vase in the image?",
+    "output_instruction": "What is the spatial relation of the sculpture relative to the vase in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "M": [
+          "transparent"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_12_a4c0b245_obj_000",
+      "placementItem": "notebook",
+      "answerIndex": 2,
+      "spatialRelationAObjectId": "self_collection_Living_Room_12_a4c0b245_obj_000",
+      "spatialRelationALabel": "sculpture",
+      "spatialRelationBObjectId": "self_collection_Living_Room_12_a4c0b245_obj_001",
+      "spatialRelationBLabel": "vase",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "sample_id": "self_collection_Living_Room_63_0a2dbab8__q001_mask",
+  "source_sample_id": "self_collection_Living_Room_63_0a2dbab8",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:33:15Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_63_0a2dbab8__q001_mask",
+    "source_sample_id": "self_collection_Living_Room_63_0a2dbab8",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the television in the image.",
+    "instruction": "Locate the television in the image.",
+    "answer": "television",
+    "rgb": "Living_Room/63.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_63_0a2dbab8_obj_004",
+      "object_name": "television",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            1200,
+            1920
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "^YVj0h0f0ZOe0c0i",
+            "NG2JlP1]4J2O001O",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "01O000000000000O",
+            "1000000000000000",
+            "0000000000000000",
+            "000001O000000000",
+            "0000000000000000",
+            "0O10000000000000",
+            "0000000000000000",
+            "000001O000000000",
+            "00000O1000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000001O00000",
+            "000000000000000O",
+            "100000000001O000",
+            "0O10000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "0000000000000001",
+            "O00000O3Nh3aKekN",
+            "7gnWS1"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        712.3758544921875,
+        407.9125061035156,
+        960.1209716796875,
+        564.4918212890625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the television in the image?",
+    "output_instruction": "What is the segmentation mask of the television in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_63_0a2dbab8_obj_004",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

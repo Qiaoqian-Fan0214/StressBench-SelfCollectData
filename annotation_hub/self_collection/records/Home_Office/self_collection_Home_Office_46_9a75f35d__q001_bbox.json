@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_Home_Office_46_9a75f35d__q001_bbox",
+  "source_sample_id": "self_collection_Home_Office_46_9a75f35d",
+  "status": "annotated",
+  "updated_at": "2026-04-25T13:50:53Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_46_9a75f35d__q001_bbox",
+    "source_sample_id": "self_collection_Home_Office_46_9a75f35d",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the person in the image.",
+    "instruction": "Locate the person in the image.",
+    "answer": "person",
+    "rgb": "Home_Office/46.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Home_Office_46_9a75f35d_obj_013",
+      "object_name": "person",
+      "bbox_xyxy": [
+        5276.9423828125,
+        836.201416015625,
+        5478.8486328125,
+        1141.06787109375
+      ],
+      "bbox_xywh": [
+        5276.9423828125,
+        836.201416015625,
+        201.90625,
+        304.866455078125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the person in the image?",
+    "output_instruction": "What is the bounding box of the person in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_46_9a75f35d_obj_013",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

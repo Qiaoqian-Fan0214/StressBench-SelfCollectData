@@ -1,0 +1,131 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_78_3427be0f__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_78_3427be0f",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:17:24Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_78_3427be0f__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_78_3427be0f",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the teapot in the image.",
+    "instruction": "Locate the teapot in the image.",
+    "answer": "teapot",
+    "rgb": "dark_messy_desk/78.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_78_3427be0f_obj_010",
+      "object_name": "teapot",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2725,
+            4096
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "a`ab87ld26j\\M3k`",
+            "22n^M7j`2NQ_M9h`",
+            "2KU_Mk0T`2ZOg_Mn",
+            "0o_2YOl_Mm0n_2WO",
+            "n_MQ1j_2SOP`M_1`",
+            "_2gNQ`Mg1k_2l1M2",
+            "N2N2N2M3N2O1N1O2",
+            "N2N1O101N1O2N100",
+            "O2N101N101N101N1",
+            "00O1O1O100O1O2L3",
+            "M3L4L4N2N2O1O1N2",
+            "00O1O1O1O1O100O1",
+            "00O100O010O10000",
+            "0000000000000000",
+            "0000000000000000",
+            "000000000000000O",
+            "10000000000O10O1",
+            "0000000O100000O0",
+            "1000000O001O1M3M",
+            "3M3M3M3N2O1N2O1O",
+            "1O100O1O100O2N1O",
+            "1O1O2N1O1O1O2N10",
+            "0O101N101N100O2O",
+            "001N101N101N1\\Nf",
+            "`M\\M\\_2a2h`M\\MY_",
+            "2b2i`M]MY_2^2l`M",
+            "aMT_2[2PaMcMR_2\\",
+            "2PaMbMR_2\\2o`McM",
+            "R_2\\2o`McMS_2\\2n",
+            "`McMR_2\\2o`McMR_",
+            "2]2n`MbMT_2]2l`M",
+            "cMT_2]2l`MbMV_2]",
+            "2j`McMW_2\\2i`McM",
+            "X_2]2g`MdMZ_2[2f",
+            "`MdM\\_2[2d`MeM\\_",
+            "2[2d`MdM^_2[2b`M",
+            "eM__2Z2a`MeM`_2[",
+            "2``MeMa_2Z2_`MeM",
+            "b_2[2^`MdMd_2[2\\",
+            "`MdMe_2\\2[`MdMf_",
+            "2\\2Y`McMh_2]2X`M",
+            "bMj_2^2V`M`Mk_2`",
+            "2U`M_Mm_2`2T`M]M",
+            "n_2d2S`MXMP`2g2R",
+            "`MTMR`2k2U10O01O",
+            "1O1000000000000O",
+            "100O100O100O2N10",
+            "1N2N2N1N2O2M2N2M",
+            "4J5N3L3N3M2N2O2M",
+            "2O1N2N2N2O1N2N3L",
+            "5L6I6I5FbSa^1"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        3279.617919921875,
+        1054.8204345703125,
+        3553.114013671875,
+        1307.7783203125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the teapot in the image?",
+    "output_instruction": "What is the segmentation mask of the teapot in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_78_3427be0f_obj_010",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

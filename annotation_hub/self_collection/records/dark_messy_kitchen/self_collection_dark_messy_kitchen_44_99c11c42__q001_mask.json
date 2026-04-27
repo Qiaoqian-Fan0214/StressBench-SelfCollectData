@@ -1,0 +1,115 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_44_99c11c42__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_44_99c11c42",
+  "status": "annotated",
+  "updated_at": "2026-04-26T15:48:16Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_44_99c11c42__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_44_99c11c42",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the fork in the image.",
+    "instruction": "Locate the fork in the image.",
+    "answer": "fork",
+    "rgb": "dark_messy_kitchen/44.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_44_99c11c42_obj_004",
+      "object_name": "fork",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3648,
+            5472
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "QoUY:1_a3f0G4M4L",
+            "3N2M3N2M3N1O2M3M",
+            "2O2M3M2N3M2M4M3M",
+            "2N3M3L4N1N3M3M3M",
+            "3N1N3M4M2M3M3M4L",
+            "3N3L4L4M2M3M4K4M",
+            "3M3M3K4G:E:H9G8I",
+            "8I6K5J7I6K5K6I6J",
+            "7J5J7G8C>A>F;F9H",
+            "9E:C=I8L3O2N1O1O",
+            "2O0O101N10001N10",
+            "00001N10001O001O",
+            "00001O00001O001O",
+            "00001O00001O0000",
+            "1O00_IUjLm0kU3`N",
+            "ljL]1TU3kK\\jLlNm",
+            "1W5gS3]KWnLa4iQ3",
+            "VKanLj4^Q3mJmnLQ",
+            "5TQ3iJRoLV5oP3fJ",
+            "UoLY5kP3dJYoL\\5g",
+            "P3aJ\\oL^5eP3_J]o",
+            "La5dP3\\J_oLc5bP3",
+            "ZJ`oLg5]V3O0010O",
+            "00010O000010O001",
+            "0O01O001O0010O01",
+            "O1O001O1O00100O0",
+            "01O1N2O001N2O0O2",
+            "O1N1O2O1N1O2O0O1",
+            "O2O0O2O0O2O0O2O0",
+            "O2N100O2N2N1N3N2",
+            "M3M2O2M3M3N1N3N2",
+            "M2O2M3M3N1N3M2N3",
+            "M3M2N3M3L4M4K4L6",
+            "J7H8I7nNl_LKc^gP",
+            "8"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2957.934326171875,
+        2986.4990234375,
+        3162.855224609375,
+        3380.211669921875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the fork in the image?",
+    "output_instruction": "What is the segmentation mask of the fork in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_44_99c11c42_obj_004",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

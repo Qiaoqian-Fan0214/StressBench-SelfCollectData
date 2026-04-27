@@ -1,0 +1,106 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_97_948f454e__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_97_948f454e",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:29:56Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_97_948f454e__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_97_948f454e",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the pen in the image.",
+    "instruction": "Locate the pen in the image.",
+    "answer": "pen",
+    "rgb": "dark_messy_desk/97.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_97_948f454e_obj_002",
+      "object_name": "pen",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4000,
+            6000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Qm^[;6hl34M3M2O2",
+            "M2O1N2O1O1O1N101",
+            "O001O001O00001O0",
+            "0001O000O2O00001",
+            "O0000001O00001O0",
+            "0001O001O001O001",
+            "O010O001O001O001",
+            "O1O001O001O00001",
+            "O01O000001O00000",
+            "001O000001O00000",
+            "1O000001O0001O00",
+            "0000001O00010O00",
+            "00001O00001O0000",
+            "10O0001O0000001O",
+            "0010O0001O00010O",
+            "000010O010O0010O",
+            "01O1O101N1O2N3M2",
+            "N2N2O0O1O1O2N1O1",
+            "O1O1O00100O1O1O2",
+            "OO1O1O1O2N2O1M3L",
+            "5K5K5K6H7F>_OijQ",
+            "m:"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2974.605712890625,
+        2037.903564453125,
+        3141.2822265625,
+        2113.9384765625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the pen in the image?",
+    "output_instruction": "What is the segmentation mask of the pen in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "V": [
+          "extreme_viewpoint"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_97_948f454e_obj_002",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "V": [
+        "extreme_viewpoint"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_99_4147994a__q002_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_99_4147994a",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:31:14Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_99_4147994a__q002_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_99_4147994a",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the medicine bottle in the image.",
+    "instruction": "Locate the medicine bottle in the image.",
+    "answer": "medicine bottle",
+    "rgb": "dark_messy_desk/99.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_99_4147994a_obj_003",
+      "object_name": "medicine bottle",
+      "bbox_xyxy": [
+        1921.4052734375,
+        2458.683349609375,
+        2826.593505859375,
+        3305.887939453125
+      ],
+      "bbox_xywh": [
+        1921.4052734375,
+        2458.683349609375,
+        905.188232421875,
+        847.20458984375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the medicine bottle in the image?",
+    "output_instruction": "What is the bounding box of the medicine bottle in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "V": [
+          "extreme_viewpoint"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_99_4147994a_obj_003",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "V": [
+        "extreme_viewpoint"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

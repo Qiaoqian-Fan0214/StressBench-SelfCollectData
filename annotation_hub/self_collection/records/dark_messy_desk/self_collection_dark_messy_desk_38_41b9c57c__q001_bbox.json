@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_38_41b9c57c__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_38_41b9c57c",
+  "status": "annotated",
+  "updated_at": "2026-04-25T18:33:28Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_38_41b9c57c__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_38_41b9c57c",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bowl in the image.",
+    "instruction": "Locate the bowl in the image.",
+    "answer": "bowl",
+    "rgb": "dark_messy_desk/38.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_38_41b9c57c_obj_002",
+      "object_name": "bowl",
+      "bbox_xyxy": [
+        2084.68603515625,
+        3035.22705078125,
+        2409.663330078125,
+        3272.348876953125
+      ],
+      "bbox_xywh": [
+        2084.68603515625,
+        3035.22705078125,
+        324.977294921875,
+        237.121826171875
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the bowl in the image?",
+    "output_instruction": "What is the bounding box of the bowl in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "stacked_layout",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_38_41b9c57c_obj_002",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "stacked_layout",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

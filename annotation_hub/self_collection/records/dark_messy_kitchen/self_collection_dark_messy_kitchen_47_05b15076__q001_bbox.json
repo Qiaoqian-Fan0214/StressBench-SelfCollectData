@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_47_05b15076__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_47_05b15076",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:18:41Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_47_05b15076__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_47_05b15076",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the orange in the image.",
+    "instruction": "Locate the orange in the image.",
+    "answer": "orange",
+    "rgb": "dark_messy_kitchen/47.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_47_05b15076_obj_005",
+      "object_name": "orange",
+      "bbox_xyxy": [
+        425.8458251953125,
+        516.7445678710938,
+        635.4564208984375,
+        713.7621459960938
+      ],
+      "bbox_xywh": [
+        425.8458251953125,
+        516.7445678710938,
+        209.610595703125,
+        197.017578125
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the orange in the image?",
+    "output_instruction": "What is the bounding box of the orange in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "V": [
+          "small_scale"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_47_05b15076_obj_005",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "V": [
+        "small_scale"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

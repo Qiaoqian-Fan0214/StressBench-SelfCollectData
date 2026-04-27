@@ -1,0 +1,76 @@
+{
+  "sample_id": "self_collection_Home_Office_38_4fdf2212__q002",
+  "source_sample_id": "self_collection_Home_Office_38_4fdf2212",
+  "status": "annotated",
+  "updated_at": "2026-04-25T13:39:28Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_38_4fdf2212__q002",
+    "source_sample_id": "self_collection_Home_Office_38_4fdf2212",
+    "entry_id": "q002",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the phone relative to the earphone in the image?",
+    "instruction": "What is the spatial relation of the phone relative to the earphone in the image?",
+    "answer": "left",
+    "rgb": "Home_Office/38.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 2
+      },
+      "subject_a": {
+        "object_id": "self_collection_Home_Office_38_4fdf2212_obj_003",
+        "label": "phone"
+      },
+      "subject_b": {
+        "object_id": "self_collection_Home_Office_38_4fdf2212_obj_001",
+        "label": "earphone"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the phone relative to the earphone in the image?",
+    "output_instruction": "What is the spatial relation of the phone relative to the earphone in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_38_4fdf2212_obj_000",
+      "placementItem": "book",
+      "answerIndex": 2,
+      "spatialRelationAObjectId": "self_collection_Home_Office_38_4fdf2212_obj_003",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "self_collection_Home_Office_38_4fdf2212_obj_001",
+      "spatialRelationBLabel": "earphone",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

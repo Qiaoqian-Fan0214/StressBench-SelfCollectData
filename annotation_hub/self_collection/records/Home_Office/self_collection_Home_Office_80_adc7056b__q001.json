@@ -1,0 +1,76 @@
+{
+  "sample_id": "self_collection_Home_Office_80_adc7056b__q001",
+  "source_sample_id": "self_collection_Home_Office_80_adc7056b",
+  "status": "annotated",
+  "updated_at": "2026-04-25T14:49:27Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_80_adc7056b__q001",
+    "source_sample_id": "self_collection_Home_Office_80_adc7056b",
+    "entry_id": "q001",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the eye drops relative to the wine bottle in the image?",
+    "instruction": "What is the spatial relation of the eye drops relative to the wine bottle in the image?",
+    "answer": "left",
+    "rgb": "Home_Office/80.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 2
+      },
+      "subject_a": {
+        "object_id": "self_collection_Home_Office_80_adc7056b_obj_000",
+        "label": "eye drops"
+      },
+      "subject_b": {
+        "object_id": "self_collection_Home_Office_80_adc7056b_obj_001",
+        "label": "wine bottle"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the eye drops relative to the wine bottle in the image?",
+    "output_instruction": "What is the spatial relation of the eye drops relative to the wine bottle in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "M": [
+          "transparent"
+        ],
+        "V": [
+          "small_scale"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_80_adc7056b_obj_000",
+      "placementItem": "toy",
+      "answerIndex": 2,
+      "spatialRelationAObjectId": "self_collection_Home_Office_80_adc7056b_obj_000",
+      "spatialRelationALabel": "eye drops",
+      "spatialRelationBObjectId": "self_collection_Home_Office_80_adc7056b_obj_001",
+      "spatialRelationBLabel": "wine bottle",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "transparent"
+      ],
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "sample_id": "self_collection_Home_Office_7_beb3fce6__q001",
+  "source_sample_id": "self_collection_Home_Office_7_beb3fce6",
+  "status": "annotated",
+  "updated_at": "2026-04-25T13:07:07Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_7_beb3fce6__q001",
+    "source_sample_id": "self_collection_Home_Office_7_beb3fce6",
+    "entry_id": "q001",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the cellphone relative to the notebook in the image?",
+    "instruction": "What is the spatial relation of the cellphone relative to the notebook in the image?",
+    "answer": "up",
+    "rgb": "Home_Office/7.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 0
+      },
+      "subject_a": {
+        "object_id": "self_collection_Home_Office_7_beb3fce6_obj_000",
+        "label": "cellphone"
+      },
+      "subject_b": {
+        "object_id": "self_collection_Home_Office_7_beb3fce6_obj_001",
+        "label": "notebook"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the cellphone relative to the notebook in the image?",
+    "output_instruction": "What is the spatial relation of the cellphone relative to the notebook in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_7_beb3fce6_obj_000",
+      "placementItem": "vase",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "self_collection_Home_Office_7_beb3fce6_obj_000",
+      "spatialRelationALabel": "cellphone",
+      "spatialRelationBObjectId": "self_collection_Home_Office_7_beb3fce6_obj_001",
+      "spatialRelationBLabel": "notebook",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

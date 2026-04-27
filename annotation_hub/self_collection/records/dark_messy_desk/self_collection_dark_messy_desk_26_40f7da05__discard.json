@@ -1,0 +1,12 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_26_40f7da05__discard",
+  "source_sample_id": "self_collection_dark_messy_desk_26_40f7da05",
+  "status": "discarded",
+  "updated_at": "2026-04-25T18:25:47Z",
+  "annotation": null,
+  "provenance": {
+    "dataset": "Self-Collection",
+    "subcategory": "dark_messy_desk",
+    "split": "self_collected"
+  }
+}

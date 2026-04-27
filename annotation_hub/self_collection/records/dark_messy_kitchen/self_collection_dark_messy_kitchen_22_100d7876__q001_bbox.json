@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_22_100d7876__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_22_100d7876",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:54:41Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_22_100d7876__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_22_100d7876",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the bottle in the image.",
+    "instruction": "Locate the bottle in the image.",
+    "answer": "bottle",
+    "rgb": "dark_messy_kitchen/22.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_22_100d7876_obj_012",
+      "object_name": "bottle",
+      "bbox_xyxy": [
+        2029.9959716796875,
+        4836.89404296875,
+        2205.635986328125,
+        5413.3603515625
+      ],
+      "bbox_xywh": [
+        2029.9959716796875,
+        4836.89404296875,
+        175.6400146484375,
+        576.46630859375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the bottle in the image?",
+    "output_instruction": "What is the bounding box of the bottle in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "small_scale"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_22_100d7876_obj_012",
+      "placementItem": "mug",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

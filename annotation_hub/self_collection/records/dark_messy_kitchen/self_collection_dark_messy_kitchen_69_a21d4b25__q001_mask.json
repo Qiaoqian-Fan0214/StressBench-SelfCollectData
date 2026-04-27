@@ -1,0 +1,114 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_69_a21d4b25__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_69_a21d4b25",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:27:09Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_69_a21d4b25__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_69_a21d4b25",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the wine glass in the image.",
+    "instruction": "Locate the wine glass in the image.",
+    "answer": "wine glass",
+    "rgb": "dark_messy_kitchen/69.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_69_a21d4b25_obj_010",
+      "object_name": "wine glass",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4000,
+            6000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "gjT`>i0mk3e0]O`0",
+            "C:F8I7I7kXLkMVc3",
+            "Z2\\\\LdNob3b1f\\LQ",
+            "Omb3T1j\\LXO[3fMl",
+            "Y3^3]bLUOT2nNY[3",
+            "\\2SbLoNo1VOi[3_2",
+            "daLdNU2WOR\\3\\6cc",
+            "LlIW\\3\\6bcLiIW\\3",
+            "`6ccLdIX\\3c6bcL`",
+            "I[\\3f6_cL^I]\\3h6",
+            "]cL\\I_\\3j6[cLYIb",
+            "\\3n6WcLVIe\\3]7eb",
+            "LiHX]3a;M4N1N2N3",
+            "O0O100O100O10000",
+            "00001O0O10000000",
+            "00000O1000000000",
+            "000O101O0000001N",
+            "1000001O001O0O2O",
+            "00001O001O0O101O",
+            "00001N101O1O000O",
+            "2O001O0O2O001O0O",
+            "2O0O2O001N101N10",
+            "1O0O101O0O2O001N",
+            "100O2O0O2N101N1O",
+            "2N101N2N1O2N2N2N",
+            "3L4M4K4L5K6I:mBg",
+            "`Lm;i`3\\FP_LR6\\a",
+            "3\\IR_L\\6Za3WIn^L",
+            "d3jNkMgb3QNh^Lk3",
+            "YO]Mdb3PN^^L]4XO",
+            "XMbd3nNeZLb2P1WN",
+            "ed3eNlZLl2g0VNie",
+            "3`1^ZLXNPf3[1YZL",
+            "[NVg36geUk7"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        3785.236328125,
+        1189.406982421875,
+        3938.3955078125,
+        1710.322265625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the wine glass in the image?",
+    "output_instruction": "What is the segmentation mask of the wine glass in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend",
+          "transparent"
+        ],
+        "L": [
+          "global_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_69_a21d4b25_obj_010",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend",
+        "transparent"
+      ],
+      "L": [
+        "global_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

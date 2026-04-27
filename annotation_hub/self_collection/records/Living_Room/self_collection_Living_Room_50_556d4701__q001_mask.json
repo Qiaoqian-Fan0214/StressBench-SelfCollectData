@@ -1,0 +1,136 @@
+{
+  "sample_id": "self_collection_Living_Room_50_556d4701__q001_mask",
+  "source_sample_id": "self_collection_Living_Room_50_556d4701",
+  "status": "annotated",
+  "updated_at": "2026-04-27T09:13:15Z",
+  "annotation": {
+    "sample_id": "self_collection_Living_Room_50_556d4701__q001_mask",
+    "source_sample_id": "self_collection_Living_Room_50_556d4701",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the conditioner in the image.",
+    "instruction": "Locate the conditioner in the image.",
+    "answer": "conditioner",
+    "rgb": "Living_Room/50.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_Living_Room_50_556d4701_obj_000",
+      "object_name": "conditioner",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3034,
+            4551
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "TR]c1<Yn2<F?Cg0Y",
+            "O<E9F>C6J4K4M2N2",
+            "N3L2O2N2N1O1N2O1",
+            "O001O00000000000",
+            "00000000000O1000",
+            "00000000001O0000",
+            "010O000010O00000",
+            "10O0001O01O00000",
+            "1O0001O000O10000",
+            "000001O00000001O",
+            "000001O0001O0001",
+            "O0001O0001O0001O",
+            "01O000000010O000",
+            "000000010O000000",
+            "0001O01O00000000",
+            "10O0000000001O01",
+            "O00000000010O000",
+            "0000001O000001O0",
+            "00001O0000000001",
+            "O0000000010O0000",
+            "0001O0000001O000",
+            "001O01O00000001O",
+            "000001O0001O0000",
+            "000000010O000000",
+            "000010O01O1O0000",
+            "10O01O00001O0001",
+            "0O00001O00000000",
+            "1O00000000000010",
+            "O00000001O01O000",
+            "00001O01O0000000",
+            "00010O0000000000",
+            "00000001O0000000",
+            "001O0001O01O0001",
+            "O01O0001O01O0000",
+            "01O01O0001O00000",
+            "001O000001O0001O",
+            "000000001O0001O0",
+            "1O00001O00001O00",
+            "010O0000001O0000",
+            "010O000000010O00",
+            "0000010O00000000",
+            "010O000000000001",
+            "0O00000000000001",
+            "0O0000001O000001",
+            "0O0000001O01O000",
+            "1O0000010O000000",
+            "1O01O0001O000000",
+            "10O0001O0000001O",
+            "0001O000001O0000",
+            "0000001O00000001",
+            "O01O000000010O00",
+            "00010O0001O01O00",
+            "01O01O0001O00010",
+            "O000000001O01O00",
+            "0001O01O00010O00",
+            "0010O00010O01O00",
+            "10O01O01O01O0001",
+            "0O001O00010O0000",
+            "1O001O001O001O1O",
+            "1O001N2O1N101N10",
+            "1N1O2N101N1O1N3N",
+            "1N2N3M2N2M4M2N3N",
+            "2M2N3M3M3L5I8GZ_",
+            "hS:"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        548.4564208984375,
+        659.9708251953125,
+        1056.14990234375,
+        864.4356079101562
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the conditioner in the image?",
+    "output_instruction": "What is the segmentation mask of the conditioner in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Living_Room_50_556d4701_obj_000",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Living_Room",
+      "split": "self_collected"
+    }
+  }
+}

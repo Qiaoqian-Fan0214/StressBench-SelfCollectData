@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_11_4e810d27__q002_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_11_4e810d27",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:48:31Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_11_4e810d27__q002_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_11_4e810d27",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "dark_messy_kitchen/11.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_11_4e810d27_obj_003",
+      "object_name": "cup",
+      "bbox_xyxy": [
+        863.3274536132812,
+        585.6392822265625,
+        1287.0303955078125,
+        1200.041259765625
+      ],
+      "bbox_xywh": [
+        863.3274536132812,
+        585.6392822265625,
+        423.70294189453125,
+        614.4019775390625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cup in the image?",
+    "output_instruction": "What is the bounding box of the cup in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "G": [
+          "occlusion",
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_11_4e810d27_obj_003",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "G": [
+        "occlusion",
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

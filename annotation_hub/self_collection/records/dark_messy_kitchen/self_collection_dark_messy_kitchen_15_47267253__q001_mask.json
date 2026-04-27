@@ -1,0 +1,114 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_15_47267253__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_15_47267253",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:51:21Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_15_47267253__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_15_47267253",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the faucet in the image.",
+    "instruction": "Locate the faucet in the image.",
+    "answer": "faucet",
+    "rgb": "dark_messy_kitchen/15.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_15_47267253_obj_000",
+      "object_name": "faucet",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2500,
+            2000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "oao[12P^24L4M3M2",
+            "N3M:G1O1O0O101O0",
+            "000001O0001O0000",
+            "00001O01O01O1O01",
+            "0O0010O01O01O010",
+            "O0010O01O010O10O",
+            "100O1O010O010O01",
+            "O01O01O0010O0010",
+            "O001O010O01O10O0",
+            "10O10O10O0mMUOnf",
+            "Mk0PY2WOofMi0QY2",
+            "XOnfMh0RY2YOnfMg",
+            "0QY2[OmfMe0SY2^O",
+            "jfMb0VY2_OjfMa0U",
+            "Y2@jfM`0VY2AjfM>",
+            "WY2AifM?YY2_OgfM",
+            "b0[Y2[OefMe0^Y2X",
+            "OcfMh0]Y2WOcfMi0",
+            "_Y2VO`fMk0`Y2TO`",
+            "fMl0bY2YOWfMh0hY",
+            "2ZOVfMf0kY2ZOUfM",
+            "f0kY2ZOTfMf0mY2Y",
+            "OSfMh0mY2WOSfMi0",
+            "nY2VOSfMj0mY2UOS",
+            "fMk0oY2SORfMm0b[",
+            "21_NSOjeMm0UZ2UO",
+            "ieMl0T2UO]T20^iM",
+            "k0n0YO^N3UW2<khM",
+            ":Om1VW2nMehM6LT2",
+            "`W2iM_hM6LU2eW2k",
+            "2010O1O0001O0000",
+            "0O10000O101O0000",
+            "00000000O2O00000",
+            "0001O0O2O001O001",
+            "O001O1N2O7Hc0]Of",
+            "3`KccMMURaQ3"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        572.54052734375,
+        1286.06298828125,
+        727.58544921875,
+        1528.389892578125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the faucet in the image?",
+    "output_instruction": "What is the segmentation mask of the faucet in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_15_47267253_obj_000",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

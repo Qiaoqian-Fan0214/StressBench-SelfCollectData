@@ -1,0 +1,117 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_57_a039a287__q002_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_57_a039a287",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:00:20Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_57_a039a287__q002_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_57_a039a287",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the person in the image.",
+    "instruction": "Locate the person in the image.",
+    "answer": "person",
+    "rgb": "dark_messy_desk/57.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_57_a039a287_obj_010",
+      "object_name": "person",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3891,
+            5848
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "afg_`0>Ri3<F5K4L",
+            "4L5K4L5K4L3L5L3M",
+            "4L3L5L4K4L5K5H8H",
+            "7iNRM^[LW3Zd3V1I",
+            "8G8K7I6J8H5K6J4K",
+            "6K4M3M2N3N2N1O1O",
+            "2N100O100O10000O",
+            "2OO100000000000O",
+            "1000000000000000",
+            "0O10000000000001",
+            "O000000000000000",
+            "01O0000000000001",
+            "O00001O00001O1O0",
+            "01O1hK\\^L?da3]Od",
+            "^L?]a3]Oh^L`0Za3",
+            "]Oi^Lb0Xa3[Ok^Ld",
+            "0Ua3ZOn^Le0Sa3XO",
+            "P_Lg0Qa3VOR_Li0o",
+            "`3TOS_Ll0n`3ROS_",
+            "Ln0n`3oNU_LP1l`3",
+            "mNV_LS1k`3kNW_LT",
+            "1j`3iNX_LW1i`3fN",
+            "Y_LZ1h`3cNZ_L]1f",
+            "`3aN]_L^1d`3_N^_",
+            "La1c`3\\N__Lc1c`3",
+            "YN`_Lg1b`3SNc_Ll",
+            "1^`3nMg_LR2[`3hM",
+            "i_LX2Y`3bMl_L]2W",
+            "`3\\Mm_Ld2W`3TMm_",
+            "Ll2^c3O001N101O1",
+            "O001N2O1O1N3N1N3",
+            "M5K4K5L4L4K8I9F7",
+            "H5L4G9I8IUZod4"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        4436.2431640625,
+        1280.8587646484375,
+        4585.12255859375,
+        1514.8604736328125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the person in the image?",
+    "output_instruction": "What is the segmentation mask of the person in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "complex_texture"
+        ],
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_57_a039a287_obj_010",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ],
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_36_a3c981f6__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_kitchen_36_a3c981f6",
+  "status": "annotated",
+  "updated_at": "2026-04-26T13:59:36Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_36_a3c981f6__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_kitchen_36_a3c981f6",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the oven in the image.",
+    "instruction": "Locate the oven in the image.",
+    "answer": "oven",
+    "rgb": "dark_messy_kitchen/36.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_kitchen_36_a3c981f6_obj_006",
+      "object_name": "oven",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2500,
+            2000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "gc`6l0R1WOD6e4Of",
+            "KJ0k0UOKl2OZM3mk",
+            "1b2UTNPM0m<fk1XF",
+            "RTNTM2g<kk1WFPTN",
+            "WMOf<ok1c401N100",
+            "000000000O100000",
+            "1N10000O100O100O",
+            "10001N1000000O10",
+            "1O000O10000O2O0O",
+            "100O100O2O0O100O",
+            "100O100O101N100O",
+            "10000^BZSNe9gl1[",
+            "FZSNd9fl1\\FZSNd9",
+            "fl1\\F\\SNa9el1^F^",
+            "SN`9bl1`F`SN]9bl",
+            "1bF`SN\\9`l1dF`SN",
+            "[9al1eF`SNZ9`l1f",
+            "F`SNZ9`l1fF`SNY9",
+            "al1fF`SNZ9al1eF^",
+            "SN[9cl1eF]SN[9cl",
+            "1eF]SN[9cl1eF]SN",
+            "Z9el1eFZSN\\9fl1d",
+            "FZSN[9gl1eFYSN[9",
+            "gl1eFYSN[9gl1eFY",
+            "SNZ9hl1fFXSNZ9il",
+            "1eFWSN[9il1eFWSN",
+            "Z9jl1fFVSNZ9jl1f",
+            "FVSNY9kl1hFTSNX9",
+            "ll1hFUSNW9ll1hFT",
+            "SNW9ml1iFTSNV9ll",
+            "1jFTSNU9nl1jFSSN",
+            "U9ml1kFTSNS9ml1m",
+            "FSSNR9ol1mFRSNR9",
+            "nl1nFSSNP9ol1oFQ",
+            "SNQ9ol1oFQSNP9Pm",
+            "1PGQSNo8ol1QGQSN",
+            "o8Pm1PGPSNP9Pm1P",
+            "GPSNo8Qm1QGoRNo8",
+            "Qm1QGoRNn8Rm1RGn",
+            "RNn8Rm1RGnRNn8Sm",
+            "1QGmRNn8Tm1RGlRN",
+            "n8Tm1RGkRNn8Vm1R",
+            "GjRNn8Wm1QGiRNn8",
+            "Xm1SGgRNm8Ym1SGg",
+            "RNm8Ym1SGgRNl8[m",
+            "1SGeRNm8[m1SGeRN",
+            "m8[m1SGeRNl8]m1S",
+            "GcRNm8]m1SGcRNm8",
+            "]m1SGbRNm8_m1SGa",
+            "RNm8_m1SGaRNl8am",
+            "1SG_RNm8am1SG_RN",
+            "l8bm1TG^RNl8bm1T",
+            "G^RNk8cm1UG]RNk8",
+            "cm1UG]RNk8dm1UG[",
+            "RNj8fm1VGZRNj8fm",
+            "1WGYRNh8hm1YGWRN",
+            "g8jm1YGVRNe8km1[",
+            "GURNd8lm1]GTRNb8",
+            "lm1_GURN^8lm1bGT",
+            "RN]8nm1bGRRN^8nm",
+            "1bGRRN]8om1bGRRN",
+            "^8nm1aGRRN_8om1a",
+            "GQRN_8om1`GQRN`8",
+            "Qn1^GPRNb8Pn1^GP",
+            "RNa8Qn1^GPRNb8Pn",
+            "1_GoQNa8Qn1_GnQN",
+            "a8Tn1^GkQNc8Un1_",
+            "GhQNb8Xn1e30O2O0",
+            "0001N10000O100O1",
+            "000000O10001N100",
+            "kC\\QNj8dn1UGaQNf",
+            "8`n1YGeQNUMFP;fn",
+            "1iGTRNU8mm1jGURN",
+            "T8lm1kGVRNS8mm1h",
+            "GVRNV8nm1YGbRNd8",
+            "gm1RG\\RN_7bNUG]S",
+            "2c5ZlMYJZW2`2Uc_",
+            "T4"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        79.42357635498047,
+        1094.7532958984375,
+        282.2063903808594,
+        1696.1962890625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the oven in the image?",
+    "output_instruction": "What is the segmentation mask of the oven in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_36_a3c981f6_obj_006",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "sample_id": "self_collection_dark_messy_kitchen_61_6b8fd278__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_kitchen_61_6b8fd278",
+  "status": "annotated",
+  "updated_at": "2026-04-26T16:23:31Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_kitchen_61_6b8fd278__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_kitchen_61_6b8fd278",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cutting board in the image.",
+    "instruction": "Locate the cutting board in the image.",
+    "answer": "cutting board",
+    "rgb": "dark_messy_kitchen/61.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_kitchen_61_6b8fd278_obj_005",
+      "object_name": "cutting board",
+      "bbox_xyxy": [
+        2419.0283203125,
+        2249.8212890625,
+        2738.58984375,
+        2854.658203125
+      ],
+      "bbox_xywh": [
+        2419.0283203125,
+        2249.8212890625,
+        319.5615234375,
+        604.8369140625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the cutting board in the image?",
+    "output_instruction": "What is the bounding box of the cutting board in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive"
+        ],
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_kitchen_61_6b8fd278_obj_005",
+      "placementItem": "plate",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive"
+      ],
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_kitchen",
+      "split": "self_collected"
+    }
+  }
+}

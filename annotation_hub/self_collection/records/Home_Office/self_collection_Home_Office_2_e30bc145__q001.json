@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_Home_Office_2_e30bc145__q001",
+  "source_sample_id": "self_collection_Home_Office_2_e30bc145",
+  "status": "annotated",
+  "updated_at": "2026-04-25T12:59:13Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_2_e30bc145__q001",
+    "source_sample_id": "self_collection_Home_Office_2_e30bc145",
+    "entry_id": "q001",
+    "task": "spatial_mcq",
+    "template_id": "farthest",
+    "question": "Which object is farthest from us in the image?",
+    "instruction": "Which object is farthest from us in the image?",
+    "answer": "chair",
+    "rgb": "Home_Office/2.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "vase",
+          "chair",
+          "laptop",
+          "cup",
+          "plant"
+        ],
+        "answer_index": 1
+      }
+    },
+    "output_variant": null,
+    "output_question": "Which object is farthest from us in the image?",
+    "output_instruction": "Which object is farthest from us in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "spatial_mcq",
+      "template_id": "farthest",
+      "stress": {
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_2_e30bc145_obj_000",
+      "placementItem": "mug",
+      "answerIndex": 1,
+      "spatialRelationAObjectId": "self_collection_Home_Office_2_e30bc145_obj_000",
+      "spatialRelationALabel": "chair",
+      "spatialRelationBObjectId": "self_collection_Home_Office_2_e30bc145_obj_001",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": [
+        "vase",
+        "chair",
+        "laptop",
+        "cup",
+        "plant"
+      ]
+    },
+    "stress": {
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

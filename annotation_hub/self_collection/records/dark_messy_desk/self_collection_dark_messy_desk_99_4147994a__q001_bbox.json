@@ -1,0 +1,71 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_99_4147994a__q001_bbox",
+  "source_sample_id": "self_collection_dark_messy_desk_99_4147994a",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:31:14Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_99_4147994a__q001_bbox",
+    "source_sample_id": "self_collection_dark_messy_desk_99_4147994a",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the mouse in the image.",
+    "instruction": "Locate the mouse in the image.",
+    "answer": "mouse",
+    "rgb": "dark_messy_desk/99.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_dark_messy_desk_99_4147994a_obj_001",
+      "object_name": "mouse",
+      "bbox_xyxy": [
+        765.7479858398438,
+        2120.631103515625,
+        1841.6656494140625,
+        3019.20166015625
+      ],
+      "bbox_xywh": [
+        765.7479858398438,
+        2120.631103515625,
+        1075.9176635742188,
+        898.570556640625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the mouse in the image?",
+    "output_instruction": "What is the bounding box of the mouse in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "V": [
+          "extreme_viewpoint"
+        ],
+        "L": [
+          "local_overexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_99_4147994a_obj_001",
+      "placementItem": "notebook",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "extreme_viewpoint"
+      ],
+      "L": [
+        "local_overexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

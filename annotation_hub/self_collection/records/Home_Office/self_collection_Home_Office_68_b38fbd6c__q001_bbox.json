@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_Home_Office_68_b38fbd6c__q001_bbox",
+  "source_sample_id": "self_collection_Home_Office_68_b38fbd6c",
+  "status": "annotated",
+  "updated_at": "2026-04-25T14:31:41Z",
+  "annotation": {
+    "sample_id": "self_collection_Home_Office_68_b38fbd6c__q001_bbox",
+    "source_sample_id": "self_collection_Home_Office_68_b38fbd6c",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the keyboard in the image.",
+    "instruction": "Locate the keyboard in the image.",
+    "answer": "keyboard",
+    "rgb": "Home_Office/68.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_Home_Office_68_b38fbd6c_obj_001",
+      "object_name": "keyboard",
+      "bbox_xyxy": [
+        1442.567626953125,
+        3728.101318359375,
+        2185.9013671875,
+        4019.12109375
+      ],
+      "bbox_xywh": [
+        1442.567626953125,
+        3728.101318359375,
+        743.333740234375,
+        291.019775390625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the keyboard in the image?",
+    "output_instruction": "What is the bounding box of the keyboard in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "dark_absorptive",
+          "low_contrast_blend"
+        ]
+      },
+      "selectedObjectId": "self_collection_Home_Office_68_b38fbd6c_obj_001",
+      "placementItem": "vase",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "dark_absorptive",
+        "low_contrast_blend"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "Home_Office",
+      "split": "self_collected"
+    }
+  }
+}

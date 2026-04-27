@@ -1,0 +1,125 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_66_bcb16980__q001_mask",
+  "source_sample_id": "self_collection_dark_messy_desk_66_bcb16980",
+  "status": "annotated",
+  "updated_at": "2026-04-25T19:07:37Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_66_bcb16980__q001_mask",
+    "source_sample_id": "self_collection_dark_messy_desk_66_bcb16980",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the figurine in the image.",
+    "instruction": "Locate the figurine in the image.",
+    "answer": "figurine",
+    "rgb": "dark_messy_desk/66.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_dark_messy_desk_66_bcb16980_obj_000",
+      "object_name": "figurine",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4032,
+            3024
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "YQcn19S69i`39i^L",
+            "KPa3?i^LDSa3c0g^",
+            "L_OUa3j0d^LYOWa3",
+            "n0c^LVOYa3P1c^LQ",
+            "OZa3U1b^LlNZa3Z1",
+            "d^LgNWa3_1f^LbNU",
+            "a3e1h^L]NSa3h1k^",
+            "LYNRa3k1l^LWNQa3",
+            "m1l^LUNQa3n1U]LZ",
+            "MhNk0Pd3n1o\\LlMa",
+            "N:]d3m1k\\L7Pc3Nh",
+            "\\L9Uc3Jg\\L:Vc3If",
+            "\\L:Yc3Hc\\L;[c3Ha",
+            "\\L<]c3F`\\L<_c3F_",
+            "\\L;`c3H\\\\L:cc3H[",
+            "\\L9dc3JX\\L9ec3JX",
+            "\\L8gc3KV\\L6ic3MS",
+            "\\L5lc3Oo[L3Qd3n4",
+            "O2N100O100O100O1",
+            "0000O100O100O100",
+            "O10000O100000000",
+            "00000O100000O100",
+            "0O1000001O0O1000",
+            "00001N10000O101N",
+            "100O100O2O000O10",
+            "1N10001N101O001N",
+            "101O0O2O001N2O00",
+            "1N10001O0O2O001N",
+            "101N2O0_KU[LMld3",
+            "M\\[LOfd3Ka[L2ad3",
+            "Kc[L1`d3Ld[L0^d3",
+            "Od[LN_d30d[LN]d3",
+            "Of[LO\\d3Og[LN[d3",
+            "0g[LOYd30k[LLWd3",
+            "2o[LIRd35U\\LElc3",
+            "8\\\\L@gc3>b\\LXOac",
+            "3f0g\\LmMoM\\O_e3e",
+            "2l\\LYMdd3d2^3N2M",
+            "3N2N3M2N2N2N3M3M",
+            "2M4M2N3M3M3M5J5K",
+            "6J6I9G;_ORe]R9"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        491.423583984375,
+        2759.949462890625,
+        673.8150024414062,
+        3099.469970703125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the figurine in the image?",
+    "output_instruction": "What is the segmentation mask of the figurine in the image?",
+    "editor_state": {
+      "entry_id": "q001",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "M": [
+          "low_contrast_blend"
+        ],
+        "G": [
+          "cluttered_layout"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_66_bcb16980_obj_000",
+      "placementItem": "pillow",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "low_contrast_blend"
+      ],
+      "G": [
+        "cluttered_layout"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

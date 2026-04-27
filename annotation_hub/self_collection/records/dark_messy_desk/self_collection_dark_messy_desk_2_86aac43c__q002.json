@@ -1,0 +1,76 @@
+{
+  "sample_id": "self_collection_dark_messy_desk_2_86aac43c__q002",
+  "source_sample_id": "self_collection_dark_messy_desk_2_86aac43c",
+  "status": "annotated",
+  "updated_at": "2026-04-25T17:32:10Z",
+  "annotation": {
+    "sample_id": "self_collection_dark_messy_desk_2_86aac43c__q002",
+    "source_sample_id": "self_collection_dark_messy_desk_2_86aac43c",
+    "entry_id": "q002",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the typewriter relative to the cup in the image?",
+    "instruction": "What is the spatial relation of the typewriter relative to the cup in the image?",
+    "answer": "down",
+    "rgb": "dark_messy_desk/2.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 1
+      },
+      "subject_a": {
+        "object_id": "self_collection_dark_messy_desk_2_86aac43c_obj_003",
+        "label": "typewriter"
+      },
+      "subject_b": {
+        "object_id": "self_collection_dark_messy_desk_2_86aac43c_obj_000",
+        "label": "cup"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the typewriter relative to the cup in the image?",
+    "output_instruction": "What is the spatial relation of the typewriter relative to the cup in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "stress": {
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "G": [
+          "occlusion"
+        ]
+      },
+      "selectedObjectId": "self_collection_dark_messy_desk_2_86aac43c_obj_000",
+      "placementItem": "book",
+      "answerIndex": 1,
+      "spatialRelationAObjectId": "self_collection_dark_messy_desk_2_86aac43c_obj_003",
+      "spatialRelationALabel": "typewriter",
+      "spatialRelationBObjectId": "self_collection_dark_messy_desk_2_86aac43c_obj_000",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "G": [
+        "occlusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "dark_messy_desk",
+      "split": "self_collected"
+    }
+  }
+}
