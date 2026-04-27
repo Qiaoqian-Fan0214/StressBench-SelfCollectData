@@ -1,0 +1,149 @@
+{
+  "sample_id": "self_collection_messy_desk_8_01a1601d__q001_mask",
+  "source_sample_id": "self_collection_messy_desk_8_01a1601d",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:47:37Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_8_01a1601d__q001_mask",
+    "source_sample_id": "self_collection_messy_desk_8_01a1601d",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the tape dispenser in the image.",
+    "instruction": "Locate the tape dispenser in the image.",
+    "answer": "tape dispenser",
+    "rgb": "messy_desk/8.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_desk_8_01a1601d_obj_000",
+      "object_name": "tape dispenser",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            6298,
+            4199
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "gUXg`0:ZT6f0\\O9H",
+            "8G8J5J6K5L4K4M4L",
+            "2N2O2M3N2M4M2M3N",
+            "2M3M3N3L3N3L4L5L",
+            "4K5L2M3N3M3L4M4L",
+            "3L3N2N2N2M4M2N3L",
+            "5L3L3N3M3L3N3L4M",
+            "4K4M4K4M3L3N3L4L",
+            "4M2M3N2M4M3L4M4L",
+            "5J7J>B`0_O7J5K5J",
+            "4M3L4M2N2M3N2N2N",
+            "2M3N2M2O2N1N3N2N",
+            "1N3N2M4M2M4M4L3L",
+            "4M2M3N3L3N1N2O2M",
+            "3N1O2M2O1O1N3N1O",
+            "2N3M3L4M3M3L4M2N",
+            "2N2M3N2M4M3M2M5L",
+            "3L5L3M2M2O2N2M3N",
+            "3L3N3M2M3N2M2O1N",
+            "3N1O1N2O2M2O1O1N",
+            "2O1O1N2O1O1O001O",
+            "1O1O001O001O1O00",
+            "1O001O00001O0O10",
+            "0O100O100O001O1O",
+            "001O10O01O010O1O",
+            "0010O010O0100O01",
+            "00O010O01000O010",
+            "O10O10O10O10O10O",
+            "01000O010O1000O0",
+            "10O10O01000O010O",
+            "01000O010O01000O",
+            "010O100O010O100O",
+            "01000O10O010O10O",
+            "10O01000O010O10O",
+            "10O010O1O010O1O0",
+            "10O001O10O010O01",
+            "O10O010O10O0100O",
+            "01000O010O100O01",
+            "0O100O010O1O010O",
+            "1O0010O01O000O2O",
+            "000001O000O1O2N1",
+            "00O20O01000O0100",
+            "0O2O00001O0O1000",
+            "0000001N10000000",
+            "000O1000O100000O",
+            "0100O010O10O010O",
+            "0100O010O10O10O^",
+            "OU_OV]Jl`0ib5b00",
+            "10O100O01000O101",
+            "N101O0O2O2M3N1O2",
+            "M2O001N2O000O2O0",
+            "00O01O00100O010O",
+            "001O0010O010O10O",
+            "0100O10O0100O100",
+            "O010O10O10O10O10",
+            "O10O100O010O10O0",
+            "100O010O10O010O1",
+            "0O10O10O01O10O10",
+            "O1O10O0100O100O0",
+            "0100O10000O10O01",
+            "00O10000O10O10O1",
+            "0000O0100000O010",
+            "00O10O10O1000O01",
+            "0000O100O100O100",
+            "O101O0O2N101N2N1",
+            "01N2N101N2O1N101",
+            "O1N2O1N2O2N1N3N2",
+            "M2O2N2M2O2M3N1N3",
+            "N1O1N3N1N3N1N3N1",
+            "O3L3N1N3N2N2M2O2",
+            "M2O2M2O2N2M2O2M2",
+            "O2M2O1O2M2O1N3N1",
+            "N2O2M2O1O2M2O2M2",
+            "O2M2O2M2O2M2O2M2",
+            "O2M2O2M2O2M3N2M3",
+            "N2M3N2M2O1O2M3N2",
+            "N1N3N2N1N4M2N3L3",
+            "N2M3N2N2M3N2N3L3",
+            "N2N3L4M2N2M3N2M3",
+            "N3L3N3L3N3L3M4M3",
+            "L3M4M2M4M3L4M3L3",
+            "M4M2M3N3L3N3M2M4",
+            "M3L4M4K4M3L4M3L3",
+            "N3L4L3M4L3M5K4L5",
+            "J6J7I6K5J7I6J5J7",
+            "J6I7H8H8I7I8G8G;",
+            "Bb0[OaV_]4"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2770.438720703125,
+        5391.16796875,
+        3471.961669921875,
+        6064.88330078125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the tape dispenser in the image?",
+    "output_instruction": "What is the segmentation mask of the tape dispenser in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_8_01a1601d_obj_000",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "sample_id": "self_collection_messy_desk_2_892cbf3b__q002_bbox",
+  "source_sample_id": "self_collection_messy_desk_2_892cbf3b",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:47:37Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_2_892cbf3b__q002_bbox",
+    "source_sample_id": "self_collection_messy_desk_2_892cbf3b",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the calculator in the image.",
+    "instruction": "Locate the calculator in the image.",
+    "answer": "calculator",
+    "rgb": "messy_desk/2.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_desk_2_892cbf3b_obj_000",
+      "object_name": "calculator",
+      "bbox_xyxy": [
+        4002.455810546875,
+        2583.049560546875,
+        4615.0546875,
+        3436.028076171875
+      ],
+      "bbox_xywh": [
+        4002.455810546875,
+        2583.049560546875,
+        612.598876953125,
+        852.978515625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the calculator in the image?",
+    "output_instruction": "What is the bounding box of the calculator in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_2_892cbf3b_obj_000",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

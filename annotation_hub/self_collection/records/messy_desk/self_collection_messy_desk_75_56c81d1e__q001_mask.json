@@ -1,0 +1,81 @@
+{
+  "sample_id": "self_collection_messy_desk_75_56c81d1e__q001_mask",
+  "source_sample_id": "self_collection_messy_desk_75_56c81d1e",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:10:20Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_75_56c81d1e__q001_mask",
+    "source_sample_id": "self_collection_messy_desk_75_56c81d1e",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the pen in the image.",
+    "instruction": "Locate the pen in the image.",
+    "answer": "pen",
+    "rgb": "messy_desk/75.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_desk_75_56c81d1e_obj_000",
+      "object_name": "pen",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2337,
+            3529
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "`Vbk44jX2:G8H;Fb",
+            "0^O7I8H9G8I4K5L2",
+            "Ma0@6J5J5L3M3L5L",
+            "5K7I:SlM^KgR2g5G",
+            "6J5K6J6J?A7I5K5K",
+            "7I6K5J6J6J5L4K6J",
+            "6K6I8I`0@4M2N2O1",
+            "d0]O3L1106L6J4J5",
+            "KeElQNf9mn1LO1;G",
+            "O1N0N2M3O5Lb0^O8",
+            "KO7H40N1MO02N7I0",
+            "0111N0N9G9L12L16",
+            "G0N00=C31M3K2O2L",
+            "7I`0A4L;E2M0O101",
+            "O;E;F0O3M6L4L000",
+            "03K6J4K6K9OMJ5K3",
+            "K:G6I9G;E9F8I6J5",
+            "J:G:F;D=D6I:G<B7",
+            "B<G<bN[Uhf2"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2175.81982421875,
+        660.2716064453125,
+        2319.927490234375,
+        1487.964111328125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the pen in the image?",
+    "output_instruction": "What is the segmentation mask of the pen in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_75_56c81d1e_obj_000",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

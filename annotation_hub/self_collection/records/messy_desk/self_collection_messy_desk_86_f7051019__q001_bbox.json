@@ -1,0 +1,61 @@
+{
+  "sample_id": "self_collection_messy_desk_86_f7051019__q001_bbox",
+  "source_sample_id": "self_collection_messy_desk_86_f7051019",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:10:21Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_86_f7051019__q001_bbox",
+    "source_sample_id": "self_collection_messy_desk_86_f7051019",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the scissors in the image.",
+    "instruction": "Locate the scissors in the image.",
+    "answer": "scissors",
+    "rgb": "messy_desk/86.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_desk_86_f7051019_obj_000",
+      "object_name": "scissors",
+      "bbox_xyxy": [
+        2996.995361328125,
+        1858.55859375,
+        3476.60205078125,
+        2276.267578125
+      ],
+      "bbox_xywh": [
+        2996.995361328125,
+        1858.55859375,
+        479.606689453125,
+        417.708984375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the scissors in the image?",
+    "output_instruction": "What is the bounding box of the scissors in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_86_f7051019_obj_000",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "V": [
+          "small_scale"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

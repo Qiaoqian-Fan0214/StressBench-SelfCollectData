@@ -1,0 +1,65 @@
+{
+  "sample_id": "self_collection_messy_desk_28_1eb6d9ca__q002_bbox",
+  "source_sample_id": "self_collection_messy_desk_28_1eb6d9ca",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:42:06Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_28_1eb6d9ca__q002_bbox",
+    "source_sample_id": "self_collection_messy_desk_28_1eb6d9ca",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the chopsticks in the image.",
+    "instruction": "Locate the chopsticks in the image.",
+    "answer": "chopsticks",
+    "rgb": "messy_desk/28.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_desk_28_1eb6d9ca_obj_003",
+      "object_name": "chopsticks",
+      "bbox_xyxy": [
+        3016.291015625,
+        3226.33837890625,
+        4293.169921875,
+        3756.92529296875
+      ],
+      "bbox_xywh": [
+        3016.291015625,
+        3226.33837890625,
+        1276.87890625,
+        530.5869140625
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the chopsticks in the image?",
+    "output_instruction": "What is the bounding box of the chopsticks in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "target_grounding",
+      "template_id": "target_object",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_desk_28_1eb6d9ca_obj_003",
+      "placementItem": "lamp",
+      "answerIndex": null,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

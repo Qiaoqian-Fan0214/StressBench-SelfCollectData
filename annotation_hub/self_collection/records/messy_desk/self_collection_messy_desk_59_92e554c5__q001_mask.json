@@ -1,0 +1,102 @@
+{
+  "sample_id": "self_collection_messy_desk_59_92e554c5__q001_mask",
+  "source_sample_id": "self_collection_messy_desk_59_92e554c5",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:47:41Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_59_92e554c5__q001_mask",
+    "source_sample_id": "self_collection_messy_desk_59_92e554c5",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the speaker in the image.",
+    "instruction": "Locate the speaker in the image.",
+    "answer": "speaker",
+    "rgb": "messy_desk/59.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_desk_59_92e554c5_obj_003",
+      "object_name": "speaker",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2101,
+            3000
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "ia\\55bP2V1D\\1gNk",
+            "3ULP2QN4L1O1O000",
+            "01O0000000000000",
+            "000000000000O100",
+            "01O000001O000000",
+            "1O00001O00000000",
+            "0000O10000000000",
+            "0000000000000000",
+            "000000000000O100",
+            "0O10O10000O10000",
+            "000O101O001N1000",
+            "001N100000000000",
+            "0000000000000000",
+            "0000000000000000",
+            "00O100000001O001",
+            "O1O001O1O2N00001",
+            "O000000000000000",
+            "00000001O0000000",
+            "00000000000000O1",
+            "0001O00000000000",
+            "000000001O000000",
+            "001O000000001O00",
+            "1O010O1O1O001O1O",
+            "1O1O2N1O3N3L5K6J",
+            "8H`0@<D;E8H7I7I;",
+            "E<D>A<E8H<D;E8H6",
+            "Ij0WO:VNhPN1C1WQ",
+            "2L3L3M^he]5"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        82.14326477050781,
+        170.64430236816406,
+        294.4627990722656,
+        468.04547119140625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the speaker in the image?",
+    "output_instruction": "What is the segmentation mask of the speaker in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_59_92e554c5_obj_003",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "V": [
+          "small_scale"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "V": [
+        "small_scale"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

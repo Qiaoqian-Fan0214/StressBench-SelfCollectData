@@ -1,0 +1,111 @@
+{
+  "sample_id": "self_collection_messy_desk_29_acd857d4__q001_mask",
+  "source_sample_id": "self_collection_messy_desk_29_acd857d4",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:47:39Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_29_acd857d4__q001_mask",
+    "source_sample_id": "self_collection_messy_desk_29_acd857d4",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the pen in the image.",
+    "instruction": "Locate the pen in the image.",
+    "answer": "pen",
+    "rgb": "messy_desk/29.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_desk_29_acd857d4_obj_004",
+      "object_name": "pen",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4285,
+            6427
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "WadZ;2fU4<G7H8I4",
+            "L3N2M3M3L3N3M3M3",
+            "M2O2N2N2N2N2O1N2",
+            "N2O2M2O2N1O1O2N1",
+            "N20O01O1O001O1O0",
+            "10O1O001O010O1O1",
+            "O1O1O100O2O0O101",
+            "N2N2O0000001O01O",
+            "00001O0000000O10",
+            "O10000O10000O010",
+            "0000O010000O100O",
+            "10000O100000001O",
+            "0000O100000001N1",
+            "000001N10001OO10",
+            "00O010000000000O",
+            "100000000O100000",
+            "1O00000000000O10",
+            "O10000000O011O00",
+            "00O100000O2O1O00",
+            "1O1O1O001O10O01O",
+            "1O001O000000000O",
+            "10000000000O10O1",
+            "0O10O10O010O10O1",
+            "0O010O01000O100O",
+            "01000O10O100000O",
+            "0100O100O010O100",
+            "0O0100O10O10O10O",
+            "010000O1000O0100",
+            "O10000O100000000",
+            "00O0101N100O100O",
+            "10O10O10000O0100",
+            "0O010000O010O100",
+            "O01000O10O100O01",
+            "000O101N101O0O2O",
+            "1N2O2N1N3N002M10",
+            "1O00000O101O000O",
+            "100O10000O100O01",
+            "0O1O100O10O01O1O",
+            "100O1O2N1O1O100O",
+            "2N1O1O1O1O2O0O1O",
+            "100O2O001O2N2N3M",
+            "2M3M4K8I:E6KlZ`b",
+            "="
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2768.29345703125,
+        703.2637939453125,
+        3115.1728515625,
+        1032.820068359375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the pen in the image?",
+    "output_instruction": "What is the segmentation mask of the pen in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_29_acd857d4_obj_004",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "V": [
+          "small_scale"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

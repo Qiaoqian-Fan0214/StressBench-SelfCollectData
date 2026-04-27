@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_messy_desk_94_78a898f3__q003",
+  "source_sample_id": "self_collection_messy_desk_94_78a898f3",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:10:21Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_94_78a898f3__q003",
+    "source_sample_id": "self_collection_messy_desk_94_78a898f3",
+    "entry_id": "q003",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the calculator relative to the pen in the image?",
+    "instruction": "What is the spatial relation of the calculator relative to the pen in the image?",
+    "answer": "right",
+    "rgb": "messy_desk/94.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 3
+      },
+      "subject_a": {
+        "object_id": "self_collection_messy_desk_94_78a898f3_obj_000",
+        "label": "calculator"
+      },
+      "subject_b": {
+        "object_id": "self_collection_messy_desk_94_78a898f3_obj_001",
+        "label": "pen"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the calculator relative to the pen in the image?",
+    "output_instruction": "What is the spatial relation of the calculator relative to the pen in the image?",
+    "editor_state": {
+      "entry_id": "q003",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "spatialRelationAObjectId": "self_collection_messy_desk_94_78a898f3_obj_000",
+      "spatialRelationBObjectId": "self_collection_messy_desk_94_78a898f3_obj_001",
+      "spatialRelationALabel": "calculator",
+      "spatialRelationBLabel": "pen",
+      "answerIndex": 3,
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

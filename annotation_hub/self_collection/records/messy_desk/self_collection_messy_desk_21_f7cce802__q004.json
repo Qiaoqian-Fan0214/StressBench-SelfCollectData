@@ -1,0 +1,73 @@
+{
+  "sample_id": "self_collection_messy_desk_21_f7cce802__q004",
+  "source_sample_id": "self_collection_messy_desk_21_f7cce802",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:10:19Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_21_f7cce802__q004",
+    "source_sample_id": "self_collection_messy_desk_21_f7cce802",
+    "entry_id": "q004",
+    "task": "spatial_mcq",
+    "template_id": "relation",
+    "question": "What is the spatial relation of the pen relative to the keyboard in the image?",
+    "instruction": "What is the spatial relation of the pen relative to the keyboard in the image?",
+    "answer": "down",
+    "rgb": "messy_desk/21.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "up",
+          "down",
+          "left",
+          "right",
+          "connect",
+          "uncertain"
+        ],
+        "answer_index": 1
+      },
+      "subject_a": {
+        "object_id": "self_collection_messy_desk_21_f7cce802_obj_005",
+        "label": "pen"
+      },
+      "subject_b": {
+        "object_id": "self_collection_messy_desk_21_f7cce802_obj_000",
+        "label": "keyboard"
+      }
+    },
+    "output_variant": null,
+    "output_question": "What is the spatial relation of the pen relative to the keyboard in the image?",
+    "output_instruction": "What is the spatial relation of the pen relative to the keyboard in the image?",
+    "editor_state": {
+      "entry_id": "q004",
+      "task": "spatial_mcq",
+      "template_id": "relation",
+      "spatialRelationAObjectId": "self_collection_messy_desk_21_f7cce802_obj_005",
+      "spatialRelationBObjectId": "self_collection_messy_desk_21_f7cce802_obj_000",
+      "spatialRelationALabel": "pen",
+      "spatialRelationBLabel": "keyboard",
+      "answerIndex": 1,
+      "stress": {
+        "V": [
+          "extreme_viewpoint"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      }
+    },
+    "stress": {
+      "V": [
+        "extreme_viewpoint"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

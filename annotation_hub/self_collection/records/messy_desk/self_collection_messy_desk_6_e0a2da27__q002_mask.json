@@ -1,0 +1,164 @@
+{
+  "sample_id": "self_collection_messy_desk_6_e0a2da27__q002_mask",
+  "source_sample_id": "self_collection_messy_desk_6_e0a2da27",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:10:18Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_6_e0a2da27__q002_mask",
+    "source_sample_id": "self_collection_messy_desk_6_e0a2da27",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the tape dispenser in the image.",
+    "instruction": "Locate the tape dispenser in the image.",
+    "answer": "tape dispenser",
+    "rgb": "messy_desk/6.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_desk_6_e0a2da27_obj_001",
+      "object_name": "tape dispenser",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2333,
+            3500
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "cjje2m0iW2`0B:G8",
+            "I5L5K4N2M4L2N3L3",
+            "M3L4M4K4M4L3M4L3",
+            "M4N1N2M3OWM]kMY1",
+            "`T2gNgkMU1WT2jNn",
+            "kMT1PT2jNUlMU1hS",
+            "2kN\\lMT1aS2`NPmM",
+            "_1lR2_N\\mM^1cR2b",
+            "N`mM\\1^R2dNfmMZ1",
+            "YR2fNimMY1UR2gNn",
+            "mMW1RR2iNomMW1PR",
+            "2iNRnMV1lQ2kNWnM",
+            "R1iQ2mNZnMR1eQ2n",
+            "N\\nMR1bQ2oN_nMQ1",
+            "`Q2nNbnMR1\\Q2oNe",
+            "nMP1ZQ2QOgnMo0XQ",
+            "2POjnMP1TQ2QOlnM",
+            "P1SQ2POnnMo0QQ2R",
+            "OPoMn0nP2TORoMk0",
+            "mP2WOToMh0jP2ZOY",
+            "oMb0fP2B\\oM:aP2L",
+            "_oM0aP24\\oMLbP29",
+            "[oMGcP2<\\oMCcP2`",
+            "0\\oM@cP2b0[oM_Od",
+            "P2a0]oM^ObP2d0]o",
+            "M]ObP2c0_oM\\OaP2",
+            "d0_oM]O`P2b0boM]",
+            "O^P2c0boM^O]P2b0",
+            "doM]O\\P2b0eoM^OZ",
+            "P2c0foM^OYP2a0io",
+            "M^OWP2b0ioM_OVP2",
+            "`0loM_OTP2`0moM@",
+            "SP2`0moMAQP2?QPN",
+            "@oo1`0QPN@oo1?RP",
+            "NAno1?RPNBmo1=UP",
+            "NBjo1>WPNBio1>WP",
+            "NBio1=XPNCho1<YP",
+            "NDgo1;ZPNFeo19\\P",
+            "NGco1:]PNFco19_P",
+            "NFao19`PNH_o17bP",
+            "NI^o17bPNI^o16cP",
+            "NJ]o16cPNJ]o16bP",
+            "NK^o15bPNK]o16cP",
+            "NJ]o16cPNJ]o16cP",
+            "NJ]o16bPNK^o14cP",
+            "NL]o14cPNL]o14cP",
+            "NK^o14bPNM^o12cP",
+            "NO\\o1NgPN2Yo1IlP",
+            "N7To1FoPN:Qo1EPQ",
+            "N;Po1DQQN<Po1BQQ",
+            "N>on1BQQN>on1ARQ",
+            "N`0mn1_OTQNa0ln1",
+            "_OTQNa0ln1^OUQNb",
+            "0kn1]OVQNc0kn1]O",
+            "TQNc0ln1]OTQNc0l",
+            "n1]OTQNd0kn1]OTQ",
+            "Nc0ln1^ORQNc0nn1",
+            "^OQQNb0on1_OPQN`",
+            "0Qo1AmPN`0So1ARn",
+            "MSOl1\\1SP2@omMWO",
+            "l1Z1UP2@mmMYOl1W",
+            "1WP2AlmMZOj1V1ZP",
+            "2AjmM[Oj1U1\\P2Ah",
+            "mM\\Ok1S1]P2BhmMZ",
+            "Oj1V1]P2AhmMYOj1",
+            "W1^P2@hmMYOi1Y1_",
+            "P2^OimMUOi1_1]P2",
+            "]O]PNf0ao1ZO^PNi",
+            "0ao1VO_PNm0^o1TO",
+            "`PNQ1\\o1oNcPNY1W",
+            "o1fNhPN_1To1aN[o",
+            "MkN0h2cP2^NZoMmN",
+            "1g2dP2\\N[oMnNOh2",
+            "fP2YN[oMoNNi2gP2",
+            "YN\\oMjNNo2eP2XNe",
+            "PNj1\\o1VNbPNl1]o",
+            "1VN`PNk1ao1VN\\PN",
+            "k1do1WNYPNj1go1X",
+            "NUPNk1ko1UNSPNl1",
+            "mo1VNPPNk1QP2UNm",
+            "oMl1TP2UNhoMm1XP",
+            "2TNfoMn1ZP2TNaoM",
+            "n1_P2VN[oMl1fP2W",
+            "NToMk1mP2XNmnMj1",
+            "SQ2\\NenMf1\\Q2bNX",
+            "nMa1iQ2i21O1O001",
+            "O1O1O001O1O1O1N2",
+            "O2N1N2O1O1N2O2N1",
+            "N2O2N1N2O1N3M2O1",
+            "N3M3M3M3M3N2M2O2",
+            "M3M2O2M3M3N1N2N3",
+            "M2N3L4M3M3M3M3M2",
+            "N2N3M2M3M4L2O2M3",
+            "N1N3N2M4M3L4L5J6",
+            "K4K5K6I;E=D<[OgS",
+            "fb4"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1193.095458984375,
+        1394.04296875,
+        1445.7159423828125,
+        1644.94384765625
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the tape dispenser in the image?",
+    "output_instruction": "What is the segmentation mask of the tape dispenser in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_6_e0a2da27_obj_001",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "V": [
+          "small_scale"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

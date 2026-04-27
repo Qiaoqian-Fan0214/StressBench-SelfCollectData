@@ -1,0 +1,147 @@
+{
+  "sample_id": "self_collection_messy_desk_18_ca135bee__q001_mask",
+  "source_sample_id": "self_collection_messy_desk_18_ca135bee",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:47:38Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_18_ca135bee__q001_mask",
+    "source_sample_id": "self_collection_messy_desk_18_ca135bee",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the calculator in the image.",
+    "instruction": "Locate the calculator in the image.",
+    "answer": "calculator",
+    "rgb": "messy_desk/18.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_desk_18_ca135bee_obj_000",
+      "object_name": "calculator",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            6720,
+            4480
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "Q\\\\g>=[a6e0^O;E;",
+            "H8I7H9H9G9G9G;E=",
+            "C=C;F9F9G:F;E<E<",
+            "C<D9H6I8I8G8I9F8",
+            "I5J6K6I7J:F;D9G8",
+            "I8G:G7H7J8G6K4K6",
+            "K5J7J8H:E8I7H6K6",
+            "J5J7J5K5J9H8H4L4",
+            "K5L4L5J7J7I8H8G8",
+            "I6J6I7J6J8G7J4L5",
+            "J5L5K4K6K4L3L4M4",
+            "L4K6K5K5J5L5K3L5",
+            "L4L4K6K5J7J6J8G8",
+            "I3M3L5L3M4K5L4L3",
+            "L4M4L4L4K5L3M4K5",
+            "L4L4L5J6K4L5K4K6",
+            "K5K4L3L3N3M2N3M2",
+            "M4M2N2N2M3N2N3M3",
+            "L4M3M3M4K3N2N2N2",
+            "N1O1N2O2N1O1O1N2",
+            "O1O1O1N2O2N1N2O1",
+            "O1N2O1O1O1N3N1O1",
+            "N101O1N2O1O0O2O1",
+            "O1O0O2O1O001O001",
+            "O001N101O001O001",
+            "O001N2O001O1O001",
+            "N10001O0O101O0O2",
+            "O000O101N10000O2",
+            "O0O10001N1000000",
+            "O101O000O1000001",
+            "N10000000001N100",
+            "00000000O2O00000",
+            "0000O101O0000000",
+            "00O10001O0000000",
+            "0000O10001O00000",
+            "00000000O2O00000",
+            "0000000000O2O000",
+            "0000000000O10000",
+            "00000000O1000000",
+            "0001N10000000000",
+            "O1000000000000O1",
+            "00000000000000O1",
+            "00000000000000O0",
+            "1000000000000000",
+            "0000O100000O1000",
+            "000000000000O100",
+            "0O10000000000000",
+            "0O1000000000O100",
+            "0O1000000000000O",
+            "100000000000O010",
+            "00000000000O10O1",
+            "00000000000O1000",
+            "O10000000O100000",
+            "0000O10O10000000",
+            "0O1000000O100000",
+            "0O1000O1000O1000",
+            "00000O1000000000",
+            "0O10000000000O10",
+            "000000000O100000",
+            "0O100O10000O100O",
+            "100O100O100O100O",
+            "10000O10000O1000",
+            "0O10000O1000000O",
+            "2O00000O10000O2O",
+            "00000O10001N1000",
+            "000O10001N101N10",
+            "0O2O0O2O1O0O2O1N",
+            "2O0O2O1N2O1N2O1N",
+            "2O1N3N2N2M6K5J6K",
+            "4K5L4K4M4L4K5K6K",
+            "6I9H6I6K4K5L4K5L",
+            "3L5L4K5L5K4K4M4K",
+            "5L5K5J6K5J5K6K9F",
+            "d0\\O6J4M4K4M4K5K",
+            "7I:F=C7J3L4M3L4L",
+            "4M2N3L5L4K9H8G8H",
+            "7J5J7J5J8H<D;F5J",
+            "4L4L4M3L4L4K7J;E",
+            "`0@7I6J6J7H8I=C<",
+            "D7I5K4L5K5J6K7H9",
+            "H9F9H7G7J6K5I7J7",
+            "I=Ce0\\O:F9F9H9G:",
+            "F:F7I7I6I6J9H=B?",
+            "@;C=D<E`0@>A?@a0",
+            "oNQonf9"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2285.8310546875,
+        3706.3701171875,
+        2981.065673828125,
+        4730.20751953125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the calculator in the image?",
+    "output_instruction": "What is the segmentation mask of the calculator in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_18_ca135bee_obj_000",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

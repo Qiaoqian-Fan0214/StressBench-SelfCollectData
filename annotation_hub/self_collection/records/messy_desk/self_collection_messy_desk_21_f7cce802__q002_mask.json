@@ -1,0 +1,80 @@
+{
+  "sample_id": "self_collection_messy_desk_21_f7cce802__q002_mask",
+  "source_sample_id": "self_collection_messy_desk_21_f7cce802",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:10:19Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_21_f7cce802__q002_mask",
+    "source_sample_id": "self_collection_messy_desk_21_f7cce802",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the pen in the image.",
+    "instruction": "Locate the pen in the image.",
+    "answer": "pen",
+    "rgb": "messy_desk/21.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_desk_21_f7cce802_obj_005",
+      "object_name": "pen",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            2333,
+            3500
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "aVke4a0YX28G7[Od",
+            "0J6J7F:[Od0E;E:H",
+            "9H8H8H;E9G8H6A`0",
+            "I7G8F:K2O2M2[Ob0",
+            "N5O2M3K6I6L5L4M3",
+            "K5L4J2J4K3J64L4L",
+            "O1213L5L4nKaPNaN",
+            "fo1^1VQNjLgo1V3P",
+            "300O2N1O2J6I7L4L",
+            "3L5I6J5KL4L3T1mN",
+            "9G8D>A>D<H9HTQ^n",
+            "2"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        2096.2939453125,
+        1269.4840087890625,
+        2176.409423828125,
+        1729.6220703125
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the pen in the image?",
+    "output_instruction": "What is the segmentation mask of the pen in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_21_f7cce802_obj_005",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "V": [
+          "small_scale"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

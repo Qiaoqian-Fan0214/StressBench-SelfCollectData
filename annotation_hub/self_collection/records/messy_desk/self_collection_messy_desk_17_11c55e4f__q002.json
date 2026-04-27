@@ -1,0 +1,64 @@
+{
+  "sample_id": "self_collection_messy_desk_17_11c55e4f__q002",
+  "source_sample_id": "self_collection_messy_desk_17_11c55e4f",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:43:37Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_17_11c55e4f__q002",
+    "source_sample_id": "self_collection_messy_desk_17_11c55e4f",
+    "entry_id": "q002",
+    "task": "placement_grounding",
+    "template_id": "vacant_space_yesno",
+    "question": "Is there any vacant space to place a monitor in the image?",
+    "instruction": "Is there any vacant space to place a monitor in the image?",
+    "answer": "yes",
+    "rgb": "messy_desk/17.jpg",
+    "gt": {
+      "type": "mcq",
+      "mcq": {
+        "options": [
+          "yes",
+          "no"
+        ],
+        "answer_index": 0
+      }
+    },
+    "output_variant": null,
+    "output_question": "Is there any vacant space to place a monitor in the image?",
+    "output_instruction": "Is there any vacant space to place a monitor in the image?",
+    "editor_state": {
+      "entry_id": "q002",
+      "task": "placement_grounding",
+      "template_id": "vacant_space_yesno",
+      "stress": {
+        "M": [
+          "complex_texture"
+        ],
+        "G": [
+          "cluttered_layout"
+        ]
+      },
+      "selectedObjectId": "self_collection_messy_desk_17_11c55e4f_obj_000",
+      "placementItem": "monitor",
+      "answerIndex": 0,
+      "spatialRelationAObjectId": "",
+      "spatialRelationALabel": "",
+      "spatialRelationBObjectId": "",
+      "spatialRelationBLabel": "",
+      "spatialOptionTexts": []
+    },
+    "stress": {
+      "M": [
+        "complex_texture"
+      ],
+      "G": [
+        "cluttered_layout"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

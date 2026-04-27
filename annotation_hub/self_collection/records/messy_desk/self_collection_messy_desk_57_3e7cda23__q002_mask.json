@@ -1,0 +1,103 @@
+{
+  "sample_id": "self_collection_messy_desk_57_3e7cda23__q002_mask",
+  "source_sample_id": "self_collection_messy_desk_57_3e7cda23",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:10:19Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_57_3e7cda23__q002_mask",
+    "source_sample_id": "self_collection_messy_desk_57_3e7cda23",
+    "entry_id": "q002",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the cup in the image.",
+    "instruction": "Locate the cup in the image.",
+    "answer": "cup",
+    "rgb": "messy_desk/57.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_desk_57_3e7cda23_obj_003",
+      "object_name": "cup",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            3130,
+            3130
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "fSP^53XQ3l0YOb0C",
+            "h0XO:hQMXNPO>bk2",
+            "e1QUMJcj2?oTM0hj",
+            "2_4QO4N2N1N2O1O1",
+            "O1N2O1O001O001N1",
+            "01O001O001O001O0",
+            "O2O00001O0O2O000",
+            "O2O00001N10001O0",
+            "000001N1000001O0",
+            "00000000O10001O0",
+            "00000000O1000000",
+            "01O0000000000000",
+            "0001O00000000000",
+            "0000000000000000",
+            "000000O100000000",
+            "0000O10000000000",
+            "000000O10000001O",
+            "0000001O001O0000",
+            "1O0000000O101O00",
+            "00000O2O0000001N",
+            "100000001O0O1000",
+            "0000001N10001N10",
+            "1O0O2O001N101O0O",
+            "100O2O0O100O100O",
+            "2O0O100O101O0O2O",
+            "0O2O0O2N100O2N2N",
+            "101N2N2M3N2M4J6K",
+            "5J6J6kLV3VOjQM`M",
+            "on2Q1YQMQOReeY3"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        1815.3697509765625,
+        1962.8759765625,
+        2024.815673828125,
+        2251.839599609375
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the cup in the image?",
+    "output_instruction": "What is the segmentation mask of the cup in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_57_3e7cda23_obj_003",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "V": [
+          "small_scale"
+        ],
+        "M": [
+          "specular_confusion"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "V": [
+        "small_scale"
+      ],
+      "M": [
+        "specular_confusion"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

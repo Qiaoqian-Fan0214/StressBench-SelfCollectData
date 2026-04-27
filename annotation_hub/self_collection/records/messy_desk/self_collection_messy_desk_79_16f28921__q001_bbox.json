@@ -1,0 +1,67 @@
+{
+  "sample_id": "self_collection_messy_desk_79_16f28921__q001_bbox",
+  "source_sample_id": "self_collection_messy_desk_79_16f28921",
+  "status": "annotated",
+  "updated_at": "2026-04-27T13:47:42Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_79_16f28921__q001_bbox",
+    "source_sample_id": "self_collection_messy_desk_79_16f28921",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the pen in the image.",
+    "instruction": "Locate the pen in the image.",
+    "answer": "pen",
+    "rgb": "messy_desk/79.jpg",
+    "gt": {
+      "type": "bbox",
+      "object_id": "self_collection_messy_desk_79_16f28921_obj_003",
+      "object_name": "pen",
+      "bbox_xyxy": [
+        2752.251708984375,
+        450.4825439453125,
+        4152.794921875,
+        956.0991821289062
+      ],
+      "bbox_xywh": [
+        2752.251708984375,
+        450.4825439453125,
+        1400.543212890625,
+        505.61663818359375
+      ]
+    },
+    "output_variant": "bbox",
+    "output_question": "What is the bounding box of the pen in the image?",
+    "output_instruction": "What is the bounding box of the pen in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_79_16f28921_obj_003",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "V": [
+          "truncated_out_of_frame"
+        ],
+        "L": [
+          "local_underexposure"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "V": [
+        "truncated_out_of_frame"
+      ],
+      "L": [
+        "local_underexposure"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}

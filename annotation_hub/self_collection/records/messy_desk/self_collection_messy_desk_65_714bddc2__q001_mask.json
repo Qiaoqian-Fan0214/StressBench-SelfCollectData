@@ -1,0 +1,89 @@
+{
+  "sample_id": "self_collection_messy_desk_65_714bddc2__q001_mask",
+  "source_sample_id": "self_collection_messy_desk_65_714bddc2",
+  "status": "annotated",
+  "updated_at": "2026-04-27T14:10:20Z",
+  "annotation": {
+    "sample_id": "self_collection_messy_desk_65_714bddc2__q001_mask",
+    "source_sample_id": "self_collection_messy_desk_65_714bddc2",
+    "entry_id": "q001",
+    "task": "target_grounding",
+    "template_id": "target_object",
+    "question": "Locate the pen in the image.",
+    "instruction": "Locate the pen in the image.",
+    "answer": "pen",
+    "rgb": "messy_desk/65.jpg",
+    "gt": {
+      "type": "mask",
+      "object_id": "self_collection_messy_desk_65_714bddc2_obj_000",
+      "object_name": "pen",
+      "mask": {
+        "format": "coco_rle",
+        "rle": {
+          "size": [
+            4480,
+            6720
+          ],
+          "format": "coco_rle",
+          "counts_chunks": [
+            "`QVa`0`0[Y4EXhKT",
+            "1SW4FcgK_1hW4j1_",
+            "Oc0@a0B>B=B=D=C<",
+            "E<C:G8G9H9F>B>B8",
+            "B=]Od0G9H:F:G8I5",
+            "K4K7J7I:F9G7I5L6",
+            "I7J7H8I;E?A6K4K5",
+            "6I6LK7H9H8G8H:F8",
+            "H7J6J5K8I7I7J5J7",
+            "L2N2M5K:G6J1O01O",
+            "02O5J4L0OO5L5K4L",
+            "4M1O10003K4M1OO1",
+            "O3M5L21L5K6I7I5K",
+            "7J6I7I9G7J3M3N3K",
+            "8H3L10O1O11O;CT1",
+            "lN9F8I3L4L5J:G=B",
+            "=D`0_O<D6K5K4K8I",
+            "`0@;D8I6J7I`0A;D",
+            "9H7I4L7G<D<C=D:E",
+            "9H9Eb0[Oc0\\Od0\\O",
+            "i0oNl]Xb;"
+          ],
+          "counts_format": "compressed_chunks"
+        }
+      },
+      "bbox_xyxy": [
+        3862.423095703125,
+        2698.529052734375,
+        4024.034912109375,
+        3691.031982421875
+      ]
+    },
+    "output_variant": "mask",
+    "output_question": "What is the segmentation mask of the pen in the image?",
+    "output_instruction": "What is the segmentation mask of the pen in the image?",
+    "editor_state": {
+      "selectedObjectId": "self_collection_messy_desk_65_714bddc2_obj_000",
+      "stress": {
+        "G": [
+          "cluttered_layout"
+        ],
+        "V": [
+          "small_scale"
+        ]
+      }
+    },
+    "stress": {
+      "G": [
+        "cluttered_layout"
+      ],
+      "V": [
+        "small_scale"
+      ]
+    },
+    "provenance": {
+      "dataset": "Self-Collection",
+      "subcategory": "messy_desk",
+      "split": "self_collected"
+    }
+  }
+}
